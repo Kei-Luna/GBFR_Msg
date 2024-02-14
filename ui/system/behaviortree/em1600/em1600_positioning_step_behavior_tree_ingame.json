@@ -1,0 +1,309 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "SelectorNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 10,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 11,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 12,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 13,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 14,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 15,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ReferenceTreeNode": {
+    "guid_": 16,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "referenceTreeFolderName_": "em1600",
+      "referenceTreeName_": "turn_action"
+    }
+  },
+  "Em1600CheckPositioningAction": {
+    "guid_": 923814723,
+    "parentGuid_": 6,
+    "isComboBefore_": false,
+    "isComboAfter_": false,
+    "frontDirRot_": 45,
+    "checkDist_": 15
+  },
+  "Em1600PositioningAction": {
+    "guid_": 2021833729,
+    "parentGuid_": 9,
+    "isComboBefore_": false,
+    "isComboAfter_": false,
+    "stepType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1964437900,
+    "parentGuid_": 8,
+    "isReverseSuccess_": false,
+    "intName_": "Em1600_StepDir",
+    "value_": 0,
+    "operatorType_": 0
+  },
+  "Em1600PositioningAction": {
+    "guid_": 389855913,
+    "parentGuid_": 11,
+    "isComboBefore_": false,
+    "isComboAfter_": false,
+    "stepType_": 1
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1199983516,
+    "parentGuid_": 10,
+    "isReverseSuccess_": false,
+    "intName_": "Em1600_StepDir",
+    "value_": 1,
+    "operatorType_": 0
+  },
+  "Em1600PositioningAction": {
+    "guid_": 970675566,
+    "parentGuid_": 15,
+    "isComboBefore_": false,
+    "isComboAfter_": false,
+    "stepType_": 3
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 48251359,
+    "parentGuid_": 14,
+    "isReverseSuccess_": false,
+    "intName_": "Em1600_StepDir",
+    "value_": 3,
+    "operatorType_": 0
+  },
+  "Em1600PositioningAction": {
+    "guid_": 1091066393,
+    "parentGuid_": 13,
+    "isComboBefore_": false,
+    "isComboAfter_": false,
+    "stepType_": 2
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1783183044,
+    "parentGuid_": 12,
+    "isReverseSuccess_": false,
+    "intName_": "Em1600_StepDir",
+    "value_": 2,
+    "operatorType_": 0
+  },
+  "BlackBoardIntAction": {
+    "guid_": 1485292120,
+    "parentGuid_": 9,
+    "valueName_": "Em1600_StepDir",
+    "setTiming_": 0,
+    "value_": 10
+  },
+  "BlackBoardIntAction": {
+    "guid_": 492417809,
+    "parentGuid_": 11,
+    "valueName_": "Em1600_StepDir",
+    "setTiming_": 0,
+    "value_": 10
+  },
+  "BlackBoardIntAction": {
+    "guid_": 460849535,
+    "parentGuid_": 13,
+    "valueName_": "Em1600_StepDir",
+    "setTiming_": 0,
+    "value_": 10
+  },
+  "BlackBoardIntAction": {
+    "guid_": 1083179276,
+    "parentGuid_": 15,
+    "valueName_": "Em1600_StepDir",
+    "setTiming_": 0,
+    "value_": 10
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1120055740,
+    "parentGuid_": 6,
+    "valueName_": "Em1600_EnablePositioningStep",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "Em1600RoundTripRushAction": {
+    "guid_": 678407215,
+    "parentGuid_": 4,
+    "isComboBefore_": false,
+    "isComboAfter_": false,
+    "minRushTime_": 0,
+    "rushNum_": 1,
+    "finishMovementRate_": 0.5,
+    "turnMovementRateXZ_": 1,
+    "turnMovementRateY_": 1,
+    "rushMovementRate_": 1
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1544592266,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "boolName_": "Em1600_IsFly"
+  },
+  "BlackBoardFloatAction": {
+    "guid_": 1613117387,
+    "parentGuid_": 9,
+    "valueName_": "Em1600_TargetHomingRate",
+    "setTiming_": 0,
+    "value_": 0
+  },
+  "BlackBoardFloatAction": {
+    "guid_": 1339506751,
+    "parentGuid_": 11,
+    "valueName_": "Em1600_TargetHomingRate",
+    "setTiming_": 0,
+    "value_": 0
+  },
+  "BlackBoardFloatAction": {
+    "guid_": 1669659516,
+    "parentGuid_": 13,
+    "valueName_": "Em1600_TargetHomingRate",
+    "setTiming_": 0,
+    "value_": 0
+  },
+  "BlackBoardFloatAction": {
+    "guid_": 754302491,
+    "parentGuid_": 15,
+    "valueName_": "Em1600_TargetHomingRate",
+    "setTiming_": 0,
+    "value_": 0
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em1600",
+    "subTreeName_": "positioning_step"
+  }
+}

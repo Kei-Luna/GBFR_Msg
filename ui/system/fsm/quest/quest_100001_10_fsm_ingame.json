@@ -1,0 +1,113 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 303969359,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 303969359,
+    "fromNodeGuid_": 609189824,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 780843657,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 665167787,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 780843657,
+    "fromNodeGuid_": 609189824,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 609189824,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 807534217,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 826410795
+      }
+    ],
+    "toNodeGuid_": 609189824,
+    "fromNodeGuid_": 780843657,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CallTalkEvent": {
+    "guid_": 1232386690,
+    "parentGuid_": 780843657,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 16,
+    "progressHash_": 8789067305634871549,
+    "groupID_": "VT_MS02_0340",
+    "delay_": 0
+  },
+  "CallTalkEvent": {
+    "guid_": 477597672,
+    "parentGuid_": 609189824,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 16,
+    "progressHash_": 8789067305634871549,
+    "groupID_": "VT_MS02_0330",
+    "delay_": 0
+  },
+  "StartTimer": {
+    "guid_": 688681552,
+    "parentGuid_": 609189824,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 16,
+    "progressHash_": 8789067305634871549,
+    "timerId_": 5
+  },
+  "CheckTimer": {
+    "guid_": 826410795,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 16,
+    "progressHash_": 8789067305634871549,
+    "isNoCheckSkip_": false,
+    "timerId_": 5,
+    "time_": 60
+  }
+}

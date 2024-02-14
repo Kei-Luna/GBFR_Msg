@@ -1,0 +1,108 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 99192957,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 99192957,
+    "fromNodeGuid_": 211197358,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 303242229
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1526755215,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 211197358,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1526755215,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 406159787,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SoundMotionCheckCondition": {
+    "guid_": 303242229,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 1526840204,
+    "parentGuid_": 1526755215,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba548c_wood_break_l_b",
+          "delayTime_": 0.5833334,
+          "requestId_": 1526840204,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionNames_": [
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false
+  }
+}

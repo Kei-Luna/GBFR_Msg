@@ -1,0 +1,356 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1570258331,
+    "tailIndexOfChildNodeGuids_": 6,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 674420140
+      },
+      {
+        "Element": 417219253
+      }
+    ],
+    "toNodeGuid_": 1570258331,
+    "fromNodeGuid_": 317255374,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 317255374,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1674656587
+      },
+      {
+        "Element": 1575888983
+      }
+    ],
+    "toNodeGuid_": 317255374,
+    "fromNodeGuid_": 1140446470,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 140930698,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 662464485,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 140930698,
+    "fromNodeGuid_": 8756047,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 739740616,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 125488676,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 739740616,
+    "fromNodeGuid_": 1752004390,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1140446470,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1255393736,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 321224174
+      }
+    ],
+    "toNodeGuid_": 1140446470,
+    "fromNodeGuid_": 140930698,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1140446470,
+    "fromNodeGuid_": 8756047,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 8756047,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1886838786,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1940986323
+      }
+    ],
+    "toNodeGuid_": 8756047,
+    "fromNodeGuid_": 739740616,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 8756047,
+    "fromNodeGuid_": 1752004390,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1752004390,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1597691312,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SendSignal": {
+    "guid_": 710116779,
+    "parentGuid_": 140930698,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 0,
+    "progressIndex_": 4,
+    "progressHash_": 16457940124476740956,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 3838422279719185507
+      },
+      {
+        "Element": 17102444742667734511
+      }
+    ],
+    "skipAtSectionJump_": false
+  },
+  "FinishManualCompleteTargetTask": {
+    "guid_": 2007478575,
+    "parentGuid_": 140930698,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 0,
+    "progressIndex_": 4,
+    "progressHash_": 16457940124476740956,
+    "label_": "TXT_QT_102000_13",
+    "asFailed_": false
+  },
+  "SendSignal": {
+    "guid_": 221219842,
+    "parentGuid_": 739740616,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 0,
+    "progressIndex_": 4,
+    "progressHash_": 16457940124476740956,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 3838422279719185507
+      },
+      {
+        "Element": 13919314608488398492
+      }
+    ],
+    "skipAtSectionJump_": false
+  },
+  "FinishManualCompleteTargetTask": {
+    "guid_": 1305283404,
+    "parentGuid_": 739740616,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 0,
+    "progressIndex_": 4,
+    "progressHash_": 16457940124476740956,
+    "label_": "TXT_QT_102000_11",
+    "asFailed_": false
+  },
+  "FinishFsm": {
+    "guid_": 321224174,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 0,
+    "progressIndex_": 4,
+    "progressHash_": 16457940124476740956,
+    "isNoCheckSkip_": false,
+    "fsmDataNo_": 6,
+    "fsmProgressHash_": 18122987123186948277
+  },
+  "FinishFsm": {
+    "guid_": 1940986323,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 0,
+    "progressIndex_": 4,
+    "progressHash_": 16457940124476740956,
+    "isNoCheckSkip_": false,
+    "fsmDataNo_": 7,
+    "fsmProgressHash_": 10945963520654874121
+  },
+  "AddTargetTask": {
+    "guid_": 231086802,
+    "parentGuid_": 317255374,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 0,
+    "progressIndex_": 4,
+    "progressHash_": 16457940124476740956,
+    "label_": "TXT_QT_102000_13",
+    "isAllInMode_": false
+  },
+  "AddTargetTask": {
+    "guid_": 406549832,
+    "parentGuid_": 317255374,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 0,
+    "progressIndex_": 4,
+    "progressHash_": 16457940124476740956,
+    "label_": "TXT_QT_102000_11",
+    "isAllInMode_": false
+  },
+  "AfterSceneStartup": {
+    "guid_": 674420140,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 0,
+    "progressIndex_": 4,
+    "progressHash_": 16457940124476740956,
+    "isNoCheckSkip_": false,
+    "finishFadeIn_": true
+  },
+  "PreparedPlacements": {
+    "guid_": 417219253,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 0,
+    "progressIndex_": 4,
+    "progressHash_": 16457940124476740956,
+    "isNoCheckSkip_": true
+  },
+  "AfterSceneStartup": {
+    "guid_": 1674656587,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 0,
+    "progressIndex_": 4,
+    "progressHash_": 16457940124476740956,
+    "isNoCheckSkip_": false,
+    "finishFadeIn_": true
+  },
+  "PreparedPlacements": {
+    "guid_": 1575888983,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 0,
+    "progressIndex_": 4,
+    "progressHash_": 16457940124476740956,
+    "isNoCheckSkip_": true
+  }
+}

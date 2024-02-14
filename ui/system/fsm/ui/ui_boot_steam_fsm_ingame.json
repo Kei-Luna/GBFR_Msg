@@ -1,0 +1,287 @@
+{
+  "className": "ui",
+  "fsmName": "boot",
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1793644779,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 832232628,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1429755624
+      },
+      {
+        "Element": 631534328
+      }
+    ],
+    "toNodeGuid_": 1793644779,
+    "fromNodeGuid_": 1574637656,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 936000784,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 52237543,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1939059583
+      }
+    ],
+    "toNodeGuid_": 936000784,
+    "fromNodeGuid_": 1793644779,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 913189515
+      }
+    ],
+    "toNodeGuid_": 936000784,
+    "fromNodeGuid_": 361295094,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 361295094,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 288476073,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 817788386
+      },
+      {
+        "Element": 1594404095
+      }
+    ],
+    "toNodeGuid_": 361295094,
+    "fromNodeGuid_": 1574637656,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "addAllTransition": {},
+  "addTransition": {
+    "Transition": {
+      "conditionGuid_": 0,
+      "conditionGuids_": [
+        {
+          "Element": 1110147007
+        }
+      ],
+      "toNodeGuid_": 1728469077,
+      "fromNodeGuid_": 936000784,
+      "isEndTransition_": false,
+      "isFailedTransition_": false,
+      "params_": []
+    }
+  },
+  "EnableBaseTransition": {
+    "EnableFalseTransition": {
+      "ToGuid": 1728469077,
+      "FromGuid": 1574637656
+    }
+  },
+  "EnableBaseAllTransition": {},
+  "EnableFalseComponent": 229934477,
+  "EnableFalseComponent": 486052304,
+  "SetOptionWindowType": {
+    "guid_": 1699607730,
+    "parentGuid_": 746953832,
+    "type_": {
+      "str_": "EnvironmentalSetting",
+      "index_": 9
+    }
+  },
+  "IsDisplayView": {
+    "guid_": 1110147007,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "viewName_": "OptionWindow"
+  },
+  "Dialog": {
+    "guid_": 708791809,
+    "parentGuid_": 1793644779,
+    "dialogID_": "DLG_BOOT_INIT_SET_FINISH",
+    "bgType_": {
+      "str_": "指定なし",
+      "index_": 0
+    },
+    "openSeOff_": true,
+    "isDifficulty_": false,
+    "isCursorMemory_": false
+  },
+  "Guide": {
+    "guid_": 978672278,
+    "parentGuid_": 1793644779,
+    "guides_": [
+      {
+        "Element": "Close"
+      },
+      {
+        "Element": "Fix"
+      }
+    ],
+    "count_": 2,
+    "footer_": {
+      "str_": "PauseFooter",
+      "index_": 0
+    },
+    "isFixAdd_": true
+  },
+  "Event": {
+    "guid_": 1429755624,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "Button01",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "ViewClose": {
+    "guid_": 330571710,
+    "parentGuid_": 1574637656,
+    "views_": [
+      {
+        "Element": "PauseFooter"
+      }
+    ],
+    "count_": 1,
+    "layerOffset_": 1,
+    "openSkip_": false,
+    "closeSkip_": false,
+    "skip_": false
+  },
+  "ViewClose": {
+    "guid_": 1460297007,
+    "parentGuid_": 1728469077,
+    "views_": [
+      {
+        "Element": "OptionWindow"
+      }
+    ],
+    "count_": 1,
+    "layerOffset_": 1,
+    "openSkip_": false,
+    "closeSkip_": false,
+    "skip_": false
+  },
+  "Event": {
+    "guid_": 631534328,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "Cancel",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "OptionApply": {
+    "guid_": 1721554926,
+    "parentGuid_": 936000784
+  },
+  "IsChangedGraPerformance": {
+    "guid_": 1939059583,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true
+  },
+  "Dialog": {
+    "guid_": 1290541751,
+    "parentGuid_": 361295094,
+    "dialogID_": "DLG_BOOT_INIT_REBOOT_INFO",
+    "bgType_": {
+      "str_": "指定なし",
+      "index_": 0
+    },
+    "openSeOff_": true,
+    "isDifficulty_": false,
+    "isCursorMemory_": false
+  },
+  "Guide": {
+    "guid_": 821187895,
+    "parentGuid_": 361295094,
+    "guides_": [
+      {
+        "Element": "Close"
+      },
+      {
+        "Element": "Fix"
+      }
+    ],
+    "count_": 2,
+    "footer_": {
+      "str_": "PauseFooter",
+      "index_": 0
+    },
+    "isFixAdd_": true
+  },
+  "IsChangedGraPerformance": {
+    "guid_": 913189515,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false
+  },
+  "Event": {
+    "guid_": 817788386,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "Button01",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "Event": {
+    "guid_": 1594404095,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "Cancel",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "Pl0200Param": {
+    "hp_": "1000",
+    "atk_": "10",
+    "break_": "75",
+    "def_": "1",
+    "endurance_": "0",
+    "exp_": "0",
+    "hitSEMaxBreak_": "4",
+    "hitSEMinBreak_": "0",
+    "hpCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "atkCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "defCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "expCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "fsmParam_": {
+      "folderName_": [
+        {
+          "Element": "pl0200"
+        },
+        {
+          "Element": "pl0200"
+        },
+        {
+          "Element": "wp0290"
+        },
+        {
+          "Element": "pl_base"
+        }
+      ],
+      "fsmName_": [
+        {
+          "Element": "snd_auto_base_1"
+        },
+        {
+          "Element": "snd_auto_unique_1"
+        },
+        {
+          "Element": "snd_Auto_Unique_1"
+        },
+        {
+          "Element": "snd_auto_type_2"
+        }
+      ]
+    },
+    "maxLvHp_": "30000",
+    "maxLvAtk_": "240",
+    "maxLvDef_": "1.05",
+    "maxLvExp_": "300000",
+    "criticalBaseRate_": "0.09999999",
+    "baseBreakPower_": "10",
+    "limitDamageRate_": "0.6",
+    "limitSpecialArtsDamageRate_": "0.9",
+    "limitAbilityDamageRate_": "1",
+    "aiMoveNotargetDistance_": "10",
+    "damageLimitNormalAttack_": "9999",
+    "damageLimitNormalAttack2_": "24999",
+    "damageLimitSpecialAttack_": "14999",
+    "damageLimitAbility01_": "59999",
+    "damageLimitAbility02_": "14999",
+    "damageLimitAbility03_": "1",
+    "damageLimitAbility04_": "1",
+    "damageLimitAbility05_": "19999",
+    "damageLimitAbility06_": "1",
+    "damageLimitAbility07_": "9999",
+    "damageLimitAbility08_": "1",
+    "damageLimitLinkAttack_": "99999",
+    "damageLimitSpecialArtsStart_": "99999",
+    "damageLimitSpecialArts_": "89999",
+    "eyeCtrlParam_": {
+      "eyeParamL_": {
+        "pupilLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "pupilLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "highlightLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "highlightLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "attenuateThresholdX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "attenuateThresholdY_": {
+          "min_": "-0.045",
+          "max_": "0.03"
+        }
+      },
+      "eyeParamR_": {
+        "pupilLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "pupilLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "highlightLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "highlightLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "attenuateThresholdX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "attenuateThresholdY_": {
+          "min_": "-0.045",
+          "max_": "0.03"
+        }
+      },
+      "attenuareHighlightRate_": [
+        "1",
+        "0.25"
+      ]
+    },
+    "isEnableSecondSpArts_": "true",
+    "motOffsetWeaponList_": [
+      {
+        "Element": "197122"
+      },
+      {
+        "Element": "197123"
+      },
+      {
+        "Element": "197126"
+      },
+      {
+        "Element": "-1"
+      }
+    ],
+    "rapidAttackTime_": "0.9",
+    "rapidInputCancelFrame_": "15",
+    "aresRapidAttackTime_": "4.5",
+    "ability_EnchantRuns_Speed_": "0.8",
+    "ability_EnchantRuns_HitTime_": "0.3",
+    "ability_DefUpTime_": "30",
+    "ability_DefUpRate_": "0.15",
+    "ability_HealRate_": "50",
+    "ability_HealRateWithAres_": "80",
+    "ability_Invinsible_": "10",
+    "aresGauge_PointMax": "5",
+    "aresGauge_AddPoint_Lv1": "1.26",
+    "aresGauge_AddPoint_Lv2": "2.5",
+    "aresGauge_AddPoint_Lv3": "3.75",
+    "aresJumpIntervalTime_": "0.12",
+    "aresJumpSpeedY_": "0.1",
+    "aresJumpGravityRate_": "1.05",
+    "aresSummonTime_": "30",
+    "aresLevelDownTime_": "30",
+    "aresLvUp_ReStartTime_": "1",
+    "aresNotEraseTime_": "1",
+    "aresAttackWarpDist_": "7",
+    "aresRushAttackWarpDist_": "10",
+    "ability_SummonAresTime_": "15",
+    "aresLevel2_AttackRate": "0.15",
+    "aresLevel3_AttackRate": "0.2",
+    "aresLevel2_BreakRate": "0.1",
+    "aresLevel3_BreakRate": "0.2",
+    "aresLevel2_DeffenceRate": "0.06",
+    "aresLevel3_DeffenceRate": "0.1",
+    "limitBonusDefRateLv1_": "0.2",
+    "limitBonusDefRateLv2_": "0.3",
+    "limitBonusDefRateLv3_": "0.5",
+    "addIndirectDamagePointUnique_lv1_": "200",
+    "addIndirectDamagePointUnique_lv2_": "200"
+  }
+}

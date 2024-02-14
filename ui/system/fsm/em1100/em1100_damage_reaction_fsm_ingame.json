@@ -1,0 +1,250 @@
+{
+  "className": "emcommon",
+  "fsmName": "damagereaction",
+  "layerNo": 0,
+  "layerNo": 2,
+  "layerNo": 9,
+  "layerNo": 10,
+  "layerNo": 11,
+  "FSMNode": {
+    "guid_": 280107639,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1963112709,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 919711168
+      }
+    ],
+    "toNodeGuid_": 280107639,
+    "fromNodeGuid_": 206568104,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1413021053,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 880720061,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 947625393
+      }
+    ],
+    "toNodeGuid_": 1413021053,
+    "fromNodeGuid_": 210041919,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 206568104,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 382659275,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 254725368
+      },
+      {
+        "Element": 2053197821
+      }
+    ],
+    "toNodeGuid_": 206568104,
+    "fromNodeGuid_": 1413021053,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2025169598
+      }
+    ],
+    "toNodeGuid_": 206568104,
+    "fromNodeGuid_": 1020534895,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1020534895,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 885895646,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 210041919,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 382659275,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "layerNo": 4,
+  "layerNo": 15,
+  "layerNo": 12,
+  "layerNo": 13,
+  "layerNo": 14,
+  "addAllTransition": {},
+  "addTransition": {
+    "Transition": {
+      "conditionGuid_": 0,
+      "conditionGuids_": [],
+      "toNodeGuid_": 958908089,
+      "fromNodeGuid_": 280107639,
+      "isEndTransition_": false,
+      "isFailedTransition_": false,
+      "params_": []
+    }
+  },
+  "EnableBaseTransition": {
+    "EnableFalseTransition": {
+      "ToGuid": 958908089,
+      "FromGuid": 879945875
+    }
+  },
+  "EnableBaseAllTransition": {},
+  "EmDamageRotAction": {
+    "guid_": 775854779,
+    "parentGuid_": 280107639,
+    "turnRate_": 1,
+    "updateType_": 0
+  },
+  "EmDamageMotionPlayAction": {
+    "guid_": 1557248026,
+    "parentGuid_": 280107639,
+    "animId_": "0520",
+    "interTime_": -1,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "animSpeedRate_": 0,
+    "animSpeedStep_": 0,
+    "gravityRate_": 0,
+    "gravityRateStep_": 0
+  },
+  "EmDeadAction": {
+    "guid_": 1719661069,
+    "parentGuid_": 1413021053,
+    "motionIdNameDead_": "0522",
+    "isDeadExplode": false,
+    "IsInterpMotion_": true
+  },
+  "MotionEndCondition": {
+    "guid_": 919711168,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "motionSlot_": 0,
+    "isMotionEndHalfWay_": false,
+    "endTime_": 0
+  },
+  "EmDamageLandingCondition": {
+    "guid_": 254725368,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false
+  },
+  "MotionEndCondition": {
+    "guid_": 654561688,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "motionSlot_": 0,
+    "isMotionEndHalfWay_": false,
+    "endTime_": 0
+  },
+  "EmDamageMotionPlayAction": {
+    "guid_": 428363048,
+    "parentGuid_": 206568104,
+    "animId_": "0521",
+    "interTime_": -1,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "animSpeedRate_": 0,
+    "animSpeedStep_": 0,
+    "gravityRate_": 0,
+    "gravityRateStep_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 659108257,
+    "parentGuid_": 210041919,
+    "motionIdName_": "0552",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0
+  },
+  "ActionEndCondition": {
+    "guid_": 947625393,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "EmDeadAction": {
+    "guid_": 224779690,
+    "parentGuid_": 1020534895,
+    "motionIdNameDead_": "0522",
+    "isDeadExplode": true,
+    "IsInterpMotion_": true
+  },
+  "EmDamageLandingCondition": {
+    "guid_": 2025169598,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 2053197821,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "intName_": "Em_AppearType",
+    "value_": 1,
+    "operatorType_": 0
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 764767541,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2029051102
+      }
+    ],
+    "toNodeGuid_": 764767541,
+    "fromNodeGuid_": 1948278312,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1948278312,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1948278312,
+    "fromNodeGuid_": 54830709,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 54830709,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "AICheckLandingCondition": {
+    "guid_": 2100910835,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false
+  },
+  "MotionEndCondition": {
+    "guid_": 1209216295,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionSlot_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 2100141480,
+    "parentGuid_": 91267309,
+    "motionIdName_": "0640",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 0,
+    "animMoveRateY_": 0,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 1415252630,
+    "parentGuid_": 473120319,
+    "motionIdName_": "0641",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 0,
+    "animMoveRateY_": 0,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0
+  },
+  "ShotTimerAction": {
+    "guid_": 2104180760,
+    "parentGuid_": 473120319,
+    "waitTimeSeconds_": 1
+  },
+  "MotionEndCondition": {
+    "guid_": 1032452937,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionSlot_": 0
+  },
+  "MotionEndCondition": {
+    "guid_": 2029051102,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionSlot_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 675362761,
+    "parentGuid_": 1948278312,
+    "motionIdName_": "0640",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 0,
+    "animMoveRateY_": 0,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 2072947856,
+    "parentGuid_": 54830709,
+    "motionIdName_": "0641",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 0,
+    "animMoveRateY_": 0,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0
+  }
+}

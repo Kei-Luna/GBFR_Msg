@@ -1,0 +1,238 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1147008650,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1147008650,
+    "fromNodeGuid_": 1372871261,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1372871261,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1872951958
+      }
+    ],
+    "toNodeGuid_": 1372871261,
+    "fromNodeGuid_": 1090106425,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1090106425,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1971643092,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 152896710
+      }
+    ],
+    "toNodeGuid_": 1090106425,
+    "fromNodeGuid_": 1781119075,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1781119075,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1971643092,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "RotateSkyCube": {
+    "guid_": 1703401717,
+    "parentGuid_": 1090106425,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 6,
+    "progressIndex_": 1,
+    "progressHash_": 4003087834257618031,
+    "rotate_": [
+      0,
+      0,
+      0.2094396,
+      1
+    ],
+    "time_": 12,
+    "easeParam_": {
+      "category_": 0,
+      "calcType_": 0
+    }
+  },
+  "SetRollCameraWorld": {
+    "guid_": 2030762910,
+    "parentGuid_": 1090106425,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 6,
+    "progressIndex_": 1,
+    "progressHash_": 4003087834257618031,
+    "rollWaveAxisWorld_": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "enableWave_": false,
+    "enableRollWave_": true,
+    "rollWaveDeg_": 12,
+    "rollWaveSpan_": 4.3
+  },
+  "StartTimer": {
+    "guid_": 1235633284,
+    "parentGuid_": 1372871261,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 6,
+    "progressIndex_": 1,
+    "progressHash_": 4003087834257618031,
+    "timerId_": 6
+  },
+  "CheckTimer": {
+    "guid_": 1872951958,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 6,
+    "progressIndex_": 1,
+    "progressHash_": 4003087834257618031,
+    "isNoCheckSkip_": false,
+    "timerId_": 6,
+    "time_": 20,
+    "useDifficulty_": false,
+    "difficultyTimes_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ]
+  },
+  "StartTimer": {
+    "guid_": 829547220,
+    "parentGuid_": 1090106425,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 6,
+    "progressIndex_": 1,
+    "progressHash_": 4003087834257618031,
+    "timerId_": 6
+  },
+  "RotateSkyCube": {
+    "guid_": 2146753501,
+    "parentGuid_": 1781119075,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 6,
+    "progressIndex_": 1,
+    "progressHash_": 4003087834257618031,
+    "rotate_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "time_": 0.2,
+    "easeParam_": {
+      "category_": 0,
+      "calcType_": 0
+    }
+  },
+  "SetRollCameraWorld": {
+    "guid_": 566393435,
+    "parentGuid_": 1781119075,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 6,
+    "progressIndex_": 1,
+    "progressHash_": 4003087834257618031,
+    "rollWaveAxisWorld_": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "enableWave_": false,
+    "enableRollWave_": true,
+    "rollWaveDeg_": 0,
+    "rollWaveSpan_": 0.2
+  },
+  "RecvSignal": {
+    "guid_": 152896710,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 6,
+    "progressIndex_": 1,
+    "progressHash_": 4003087834257618031,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 8684300057225665658
+      },
+      {
+        "Element": 7606898501870884373
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

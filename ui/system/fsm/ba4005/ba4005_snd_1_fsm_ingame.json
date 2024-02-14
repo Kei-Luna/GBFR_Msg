@@ -1,0 +1,225 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1541353459,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1541353459,
+    "fromNodeGuid_": 1044480140,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 307459472
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 497489065,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1681005328
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 154111186,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1044480140,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 497489065,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1496027828,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1100512728
+      }
+    ],
+    "toNodeGuid_": 497489065,
+    "fromNodeGuid_": 497489065,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 154111186,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1308882548,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 460505151
+      }
+    ],
+    "toNodeGuid_": 154111186,
+    "fromNodeGuid_": 154111186,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SoundMotionCheckCondition": {
+    "guid_": 307459472,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "c000",
+          "hashValue_": 1428382782
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1681005328,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "c001",
+          "hashValue_": 572806312
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 171608725,
+    "parentGuid_": 497489065,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba4005_metal_m_fall_m",
+          "delayTime_": 3.5,
+          "requestId_": 171608725,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba4005_metal_m_fall_impact_m",
+          "delayTime_": 6,
+          "requestId_": 171608725,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  },
+  "SoundTriggerAction": {
+    "guid_": 218581966,
+    "parentGuid_": 154111186,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba4005_metal_m_fall_impact_m",
+          "delayTime_": 0,
+          "requestId_": 218581966,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1100512728,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "c000",
+          "hashValue_": 1428382782
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 460505151,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "c001",
+          "hashValue_": 572806312
+        }
+      }
+    ]
+  }
+}

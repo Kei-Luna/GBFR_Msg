@@ -1,0 +1,322 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 966760080,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 966760080,
+    "fromNodeGuid_": 484333367,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 143431252,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1654955957,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 327771869
+      }
+    ],
+    "toNodeGuid_": 143431252,
+    "fromNodeGuid_": 2082859523,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 538307861,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 768109990,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1229757236
+      }
+    ],
+    "toNodeGuid_": 538307861,
+    "fromNodeGuid_": 1934598281,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 484333367,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 916742659,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 190536852
+      },
+      {
+        "Element": 1058576198
+      }
+    ],
+    "toNodeGuid_": 484333367,
+    "fromNodeGuid_": 143431252,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 283270644
+      }
+    ],
+    "toNodeGuid_": 484333367,
+    "fromNodeGuid_": 1925032825,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2082859523,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 82238056,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1144746103
+      }
+    ],
+    "toNodeGuid_": 2082859523,
+    "fromNodeGuid_": 538307861,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1925032825,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1925032825,
+    "fromNodeGuid_": 1934598281,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "MotionEndCondition": {
+    "guid_": 157679195,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionSlot_": 0,
+    "isMotionEndHalfWay_": false,
+    "endTime_": 0
+  },
+  "AICheckLandingCondition": {
+    "guid_": 1341359399,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false
+  },
+  "AICheckLandingCondition": {
+    "guid_": 1538006007,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true
+  },
+  "ActionEndCondition": {
+    "guid_": 1084491857,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "MotionEndCondition": {
+    "guid_": 418457466,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionSlot_": 0,
+    "isMotionEndHalfWay_": false,
+    "endTime_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 1556436052,
+    "parentGuid_": 143431252,
+    "motionIdName_": "06a0",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 836393772,
+    "parentGuid_": 538307861,
+    "motionIdName_": "06a2",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": 2,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 431871599,
+    "parentGuid_": 2082859523,
+    "motionIdName_": "06a1",
+    "isAnimEnd_": false,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0
+  },
+  "TimerAction": {
+    "guid_": 16550588,
+    "parentGuid_": 2082859523,
+    "waitTimeSeconds_": 2.25,
+    "randomSeconds_": 0
+  },
+  "MotionEndCondition": {
+    "guid_": 1229757236,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "motionSlot_": 0,
+    "isMotionEndHalfWay_": false,
+    "endTime_": 0
+  },
+  "AICheckLandingCondition": {
+    "guid_": 190536852,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false
+  },
+  "MotionEndCondition": {
+    "guid_": 1058576198,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "motionSlot_": 0,
+    "isMotionEndHalfWay_": false,
+    "endTime_": 0
+  },
+  "MotionEndCondition": {
+    "guid_": 327771869,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "motionSlot_": 0,
+    "isMotionEndHalfWay_": false,
+    "endTime_": 0
+  },
+  "ActionEndCondition": {
+    "guid_": 1144746103,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "FallAction": {
+    "guid_": 1720936393,
+    "parentGuid_": 1925032825,
+    "jumpSpeed_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "isSetStart_": true,
+    "isFallEnable_": true,
+    "isSetJumpSpeed_": false,
+    "isSetFlying_": false,
+    "isFlying_": false
+  },
+  "AICheckLandingCondition": {
+    "guid_": 283270644,
+    "parentGuid_": 0,
+    "isReverseSuccess_": true
+  }
+}

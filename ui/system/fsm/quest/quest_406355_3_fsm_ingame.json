@@ -1,0 +1,101 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 962612004,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 962612004,
+    "fromNodeGuid_": 1509029347,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1509029347,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1068004025,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1931929777
+      }
+    ],
+    "toNodeGuid_": 1509029347,
+    "fromNodeGuid_": 1031326622,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1031326622,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1088495340,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CallBgm": {
+    "guid_": 1355293482,
+    "parentGuid_": 1031326622,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 853,
+    "progressIndex_": 3,
+    "progressHash_": 5807523421323801640,
+    "wwiseIdName_": "BGM_Bt_Battle1_B",
+    "useBgmSetType_": false,
+    "bgmSetType_": 0,
+    "skipWhileSectionJump_": false
+  },
+  "RecvSignal": {
+    "guid_": 1931929777,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 853,
+    "progressIndex_": 3,
+    "progressHash_": 5807523421323801640,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 13469127374217821240
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

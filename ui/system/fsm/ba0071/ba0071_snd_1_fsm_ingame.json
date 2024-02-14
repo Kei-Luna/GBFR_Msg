@@ -1,0 +1,269 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 501091297,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 501091297,
+    "fromNodeGuid_": 1757655644,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1890382731
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 864657810,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1013216548
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1642451892,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1757655644,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 864657810,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1144512084,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1642451892,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 777062782,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SoundOneVelAutoTriggerAction": {
+    "guid_": 1786778903,
+    "parentGuid_": 1757655644,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba0070_woodship_s_drive_m",
+          "delayTime_": 0,
+          "requestId_": 1786778903,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba0070_pulley_m_rotation_m",
+          "delayTime_": 0,
+          "requestId_": 1786778903,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 7,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba0070_pulley_s_rotation_m",
+          "delayTime_": 0,
+          "requestId_": 1786778903,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 112,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "chasePartsNo_": 0,
+    "useSocket_": false,
+    "useHeight_": false,
+    "stopVel_": 0,
+    "moveVel_": -1,
+    "groundHeight_": 0.03,
+    "raiseHeight_": 0.3,
+    "limitCount_": 1,
+    "coolTime_": -1,
+    "waitTime_": 0,
+    "isMoveTrigger_": true,
+    "isStartTrigger_": true,
+    "gameParamName_": "GP_Object_Speed",
+    "weaponId_": -1
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1890382731,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "c001",
+          "hashValue_": 572806312
+        }
+      }
+    ],
+    "isMaxBlendWeight_": false
+  },
+  "SoundTriggerAction": {
+    "guid_": 387181409,
+    "parentGuid_": 864657810,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba0070_gear_up_start",
+          "delayTime_": 0,
+          "requestId_": 387181409,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionNames_": [
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false,
+    "checkFrameRange_": 9999
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1013216548,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "c100",
+          "hashValue_": 1424035337
+        }
+      }
+    ],
+    "isMaxBlendWeight_": false
+  },
+  "SoundTriggerAction": {
+    "guid_": 54714465,
+    "parentGuid_": 1642451892,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba0070_woodship_near",
+          "delayTime_": 0,
+          "requestId_": 54714465,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionNames_": [
+      {
+        "Element": "c100"
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": [
+          {
+            "Element": 200
+          }
+        ]
+      }
+    ],
+    "isEndTrigger_": false,
+    "checkFrameRange_": 9999
+  }
+}

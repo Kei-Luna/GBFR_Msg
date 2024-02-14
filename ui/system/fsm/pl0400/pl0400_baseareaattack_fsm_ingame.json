@@ -1,0 +1,321 @@
+{
+  "FSMNode": {
+    "guid_": 1834618658,
+    "tailIndexOfChildNodeGuids_": 6,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 1385816857,
+    "toNodeGuid_": 1834618658,
+    "fromNodeGuid_": 683712781,
+    "isEndTransition_": false
+  },
+  "Transition": {
+    "conditionGuid_": 481680824,
+    "toNodeGuid_": 1834618658,
+    "fromNodeGuid_": 1561526471,
+    "isEndTransition_": false
+  },
+  "Transition": {
+    "conditionGuid_": 919875922,
+    "toNodeGuid_": 1834618658,
+    "fromNodeGuid_": 1279229476,
+    "isEndTransition_": false
+  },
+  "Transition": {
+    "conditionGuid_": 1660892964,
+    "toNodeGuid_": 1834618658,
+    "fromNodeGuid_": 2112556593,
+    "isEndTransition_": false
+  },
+  "FSMNode": {
+    "guid_": 683712781,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 1228295133,
+    "toNodeGuid_": 683712781,
+    "fromNodeGuid_": 2122947952,
+    "isEndTransition_": false
+  },
+  "Transition": {
+    "conditionGuid_": 1615504436,
+    "toNodeGuid_": 683712781,
+    "fromNodeGuid_": 322526170,
+    "isEndTransition_": false
+  },
+  "Transition": {
+    "conditionGuid_": 2137451575,
+    "toNodeGuid_": 683712781,
+    "fromNodeGuid_": 533576007,
+    "isEndTransition_": true
+  },
+  "FSMNode": {
+    "guid_": 1561526471,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 1420776919,
+    "toNodeGuid_": 1561526471,
+    "fromNodeGuid_": 2122947952,
+    "isEndTransition_": false
+  },
+  "Transition": {
+    "conditionGuid_": 1576460735,
+    "toNodeGuid_": 1561526471,
+    "fromNodeGuid_": 322526170,
+    "isEndTransition_": false
+  },
+  "Transition": {
+    "conditionGuid_": 1512475822,
+    "toNodeGuid_": 1561526471,
+    "fromNodeGuid_": 533576007,
+    "isEndTransition_": true
+  },
+  "FSMNode": {
+    "guid_": 1279229476,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 2060236498,
+    "toNodeGuid_": 1279229476,
+    "fromNodeGuid_": 2122947952,
+    "isEndTransition_": false
+  },
+  "Transition": {
+    "conditionGuid_": 1451478224,
+    "toNodeGuid_": 1279229476,
+    "fromNodeGuid_": 322526170,
+    "isEndTransition_": false
+  },
+  "Transition": {
+    "conditionGuid_": 1363763936,
+    "toNodeGuid_": 1279229476,
+    "fromNodeGuid_": 533576007,
+    "isEndTransition_": true
+  },
+  "FSMNode": {
+    "guid_": 2112556593,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 1099024861,
+    "toNodeGuid_": 2112556593,
+    "fromNodeGuid_": 2122947952,
+    "isEndTransition_": false
+  },
+  "Transition": {
+    "conditionGuid_": 1385183501,
+    "toNodeGuid_": 2112556593,
+    "fromNodeGuid_": 322526170,
+    "isEndTransition_": false
+  },
+  "Transition": {
+    "conditionGuid_": 2036517529,
+    "toNodeGuid_": 2112556593,
+    "fromNodeGuid_": 533576007,
+    "isEndTransition_": true
+  },
+  "FSMNode": {
+    "guid_": 2122947952,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 1487300115,
+    "toNodeGuid_": 2122947952,
+    "fromNodeGuid_": 1878018199,
+    "isEndTransition_": true
+  },
+  "FSMNode": {
+    "guid_": 322526170,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 1250378769,
+    "toNodeGuid_": 322526170,
+    "fromNodeGuid_": 1878018199,
+    "isEndTransition_": true
+  },
+  "AIBattleAttackAction": {
+    "guid_": 1750985439,
+    "parentGuid_": 683712781,
+    "attackType_": 1,
+    "timer_": 1.6,
+    "isCharge_": true
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1385816857,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_StackCount",
+    "value_": 0,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 481680824,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_StackCount",
+    "value_": 1,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 919875922,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_StackCount",
+    "value_": 2,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1660892964,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_StackCount",
+    "value_": 3,
+    "operatorType_": 0
+  },
+  "AIBattleAttackAction": {
+    "guid_": 1892361168,
+    "parentGuid_": 1561526471,
+    "attackType_": 1,
+    "timer_": 3.4,
+    "isCharge_": true
+  },
+  "AIBattleAttackAction": {
+    "guid_": 1622508482,
+    "parentGuid_": 1279229476,
+    "attackType_": 1,
+    "timer_": 6,
+    "isCharge_": true
+  },
+  "AIBattleAttackAction": {
+    "guid_": 603751761,
+    "parentGuid_": 2112556593,
+    "attackType_": 1,
+    "timer_": 9,
+    "isCharge_": true
+  },
+  "AIBattleSequenceCondition": {
+    "guid_": 1487300115,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "flagType_": 3
+  },
+  "ActionEndCondition": {
+    "guid_": 1228295133,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "ActionEndCondition": {
+    "guid_": 1420776919,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "ActionEndCondition": {
+    "guid_": 2060236498,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "ActionEndCondition": {
+    "guid_": 1099024861,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1543707949,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "PlayerAI_IsExistAnyOrder"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1017407357,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "PlayerAI_IsExistAnyOrder"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 136504192,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "PlayerAI_IsExistAnyOrder"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1587510945,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "PlayerAI_IsExistAnyOrder"
+  },
+  "AIBattleSequenceCondition": {
+    "guid_": 1250378769,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "flagType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1615504436,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 0,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1576460735,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 0,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1451478224,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 0,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1385183501,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 0,
+    "operatorType_": 0
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 2036517529,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "boolName_": "PlayerAI_LineOfSight_Target"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1363763936,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "boolName_": "PlayerAI_LineOfSight_Target"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1512475822,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "boolName_": "PlayerAI_LineOfSight_Target"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 2137451575,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "boolName_": "PlayerAI_LineOfSight_Target"
+  }
+}

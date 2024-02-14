@@ -1,0 +1,95 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em7300ManaStepAction": {
+    "guid_": 1904203956,
+    "parentGuid_": 3,
+    "stepInfos_": [
+      {
+        "Element": {
+          "type_": 2,
+          "homingAngle_": 10,
+          "stepDist_": 15,
+          "isUpdateTargetVector_": false,
+          "isInverseHoming_": false
+        }
+      },
+      {
+        "Element": {
+          "type_": 9,
+          "homingAngle_": 10,
+          "stepDist_": 25,
+          "isUpdateTargetVector_": true,
+          "isInverseHoming_": true
+        }
+      }
+    ],
+    "isTargetManualPlayer_": false,
+    "isAttackSign_": false
+  },
+  "Em7300SomersaultTailAction": {
+    "guid_": 328915806,
+    "parentGuid_": 4,
+    "moveMaxDist_": 15
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 278301826,
+    "parentGuid_": 4,
+    "valueName_": "Em7300_IsOkSomersaultTail",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "Em7300FangRequestAction": {
+    "guid_": 1290762344,
+    "parentGuid_": 3,
+    "time_": 0,
+    "callEnd_": false,
+    "type_": 0
+  },
+  "Em7300PostBaseAttackAction": {
+    "guid_": 1758220751,
+    "parentGuid_": 4
+  },
+  "EmSetEnableSeqLayer": {
+    "guid_": 1876095382,
+    "parentGuid_": 3,
+    "setTiming_": 0,
+    "layerIndex_": 23,
+    "flag_": true
+  },
+  "EmSetEnableSeqLayer": {
+    "guid_": 631419461,
+    "parentGuid_": 3,
+    "setTiming_": 1,
+    "layerIndex_": 23,
+    "flag_": false
+  }
+}

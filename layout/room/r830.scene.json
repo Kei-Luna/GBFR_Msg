@@ -1,0 +1,813 @@
+{
+  "SceneHierarchy": {
+    "mEditorOptions": {
+      "IsDropAuto": true,
+      "IsDropForWorld": true,
+      "IsEditForWorld": false,
+      "IsFocusAutoFit": true,
+      "IsHidePrefabSymbol": true,
+      "LeftColumnSize": 584.8993,
+      "ManipulateOperation": "TRANSLATE",
+      "NameDigit": 3,
+      "NameDisplayType": 0,
+      "RotateSnap": 1,
+      "ScaleSnap": 0.1,
+      "SurfaceHighlightMode": 0,
+      "TranslateSnap": 0.1,
+      "WindowPos": [
+        1185,
+        129
+      ],
+      "WindowSize": [
+        1166,
+        1022
+      ]
+    },
+    "mName": [
+      "r830",
+      414734015
+    ],
+    "mRootSceneObject": {
+      "RootSceneObject": {
+        "attachDefaultActive_": true,
+        "curvePlayer_": [
+          10
+        ],
+        "disappearCurve_": {
+          "Params": [
+            0,
+            1
+          ]
+        },
+        "disappearLv_": 0,
+        "disappearTime_": 0,
+        "forPC_": true,
+        "forPS4_": true,
+        "forPS5_": true,
+        "isBrokenCheckBhTrans_": false,
+        "isBrokenCheckHP_": true,
+        "isBrokenDisppear_": false,
+        "isDelayAttach_": false,
+        "isUseModelOpacity_": false,
+        "mActive": true,
+        "mAttachModelJoint": {
+          "mIsEnable": false,
+          "mTargetEntity": 0,
+          "mTargetJoint": -1
+        },
+        "mInheritanceTransform": "InheritAll",
+        "mLocalMatrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "mName": [
+          "Root",
+          3066451557
+        ],
+        "mUuid": [
+          2258286084816,
+          12710659574521803833
+        ],
+        "mpChild": [
+          {
+            "LocalIBLSceneObject": {
+              "_blendRate": 1,
+              "_diffuseRate": [
+                1,
+                1,
+                1,
+                1,
+                130
+              ],
+              "_specularRate": [
+                1,
+                1,
+                1,
+                1,
+                130
+              ],
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "influenceDistanceFadeCorrectly_": false,
+              "intencityInterpolateSec_": 1,
+              "intencityInterpolateSecUseArea_": true,
+              "intensity_": 1,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                100000,
+                0,
+                0,
+                0,
+                0,
+                100000,
+                0,
+                0,
+                0,
+                0,
+                100000,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "mName": [
+                "Virtual_GlobalIBL(for Engine)",
+                2382307274
+              ],
+              "mUuid": [
+                2541297144832,
+                17848094833168598366
+              ],
+              "specularIntensity_": 1,
+              "specularRoughnessOffset_": 0,
+              "useModelOpacityToChildren_": true,
+              "useTexGlobalIBL_": true
+            }
+          },
+          {
+            "PrefabSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mFilePath": "layout/attachlight/quest_light_00.scene.yml",
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "mName": [
+                "QuestLight",
+                3064573130
+              ],
+              "mUuid": [
+                1968252962816,
+                10185982788977056420
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "AreaSceneObject": {
+              "_areaColor": [
+                1,
+                0,
+                0,
+                0.2,
+                130
+              ],
+              "_areaRadius": 1,
+              "_areaType": 0,
+              "_composite": [
+                1,
+                "filter/p800/sunset_00.ccomp.yml"
+              ],
+              "_curve": [
+                2,
+                "",
+                ""
+              ],
+              "_hierarchy": [
+                5,
+                "layout/p800/sunset_common_00.scene.yml",
+                "layout/p800/effect/effect_sunset_00.scene.yml",
+                "layout/p800/pst_sunset_wind_00.scene.yml",
+                "",
+                "layout/p800/sunset_localibl_00.scene.yml"
+              ],
+              "_interpolateSec": 2,
+              "_priority": -4,
+              "_useParent": false,
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999994,
+                0,
+                0,
+                0,
+                0,
+                0.9999994,
+                0,
+                0,
+                0,
+                0,
+                0.9999994,
+                0,
+                0,
+                0,
+                0,
+                0.9999994
+              ],
+              "mName": [
+                "",
+                1231557422
+              ],
+              "mUuid": [
+                1314260436992,
+                4755901678689215701
+              ],
+              "mpChild": [],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "AreaSceneObject": {
+              "_areaColor": [
+                1,
+                0,
+                0,
+                0.2,
+                130
+              ],
+              "_areaRadius": 1,
+              "_areaType": 0,
+              "_composite": [
+                1,
+                "filter/p800/sunset_00.ccomp.yml"
+              ],
+              "_curve": [
+                2,
+                "",
+                ""
+              ],
+              "_hierarchy": [
+                5,
+                "layout/p800/sunset_common_00.scene.yml",
+                "layout/p800/effect/effect_sunset_00.scene.yml",
+                "layout/p800/pst_sunset_wind_00.scene.yml",
+                "",
+                "layout/p800/sunset_localibl_00.scene.yml"
+              ],
+              "_interpolateSec": 2,
+              "_priority": -3,
+              "_useParent": false,
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999994,
+                0,
+                0,
+                0,
+                0,
+                0.9999994,
+                0,
+                0,
+                0,
+                0,
+                0.9999994,
+                0,
+                0,
+                0,
+                0,
+                0.9999994
+              ],
+              "mName": [
+                "",
+                2336827769
+              ],
+              "mUuid": [
+                1314260779008,
+                6568739144480351445
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "AreaSceneObject": {
+              "_areaColor": [
+                1,
+                0,
+                0,
+                0.2,
+                130
+              ],
+              "_areaRadius": 1,
+              "_areaType": 0,
+              "_composite": [
+                1,
+                "filter/p800/sunset_00.ccomp.yml"
+              ],
+              "_curve": [
+                2,
+                "",
+                ""
+              ],
+              "_hierarchy": [
+                5,
+                "layout/p800/sunset_common_00.scene.yml",
+                "layout/p800/effect/effect_sunset_00.scene.yml",
+                "layout/p800/pst_sunset_shadowwind_00.scene.yml",
+                "",
+                "layout/p800/sunset_localibl_00.scene.yml"
+              ],
+              "_interpolateSec": 2,
+              "_priority": -2,
+              "_useParent": false,
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999994,
+                0,
+                0,
+                0,
+                0,
+                0.9999994,
+                0,
+                0,
+                0,
+                0,
+                0.9999994,
+                0,
+                0,
+                0,
+                0,
+                0.9999994
+              ],
+              "mName": [
+                "",
+                3244806526
+              ],
+              "mUuid": [
+                1314260789248,
+                1924553903093081301
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "AreaSceneObject": {
+              "_areaColor": [
+                1,
+                0,
+                0,
+                0.2,
+                130
+              ],
+              "_areaRadius": 1,
+              "_areaType": 0,
+              "_composite": [
+                1,
+                "filter/p800/sunset_01.ccomp.yml"
+              ],
+              "_curve": [
+                2,
+                "",
+                ""
+              ],
+              "_hierarchy": [
+                5,
+                "layout/p800/sunset_common_01.scene.yml",
+                "layout/p800/effect/effect_sunset_00.scene.yml",
+                "layout/p800/pst_sunset_shadowwind_00.scene.yml",
+                "",
+                "layout/p800/sunset_localibl_01.scene.yml"
+              ],
+              "_interpolateSec": 4,
+              "_priority": -1,
+              "_useParent": false,
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999994,
+                0,
+                0,
+                0,
+                0,
+                0.9999994,
+                0,
+                0,
+                0,
+                0,
+                0.9999994,
+                0,
+                0,
+                0,
+                0,
+                0.9999994
+              ],
+              "mName": [
+                "",
+                3510612121
+              ],
+              "mUuid": [
+                1314260799488,
+                16192570148147979477
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "AreaSceneObject": {
+              "_areaColor": [
+                1,
+                0,
+                0,
+                0.2,
+                130
+              ],
+              "_areaRadius": 1,
+              "_areaType": 0,
+              "_composite": [
+                1,
+                "filter/p800/sunset_00.ccomp.yml"
+              ],
+              "_curve": [
+                2,
+                "",
+                ""
+              ],
+              "_hierarchy": [
+                5,
+                "layout/p800/sunset_common_00.scene.yml",
+                "layout/p800/effect/effect_sunset_00.scene.yml",
+                "layout/p800/pst_sunset_bhcharge_00.scene.yml",
+                "",
+                "layout/p800/sunset_localibl_00.scene.yml"
+              ],
+              "_interpolateSec": 2,
+              "_priority": 1,
+              "_useParent": false,
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999993,
+                0,
+                0,
+                0,
+                0,
+                0.9999993,
+                0,
+                0,
+                0,
+                0,
+                0.9999993,
+                0,
+                -0.01745419,
+                -0.0216887,
+                -0.0128691,
+                0.9999998
+              ],
+              "mName": [
+                "",
+                408058224
+              ],
+              "mUuid": [
+                1314260809728,
+                14715666061969351893
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "AreaSceneObject": {
+              "_areaColor": [
+                1,
+                0,
+                0,
+                0.2,
+                130
+              ],
+              "_areaRadius": 1,
+              "_areaType": 0,
+              "_composite": [
+                1,
+                "filter/p800/sunny_00.ccomp.yml"
+              ],
+              "_curve": [
+                2,
+                "",
+                ""
+              ],
+              "_hierarchy": [
+                6,
+                "layout/p800/sunny_common_00.scene.yml",
+                "layout/p800/effect/effect_sunny_00.scene.yml",
+                "layout/p800/pst_sunny_wind_00.scene.yml",
+                "layout/p800/sunny_cloud_00.scene.yml",
+                "layout/p800/sunny_localibl_00.scene.yml",
+                ""
+              ],
+              "_interpolateSec": 0,
+              "_priority": 2,
+              "_useParent": false,
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "mName": [
+                "",
+                2043059883
+              ],
+              "mUuid": [
+                2747854487552,
+                3978821874405774746
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "PrefabSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mFilePath": "layout/p800/effect/effect_common.scene.yml",
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999997,
+                0,
+                0,
+                0,
+                0,
+                0.9999997,
+                0,
+                0,
+                0,
+                0,
+                0.9999997,
+                0,
+                0,
+                0,
+                0,
+                0.9999997
+              ],
+              "mName": [
+                "Effect_Common",
+                754798860
+              ],
+              "mUuid": [
+                1314260356096,
+                9890172607292269781
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          }
+        ],
+        "useModelOpacityToChildren_": true
+      }
+    }
+  }
+}

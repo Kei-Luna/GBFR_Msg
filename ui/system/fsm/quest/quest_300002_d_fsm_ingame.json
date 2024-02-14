@@ -1,0 +1,98 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 743889002,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 743889002,
+    "fromNodeGuid_": 1623110129,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1623110129,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 86023620,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 224057915
+      }
+    ],
+    "toNodeGuid_": 1623110129,
+    "fromNodeGuid_": 1468674116,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1468674116,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1860626026,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1468674116,
+    "fromNodeGuid_": 1623110129,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "StartTimer": {
+    "guid_": 1185843712,
+    "parentGuid_": 1623110129,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 2,
+    "progressIndex_": 13,
+    "progressHash_": 6039357641031964204,
+    "timerId_": 0
+  },
+  "CallTalkEvent": {
+    "guid_": 2077848566,
+    "parentGuid_": 1468674116,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 2,
+    "progressIndex_": 13,
+    "progressHash_": 6039357641031964204,
+    "groupID_": "VT_MS32_0060"
+  },
+  "CheckTimer": {
+    "guid_": 224057915,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 2,
+    "progressIndex_": 13,
+    "progressHash_": 6039357641031964204,
+    "isNoCheckSkip_": false,
+    "timerId_": 0,
+    "time_": 60
+  }
+}

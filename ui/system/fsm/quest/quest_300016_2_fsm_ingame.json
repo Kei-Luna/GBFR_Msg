@@ -1,0 +1,196 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1379115377,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1379115377,
+    "fromNodeGuid_": 1924253101,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1924253101,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1351772846,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 161099789
+      }
+    ],
+    "toNodeGuid_": 1924253101,
+    "fromNodeGuid_": 958776886,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 16440390
+      }
+    ],
+    "toNodeGuid_": 1924253101,
+    "fromNodeGuid_": 1026819203,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 958776886,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 783865997,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1026819203,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 539928177,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1026819203,
+    "fromNodeGuid_": 1526351709,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1526351709,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 508695203,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1526351709,
+    "fromNodeGuid_": 1567401340,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1567401340,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 765238365,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SendSignal": {
+    "guid_": 47593728,
+    "parentGuid_": 1567401340,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 22,
+    "progressIndex_": 2,
+    "progressHash_": 6504426927501264214,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 7402218266228043446
+      }
+    ],
+    "skipAtSectionJump_": false
+  },
+  "RecvSignal": {
+    "guid_": 161099789,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 22,
+    "progressIndex_": 2,
+    "progressHash_": 6504426927501264214,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 15933373391865562417
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "RecvSignal": {
+    "guid_": 16440390,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 22,
+    "progressIndex_": 2,
+    "progressHash_": 6504426927501264214,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 4702982340903660229
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

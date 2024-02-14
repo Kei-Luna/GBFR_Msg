@@ -1,0 +1,578 @@
+{
+  "Em0603Param": {
+    "hp_": "60000",
+    "atk_": "400",
+    "break_": "5",
+    "def_": "0",
+    "endurance_": "0",
+    "exp_": "0",
+    "hitSEMaxBreak_": "4",
+    "hitSEMinBreak_": "0",
+    "hpCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "atkCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "defCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "expCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "fsmParam_": {
+      "folderName_": [
+        {
+          "Element": "em0600"
+        }
+      ],
+      "fsmName_": [
+        {
+          "Element": "snd_1"
+        }
+      ]
+    },
+    "hateRateClosePlayer_": "50",
+    "hateRateFarPlayer_": "0",
+    "hateRateClosePlayerPerSec_": "0",
+    "hateRateFarPlayerPerSec_": "0",
+    "hateRateFrontAngle_": "0",
+    "hateRateBackAngle_": "0",
+    "hateRateDamage_": "50",
+    "hateRateManualPlayer_": "0",
+    "hateRateHighHpPlayer_": "0",
+    "hateRateLowHpPlayer_": "0",
+    "hateRateTargetCountManyPlayer_": "0",
+    "hateRateTargetCountFewPlayer_": "0",
+    "hateRateHelpPlayer_": "0",
+    "hateRateLastTargetPlayer_": "0",
+    "hateRateFirstTargetPlayer_": "0",
+    "badStatusHateRateMap_": [],
+    "hateUpdateTime_": "5",
+    "damageToHateRate_": "0.2",
+    "damageHateDecPerSec_": "2",
+    "closeHateIncRate_": "0",
+    "closeHateDecRate_": "0",
+    "farHateIncRate_": "0",
+    "farHateDecRate_": "0",
+    "combatPower_": "60",
+    "combatPowerList_": [
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      }
+    ],
+    "itemRewordMoneyVal_": "1000",
+    "itemRewordJumpRate_": "0.5",
+    "battle2SearchLength_": "40",
+    "search2battleLength_": "10",
+    "enemySize_": "0",
+    "linkAttackCameraDistRate_": "0.5",
+    "targetRangeParam_": {
+      "rangeClose_": "3",
+      "rangeShort_": "6",
+      "rangeMiddle_": "10",
+      "rangeLong_": "20"
+    },
+    "counterAttackParam_": {
+      "damageMaxValue_": "10",
+      "damageMinValue_": "5",
+      "reduceDamageValueInSec_": "10",
+      "stopReduceTime_": "3",
+      "coolTime_": "10",
+      "onceCheckCounterAttack_": "false",
+      "isReferenceMaxHpRate_": "true"
+    },
+    "counterAttackParams_": [
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      }
+    ],
+    "useCounterAttackParam_": [
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      }
+    ],
+    "badStatusResistanceParams_": [
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.7",
+          "subValue_": "0.05",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.4",
+          "subValue_": "0.15",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "1",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "1",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.4",
+          "subValue_": "0.15",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.7",
+          "subValue_": "0.05",
+          "coolTime_": "0.5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.7",
+          "subValue_": "0.05",
+          "coolTime_": "0.5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "1",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      }
+    ],
+    "statusParams_": {
+      "regeneratePercent_": "0.5",
+      "regenerateCycleSec_": "1",
+      "multiAttackNum_": "1",
+      "multiAttackDelayFrame_": "5",
+      "multiAttackAtkRate_": "0.2",
+      "multiAttackHitStopDivision_": "2",
+      "burnDotDamageLimitRate_": "1",
+      "poisonDotDamageLimitRate_": "1",
+      "dimentionDotDamageLimitRate_": "1"
+    },
+    "cameraCollisionParams_": [],
+    "linkParam_": {
+      "linkMaxValue_": "600",
+      "linkResetTime_": "1.5",
+      "linkResetRate_": "120",
+      "linkMultiBonus_": "8",
+      "linkCoolTime_": "7",
+      "isOverrideCircleParts_": "true",
+      "linkPartsNumber_": "5",
+      "linkOffsetPos_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "linkCirclePartsNumber_": "5",
+      "linkCircleOffsetPos_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "linkAddDist_": "0",
+      "linkAdjustSec_": "1.5"
+    },
+    "lockOnParam_": {
+      "partsInfoList_": [],
+      "spArtsPrioLayer_": "1",
+      "spArtsPrioOffset_": "0",
+      "spArtsWarpOffset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "spArtsWarpPartsNumber_": "-1",
+      "spArtsWarpDist_": "0",
+      "rangeType_": "0"
+    },
+    "collisionParam_": {
+      "offset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "lineEndOffset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "partsNumber_": "-1",
+      "capsuleEndPartsNumber_": "-1",
+      "radius_": "3"
+    },
+    "animInterDefaultSec_": "0.1",
+    "damageAnimInterDefaultSec_": "0.1",
+    "uiPartsNo_": "0",
+    "uiOffsetY_": "1.2",
+    "basicHitStopTimeRate_": "1",
+    "damageReactionHitStopTimeRate_": "1",
+    "superArmorHitStopTimeRate_": "0.5",
+    "attackerHitStopTimeRate_": "0",
+    "addReactionHitstopFrameMin_": "-1",
+    "addReactionHitstopFrameMax_": "-1",
+    "addReactionWeightRateMin_": "-1",
+    "addReactionWeightRateMax_": "-1",
+    "addReactionWeightRateAI_": "-1",
+    "addReactionInterSec_": "-1",
+    "isEyeLookingAtLockOn_": "false",
+    "lookingAtPartsNo_": "5",
+    "isEnableSyncWeaponAnim_": "false",
+    "weakPointParam_": {
+      "weakInfoList_": [
+        {
+          "Element": {
+            "isWeakPoint_": "false",
+            "hardValue_": "0.1",
+            "damageWorkUniqueId_": "0"
+          }
+        }
+      ]
+    },
+    "defenseTargetHateParams_": [
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      }
+    ],
+    "ignoreAilments_": [],
+    "stageInvisibleStartDistance_": "150",
+    "stageInvisibleEndDistance_": "200",
+    "neckCtrlParam_": {
+      "partsNumber_": "5",
+      "rootPartsNumber_": "-1",
+      "basePartsNumber_": "3",
+      "baseAxisZ_": [
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      "neckAxisZ_": [
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      "baseDegree_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "maxDegreeX_": "5",
+      "maxDegreeY_": "30",
+      "minDegreeX_": "-40",
+      "minDegreeY_": "-30",
+      "rotAdjustRate_": "0.1",
+      "rotAdjustDegreeMax_": "30",
+      "baseAxisZUpLimitDegree_": "-1",
+      "seqWorkIndex_": "-1",
+      "seqFlagNumber_": "0",
+      "isSeqNeckCtrlEnable_": "false",
+      "isUseBaseParts_": "false"
+    },
+    "isChangeNormalDamageAttackReaction_": "true",
+    "isUseNormalDamageAttackReactionDefault_": "true",
+    "normalDamageAttackReaction_": [
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "1"
+      },
+      {
+        "Element": "2"
+      },
+      {
+        "Element": "3"
+      },
+      {
+        "Element": "4"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "22"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      }
+    ],
+    "isCallExplodeBodyPresageDefaultVfx_": "true",
+    "isDisableAerialDownReaction_": "true",
+    "escapeDamageStackMax_": "250",
+    "hitStopTimeScale_": "0.25",
+    "specialArtsDamageScale_": "7.5",
+    "linkAttackDamageScale_": "5",
+    "dropMoneyHpRate_": "0",
+    "dropMoney_": "100",
+    "canGetMoneyHpRate_": [
+      {
+        "Element": "100"
+      },
+      {
+        "Element": "90"
+      },
+      {
+        "Element": "80"
+      },
+      {
+        "Element": "70"
+      },
+      {
+        "Element": "60"
+      },
+      {
+        "Element": "50"
+      },
+      {
+        "Element": "40"
+      },
+      {
+        "Element": "30"
+      },
+      {
+        "Element": "20"
+      },
+      {
+        "Element": "10"
+      }
+    ],
+    "canGetMoneyRate_": [
+      {
+        "Element": "5"
+      },
+      {
+        "Element": "5"
+      },
+      {
+        "Element": "5"
+      },
+      {
+        "Element": "6"
+      },
+      {
+        "Element": "9"
+      },
+      {
+        "Element": "10"
+      },
+      {
+        "Element": "12"
+      },
+      {
+        "Element": "12"
+      },
+      {
+        "Element": "15"
+      },
+      {
+        "Element": "20"
+      }
+    ],
+    "canGetMoneyMaxValue_": "2460",
+    "linkAttackDamageDropMoneyVal_": "200",
+    "linkFinishDamageDropMoneyVal_": "500",
+    "damageCutPercent_": "0",
+    "runBoundMax_": "3",
+    "runMoveAngle_": "1",
+    "runMoveTime_": "1",
+    "runLastMoveTime_": "0.2",
+    "escapeTimeSecMax_": "10",
+    "escapeTimeSecMin_": "2",
+    "escapeTimeSecDecreaseNum_": "3",
+    "requestEscapeAction_": "90",
+    "tailActionCoolTime_": "15"
+  }
+}

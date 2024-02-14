@@ -1,0 +1,537 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 233044827,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 233044827,
+    "fromNodeGuid_": 834796673,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1356747576,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 396684294
+      }
+    ],
+    "toNodeGuid_": 1356747576,
+    "fromNodeGuid_": 1210993103,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1569535893
+      }
+    ],
+    "toNodeGuid_": 1356747576,
+    "fromNodeGuid_": 1713424294,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 834796673,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1534521594
+      }
+    ],
+    "toNodeGuid_": 834796673,
+    "fromNodeGuid_": 1356747576,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1297494623
+      }
+    ],
+    "toNodeGuid_": 834796673,
+    "fromNodeGuid_": 1713424294,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1210993103,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 912950083
+      }
+    ],
+    "toNodeGuid_": 1210993103,
+    "fromNodeGuid_": 1713424294,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "MotionPlayAction": {
+    "guid_": 1501273903,
+    "parentGuid_": 1210993103,
+    "motionIdName_": "0000",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": 0.3,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0
+  },
+  "EmMovePassAction": {
+    "guid_": 368008861,
+    "parentGuid_": 834796673,
+    "params_": [
+      {
+        "Element": {
+          "pos_": [
+            0,
+            0,
+            0
+          ],
+          "rot_": [
+            -0.02766669,
+            -1.984165,
+            0
+          ],
+          "animationName_": "0021",
+          "animationStartSecond_": 0,
+          "animationSpeed_": 1,
+          "animationInterpolateSecond_": 1,
+          "length_": 66.84805,
+          "moveSpeedScale_": 2.5,
+          "frontMoveRotZ_": 0,
+          "blackBoardSetRate_": 0,
+          "isUseCurrentPos_": true,
+          "isSetFrontMoveDirection_": true,
+          "isSetAnimation_": true,
+          "isLoopAnimation_": true,
+          "isWaitAnimation_": false,
+          "isCancelSameAnimation_": false,
+          "isEnableManipulaterRot_": true,
+          "isSetBoolBlackBoard_": false
+        }
+      },
+      {
+        "Element": {
+          "pos_": [
+            -61.19418,
+            1.849228,
+            -26.84236
+          ],
+          "rot_": [
+            -0.02766667,
+            -1.984164,
+            0
+          ],
+          "animationName_": "0060",
+          "animationStartSecond_": 0,
+          "animationSpeed_": 1,
+          "animationInterpolateSecond_": -1,
+          "length_": 0,
+          "moveSpeedScale_": 1.5,
+          "frontMoveRotZ_": 0,
+          "blackBoardSetRate_": 0,
+          "isUseCurrentPos_": false,
+          "isSetFrontMoveDirection_": true,
+          "isSetAnimation_": false,
+          "isLoopAnimation_": false,
+          "isWaitAnimation_": true,
+          "isCancelSameAnimation_": false,
+          "isEnableManipulaterRot_": true,
+          "isSetBoolBlackBoard_": false
+        }
+      }
+    ],
+    "paramCount_": 0,
+    "moveSpeed_": 2.5,
+    "rotSpeedPerFrame_": 360,
+    "groundCheckHeight_": 1,
+    "groundCheckOffsetY_": 0,
+    "groundAngleMax_": 50,
+    "enableBlackBoardBoolName_": "",
+    "param0_": {
+      "pos_": [
+        0,
+        0,
+        0
+      ],
+      "rot_": [
+        0,
+        0,
+        0
+      ],
+      "animationName_": "0000",
+      "animationStartSecond_": 0,
+      "animationSpeed_": 1,
+      "animationInterpolateSecond_": -1,
+      "length_": 0,
+      "moveSpeedScale_": 1,
+      "frontMoveRotZ_": 0,
+      "blackBoardSetRate_": 0,
+      "isUseCurrentPos_": false,
+      "isSetFrontMoveDirection_": true,
+      "isSetAnimation_": false,
+      "isLoopAnimation_": true,
+      "isWaitAnimation_": false,
+      "isCancelSameAnimation_": false,
+      "isEnableManipulaterRot_": true,
+      "isSetBoolBlackBoard_": false
+    },
+    "param1_": {
+      "pos_": [
+        0,
+        0,
+        0
+      ],
+      "rot_": [
+        0,
+        0,
+        0
+      ],
+      "animationName_": "0000",
+      "animationStartSecond_": 0,
+      "animationSpeed_": 1,
+      "animationInterpolateSecond_": -1,
+      "length_": 0,
+      "moveSpeedScale_": 1,
+      "frontMoveRotZ_": 0,
+      "blackBoardSetRate_": 0,
+      "isUseCurrentPos_": false,
+      "isSetFrontMoveDirection_": true,
+      "isSetAnimation_": false,
+      "isLoopAnimation_": true,
+      "isWaitAnimation_": false,
+      "isCancelSameAnimation_": false,
+      "isEnableManipulaterRot_": true,
+      "isSetBoolBlackBoard_": false
+    },
+    "param2_": {
+      "pos_": [
+        0,
+        0,
+        0
+      ],
+      "rot_": [
+        0,
+        0,
+        0
+      ],
+      "animationName_": "0000",
+      "animationStartSecond_": 0,
+      "animationSpeed_": 1,
+      "animationInterpolateSecond_": -1,
+      "length_": 0,
+      "moveSpeedScale_": 1,
+      "frontMoveRotZ_": 0,
+      "blackBoardSetRate_": 0,
+      "isUseCurrentPos_": false,
+      "isSetFrontMoveDirection_": true,
+      "isSetAnimation_": false,
+      "isLoopAnimation_": true,
+      "isWaitAnimation_": false,
+      "isCancelSameAnimation_": false,
+      "isEnableManipulaterRot_": true,
+      "isSetBoolBlackBoard_": false
+    },
+    "param3_": {
+      "pos_": [
+        0,
+        0,
+        0
+      ],
+      "rot_": [
+        0,
+        0,
+        0
+      ],
+      "animationName_": "0000",
+      "animationStartSecond_": 0,
+      "animationSpeed_": 1,
+      "animationInterpolateSecond_": -1,
+      "length_": 0,
+      "moveSpeedScale_": 1,
+      "frontMoveRotZ_": 0,
+      "blackBoardSetRate_": 0,
+      "isUseCurrentPos_": false,
+      "isSetFrontMoveDirection_": true,
+      "isSetAnimation_": false,
+      "isLoopAnimation_": true,
+      "isWaitAnimation_": false,
+      "isCancelSameAnimation_": false,
+      "isEnableManipulaterRot_": true,
+      "isSetBoolBlackBoard_": false
+    },
+    "param4_": {
+      "pos_": [
+        0,
+        0,
+        0
+      ],
+      "rot_": [
+        0,
+        0,
+        0
+      ],
+      "animationName_": "0000",
+      "animationStartSecond_": 0,
+      "animationSpeed_": 1,
+      "animationInterpolateSecond_": -1,
+      "length_": 0,
+      "moveSpeedScale_": 1,
+      "frontMoveRotZ_": 0,
+      "blackBoardSetRate_": 0,
+      "isUseCurrentPos_": false,
+      "isSetFrontMoveDirection_": true,
+      "isSetAnimation_": false,
+      "isLoopAnimation_": true,
+      "isWaitAnimation_": false,
+      "isCancelSameAnimation_": false,
+      "isEnableManipulaterRot_": true,
+      "isSetBoolBlackBoard_": false
+    },
+    "param5_": {
+      "pos_": [
+        0,
+        0,
+        0
+      ],
+      "rot_": [
+        0,
+        0,
+        0
+      ],
+      "animationName_": "0000",
+      "animationStartSecond_": 0,
+      "animationSpeed_": 1,
+      "animationInterpolateSecond_": -1,
+      "length_": 0,
+      "moveSpeedScale_": 1,
+      "frontMoveRotZ_": 0,
+      "blackBoardSetRate_": 0,
+      "isUseCurrentPos_": false,
+      "isSetFrontMoveDirection_": true,
+      "isSetAnimation_": false,
+      "isLoopAnimation_": true,
+      "isWaitAnimation_": false,
+      "isCancelSameAnimation_": false,
+      "isEnableManipulaterRot_": true,
+      "isSetBoolBlackBoard_": false
+    },
+    "param6_": {
+      "pos_": [
+        0,
+        0,
+        0
+      ],
+      "rot_": [
+        0,
+        0,
+        0
+      ],
+      "animationName_": "0000",
+      "animationStartSecond_": 0,
+      "animationSpeed_": 1,
+      "animationInterpolateSecond_": -1,
+      "length_": 0,
+      "moveSpeedScale_": 1,
+      "frontMoveRotZ_": 0,
+      "blackBoardSetRate_": 0,
+      "isUseCurrentPos_": false,
+      "isSetFrontMoveDirection_": true,
+      "isSetAnimation_": false,
+      "isLoopAnimation_": true,
+      "isWaitAnimation_": false,
+      "isCancelSameAnimation_": false,
+      "isEnableManipulaterRot_": true,
+      "isSetBoolBlackBoard_": false
+    },
+    "param7_": {
+      "pos_": [
+        0,
+        0,
+        0
+      ],
+      "rot_": [
+        0,
+        0,
+        0
+      ],
+      "animationName_": "0000",
+      "animationStartSecond_": 0,
+      "animationSpeed_": 1,
+      "animationInterpolateSecond_": -1,
+      "length_": 0,
+      "moveSpeedScale_": 1,
+      "frontMoveRotZ_": 0,
+      "blackBoardSetRate_": 0,
+      "isUseCurrentPos_": false,
+      "isSetFrontMoveDirection_": true,
+      "isSetAnimation_": false,
+      "isLoopAnimation_": true,
+      "isWaitAnimation_": false,
+      "isCancelSameAnimation_": false,
+      "isEnableManipulaterRot_": true,
+      "isSetBoolBlackBoard_": false
+    },
+    "isYAxisOnly_": false,
+    "isCheckGround_": false,
+    "isNoGroundUsePrevPos_": true,
+    "isStartCurTransform_": false,
+    "enableMovePartNo900_": false
+  },
+  "BehaviorBeginActingAction": {
+    "guid_": 382576436,
+    "parentGuid_": 1356747576,
+    "animationId_": "0060",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "startFrame_": -1,
+    "interFrame_": -1,
+    "secondOfCorrectAnimationSpeed_": 0,
+    "speedRate_": 1,
+    "animationSlotNo_": 0,
+    "isCorrectTransform_": true,
+    "correctElement_": 2,
+    "targetPosition_": [
+      -61.12114,
+      1.87802,
+      -26.53973,
+      2
+    ],
+    "targetRotation_": [
+      179.9999,
+      25.81369,
+      179.9999,
+      1
+    ],
+    "correctTransformSecond_": -1,
+    "easingType_": 0,
+    "isEnableCameraAnimation_": false,
+    "cameraAnimationUsageSecond_": 0
+  },
+  "ActionEndCondition": {
+    "guid_": 1534521594,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "ActionEndCondition": {
+    "guid_": 396684294,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "PlayerPosCondition": {
+    "guid_": 1297494623,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "pos_": [
+      -64.06218,
+      1.999477,
+      -25.22371,
+      1
+    ],
+    "radius_": 7,
+    "height_": 10,
+    "playerCount_": 1,
+    "isCheckOnlyXZ_": true,
+    "isOffset_": false,
+    "isManualPlayer_": false
+  },
+  "PlayerPosCondition": {
+    "guid_": 1569535893,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "pos_": [
+      -64.06218,
+      1.999477,
+      -25.22371,
+      1
+    ],
+    "radius_": 7,
+    "height_": 10,
+    "playerCount_": 1,
+    "isCheckOnlyXZ_": true,
+    "isOffset_": false,
+    "isManualPlayer_": false
+  },
+  "PlayerPosCondition": {
+    "guid_": 912950083,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "pos_": [
+      -64.06218,
+      1.999477,
+      -25.22371,
+      1
+    ],
+    "radius_": 7,
+    "height_": 10,
+    "playerCount_": 1,
+    "isCheckOnlyXZ_": true,
+    "isOffset_": false,
+    "isManualPlayer_": false
+  }
+}

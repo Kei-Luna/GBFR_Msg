@@ -1,0 +1,134 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1029512389,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1029512389,
+    "fromNodeGuid_": 643592196,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 643592196,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2027892653
+      }
+    ],
+    "toNodeGuid_": 643592196,
+    "fromNodeGuid_": 2066241039,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2066241039,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "NpcMovePassAction": {
+    "guid_": 2014245373,
+    "parentGuid_": 643592196,
+    "params_": [
+      {
+        "Element": {
+          "pos_": [
+            -103.2594,
+            15.02427,
+            -23.58666,
+            1
+          ],
+          "length_": 3.197212,
+          "useNavMesh_": true
+        }
+      },
+      {
+        "Element": {
+          "pos_": [
+            -100.5783,
+            15.02427,
+            -25.32846,
+            1
+          ],
+          "length_": 0,
+          "useNavMesh_": false
+        }
+      }
+    ],
+    "moveSpeed_": 4,
+    "isStartCurPos_": true,
+    "startMotionName_": "0010",
+    "endMotionName_": "0001",
+    "jumpRizeMotionName_": "0000",
+    "jumpEndMotionName_": "0000",
+    "secondFromLandToMove_": 0.5,
+    "adjustAnimation_": false,
+    "waitEndMotion_": false
+  },
+  "MotionPlayAction": {
+    "guid_": 859826763,
+    "parentGuid_": 2066241039,
+    "motionIdName_": "6120",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0
+  },
+  "ActionEndCondition": {
+    "guid_": 2027892653,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "RegisterBlackBoardBoolAction": {
+    "guid_": 1607282772,
+    "parentGuid_": 2066241039,
+    "valueName_": "action_highground",
+    "value_": true
+  }
+}

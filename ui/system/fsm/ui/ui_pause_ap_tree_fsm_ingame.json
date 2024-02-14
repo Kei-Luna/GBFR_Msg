@@ -1,0 +1,118 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 892070538,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 892070538,
+    "fromNodeGuid_": 1253811315,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 164193863,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 300837654,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1253811315,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 2111222886,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1253811315,
+    "fromNodeGuid_": 1784094303,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1784094303,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1904451674,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1251447889
+      }
+    ],
+    "toNodeGuid_": 1784094303,
+    "fromNodeGuid_": 164193863,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "FlowEnd": {
+    "guid_": 1903007610,
+    "parentGuid_": 164193863,
+    "result_": 0,
+    "fsmLabel_": "ApTree"
+  },
+  "ViewOpenClose": {
+    "guid_": 23477434,
+    "parentGuid_": 1784094303,
+    "views_": [
+      {
+        "Element": "PauseApTree"
+      }
+    ],
+    "count_": 1,
+    "layerOffset_": 1,
+    "openSkip_": false,
+    "closeSkip_": false
+  },
+  "Event": {
+    "guid_": 1251447889,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "Cancel",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "PauseGame": {
+    "guid_": 753756280,
+    "parentGuid_": 1253811315,
+    "pause_": true,
+    "offFr_": 0
+  },
+  "PauseGame": {
+    "guid_": 340837073,
+    "parentGuid_": 164193863,
+    "pause_": false,
+    "offFr_": 0
+  }
+}

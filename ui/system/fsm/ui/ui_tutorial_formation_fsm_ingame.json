@@ -1,0 +1,107 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 222388563,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 222388563,
+    "fromNodeGuid_": 2044338409,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2044338409,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1980448434
+      }
+    ],
+    "toNodeGuid_": 2044338409,
+    "fromNodeGuid_": 1879068574,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1879068574,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "FlowStart": {
+    "guid_": 2000849894,
+    "parentGuid_": 2044338409,
+    "fsmName_": "PauseFormation",
+    "param_": 0
+  },
+  "FlowResult": {
+    "guid_": 1980448434,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "fsmLabel_": "PauseFormation",
+    "result_": 0,
+    "noCheckResult_": false
+  },
+  "FlowEnd": {
+    "guid_": 284754335,
+    "parentGuid_": 1879068574,
+    "result_": 0,
+    "fsmLabel_": "TutorialFormation"
+  },
+  "ViewClose": {
+    "guid_": 873909514,
+    "parentGuid_": 1879068574,
+    "views_": [
+      {
+        "Element": "PauseBg"
+      },
+      {
+        "Element": "PauseHeader"
+      },
+      {
+        "Element": "PauseFooter"
+      },
+      {
+        "Element": "PauseParty01"
+      }
+    ],
+    "count_": 4,
+    "layerOffset_": 1
+  },
+  "StopPlayerKey": {
+    "guid_": 1190976287,
+    "parentGuid_": 2044338409,
+    "isStop_": true
+  },
+  "StopPlayerKey": {
+    "guid_": 313109981,
+    "parentGuid_": 1879068574,
+    "isStop_": false
+  }
+}

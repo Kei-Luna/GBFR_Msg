@@ -1,0 +1,107 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 720727590,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 720727590,
+    "fromNodeGuid_": 615950815,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 615950815,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1460235307,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 233604856
+      }
+    ],
+    "toNodeGuid_": 615950815,
+    "fromNodeGuid_": 664158630,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 664158630,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SendSignal": {
+    "guid_": 2065007428,
+    "parentGuid_": 664158630,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 2,
+    "progressIndex_": 7,
+    "progressHash_": 6724694797509903508,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 16352206622189840747
+      },
+      {
+        "Element": 10364690046715738676
+      }
+    ],
+    "skipAtSectionJump_": false
+  },
+  "RecvSignal": {
+    "guid_": 233604856,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 2,
+    "progressIndex_": 7,
+    "progressHash_": 6724694797509903508,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 16352206622189840747
+      },
+      {
+        "Element": 10364690043332700569
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

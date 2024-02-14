@@ -1,0 +1,121 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1107303549,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1107303549,
+    "fromNodeGuid_": 564983285,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 624038219,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 624038219,
+    "fromNodeGuid_": 564983285,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 564983285,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1442510684
+      }
+    ],
+    "toNodeGuid_": 564983285,
+    "fromNodeGuid_": 624038219,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SendSignal": {
+    "guid_": 957802279,
+    "parentGuid_": 624038219,
+    "category_": 5,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 3,
+    "progressHash_": 4102592959782898358,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 16319204359763174705
+      },
+      {
+        "Element": 1149235351650804678
+      }
+    ],
+    "skipAtSectionJump_": false
+  },
+  "RecvSignal": {
+    "guid_": 1442510684,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 5,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 3,
+    "progressHash_": 4102592959782898358,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 15834808498477919656
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

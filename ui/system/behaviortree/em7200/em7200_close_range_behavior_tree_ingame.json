@@ -1,0 +1,7143 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "RandomSelectorEmNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "emParams_": [
+        {
+          "Element": {
+            "childNodeRatio_": [
+              {
+                "Element": 5
+              },
+              {
+                "Element": 10
+              }
+            ],
+            "coolTime_": [
+              {
+                "Element": 15
+              },
+              {
+                "Element": 0
+              }
+            ],
+            "randomLevel_": 1,
+            "isSameAction_": false,
+            "sameActionRatio_": 0,
+            "isSameActionRatio_": false
+          }
+        },
+        {
+          "Element": {
+            "childNodeRatio_": [
+              {
+                "Element": 5
+              },
+              {
+                "Element": 10
+              }
+            ],
+            "coolTime_": [
+              {
+                "Element": 15
+              },
+              {
+                "Element": 0
+              }
+            ],
+            "randomLevel_": 2,
+            "isSameAction_": false,
+            "sameActionRatio_": 0,
+            "isSameActionRatio_": false
+          }
+        },
+        {
+          "Element": {
+            "childNodeRatio_": [
+              {
+                "Element": 5
+              },
+              {
+                "Element": 10
+              }
+            ],
+            "coolTime_": [
+              {
+                "Element": 15
+              },
+              {
+                "Element": 0
+              }
+            ],
+            "randomLevel_": 3,
+            "isSameAction_": false,
+            "sameActionRatio_": 0,
+            "isSameActionRatio_": false
+          }
+        },
+        {
+          "Element": {
+            "childNodeRatio_": [
+              {
+                "Element": 5
+              },
+              {
+                "Element": 10
+              }
+            ],
+            "coolTime_": [
+              {
+                "Element": 15
+              },
+              {
+                "Element": 0
+              }
+            ],
+            "randomLevel_": 4,
+            "isSameAction_": false,
+            "sameActionRatio_": 0,
+            "isSameActionRatio_": false
+          }
+        }
+      ],
+      "blackboardName_": "Em_LevelAI"
+    }
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "SequencerNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "SelectorNode": {
+    "guid_": 10,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 11,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "SelectorNode": {
+    "guid_": 12,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 13,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 14,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 15,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 16,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 17,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 18,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 19,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 20,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ReferenceTreeNode": {
+    "guid_": 21,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "referenceTreeFolderName_": "em7200",
+      "referenceTreeName_": "tackle",
+      "assetPattern_": 4294967295
+    }
+  },
+  "DecorationNode": {
+    "guid_": 22,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "RandomSelectorNode": {
+    "guid_": 23,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "childNodeRatio0_": 1,
+      "childNodeRatio1_": 3,
+      "childNodeRatio2_": 0,
+      "childNodeRatio3_": 0,
+      "childNodeRatio4_": 0,
+      "childNodeRatio5_": 0,
+      "childNodeRatio6_": 0,
+      "childNodeRatio7_": 0
+    }
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 24,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 25,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 26,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 27,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ReferenceTreeNode": {
+    "guid_": 28,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "referenceTreeFolderName_": "em7200",
+      "referenceTreeName_": "tackle",
+      "assetPattern_": 4294967295
+    }
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 29,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 30,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 31,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 32,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 33,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 34,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 35,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "SelectorNode": {
+    "guid_": 36,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 37,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "SelectorNode": {
+    "guid_": 38,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "RandomSelectorEmNode": {
+    "guid_": 39,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "emParams_": [
+        {
+          "Element": {
+            "childNodeRatio_": [
+              {
+                "Element": 5
+              },
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              }
+            ],
+            "coolTime_": [
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              }
+            ],
+            "randomLevel_": 1,
+            "isSameAction_": false,
+            "sameActionRatio_": 0,
+            "isSameActionRatio_": false
+          }
+        },
+        {
+          "Element": {
+            "childNodeRatio_": [
+              {
+                "Element": 5
+              },
+              {
+                "Element": 3
+              },
+              {
+                "Element": 3
+              }
+            ],
+            "coolTime_": [
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              }
+            ],
+            "randomLevel_": 2,
+            "isSameAction_": false,
+            "sameActionRatio_": 0,
+            "isSameActionRatio_": false
+          }
+        },
+        {
+          "Element": {
+            "childNodeRatio_": [
+              {
+                "Element": 5
+              },
+              {
+                "Element": 4
+              },
+              {
+                "Element": 4
+              }
+            ],
+            "coolTime_": [
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              }
+            ],
+            "randomLevel_": 3,
+            "isSameAction_": false,
+            "sameActionRatio_": 0,
+            "isSameActionRatio_": false
+          }
+        },
+        {
+          "Element": {
+            "childNodeRatio_": [
+              {
+                "Element": 5
+              },
+              {
+                "Element": 5
+              },
+              {
+                "Element": 5
+              }
+            ],
+            "coolTime_": [
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              }
+            ],
+            "randomLevel_": 4,
+            "isSameAction_": false,
+            "sameActionRatio_": 0,
+            "isSameActionRatio_": false
+          }
+        }
+      ],
+      "blackboardName_": "Em_LevelAI"
+    }
+  },
+  "DecorationNode": {
+    "guid_": 40,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "SequencerNode": {
+    "guid_": 41,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 42,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "RandomSelectorEmNode": {
+    "guid_": 43,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "emParams_": [
+        {
+          "Element": {
+            "childNodeRatio_": [
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              },
+              {
+                "Element": 5
+              }
+            ],
+            "coolTime_": [
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              }
+            ],
+            "randomLevel_": 1,
+            "isSameAction_": false,
+            "sameActionRatio_": 0,
+            "isSameActionRatio_": false
+          }
+        },
+        {
+          "Element": {
+            "childNodeRatio_": [
+              {
+                "Element": 3
+              },
+              {
+                "Element": 3
+              },
+              {
+                "Element": 5
+              }
+            ],
+            "coolTime_": [
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              }
+            ],
+            "randomLevel_": 2,
+            "isSameAction_": false,
+            "sameActionRatio_": 0,
+            "isSameActionRatio_": false
+          }
+        },
+        {
+          "Element": {
+            "childNodeRatio_": [
+              {
+                "Element": 4
+              },
+              {
+                "Element": 4
+              },
+              {
+                "Element": 5
+              }
+            ],
+            "coolTime_": [
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              }
+            ],
+            "randomLevel_": 3,
+            "isSameAction_": false,
+            "sameActionRatio_": 0,
+            "isSameActionRatio_": false
+          }
+        },
+        {
+          "Element": {
+            "childNodeRatio_": [
+              {
+                "Element": 5
+              },
+              {
+                "Element": 5
+              },
+              {
+                "Element": 5
+              }
+            ],
+            "coolTime_": [
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              },
+              {
+                "Element": 2
+              }
+            ],
+            "randomLevel_": 4,
+            "isSameAction_": false,
+            "sameActionRatio_": 0,
+            "isSameActionRatio_": false
+          }
+        }
+      ],
+      "blackboardName_": "Em_LevelAI"
+    }
+  },
+  "DecorationNode": {
+    "guid_": 44,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 45,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 46,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 47,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 48,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 49,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 50,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 51,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 52,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 53,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 54,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 55,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 56,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "SelectorNode": {
+    "guid_": 57,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 58,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 59,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 60,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 61,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "SelectorNode": {
+    "guid_": 62,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 63,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 64,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 65,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "RandomSelectorNode": {
+    "guid_": 66,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "childNodeRatio0_": 4,
+      "childNodeRatio1_": 1,
+      "childNodeRatio2_": 1,
+      "childNodeRatio3_": 0,
+      "childNodeRatio4_": 0,
+      "childNodeRatio5_": 0,
+      "childNodeRatio6_": 0,
+      "childNodeRatio7_": 0
+    }
+  },
+  "DecorationNode": {
+    "guid_": 67,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 68,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 69,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "SelectorNode": {
+    "guid_": 70,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 71,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 72,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "RandomSelectorNode": {
+    "guid_": 73,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "childNodeRatio0_": 1,
+      "childNodeRatio1_": 1,
+      "childNodeRatio2_": 0,
+      "childNodeRatio3_": 0,
+      "childNodeRatio4_": 0,
+      "childNodeRatio5_": 0,
+      "childNodeRatio6_": 0,
+      "childNodeRatio7_": 0
+    }
+  },
+  "DecorationNode": {
+    "guid_": 74,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 75,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 76,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 77,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "SelectorNode": {
+    "guid_": 78,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 79,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 80,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "RandomSelectorNode": {
+    "guid_": 81,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "childNodeRatio0_": 1,
+      "childNodeRatio1_": 1,
+      "childNodeRatio2_": 0,
+      "childNodeRatio3_": 0,
+      "childNodeRatio4_": 0,
+      "childNodeRatio5_": 0,
+      "childNodeRatio6_": 0,
+      "childNodeRatio7_": 0
+    }
+  },
+  "DecorationNode": {
+    "guid_": 82,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 83,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 84,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 85,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "SequencerNode": {
+    "guid_": 86,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 87,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 88,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 89,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 90,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 91,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 92,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ReferenceTreeNode": {
+    "guid_": 93,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "referenceTreeFolderName_": "em7200",
+      "referenceTreeName_": "tackle",
+      "assetPattern_": 4294967295
+    }
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 243470028,
+    "parentGuid_": 35,
+    "isReverseSuccess_": false,
+    "checkRange_": 1,
+    "operatorType_": 1,
+    "isUseRangeXZ_": false
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 653406140,
+    "parentGuid_": 37,
+    "isReverseSuccess_": false,
+    "checkDirection_": 1,
+    "checkAngle_": 120
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1994001164,
+    "parentGuid_": 40,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenRightHindLeg"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 636739303,
+    "parentGuid_": 40,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenLeftHindLeg"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 250340171,
+    "parentGuid_": 51,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenLeftArm"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1219586926,
+    "parentGuid_": 53,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenRightArm"
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 1520592167,
+    "parentGuid_": 56,
+    "isReverseSuccess_": false,
+    "checkDirection_": 2,
+    "checkAngle_": 60
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1294612736,
+    "parentGuid_": 58,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenLeftArm"
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 1340936029,
+    "parentGuid_": 61,
+    "isReverseSuccess_": false,
+    "checkDirection_": 3,
+    "checkAngle_": 70
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1882794762,
+    "parentGuid_": 63,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenRightArm"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 507904483,
+    "parentGuid_": 84,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenRightArm"
+  },
+  "Em7200ComboAction": {
+    "guid_": 1108693874,
+    "parentGuid_": 80,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0.15,
+          "turnDirOffsetRadian_": -0.2,
+          "bLeftTurn_": false,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "turnType_": 1,
+          "turnRate_": 0.2,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": false,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "turnType_": 1,
+          "turnRate_": 0.15,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 0.5,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "combos_": [
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 0,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 45,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1520"
+        }
+      },
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 1,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 60,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1521"
+        }
+      },
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 2,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 90,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1522"
+        }
+      }
+    ],
+    "isCancelLastCombo_": false
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 2143402099,
+    "parentGuid_": 82,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenLeftArm"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1121784613,
+    "parentGuid_": 82,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenRightArm"
+  },
+  "EmBossOverDriveCondition": {
+    "guid_": 2063465710,
+    "parentGuid_": 79,
+    "isReverseSuccess_": false,
+    "checkStatus_": 1
+  },
+  "Em7200BackKickAction": {
+    "guid_": 2069113449,
+    "parentGuid_": 42,
+    "motionIdName_": "1140",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0,
+    "homingRate_": 3
+  },
+  "Em7200TurnAction": {
+    "guid_": 994292890,
+    "parentGuid_": 55,
+    "rightMotionId_": "0062",
+    "leftMotionId_": "0063",
+    "backMotionId_": "0064",
+    "backAngle_": 90,
+    "cancelTurnAngle_": 30,
+    "cancelAnim_": false
+  },
+  "Em7200TurnAction": {
+    "guid_": 1077430717,
+    "parentGuid_": 65,
+    "rightMotionId_": "0062",
+    "leftMotionId_": "0063",
+    "backMotionId_": "0064",
+    "backAngle_": 90,
+    "cancelTurnAngle_": 30,
+    "cancelAnim_": false
+  },
+  "Em7200ComboAction": {
+    "guid_": 1233287404,
+    "parentGuid_": 59,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 1,
+          "turnRate_": 0.05,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 0.5,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "combos_": [
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 1,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 45,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1251"
+        }
+      }
+    ],
+    "isCancelLastCombo_": false
+  },
+  "Em7200ComboAction": {
+    "guid_": 1099066481,
+    "parentGuid_": 64,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 1,
+          "turnRate_": 0.05,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 0.5,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "combos_": [
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 0,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 45,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1250"
+        }
+      }
+    ],
+    "isCancelLastCombo_": false
+  },
+  "Em7200ComboAction": {
+    "guid_": 442953399,
+    "parentGuid_": 52,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 1,
+          "turnRate_": 0.02,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 0.5,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "combos_": [
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 1,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 45,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1253"
+        }
+      }
+    ],
+    "isCancelLastCombo_": false
+  },
+  "Em7200ComboAction": {
+    "guid_": 1094326994,
+    "parentGuid_": 54,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 1,
+          "turnRate_": 0.02,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 0.5,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "combos_": [
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 0,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 45,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1252"
+        }
+      }
+    ],
+    "isCancelLastCombo_": false
+  },
+  "Em7200ComboAction": {
+    "guid_": 458040417,
+    "parentGuid_": 85,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0.1,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0.1,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": false,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 0.5,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "combos_": [
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 0,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 45,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1510"
+        }
+      },
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 1,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 45,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1511"
+        }
+      }
+    ],
+    "isCancelLastCombo_": false
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 565096110,
+    "parentGuid_": 25,
+    "isReverseSuccess_": true,
+    "checkDirection_": 0,
+    "checkAngle_": 60
+  },
+  "Em7200TurnAction": {
+    "guid_": 296181417,
+    "parentGuid_": 26,
+    "rightMotionId_": "0062",
+    "leftMotionId_": "0063",
+    "backMotionId_": "0064",
+    "backAngle_": 90,
+    "cancelTurnAngle_": 30,
+    "cancelAnim_": true
+  },
+  "EmFurycaneAnimEndAction": {
+    "guid_": 935957623,
+    "parentGuid_": 34
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 1793853129,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "checkRange_": 0,
+    "operatorType_": 1,
+    "isUseRangeXZ_": false
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1291620077,
+    "parentGuid_": 45,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenLeftArm"
+  },
+  "Em7200ComboAction": {
+    "guid_": 661859685,
+    "parentGuid_": 46,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 1,
+          "turnRate_": 0.02,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 0.5,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "combos_": [
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 1,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 45,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1253"
+        }
+      }
+    ],
+    "isCancelLastCombo_": false
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 626062296,
+    "parentGuid_": 48,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenRightArm"
+  },
+  "Em7200ComboAction": {
+    "guid_": 380127252,
+    "parentGuid_": 49,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 1,
+          "turnRate_": 0.02,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 0.5,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "combos_": [
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 0,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 45,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1252"
+        }
+      }
+    ],
+    "isCancelLastCombo_": false
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 96310967,
+    "parentGuid_": 44,
+    "isReverseSuccess_": false,
+    "checkDirection_": 1,
+    "checkAngle_": 120
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 1360255926,
+    "parentGuid_": 47,
+    "isReverseSuccess_": false,
+    "checkDirection_": 1,
+    "checkAngle_": 120
+  },
+  "Em7200StepAction": {
+    "guid_": 1855102118,
+    "parentGuid_": 7,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0.04,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "turnType_": 2,
+          "turnRate_": 0.05,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 0.5,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "stepType_": 1,
+    "targetType_": 0,
+    "minStepRate_": 0.6,
+    "maxStepRate_": 1.5,
+    "bCancel_": false
+  },
+  "Em7200TurnAction": {
+    "guid_": 2017128344,
+    "parentGuid_": 50,
+    "rightMotionId_": "0062",
+    "leftMotionId_": "0063",
+    "backMotionId_": "0064",
+    "backAngle_": 90,
+    "cancelTurnAngle_": 30,
+    "cancelAnim_": false
+  },
+  "Em7200TurnAction": {
+    "guid_": 1013000961,
+    "parentGuid_": 60,
+    "rightMotionId_": "0062",
+    "leftMotionId_": "0063",
+    "backMotionId_": "0064",
+    "backAngle_": 90,
+    "cancelTurnAngle_": 30,
+    "cancelAnim_": false
+  },
+  "Em7200StepActionCondition": {
+    "guid_": 1652121959,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "stepType_": 1,
+    "targetType_": 0,
+    "minStepRate_": 0.6,
+    "maxStepRate_": 1.5
+  },
+  "BlackBoardFloatCondition": {
+    "guid_": 622534163,
+    "parentGuid_": 51,
+    "isReverseSuccess_": false,
+    "valueName_": "Em_TargetDistanceXZ",
+    "value_": 10,
+    "operatorType_": 0
+  },
+  "BlackBoardFloatCondition": {
+    "guid_": 1553431975,
+    "parentGuid_": 53,
+    "isReverseSuccess_": false,
+    "valueName_": "Em_TargetDistanceXZ",
+    "value_": 10,
+    "operatorType_": 0
+  },
+  "BlackBoardFloatCondition": {
+    "guid_": 1632846161,
+    "parentGuid_": 58,
+    "isReverseSuccess_": false,
+    "valueName_": "Em_TargetDistanceXZ",
+    "value_": 12,
+    "operatorType_": 0
+  },
+  "BlackBoardFloatCondition": {
+    "guid_": 1641887470,
+    "parentGuid_": 63,
+    "isReverseSuccess_": false,
+    "valueName_": "Em_TargetDistanceXZ",
+    "value_": 12,
+    "operatorType_": 0
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 1267383355,
+    "parentGuid_": 40,
+    "isReverseSuccess_": false,
+    "checkRange_": 0,
+    "operatorType_": 1,
+    "isUseRangeXZ_": true
+  },
+  "BlackBoardFloatCondition": {
+    "guid_": 1475222309,
+    "parentGuid_": 61,
+    "isReverseSuccess_": false,
+    "valueName_": "Em_TargetAngle",
+    "value_": -90,
+    "operatorType_": 0
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 1454864195,
+    "parentGuid_": 11,
+    "isReverseSuccess_": false,
+    "checkRange_": 2,
+    "operatorType_": 1,
+    "isUseRangeXZ_": true
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 128909549,
+    "parentGuid_": 22,
+    "isReverseSuccess_": false,
+    "checkRange_": 3,
+    "operatorType_": 3,
+    "isUseRangeXZ_": true
+  },
+  "Em7200ComboAction": {
+    "guid_": 1888250842,
+    "parentGuid_": 77,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0.1,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": false,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0.1,
+          "turnDirOffsetRadian_": 0.8,
+          "bLeftTurn_": true,
+          "bRightTurn_": false,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 0.5,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "combos_": [
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 0,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 45,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1515"
+        }
+      },
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 1,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 45,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1516"
+        }
+      }
+    ],
+    "isCancelLastCombo_": false
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 303572234,
+    "parentGuid_": 74,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenLeftArm"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1670007545,
+    "parentGuid_": 74,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenRightArm"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 242185892,
+    "parentGuid_": 76,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenLeftArm"
+  },
+  "EmBossOverDriveCondition": {
+    "guid_": 1724053553,
+    "parentGuid_": 71,
+    "isReverseSuccess_": false,
+    "checkStatus_": 1
+  },
+  "Em7200ComboAction": {
+    "guid_": 2103338588,
+    "parentGuid_": 72,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0.15,
+          "turnDirOffsetRadian_": 0.5,
+          "bLeftTurn_": true,
+          "bRightTurn_": false,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "turnType_": 1,
+          "turnRate_": 0.2,
+          "turnDirOffsetRadian_": 0.5,
+          "bLeftTurn_": false,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "turnType_": 1,
+          "turnRate_": 0.15,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 0.5,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "combos_": [
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 1,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 45,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1525"
+        }
+      },
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 0,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 60,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1526"
+        }
+      },
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 2,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 90,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1527"
+        }
+      }
+    ],
+    "isCancelLastCombo_": false
+  },
+  "Em7200ComboAction": {
+    "guid_": 2063446544,
+    "parentGuid_": 69,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0.1,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0.1,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": false,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 0.5,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "combos_": [
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 0,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 45,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1510"
+        }
+      },
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 1,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 45,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1511"
+        }
+      }
+    ],
+    "isCancelLastCombo_": false
+  },
+  "BlackBoardFloatCondition": {
+    "guid_": 1424204266,
+    "parentGuid_": 68,
+    "isReverseSuccess_": false,
+    "valueName_": "Em_TargetDistanceXZ",
+    "value_": 8,
+    "operatorType_": 0
+  },
+  "BlackBoardFloatCondition": {
+    "guid_": 800305699,
+    "parentGuid_": 84,
+    "isReverseSuccess_": false,
+    "valueName_": "Em_TargetDistanceXZ",
+    "value_": 8,
+    "operatorType_": 0
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1807719427,
+    "parentGuid_": 67,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenRightArm"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1674664072,
+    "parentGuid_": 32,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenRightArm"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 42932944,
+    "parentGuid_": 32,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenLeftArm"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 538050129,
+    "parentGuid_": 27,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenRightForeFoot"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 410862246,
+    "parentGuid_": 27,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenLeftForeFoot"
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 263639194,
+    "parentGuid_": 18,
+    "isReverseSuccess_": true,
+    "checkDirection_": 0,
+    "checkAngle_": 60
+  },
+  "Em7200TurnAction": {
+    "guid_": 1861447788,
+    "parentGuid_": 19,
+    "rightMotionId_": "0062",
+    "leftMotionId_": "0063",
+    "backMotionId_": "0064",
+    "backAngle_": 90,
+    "cancelTurnAngle_": 30,
+    "cancelAnim_": true
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1731788618,
+    "parentGuid_": 20,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenRightForeFoot"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1332721714,
+    "parentGuid_": 20,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenLeftForeFoot"
+  },
+  "Em7200StepAction": {
+    "guid_": 38587489,
+    "parentGuid_": 87,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0.04,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "turnType_": 2,
+          "turnRate_": 0.05,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 0.5,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "stepType_": 1,
+    "targetType_": 0,
+    "minStepRate_": 0.6,
+    "maxStepRate_": 1.5,
+    "bCancel_": true
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 1871047133,
+    "parentGuid_": 88,
+    "isReverseSuccess_": false,
+    "checkRange_": 2,
+    "operatorType_": 1,
+    "isUseRangeXZ_": true
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 1540283753,
+    "parentGuid_": 90,
+    "isReverseSuccess_": true,
+    "checkDirection_": 0,
+    "checkAngle_": 60
+  },
+  "Em7200TurnAction": {
+    "guid_": 1662973606,
+    "parentGuid_": 91,
+    "rightMotionId_": "0062",
+    "leftMotionId_": "0063",
+    "backMotionId_": "0064",
+    "backAngle_": 90,
+    "cancelTurnAngle_": 30,
+    "cancelAnim_": true
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 450469855,
+    "parentGuid_": 92,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenRightForeFoot"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 704463566,
+    "parentGuid_": 92,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenLeftForeFoot"
+  },
+  "EmAILevelCondition": {
+    "guid_": 641536963,
+    "parentGuid_": 71,
+    "isReverseSuccess_": false,
+    "checkLevel_": 2,
+    "operatorType_": 3
+  },
+  "EmAILevelCondition": {
+    "guid_": 466979967,
+    "parentGuid_": 79,
+    "isReverseSuccess_": false,
+    "checkLevel_": 2,
+    "operatorType_": 3
+  },
+  "EmAILevelCondition": {
+    "guid_": 921048189,
+    "parentGuid_": 6,
+    "isReverseSuccess_": false,
+    "checkLevel_": 1,
+    "operatorType_": 2
+  },
+  "Em7200StepAction": {
+    "guid_": 53944377,
+    "parentGuid_": 9,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0.04,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "turnType_": 2,
+          "turnRate_": 0.05,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 0.5,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "stepType_": 1,
+    "targetType_": 0,
+    "minStepRate_": 0.6,
+    "maxStepRate_": 1.5,
+    "bCancel_": true
+  },
+  "EmAILevelCondition": {
+    "guid_": 1443809467,
+    "parentGuid_": 8,
+    "isReverseSuccess_": false,
+    "checkLevel_": 2,
+    "operatorType_": 3
+  },
+  "Em7200ComboAction": {
+    "guid_": 1212618653,
+    "parentGuid_": 83,
+    "adjustedDatas_": [],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 1,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "combos_": [
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 0,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 45,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1500"
+        }
+      }
+    ],
+    "isCancelLastCombo_": false
+  },
+  "Em7200ComboAction": {
+    "guid_": 2131477869,
+    "parentGuid_": 75,
+    "adjustedDatas_": [],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 1,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "combos_": [
+      {
+        "Element": {
+          "comboActivateAiLevel_": 1,
+          "needParts_": 0,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 45,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1501"
+        }
+      }
+    ],
+    "isCancelLastCombo_": false
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1156911460,
+    "parentGuid_": 13,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenLeftArm"
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 619489841,
+    "parentGuid_": 13,
+    "isReverseSuccess_": false,
+    "checkDirection_": 0,
+    "checkAngle_": 90
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 239085058,
+    "parentGuid_": 13,
+    "isReverseSuccess_": false,
+    "checkDirection_": 2,
+    "checkAngle_": 240
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1041431905,
+    "parentGuid_": 15,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7200_IsBrokenRightArm"
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 609472975,
+    "parentGuid_": 15,
+    "isReverseSuccess_": false,
+    "checkDirection_": 0,
+    "checkAngle_": 90
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 146948381,
+    "parentGuid_": 15,
+    "isReverseSuccess_": false,
+    "checkDirection_": 3,
+    "checkAngle_": 240
+  },
+  "Em7200ComboAction": {
+    "guid_": 1015275026,
+    "parentGuid_": 14,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0.13,
+          "turnDirOffsetRadian_": 0.3,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": false,
+          "bRightTurn_": false,
+          "adjustLen_": [
+            19.5,
+            0,
+            12,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "turnType_": 1,
+          "turnRate_": 0.05,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 0.5,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "combos_": [
+      {
+        "Element": {
+          "comboActivateAiLevel_": 0,
+          "needParts_": 0,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 90,
+          "continueAngleOffset_": 60,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 15,
+          "motionId_": "1182"
+        }
+      },
+      {
+        "Element": {
+          "comboActivateAiLevel_": 3,
+          "needParts_": 1,
+          "animInterTime_": 0.333,
+          "animStartTime_": 0.333,
+          "homingRate_": 2,
+          "continueAngle_": 60,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1251"
+        }
+      }
+    ],
+    "isCancelLastCombo_": false
+  },
+  "Em7200ComboAction": {
+    "guid_": 1156077602,
+    "parentGuid_": 16,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0.13,
+          "turnDirOffsetRadian_": -0.3,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": false,
+          "bRightTurn_": false,
+          "adjustLen_": [
+            19.5,
+            0,
+            12,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "turnType_": 1,
+          "turnRate_": 0.05,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 0.5,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 100,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "combos_": [
+      {
+        "Element": {
+          "comboActivateAiLevel_": 0,
+          "needParts_": 0,
+          "animInterTime_": -1,
+          "animStartTime_": -1,
+          "homingRate_": 2,
+          "continueAngle_": 90,
+          "continueAngleOffset_": -60,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 15,
+          "motionId_": "1183"
+        }
+      },
+      {
+        "Element": {
+          "comboActivateAiLevel_": 3,
+          "needParts_": 0,
+          "animInterTime_": 0.5,
+          "animStartTime_": 0.333,
+          "homingRate_": 2,
+          "continueAngle_": 60,
+          "continueAngleOffset_": 0,
+          "continueMinDistance_": 0,
+          "continueMaxDistance_": 0,
+          "motionId_": "1250"
+        }
+      }
+    ],
+    "isCancelLastCombo_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1544684151,
+    "parentGuid_": 33,
+    "valueName_": "Em7200_IsOK_StormAction",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "Em7201CauseWhirlWindAction": {
+    "guid_": 2075080032,
+    "parentGuid_": 33,
+    "adjustedDatas_": [
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0.02,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "turnType_": 0,
+          "turnRate_": 0.04,
+          "turnDirOffsetRadian_": 0,
+          "bLeftTurn_": true,
+          "bRightTurn_": true,
+          "adjustLen_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "bStartVanishStorm_": false,
+    "createSmallWindCondition_": 0,
+    "createBigStormCondition_": 0,
+    "createSignTime_": 1.5,
+    "whirlWindWaitTime_": 1,
+    "smallWindAiLevelParamArray_": [
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      },
+      {
+        "Element": {
+          "causeWindIntervalTime_": 2,
+          "whirlWindMoveSpd_": 16,
+          "whirlWindAmplitude_": 1.45,
+          "whirlWindPeriod_": 0.95,
+          "whirlWindInfos_": [],
+          "whirlAddRotYInfos_": [],
+          "marshDistanceMin_": 1.8,
+          "marshDistanceMax_": 7.2
+        }
+      }
+    ],
+    "bigStormAiLevelParamArray_": [
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      },
+      {
+        "Element": {
+          "galeAddSpd_": 8,
+          "galeDist_": 10.2,
+          "causeStormIntervalTime_": 5,
+          "stormRadius_": 5,
+          "stormLifeTime_": 5,
+          "stormMoveSpeed_": 0,
+          "stormRandomRotY_": 0,
+          "stormSetRandomRange_": 0,
+          "stormSetPositions_": [],
+          "normalStormMax_": 4,
+          "odStormMax_": 6,
+          "stormCustomType_": 0
+        }
+      }
+    ],
+    "baseAiLevelParamArray_": [
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      },
+      {
+        "Element": {
+          "addAttackRatio_": 0,
+          "addAttackCheckPattern_": 0
+        }
+      }
+    ],
+    "slowRateAiLevelParamArray_": [
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      },
+      {
+        "Element": {
+          "slowType_": 0,
+          "slowRate_": 1
+        }
+      }
+    ],
+    "nextCoolTime_": 0,
+    "motionId_": "1170",
+    "aiLevelParamArray_": [
+      {
+        "Element": {
+          "shotNum_": 2,
+          "shotRadius_": 1.8,
+          "shotLifeTime_": 20,
+          "shotInitSpd_": 2,
+          "shotMaxSpd_": 16,
+          "shotMoveSpdRange_": 2,
+          "shotEaseTime_": 2,
+          "shotAmplitude_": 1.45,
+          "shotPeriod_": 0.95,
+          "shotInfo_": [
+            {
+              "Element": {
+                "pos_": [
+                  2,
+                  0,
+                  8.5,
+                  1
+                ],
+                "moveDirRotY_": 10
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  -2,
+                  0,
+                  8.5,
+                  1
+                ],
+                "moveDirRotY_": -10
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  -4,
+                  0,
+                  8,
+                  1
+                ],
+                "moveDirRotY_": -20
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "moveDirRotY_": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "shotNum_": 1,
+          "shotRadius_": 1.8,
+          "shotLifeTime_": 20,
+          "shotInitSpd_": 6,
+          "shotMaxSpd_": 20,
+          "shotMoveSpdRange_": 4,
+          "shotEaseTime_": 0.5,
+          "shotAmplitude_": 0,
+          "shotPeriod_": 0,
+          "shotInfo_": [
+            {
+              "Element": {
+                "pos_": [
+                  1.5,
+                  0,
+                  8.5,
+                  1
+                ],
+                "moveDirRotY_": 2
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  -0.5,
+                  0,
+                  8.5,
+                  1
+                ],
+                "moveDirRotY_": -2
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  -4,
+                  0,
+                  8,
+                  1
+                ],
+                "moveDirRotY_": -20
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "moveDirRotY_": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "shotNum_": 2,
+          "shotRadius_": 1.8,
+          "shotLifeTime_": 20,
+          "shotInitSpd_": 8,
+          "shotMaxSpd_": 24,
+          "shotMoveSpdRange_": 4,
+          "shotEaseTime_": 0.5,
+          "shotAmplitude_": 0,
+          "shotPeriod_": 0,
+          "shotInfo_": [
+            {
+              "Element": {
+                "pos_": [
+                  1.5,
+                  0,
+                  9,
+                  1
+                ],
+                "moveDirRotY_": 1
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  -2,
+                  0,
+                  9,
+                  1
+                ],
+                "moveDirRotY_": -3
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  -2.5,
+                  0,
+                  8,
+                  1
+                ],
+                "moveDirRotY_": -5
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "moveDirRotY_": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "shotNum_": 3,
+          "shotRadius_": 1.8,
+          "shotLifeTime_": 20,
+          "shotInitSpd_": 10,
+          "shotMaxSpd_": 28,
+          "shotMoveSpdRange_": 4,
+          "shotEaseTime_": 0.5,
+          "shotAmplitude_": 0,
+          "shotPeriod_": 0,
+          "shotInfo_": [
+            {
+              "Element": {
+                "pos_": [
+                  1.5,
+                  0,
+                  8,
+                  1
+                ],
+                "moveDirRotY_": 5
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  -0.5,
+                  0,
+                  9,
+                  1
+                ],
+                "moveDirRotY_": 0
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  -2.5,
+                  0,
+                  8,
+                  1
+                ],
+                "moveDirRotY_": -5
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "moveDirRotY_": 0
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "shotNum_": 4,
+          "shotRadius_": 1.8,
+          "shotLifeTime_": 20,
+          "shotInitSpd_": 12,
+          "shotMaxSpd_": 32,
+          "shotMoveSpdRange_": 4,
+          "shotEaseTime_": 0.5,
+          "shotAmplitude_": 0,
+          "shotPeriod_": 0,
+          "shotInfo_": [
+            {
+              "Element": {
+                "pos_": [
+                  2.5,
+                  0,
+                  8,
+                  1
+                ],
+                "moveDirRotY_": 5
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  0.5,
+                  0,
+                  9,
+                  1
+                ],
+                "moveDirRotY_": 1.5
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  -1.5,
+                  0,
+                  9,
+                  1
+                ],
+                "moveDirRotY_": -1.5
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  -3.5,
+                  0,
+                  8,
+                  1
+                ],
+                "moveDirRotY_": -5
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "signPos_": [
+      0,
+      0,
+      3.3,
+      1
+    ],
+    "easeParam_": {
+      "category_": 0,
+      "calcType_": 0
+    },
+    "marshDistanceMin_": 9999,
+    "marshDistanceMax_": 9999,
+    "whirlWindWaitTime_": 1,
+    "slashWaitTime_": 0.001,
+    "animStartTime_": -1,
+    "animInterTime_": -1,
+    "slashWaitTime_": 0.001
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 395595657,
+    "parentGuid_": 30,
+    "isReverseSuccess_": true,
+    "checkDirection_": 0,
+    "checkAngle_": 20
+  },
+  "Em7200TurnAction": {
+    "guid_": 2100501409,
+    "parentGuid_": 31,
+    "rightMotionId_": "0062",
+    "leftMotionId_": "0063",
+    "backMotionId_": "0064",
+    "backAngle_": 90,
+    "cancelTurnAngle_": 30,
+    "cancelAnim_": true
+  },
+  "BlackBoardFloatCondition": {
+    "guid_": 662941058,
+    "parentGuid_": 76,
+    "isReverseSuccess_": false,
+    "valueName_": "Em_TargetDistanceXZ",
+    "value_": 8,
+    "operatorType_": 3
+  }
+}

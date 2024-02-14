@@ -1,0 +1,180 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 670454192,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 670454192,
+    "fromNodeGuid_": 798788545,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 798788545,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 148007320,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2137945276
+      }
+    ],
+    "toNodeGuid_": 798788545,
+    "fromNodeGuid_": 1628710811,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1628710811,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1019607733,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "ShotPosAction": {
+    "guid_": 2018390944,
+    "parentGuid_": 798788545,
+    "offset_": [
+      0,
+      1.2,
+      1.5,
+      1
+    ],
+    "degreeX_": 0,
+    "degreeY_": 0,
+    "scale_": 1,
+    "partsNo_": -1,
+    "isUpdateAttachParent_": false,
+    "isUseOnMoveInfo_": true,
+    "isUseHomingTargetOnMoveInfo_": true,
+    "isInit_": true,
+    "isAddPosAndRot_": false
+  },
+  "ShotAttackAction": {
+    "guid_": 176104851,
+    "parentGuid_": 798788545,
+    "offset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "size_": [
+      3.5,
+      3,
+      1,
+      1
+    ],
+    "degreeX_": 90,
+    "degreeY_": 0,
+    "degreeZ_": 0,
+    "shape_": 0,
+    "direction_": 6,
+    "target_": 1,
+    "globalType_": 1,
+    "type_": 5,
+    "reaction_": 2,
+    "hitFlag_": 33816580,
+    "categoryFlag_": 65536,
+    "element_": 4,
+    "attackRate_": 4,
+    "breakRate_": 4,
+    "spArtsRate_": 1.5,
+    "hitStopSecond_": 0.1,
+    "hitVibrationType_": 0,
+    "lifeSecond_": 0.3,
+    "multiHitIntervalSecond_": 0,
+    "knockBackRate_": 1,
+    "damageMovementRate_": 1,
+    "damageMovementRateY_": 1,
+    "isHitOnce_": true,
+    "isMoveToHitPos_": false,
+    "isSetAttackerPos_": false,
+    "isSetAttackerHitList_": false,
+    "isClearHitList_": true,
+    "multiHitLimit_": 0,
+    "isSwept_": false,
+    "debuffList_": [],
+    "attackClearTime_": 0,
+    "appropriStartDist": -1,
+    "appropriEndDist": 0,
+    "notAppropriDistAtkRate_": 0,
+    "isTakeOverAppropriDist_": false,
+    "isAlreadyHitClearEachEntity_": false,
+    "isHitOnlyHormingTarget_": false
+  },
+  "ShotBgLayAction": {
+    "guid_": 371193700,
+    "parentGuid_": 798788545,
+    "offset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "degreeX_": 0,
+    "degreeY_": 0,
+    "radius_": 0,
+    "hitType_": 0,
+    "isHitAttackOff_": true,
+    "isMoveToHitPos_": false,
+    "isResetRotHitPos_": false
+  },
+  "ShotTerminateAction": {
+    "guid_": 389133747,
+    "parentGuid_": 1628710811
+  },
+  "ShotSeAction": {
+    "guid_": 1377960502,
+    "parentGuid_": 798788545,
+    "seName_": "wp0200_ab_myghtyride",
+    "isWorldPositionSet_": true,
+    "isStopForTerminate_": false,
+    "isStopOtherSe_": false,
+    "isMaterialCheck_": false,
+    "materialCheckHigh_": 1,
+    "materialCheckLow_": -1
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 2137945276,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 7,
+          "isEnable_": false
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  }
+}

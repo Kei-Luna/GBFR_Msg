@@ -1,0 +1,265 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1596214208,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1596214208,
+    "fromNodeGuid_": 1056683318,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1228504137,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1286565575
+      }
+    ],
+    "toNodeGuid_": 1228504137,
+    "fromNodeGuid_": 1708338222,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1708338222,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 85578172,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 113013204
+      }
+    ],
+    "toNodeGuid_": 1708338222,
+    "fromNodeGuid_": 218511687,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1842761148,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 903146367,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1833873426
+      }
+    ],
+    "toNodeGuid_": 1842761148,
+    "fromNodeGuid_": 1708338222,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 218511687,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 386391293
+      }
+    ],
+    "toNodeGuid_": 218511687,
+    "fromNodeGuid_": 1842761148,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1056683318,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1387549901
+      }
+    ],
+    "toNodeGuid_": 1056683318,
+    "fromNodeGuid_": 1228504137,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CallTalkEvent": {
+    "guid_": 100603374,
+    "parentGuid_": 1708338222,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 25,
+    "progressIndex_": 4,
+    "progressHash_": 16840221716246169143,
+    "groupID_": "VT_MS20_3690",
+    "delay_": 0
+  },
+  "RecvSignal": {
+    "guid_": 1286565575,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 25,
+    "progressIndex_": 4,
+    "progressHash_": 16840221716246169143,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 14840487007494716877
+      }
+    ],
+    "resetOnStart_": true
+  },
+  "RecvSignal": {
+    "guid_": 1833873426,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 25,
+    "progressIndex_": 4,
+    "progressHash_": 16840221716246169143,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 14840487007494716877
+      }
+    ],
+    "resetOnStart_": true
+  },
+  "EndTalkEvent": {
+    "guid_": 113013204,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 25,
+    "progressIndex_": 4,
+    "progressHash_": 16840221716246169143,
+    "isNoCheckSkip_": false,
+    "groupID_": "VT_MS20_3690",
+    "useQuestParameter_": false,
+    "questParameterName_": "",
+    "questParameterHash_": 0
+  },
+  "CheckTimer": {
+    "guid_": 386391293,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 25,
+    "progressIndex_": 4,
+    "progressHash_": 16840221716246169143,
+    "isNoCheckSkip_": false,
+    "timerId_": 14,
+    "time_": 15
+  },
+  "StartTimer": {
+    "guid_": 1447013095,
+    "parentGuid_": 218511687,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 25,
+    "progressIndex_": 4,
+    "progressHash_": 16840221716246169143,
+    "timerId_": 14
+  },
+  "StartTimer": {
+    "guid_": 1172746467,
+    "parentGuid_": 1056683318,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 25,
+    "progressIndex_": 4,
+    "progressHash_": 16840221716246169143,
+    "timerId_": 14
+  },
+  "CheckTimer": {
+    "guid_": 1387549901,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 25,
+    "progressIndex_": 4,
+    "progressHash_": 16840221716246169143,
+    "isNoCheckSkip_": false,
+    "timerId_": 14,
+    "time_": 15
+  }
+}

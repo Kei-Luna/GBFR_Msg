@@ -1,0 +1,243 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SequencerNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em7200CauseStormAction": {
+    "guid_": 972018486,
+    "parentGuid_": 6,
+    "isCreateAttackSign_": true,
+    "isAssociateWith_": true,
+    "isStormBigSize_": false,
+    "stormType_": 0,
+    "StormSetType_": 0,
+    "stormNum_": 1,
+    "stormRadius_": 5,
+    "stormLifeTime_": 15,
+    "stormMoveSpd_": 16,
+    "checkWallHitLength_": 10,
+    "stormSetPositions_": [
+      {
+        "Element": {
+          "pos_": [
+            0,
+            0,
+            12.5,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "pos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "pos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "pos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "pos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "pos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "pos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "pos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "pos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "Element": {
+          "pos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "stormSelfMoveLists_": [
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      }
+    ],
+    "motionId_": "1600",
+    "galeAddSpd_": 2,
+    "galeAddSpdHard_": 4,
+    "galeDist_": 10.2,
+    "customType_": 1,
+    "signTime_": 0.8333333,
+    "signStartSe_": "em7200_atk_magiccircle_sign_start",
+    "signEndSe_": "em7200_atk_magiccircle_sign_end"
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 511796771,
+    "parentGuid_": 7,
+    "valueName_": "Em7200_IsOK_StormAction",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "Em7200TurnAction": {
+    "guid_": 983608425,
+    "parentGuid_": 5,
+    "rightMotionId_": "0062",
+    "leftMotionId_": "0063",
+    "backMotionId_": "0064",
+    "backAngle_": 90,
+    "cancelTurnAngle_": 30,
+    "cancelAnim_": true
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 240359923,
+    "parentGuid_": 4,
+    "isReverseSuccess_": true,
+    "checkDirection_": 0,
+    "checkAngle_": 60
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em7200",
+    "subTreeName_": "storm_action"
+  }
+}

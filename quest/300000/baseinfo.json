@@ -1,0 +1,222 @@
+{
+  "category_": "3",
+  "subCategory_": "0",
+  "serialNumber_": "0",
+  "difficultyHash_": "FATE_010",
+  "lv_": "0",
+  "time_": "0",
+  "lostTime_": "0",
+  "clearableTimes_": "0",
+  "mobIdHash_": "",
+  "sortNo_": "0",
+  "fateEpisode_": {
+    "isStartEventTown_": "false",
+    "isEndEventTown_": "false",
+    "townType_": "0",
+    "hasStartEvent_": "true",
+    "hasEndEvent_": "true",
+    "hasStartTelop_": "true",
+    "hasClearTelop_": "true",
+    "gameCategory_": "1",
+    "location_": "",
+    "targetDispInfo_": {
+      "textHash_": "TXT_QT_300000_10",
+      "type_": "0"
+    }
+  },
+  "occurrenceList_": [],
+  "orderList_": [],
+  "successList_": [],
+  "failureText_0": "",
+  "failureText_1": "",
+  "reward_": {
+    "first_": "",
+    "every_": "",
+    "rankRewards_[0]": "",
+    "rankRewards_[1]": "",
+    "rankRewards_[2]": "",
+    "rankRewards_[3]": "",
+    "rankRewards_[4]": "",
+    "rankRewards_[5]": ""
+  },
+  "fsmDataList_": [
+    {
+      "name_": "メイン進行",
+      "hash_": "18094900049703026664",
+      "suffix_": "0"
+    },
+    {
+      "name_": "防衛対象のHP管理",
+      "hash_": "7819088593363055172",
+      "suffix_": "1"
+    },
+    {
+      "name_": "ビィくん回復アイテム使用制御",
+      "hash_": "4644646301977969844",
+      "suffix_": "2"
+    }
+  ],
+  "targetList_": [
+    {
+      "label_": "TXT_QT_300000_10",
+      "textLabel_": "TXT_QT_300000_10",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_300000_20",
+      "textLabel_": "TXT_QT_300000_20",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_300000_30",
+      "textLabel_": "TXT_QT_300000_30",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    }
+  ],
+  "subMissions_": [
+    {
+      "target_": "",
+      "reward_": "",
+      "firstReward_": ""
+    },
+    {
+      "target_": "",
+      "reward_": "",
+      "firstReward_": ""
+    },
+    {
+      "target_": "",
+      "reward_": "",
+      "firstReward_": ""
+    }
+  ],
+  "sectionSortListGuid_": [
+    {
+      "guid_": "427834965"
+    },
+    {
+      "guid_": "398896353"
+    },
+    {
+      "guid_": "210080524"
+    },
+    {
+      "guid_": "390162095"
+    },
+    {
+      "guid_": "1053300508"
+    }
+  ],
+  "lotData_": "",
+  "treasureData_": [
+    {
+      "data_": ""
+    },
+    {
+      "data_": ""
+    },
+    {
+      "data_": ""
+    },
+    {
+      "data_": ""
+    },
+    {
+      "data_": ""
+    }
+  ],
+  "rewardRank_": "16",
+  "placementsInfo_": {
+    "treasureMaxCount_": "2",
+    "treasureMinCount_": "0",
+    "pickMaxCount_": "3",
+    "pickMinCount_": "0",
+    "searchItemMaxCount_": "1",
+    "searchItemMinCount_": "0",
+    "archiveMaxCount_": "1",
+    "archiveMinCount_": "0",
+    "multiQuestCoinMaxCount_": "1",
+    "multiQuestCoinMinCount_": "0"
+  },
+  "exPlacementFilesInfo_": {
+    "suffix_": [
+      "300000"
+    ]
+  },
+  "startEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "endEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "isConsumeAppend_": "true",
+  "consumeCounts_": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "clearTimeMax_": "0",
+  "clearTimeMin_": "0",
+  "resetTownTreasureType_": "0",
+  "specialRegulationInfo_": [],
+  "actionDropRewardList_": [],
+  "preLoadQuestFSMFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": [
+          "system/FSM/np0100/np0100_fate.gran_bombdropattack_fsm_ingame.yml"
+        ]
+      }
+    }
+  ],
+  "preLoadVoiceEventFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": [
+          "VT_MS30_0010",
+          "VT_MS30_0020",
+          "VT_MS30_0030",
+          "VT_MS30_0040",
+          "VT_MS30_0060",
+          "VT_MS30_0050",
+          "VT_MS30_0130",
+          "VT_MS30_0070",
+          "VT_MS30_0100",
+          "VT_MS30_0170",
+          "VT_MS30_0120",
+          "VT_MS30_0180",
+          "VT_MS30_0140",
+          "VT_MS30_0080",
+          "VT_MS30_0090",
+          "VT_MS30_0110",
+          "VT_MS30_0190"
+        ]
+      }
+    }
+  ],
+  "overrideAttribute_": "0",
+  "isBroadcastVersion_": "false"
+}

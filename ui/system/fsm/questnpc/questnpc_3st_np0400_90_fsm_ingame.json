@@ -1,0 +1,201 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1208968330,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1208968330,
+    "fromNodeGuid_": 872794192,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1978916809,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 892907818,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 54799230
+      }
+    ],
+    "toNodeGuid_": 1978916809,
+    "fromNodeGuid_": 24068657,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 186202447,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 91091438,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 186202447,
+    "fromNodeGuid_": 1489282939,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 872794192,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 574858601,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 825602808
+      }
+    ],
+    "toNodeGuid_": 872794192,
+    "fromNodeGuid_": 1978916809,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 24068657,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 574858601,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2134736351
+      }
+    ],
+    "toNodeGuid_": 24068657,
+    "fromNodeGuid_": 186202447,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "MotionPlayAction": {
+    "guid_": 541313181,
+    "parentGuid_": 1978916809,
+    "motionIdName_": "3011",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1
+  },
+  "MotionPlayAction": {
+    "guid_": 3036026,
+    "parentGuid_": 872794192,
+    "motionIdName_": "3010",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1
+  },
+  "RegisterBlackBoardBoolAction": {
+    "guid_": 1339223278,
+    "parentGuid_": 872794192,
+    "valueName_": "Historiath_Action_3stboss02_Magic_Circle",
+    "value_": false
+  },
+  "MotionPlayAction": {
+    "guid_": 1386965725,
+    "parentGuid_": 24068657,
+    "motionIdName_": "3010",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 825602808,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "boolName_": "Historiath_Action_3stboss02_Magic_Circle"
+  },
+  "ActionEndCondition": {
+    "guid_": 54799230,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "ActionEndCondition": {
+    "guid_": 2134736351,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "EmNeckControlAction": {
+    "guid_": 1385036074,
+    "parentGuid_": 872794192,
+    "isEnable_": true,
+    "isEndEnable_": false
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1340720360,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1340720360,
+    "fromNodeGuid_": 1841582259,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 379699684,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1351772846,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1841582259,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1166864301
+      }
+    ],
+    "toNodeGuid_": 1841582259,
+    "fromNodeGuid_": 379699684,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "RecvSignal": {
+    "guid_": 1166864301,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 4,
+    "progressHash_": 3163367328434716777,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 6916838626219855779
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "SetWatchCamera": {
+    "guid_": 1590385829,
+    "parentGuid_": 379699684,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 4,
+    "progressHash_": 3163367328434716777,
+    "objectId_": 13592548400572264493,
+    "rootId_": 0,
+    "partsNo_": 0,
+    "isTargetEntity_": false,
+    "isDisableControlCam_": true,
+    "enableCancelByCamInput_": false,
+    "moveRate_": [
+      0.5,
+      0.5
+    ],
+    "moveWaitTime_": [
+      0,
+      0
+    ],
+    "moveMaxDeg_": [
+      5,
+      5
+    ],
+    "time_": 2,
+    "camRate_": -1,
+    "camRateInterTime_": 1
+  },
+  "CallTalkEvent": {
+    "guid_": 1110172913,
+    "parentGuid_": 379699684,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 4,
+    "progressHash_": 3163367328434716777,
+    "groupID_": "VT_MS47_0090",
+    "delay_": 0
+  }
+}

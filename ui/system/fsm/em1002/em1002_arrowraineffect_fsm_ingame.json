@@ -1,0 +1,280 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 670454192,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 670454192,
+    "fromNodeGuid_": 798788545,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 798788545,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 798788545,
+    "fromNodeGuid_": 140966635,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 140966635,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2123894178
+      }
+    ],
+    "toNodeGuid_": 140966635,
+    "fromNodeGuid_": 736273967,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1628710811,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "FSMNode": {
+    "guid_": 736273967,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1567845589
+      }
+    ],
+    "toNodeGuid_": 736273967,
+    "fromNodeGuid_": 1628710811,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 1551231445,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [],
+    "isSuccessAny_": true
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 969025423,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [],
+    "isSuccessAny_": true
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 113880834,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [],
+    "isSuccessAny_": true
+  },
+  "ShotPosAction": {
+    "guid_": 2018390944,
+    "parentGuid_": 798788545,
+    "offset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "degreeX_": 90,
+    "degreeY_": 0,
+    "scale_": 1,
+    "partsNo_": -1,
+    "isUpdateAttachParent_": false,
+    "isUseOnMoveInfo_": true,
+    "isUseHomingTargetOnMoveInfo_": true
+  },
+  "ShotVfxAction": {
+    "guid_": 2075513318,
+    "parentGuid_": 798788545,
+    "effectObjId_": 16977927,
+    "effectId_": 10,
+    "seName_": "",
+    "scale_": 1,
+    "scaleY_": 1,
+    "scaleZ_": 1,
+    "delCode_": 2147483648,
+    "isHitEffect_": false,
+    "canEditScaleXYZ_": false
+  },
+  "ShotBgLayAction": {
+    "guid_": 371193700,
+    "parentGuid_": 798788545,
+    "offset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "degreeX_": 0,
+    "degreeY_": 0,
+    "hitType_": 0,
+    "isHitAttackOff_": true,
+    "isMoveToHitPos_": false
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 1003178671,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 0,
+          "isEnable_": false
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 645359296,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [],
+    "isSuccessAny_": true
+  },
+  "ShotTerminateAction": {
+    "guid_": 389133747,
+    "parentGuid_": 1628710811
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 386977338,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [],
+    "isSuccessAny_": true
+  },
+  "ShotMoveStraightAction": {
+    "guid_": 71674258,
+    "parentGuid_": 140966635,
+    "velocityBegin_": 150,
+    "velocityEnd_": -1,
+    "moveSecondMax_": 2,
+    "gravityScale_": 0,
+    "isRotateFall_": false
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 1239972222,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 0,
+          "isEnable_": true
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 1944212460,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 8,
+          "isEnable_": true
+        }
+      },
+      {
+        "Element": {
+          "statusFlag_": 12,
+          "isEnable_": true
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 400074535,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 0,
+          "isEnable_": true
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "ShotVfxAction": {
+    "guid_": 1226634186,
+    "parentGuid_": 736273967,
+    "effectObjId_": -1,
+    "effectId_": 10,
+    "seName_": "",
+    "scale_": 1,
+    "scaleY_": 1,
+    "scaleZ_": 1,
+    "delCode_": 2147483648,
+    "isHitEffect_": true,
+    "canEditScaleXYZ_": false
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 2123894178,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 0,
+          "isEnable_": false
+        }
+      },
+      {
+        "Element": {
+          "statusFlag_": 12,
+          "isEnable_": true
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "ShotTimerAction": {
+    "guid_": 872351388,
+    "parentGuid_": 736273967,
+    "waitTimeSeconds_": 1
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 1567845589,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 21,
+          "isEnable_": false
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  }
+}

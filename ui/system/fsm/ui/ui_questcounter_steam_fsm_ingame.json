@@ -1,0 +1,183 @@
+{
+  "className": "ui",
+  "fsmName": "questcounter_v1_0_1",
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1444380145,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 394835936,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 558131228
+      },
+      {
+        "Element": 1727184365
+      }
+    ],
+    "toNodeGuid_": 1444380145,
+    "fromNodeGuid_": 969288646,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 969288646,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1612371136,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "FSMNode": {
+    "guid_": 1245132321,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1612371136,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {},
+  "addTransition": {
+    "Transition": {
+      "conditionGuid_": 0,
+      "conditionGuids_": [
+        {
+          "Element": 461085377
+        }
+      ],
+      "toNodeGuid_": 200277250,
+      "fromNodeGuid_": 1444380145,
+      "isEndTransition_": false,
+      "isFailedTransition_": false,
+      "params_": []
+    },
+    "Transition": {
+      "conditionGuid_": 0,
+      "conditionGuids_": [
+        {
+          "Element": 1729453459
+        }
+      ],
+      "toNodeGuid_": 1002899675,
+      "fromNodeGuid_": 1245132321,
+      "isEndTransition_": false,
+      "isFailedTransition_": false,
+      "params_": []
+    }
+  },
+  "EnableBaseTransition": {
+    "EnableFalseTransition": {
+      "ToGuid": 1002899675,
+      "FromGuid": 1034548523
+    }
+  },
+  "EnableBaseAllTransition": {},
+  "EnableFalseComponent": 1606551254,
+  "FlowStart": {
+    "guid_": 1970962172,
+    "parentGuid_": 1444380145,
+    "fsmName_": "PlayerMatchSetting",
+    "param_": 1
+  },
+  "Event": {
+    "guid_": 461085377,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "ToRoomSetting",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "GotoNode": {
+    "guid_": 1261068242,
+    "parentGuid_": 969288646,
+    "eventName_": "QuestCounterTopSkip"
+  },
+  "WwiseControl": {
+    "guid_": 2044709069,
+    "parentGuid_": 969288646,
+    "seType_": 8,
+    "isOut_": true
+  },
+  "WwiseControl": {
+    "guid_": 23213906,
+    "parentGuid_": 1444380145,
+    "seType_": 8,
+    "isOut_": false
+  },
+  "FlowResult": {
+    "guid_": 558131228,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "fsmLabel_": "PlayerMatchSetting",
+    "result_": 1,
+    "noCheckResult_": false
+  },
+  "FlowResult": {
+    "guid_": 1727184365,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "fsmLabel_": "PlayerMatchSetting",
+    "result_": 0,
+    "noCheckResult_": false
+  },
+  "GotoNode": {
+    "guid_": 1076199574,
+    "parentGuid_": 1245132321,
+    "eventName_": "QuestCounterTopSkip"
+  },
+  "FlowResult": {
+    "guid_": 1729453459,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "fsmLabel_": "QuestCounterOnline",
+    "result_": 2,
+    "noCheckResult_": false
+  },
+  "WwiseControl": {
+    "guid_": 661532137,
+    "parentGuid_": 1002899675,
+    "seType_": 8,
+    "isOut_": false
+  },
+  "WwiseControl": {
+    "guid_": 946973323,
+    "parentGuid_": 1245132321,
+    "seType_": 8,
+    "isOut_": true
+  },
+  "WwiseControl": {
+    "guid_": 991717351,
+    "parentGuid_": 75660823,
+    "seType_": 8,
+    "isOut_": true
+  },
+  "WwiseControl": {
+    "guid_": 44470664,
+    "parentGuid_": 1034548523,
+    "seType_": 8,
+    "isOut_": true
+  }
+}

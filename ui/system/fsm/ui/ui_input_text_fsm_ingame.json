@@ -1,0 +1,201 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1425815539,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1663324176
+      }
+    ],
+    "toNodeGuid_": 1425815539,
+    "fromNodeGuid_": 1431717821,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 204975597
+      }
+    ],
+    "toNodeGuid_": 1425815539,
+    "fromNodeGuid_": 1220959947,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1431717821,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 353411151,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1904451033
+      }
+    ],
+    "toNodeGuid_": 1431717821,
+    "fromNodeGuid_": 1586163708,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 565164801
+      }
+    ],
+    "toNodeGuid_": 1431717821,
+    "fromNodeGuid_": 2132908095,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1586163708,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 686763274,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1220959947,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 962952165,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 286649881
+      }
+    ],
+    "toNodeGuid_": 1220959947,
+    "fromNodeGuid_": 1586163708,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 896184553
+      }
+    ],
+    "toNodeGuid_": 1220959947,
+    "fromNodeGuid_": 2132908095,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2132908095,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 585483069,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "FlowParam": {
+    "guid_": 1663324176,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "fsmLabel_": "InputText",
+    "param_": 0
+  },
+  "Event": {
+    "guid_": 1904451033,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "CloseInputText",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "FlowEnd": {
+    "guid_": 2098076787,
+    "parentGuid_": 1586163708,
+    "result_": 0,
+    "fsmLabel_": "InputText"
+  },
+  "FlowParam": {
+    "guid_": 204975597,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "fsmLabel_": "InputText",
+    "param_": 1
+  },
+  "Event": {
+    "guid_": 286649881,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "CloseInputText",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "FlowEnd": {
+    "guid_": 1523028457,
+    "parentGuid_": 2132908095,
+    "result_": 0,
+    "fsmLabel_": "InputText"
+  },
+  "Event": {
+    "guid_": 896184553,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "Cancel",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "Event": {
+    "guid_": 565164801,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "Cancel",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "StartInputText": {
+    "guid_": 125997991,
+    "parentGuid_": 1431717821,
+    "enableDebugRandom_": false
+  },
+  "StartInputText": {
+    "guid_": 1482198206,
+    "parentGuid_": 1220959947,
+    "enableDebugRandom_": true
+  }
+}

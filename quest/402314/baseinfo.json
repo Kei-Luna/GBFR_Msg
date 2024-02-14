@@ -1,0 +1,322 @@
+{
+  "category_": "4",
+  "subCategory_": "2",
+  "serialNumber_": "788",
+  "difficultyHash_": "DIF_20",
+  "lv_": "0",
+  "time_": "240",
+  "lostTime_": "10",
+  "clearableTimes_": "0",
+  "mobIdHash_": "MOB0016",
+  "sortNo_": "200",
+  "multi_": {
+    "strengthValue_": "7",
+    "rcommendedCombatPower_": "1000",
+    "islandId_": "ISLAND_3ST",
+    "gameCategory_": "4",
+    "multiQuestType_": "1030060648",
+    "location_": "LOCATION_3ST_01",
+    "enemyIds_[0]": "133378",
+    "enemyNum_[0]": "2",
+    "overwriteStatusAndReward_[0]": "0",
+    "enemyIds_[1]": "133121",
+    "enemyNum_[1]": "7",
+    "overwriteStatusAndReward_[1]": "0",
+    "enemyIds_[2]": "131329",
+    "enemyNum_[2]": "10",
+    "overwriteStatusAndReward_[2]": "0",
+    "enemyIds_[3]": "132865",
+    "enemyNum_[3]": "1",
+    "overwriteStatusAndReward_[3]": "0",
+    "enemyIds_[4]": "-1",
+    "enemyNum_[4]": "0",
+    "overwriteStatusAndReward_[4]": "0",
+    "enemyIds_[5]": "-1",
+    "enemyNum_[5]": "0",
+    "overwriteStatusAndReward_[5]": "0",
+    "min_": "40",
+    "max_": "60",
+    "standard_": "50",
+    "hasPrepareArea_": "false",
+    "isQuestStartFromBossAppear_": "false",
+    "targetDispInfo_": {
+      "textHash_": "TXT_QT_COUNTER_004",
+      "type_": "0"
+    }
+  },
+  "occurrenceList_": [
+    {
+      "type_": "1",
+      "id_": "1068800",
+      "count_": "0"
+    }
+  ],
+  "orderList_": [],
+  "successList_": [],
+  "failureText_0": "TXT_QT_PARTYDEATH",
+  "failureText_1": "",
+  "reward_": {
+    "first_": "RW_402314_100",
+    "every_": "RW_402314_101",
+    "rankRewards_[0]": "RW_402314_300",
+    "rankRewards_[1]": "RW_402314_301",
+    "rankRewards_[2]": "RW_402314_302",
+    "rankRewards_[3]": "RW_402314_303",
+    "rankRewards_[4]": "RW_402314_304",
+    "rankRewards_[5]": "RW_402314_305"
+  },
+  "fsmDataList_": [
+    {
+      "name_": "メイン進行",
+      "hash_": "18094900049703026664",
+      "suffix_": "0"
+    },
+    {
+      "name_": "ビィ結界ボイス",
+      "hash_": "5944673429288180617",
+      "suffix_": "1"
+    },
+    {
+      "name_": "強ザコ敵管理",
+      "hash_": "13500677946516545724",
+      "suffix_": "2"
+    },
+    {
+      "name_": "スライム管理",
+      "hash_": "12120713826593469961",
+      "suffix_": "3"
+    },
+    {
+      "name_": "敵ループ管理",
+      "hash_": "1569847395756125444",
+      "suffix_": "4"
+    },
+    {
+      "name_": "氷柱とスライム管理",
+      "hash_": "6420326230617565562",
+      "suffix_": "5"
+    },
+    {
+      "name_": "プリズミックスライムボイス管理",
+      "hash_": "14476677889256810549",
+      "suffix_": "6"
+    }
+  ],
+  "targetList_": [
+    {
+      "label_": "TXT_QT_402314_1",
+      "textLabel_": "TXT_QT_BEAT_ABLE",
+      "type_": "3",
+      "id_": "4294967295",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "true",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "指定強エネミー討伐数",
+      "textLabel_": "TXT_QT_SM0370_00",
+      "type_": "3",
+      "id_": "133378",
+      "count_": "8",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "投擲撃破",
+      "textLabel_": "TXT_QT_SM0090_00",
+      "type_": "26",
+      "id_": "0",
+      "count_": "4",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "指定エネミー討伐数",
+      "textLabel_": "TXT_QT_SM0370_00",
+      "type_": "3",
+      "id_": "133121",
+      "count_": "15",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_402314_2",
+      "textLabel_": "TXT_QT_RETURN_TOWN",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    }
+  ],
+  "subMissions_": [
+    {
+      "target_": "指定エネミー討伐数",
+      "reward_": "RW_402314_SUBM_01",
+      "firstReward_": ""
+    },
+    {
+      "target_": "投擲撃破",
+      "reward_": "RW_402314_SUBM_02",
+      "firstReward_": ""
+    },
+    {
+      "target_": "指定強エネミー討伐数",
+      "reward_": "RW_402314_SUBM_03",
+      "firstReward_": ""
+    }
+  ],
+  "sectionSortListGuid_": [
+    {
+      "guid_": "1615437762"
+    }
+  ],
+  "lotData_": "TREASURE_CHEST_QR2",
+  "treasureData_": [
+    {
+      "data_": "RW_402314_400"
+    },
+    {
+      "data_": "RW_402314_401"
+    },
+    {
+      "data_": "RW_402314_402"
+    },
+    {
+      "data_": "RW_402314_403"
+    },
+    {
+      "data_": "RW_402314_404"
+    }
+  ],
+  "rewardRank_": "1",
+  "placementsInfo_": {
+    "treasureMaxCount_": "0",
+    "treasureMinCount_": "0",
+    "pickMaxCount_": "0",
+    "pickMinCount_": "0",
+    "searchItemMaxCount_": "0",
+    "searchItemMinCount_": "0",
+    "archiveMaxCount_": "1",
+    "archiveMinCount_": "0",
+    "multiQuestCoinMaxCount_": "1",
+    "multiQuestCoinMinCount_": "0"
+  },
+  "exPlacementFilesInfo_": {
+    "suffix_": [
+      "402314_2"
+    ]
+  },
+  "startEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "endEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "isConsumeAppend_": "true",
+  "consumeCounts_": [
+    "-1",
+    "-1",
+    "-1",
+    "-1"
+  ],
+  "clearTimeMax_": "0",
+  "clearTimeMin_": "0",
+  "resetTownTreasureType_": "0",
+  "specialRegulationInfo_": [],
+  "actionDropRewardList_": [],
+  "preLoadQuestFSMFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "2",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "3",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "4",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "6",
+        "names_": []
+      }
+    }
+  ],
+  "preLoadVoiceEventFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": [
+          "VT_MS20_3700",
+          "VT_MS20_3680",
+          "VT_MS20_3690",
+          "VT_MS20_3670",
+          "VT_MS20_2810"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "2",
+        "names_": [
+          "VT_MS20_2660"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "3",
+        "names_": [
+          "VT_MS20_3710",
+          "VT_MS20_3840"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "4",
+        "names_": [
+          "VT_MS20_3710"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "6",
+        "names_": [
+          "VT_MS20_3850",
+          "VT_MS20_3860"
+        ]
+      }
+    }
+  ],
+  "overrideAttribute_": "0",
+  "isBroadcastVersion_": "false"
+}

@@ -1,0 +1,199 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 837617589,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 837617589,
+    "fromNodeGuid_": 1964103721,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 77037025
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1945115337,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1619518871
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 15760238,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1964103721,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "FSMNode": {
+    "guid_": 1945115337,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1047601065,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2109057663
+      }
+    ],
+    "toNodeGuid_": 1945115337,
+    "fromNodeGuid_": 1945115337,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 15760238,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1231310788,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1598340310
+      }
+    ],
+    "toNodeGuid_": 15760238,
+    "fromNodeGuid_": 15760238,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 77037025,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0000",
+          "hashValue_": 211534962
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1619518871,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0001",
+          "hashValue_": 2073883876
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 2109057663,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0000",
+          "hashValue_": 211534962
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1598340310,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0001",
+          "hashValue_": 2073883876
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 2015736861,
+    "parentGuid_": 1945115337,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "bae152_metal_plate_s_shake_s",
+          "delayTime_": 0,
+          "requestId_": 2015736861,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  },
+  "SoundTriggerAction": {
+    "guid_": 59296203,
+    "parentGuid_": 15760238,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "bae152_metal_plate_s_shake_s",
+          "delayTime_": 0,
+          "requestId_": 59296203,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1716487415,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1716487415,
+    "fromNodeGuid_": 1888592275,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1888592275,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1351772846,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2095714466
+      }
+    ],
+    "toNodeGuid_": 1888592275,
+    "fromNodeGuid_": 1932391659,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1932391659,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 507500657,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "RecvSignal": {
+    "guid_": 2095714466,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 9,
+    "progressIndex_": 10,
+    "progressHash_": 12599796177570543161,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 5935944991232067883
+      },
+      {
+        "Element": 10195290399290495976
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "SendSignal": {
+    "guid_": 1693190312,
+    "parentGuid_": 1932391659,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 9,
+    "progressIndex_": 10,
+    "progressHash_": 12599796177570543161,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 18215061593474938089
+      },
+      {
+        "Element": 9920100440954817970
+      }
+    ],
+    "skipAtSectionJump_": false
+  }
+}

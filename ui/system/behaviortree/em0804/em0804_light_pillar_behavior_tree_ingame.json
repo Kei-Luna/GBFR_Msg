@@ -1,0 +1,182 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em0800ShotAction": {
+    "guid_": 851752117,
+    "parentGuid_": 2,
+    "motionId_": "",
+    "fsmClassName_": "Em0804",
+    "fsmFileName_": "light_pillar",
+    "em0800ShotParams_": [
+      {
+        "Element": {
+          "shotTrigTime_": 0,
+          "offsetPos_": [
+            0,
+            0,
+            3,
+            0
+          ],
+          "offsetRandomPos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "shotType_": 0,
+    "offsetType_": 0,
+    "throwMode_": false,
+    "throwStartOffsetPos_": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "throwLandingTime_": 0.1,
+    "useAttackSignFlag_": false,
+    "groundTarget_": false
+  },
+  "Em0800ShotAction": {
+    "guid_": 205406839,
+    "parentGuid_": 2,
+    "motionId_": "",
+    "fsmClassName_": "Em0804",
+    "fsmFileName_": "light_pillar",
+    "em0800ShotParams_": [
+      {
+        "Element": {
+          "shotTrigTime_": 0,
+          "offsetPos_": [
+            4,
+            0,
+            2,
+            0
+          ],
+          "offsetRandomPos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "shotType_": 0,
+    "offsetType_": 0,
+    "throwMode_": false,
+    "throwStartOffsetPos_": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "throwLandingTime_": 0.1,
+    "useAttackSignFlag_": false,
+    "groundTarget_": false
+  },
+  "Em0800ShotAction": {
+    "guid_": 1009957933,
+    "parentGuid_": 2,
+    "motionId_": "",
+    "fsmClassName_": "Em0804",
+    "fsmFileName_": "light_pillar",
+    "em0800ShotParams_": [
+      {
+        "Element": {
+          "shotTrigTime_": 0,
+          "offsetPos_": [
+            -4,
+            0,
+            2,
+            0
+          ],
+          "offsetRandomPos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "shotType_": 0,
+    "offsetType_": 0,
+    "throwMode_": false,
+    "throwStartOffsetPos_": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "throwLandingTime_": 0.1,
+    "useAttackSignFlag_": false,
+    "groundTarget_": false
+  },
+  "EmMotionPlayAction": {
+    "guid_": 417733672,
+    "parentGuid_": 2,
+    "motionIdName_": "1010",
+    "isAnimEnd_": false,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "useTurnDir_": false,
+    "turnRate_": 0.3,
+    "turnMaxAngle_": 0.5235988,
+    "turnOffsetAngle_": 0,
+    "attackHomingFlagOnly_": false,
+    "endSec_": -1,
+    "isChangeSequenceLayer_": false,
+    "sequenceLayer_": 0
+  },
+  "TimerAction": {
+    "guid_": 328665586,
+    "parentGuid_": 2,
+    "waitTimeSeconds_": 1.2,
+    "randomSeconds_": 0
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1010094279,
+    "parentGuid_": 2,
+    "valueName_": "Em0800_IsOkShot",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardIntAction": {
+    "guid_": 1264970744,
+    "parentGuid_": 2,
+    "valueName_": "Em0800_ShotType",
+    "setTiming_": 0,
+    "value_": 1
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em0804",
+    "subTreeName_": "light_pillar"
+  }
+}

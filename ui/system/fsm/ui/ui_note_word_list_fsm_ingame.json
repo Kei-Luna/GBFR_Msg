@@ -1,0 +1,156 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 428822412,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 428822412,
+    "fromNodeGuid_": 885695136,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1093136350,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 673183152,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "FSMNode": {
+    "guid_": 885695136,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1946767572,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 885695136,
+    "fromNodeGuid_": 1714792219,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1714792219,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1675955475,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1447253584
+      }
+    ],
+    "toNodeGuid_": 1714792219,
+    "fromNodeGuid_": 1093136350,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "FlowEnd": {
+    "guid_": 1249386071,
+    "parentGuid_": 1093136350,
+    "result_": 0,
+    "fsmLabel_": "NoteWordList"
+  },
+  "CurrentMenu": {
+    "guid_": 1924991987,
+    "parentGuid_": 885695136,
+    "menuID_": "",
+    "title_": "TXT_NOTE_MENU_GLOSSARY",
+    "info_": "TXT_NOTE_GLOSSARY_INFO",
+    "setCachedHeader_": false,
+    "type_": {
+      "str_": "TrialMenu",
+      "index_": 0
+    }
+  },
+  "ViewSetup": {
+    "guid_": 715588084,
+    "parentGuid_": 885695136,
+    "infos_": [
+      {
+        "Element": {
+          "view_": "NoteCommonBG",
+          "layerNo_": 0
+        }
+      },
+      {
+        "Element": {
+          "view_": "NoteCommonHeader",
+          "layerNo_": 0
+        }
+      },
+      {
+        "Element": {
+          "view_": "PauseFooter",
+          "layerNo_": 0
+        }
+      }
+    ],
+    "count_": 3,
+    "skip_": false
+  },
+  "FooterType": {
+    "guid_": 907163739,
+    "parentGuid_": 885695136,
+    "type_": {
+      "str_": "Note",
+      "index_": 4
+    }
+  },
+  "ViewOpenClose": {
+    "guid_": 889204131,
+    "parentGuid_": 1714792219,
+    "views_": [
+      {
+        "Element": "NoteWordListMenu"
+      }
+    ],
+    "count_": 1,
+    "layerOffset_": 0,
+    "openSkip_": false,
+    "closeSkip_": false
+  },
+  "Event": {
+    "guid_": 1447253584,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "Cancel",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em0005TackleAction": {
+    "guid_": 545368430,
+    "parentGuid_": 7,
+    "isComboBefore_": false,
+    "isComboAfter_": true,
+    "isComboAfterNoHitAttack_": false,
+    "turnRate_": 0.1,
+    "tackleTurnRate_": 0
+  },
+  "Em0005TackleAction": {
+    "guid_": 1051014270,
+    "parentGuid_": 4,
+    "isComboBefore_": false,
+    "isComboAfter_": true,
+    "isComboAfterNoHitAttack_": false,
+    "turnRate_": 0.2,
+    "tackleTurnRate_": 0.03
+  },
+  "Em0005TackleAction": {
+    "guid_": 2126587702,
+    "parentGuid_": 6,
+    "isComboBefore_": false,
+    "isComboAfter_": true,
+    "isComboAfterNoHitAttack_": false,
+    "turnRate_": 0.2,
+    "tackleTurnRate_": 0.01
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1390424902,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "intName_": "Em0005_AILevel",
+    "value_": 3,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1200894210,
+    "parentGuid_": 5,
+    "isReverseSuccess_": false,
+    "intName_": "Em0005_AILevel",
+    "value_": 3,
+    "operatorType_": 0
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em0005",
+    "subTreeName_": "attack_tackle"
+  }
+}

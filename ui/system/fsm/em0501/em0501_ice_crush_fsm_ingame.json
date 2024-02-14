@@ -1,0 +1,263 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 670454192,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 670454192,
+    "fromNodeGuid_": 798788545,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 798788545,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 764163811,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 798788545,
+    "fromNodeGuid_": 570764455,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 570764455,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1121304812,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 402053749
+      }
+    ],
+    "toNodeGuid_": 570764455,
+    "fromNodeGuid_": 1452261612,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 911788950,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1452261612,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 634745954,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2046122340
+      }
+    ],
+    "toNodeGuid_": 1452261612,
+    "fromNodeGuid_": 911788950,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "ShotVfxAction": {
+    "guid_": 2075513318,
+    "parentGuid_": 798788545,
+    "effectObjId_": 132353,
+    "effectId_": 2490,
+    "seName_": "em0501_icerock_pass_point_start",
+    "scale_": 1,
+    "scaleY_": 1,
+    "scaleZ_": 1,
+    "delCode_": 2147483648,
+    "oneShot_": false,
+    "isHitEffect_": false,
+    "isSetHitEffectEspCtrl_": false,
+    "canEditScaleXYZ_": false,
+    "isUseParentObjId_": false
+  },
+  "ShotTerminateAction": {
+    "guid_": 816953815,
+    "parentGuid_": 911788950
+  },
+  "Em0500RockSplineAction": {
+    "guid_": 184130647,
+    "parentGuid_": 570764455,
+    "time_": 1,
+    "height_": 14,
+    "rotateDirection_": false,
+    "endTimer_": true
+  },
+  "ShotAttackAction": {
+    "guid_": 392033608,
+    "parentGuid_": 570764455,
+    "offset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "size_": [
+      1.8,
+      1,
+      1,
+      1
+    ],
+    "degreeX_": 0,
+    "degreeY_": 0,
+    "shape_": 0,
+    "direction_": 0,
+    "target_": 0,
+    "globalType_": 0,
+    "type_": 2,
+    "reaction_": 0,
+    "hitFlag_": 0,
+    "categoryFlag_": 0,
+    "element_": 0,
+    "badStatus_": 0,
+    "attackRate_": 0.5,
+    "breakRate_": 0.5,
+    "spArtsRate_": 1,
+    "hitStopSecond_": 0,
+    "lifeSecond_": 0,
+    "multiHitIntervalSecond_": 0,
+    "knockBackRate_": 1,
+    "damageMovementRate_": 1,
+    "damageMovementRateY_": 1,
+    "isHitOnce_": false,
+    "isMoveToHitPos_": false,
+    "isSetAttackerPos_": false,
+    "isSetAttackerHitList_": true,
+    "isClearHitList_": false,
+    "multiHitLimit_": 0,
+    "isSwept_": false,
+    "debuffList_": [],
+    "attackClearTime_": 0,
+    "appropriStartDist": -1,
+    "appropriEndDist": 0,
+    "notAppropriDistAtkRate_": 0,
+    "isTakeOverAppropriDist_": false
+  },
+  "Em0500RockCrushSignAction": {
+    "guid_": 1422740639,
+    "parentGuid_": 570764455,
+    "shape_": 3,
+    "size_": [
+      2.1,
+      0,
+      0,
+      1
+    ],
+    "time_": 1,
+    "posType_": 1,
+    "posOffset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "lineEndOffset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "isUpdateAttach_": false,
+    "isUpdateLineEnd_": true,
+    "isApplyScale_": false,
+    "isChangeEffect_": false,
+    "effectObjId_": -1,
+    "effectUseParentObjId_": false,
+    "effectBaseId_": -1,
+    "effectFillId_": -1,
+    "effectVanishId_": -1
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 402053749,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 0,
+          "isEnable_": false
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "ShotVfxAction": {
+    "guid_": 1366665188,
+    "parentGuid_": 1452261612,
+    "effectObjId_": 132353,
+    "effectId_": 2480,
+    "seName_": "em0501_icerock_break_point_start",
+    "scale_": 1,
+    "scaleY_": 1,
+    "scaleZ_": 1,
+    "delCode_": 2147483648,
+    "oneShot_": false,
+    "isHitEffect_": false,
+    "isSetHitEffectEspCtrl_": false,
+    "canEditScaleXYZ_": false,
+    "isUseParentObjId_": false
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 2046122340,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 14,
+          "isEnable_": false
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "ShotStatusFlagAction": {
+    "guid_": 1171803545,
+    "parentGuid_": 1452261612,
+    "statusFlag_": 7,
+    "isEnable_": false
+  }
+}

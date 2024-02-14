@@ -1,0 +1,127 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1420035376,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1420035376,
+    "fromNodeGuid_": 2076873625,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2076873625,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 784921029,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1727164914
+      }
+    ],
+    "toNodeGuid_": 2076873625,
+    "fromNodeGuid_": 1657687147,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1657687147,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "RemindVoice": {
+    "guid_": 59610055,
+    "parentGuid_": 2076873625,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 0,
+    "progressIndex_": 3,
+    "progressHash_": 8193970952486755273,
+    "enableAtBattle_": false,
+    "zoneObjectId_": 0,
+    "zoneRootId_": 0,
+    "voiceHashes_": [
+      {
+        "Element": 1512783931
+      },
+      {
+        "Element": 3143672137
+      },
+      {
+        "Element": 2289754288
+      }
+    ],
+    "voiceNames_": [
+      {
+        "Element": "VT_MS05_0030"
+      },
+      {
+        "Element": "VT_MS05_0040"
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "intervals_": [
+      {
+        "Element": 15
+      },
+      {
+        "Element": 30
+      }
+    ]
+  },
+  "RecvSignal": {
+    "guid_": 1727164914,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 0,
+    "progressIndex_": 3,
+    "progressHash_": 8193970952486755273,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 11697262294435864483
+      },
+      {
+        "Element": 8276101242780282621
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 935521136,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 935521136,
+    "fromNodeGuid_": 391629102,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1536156165,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 2048103760,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1536156165,
+    "fromNodeGuid_": 2010337944,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 391629102,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1309248477,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 368926835
+      }
+    ],
+    "toNodeGuid_": 391629102,
+    "fromNodeGuid_": 1536156165,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2010337944,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1616468177,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1622444619
+      }
+    ],
+    "toNodeGuid_": 2010337944,
+    "fromNodeGuid_": 148624375,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 148624375,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1994728580,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 148624375,
+    "fromNodeGuid_": 391629102,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CallTalkEvent": {
+    "guid_": 704486709,
+    "parentGuid_": 1536156165,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 18,
+    "progressHash_": 6696278033433721087,
+    "groupID_": "VT_MS02_0240"
+  },
+  "RecvSignal": {
+    "guid_": 368926835,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 18,
+    "progressHash_": 6696278033433721087,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 2256234320190834122
+      },
+      {
+        "Element": 18160008718747087529
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "StartTimer": {
+    "guid_": 475909510,
+    "parentGuid_": 2010337944,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 18,
+    "progressHash_": 6696278033433721087,
+    "timerId_": 2
+  },
+  "CheckTimer": {
+    "guid_": 1622444619,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 18,
+    "progressHash_": 6696278033433721087,
+    "isNoCheckSkip_": false,
+    "timerId_": 2,
+    "time_": 15
+  },
+  "SendSignal": {
+    "guid_": 699038492,
+    "parentGuid_": 148624375,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 18,
+    "progressHash_": 6696278033433721087,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 2256234320190834122
+      },
+      {
+        "Element": 16312746329628735623
+      }
+    ],
+    "skipAtSectionJump_": false
+  }
+}

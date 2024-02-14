@@ -1,0 +1,277 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 832318631,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 832318631,
+    "fromNodeGuid_": 915007117,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 915007117,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1460235307,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 723480459
+      }
+    ],
+    "toNodeGuid_": 915007117,
+    "fromNodeGuid_": 1903323795,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1711549132
+      }
+    ],
+    "toNodeGuid_": 915007117,
+    "fromNodeGuid_": 1635301186,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1903323795,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 323749768,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1635301186,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 755365094,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1487362187
+      }
+    ],
+    "toNodeGuid_": 1635301186,
+    "fromNodeGuid_": 692090993,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 692090993,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 804630146,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 195787756
+      }
+    ],
+    "toNodeGuid_": 692090993,
+    "fromNodeGuid_": 1115664406,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1115664406,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "StartTimer": {
+    "guid_": 560790492,
+    "parentGuid_": 1635301186,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 19,
+    "progressIndex_": 11,
+    "progressHash_": 16935512698877426901,
+    "timerId_": 3
+  },
+  "SendSignal": {
+    "guid_": 821352306,
+    "parentGuid_": 692090993,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 19,
+    "progressIndex_": 11,
+    "progressHash_": 16935512698877426901,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 548777411759256373
+      },
+      {
+        "Element": 12948139172969928732
+      }
+    ],
+    "skipAtSectionJump_": false
+  },
+  "RecvSignal": {
+    "guid_": 723480459,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 19,
+    "progressIndex_": 11,
+    "progressHash_": 16935512698877426901,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 548777411759256373
+      },
+      {
+        "Element": 5761812931572443242
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "RecvSignal": {
+    "guid_": 1711549132,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 19,
+    "progressIndex_": 11,
+    "progressHash_": 16935512698877426901,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 16655838600746436084
+      },
+      {
+        "Element": 9153612544314068484
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "CheckTimer": {
+    "guid_": 1487362187,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 19,
+    "progressIndex_": 11,
+    "progressHash_": 16935512698877426901,
+    "isNoCheckSkip_": false,
+    "timerId_": 3,
+    "time_": 5.9
+  },
+  "SendSignal": {
+    "guid_": 208170724,
+    "parentGuid_": 1115664406,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 19,
+    "progressIndex_": 11,
+    "progressHash_": 16935512698877426901,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 548777411759256373
+      },
+      {
+        "Element": 16917018593005781840
+      }
+    ],
+    "skipAtSectionJump_": false
+  },
+  "CheckTimer": {
+    "guid_": 1367485667,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 19,
+    "progressIndex_": 11,
+    "progressHash_": 16935512698877426901,
+    "isNoCheckSkip_": false,
+    "timerId_": 3,
+    "time_": 6.2
+  },
+  "CheckTimer": {
+    "guid_": 195787756,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 19,
+    "progressIndex_": 11,
+    "progressHash_": 16935512698877426901,
+    "isNoCheckSkip_": false,
+    "timerId_": 3,
+    "time_": 6.1
+  }
+}

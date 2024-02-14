@@ -1,0 +1,1167 @@
+{
+  "Pl1800Param": {
+    "hp_": "1000",
+    "atk_": "10",
+    "break_": "75",
+    "def_": "1",
+    "endurance_": "0",
+    "exp_": "0",
+    "hitSEMaxBreak_": "4",
+    "hitSEMinBreak_": "0",
+    "hpCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "atkCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "defCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "expCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "fsmParam_": {
+      "folderName_": [
+        {
+          "Element": "pl1800"
+        },
+        {
+          "Element": "wp1890"
+        },
+        {
+          "Element": "wp1895"
+        },
+        {
+          "Element": "wp1896"
+        },
+        {
+          "Element": "wp1897"
+        },
+        {
+          "Element": "wp1898"
+        },
+        {
+          "Element": "pl1800"
+        },
+        {
+          "Element": "pl_base"
+        }
+      ],
+      "fsmName_": [
+        {
+          "Element": "snd_auto_base_1"
+        },
+        {
+          "Element": "snd_auto_unique_1"
+        },
+        {
+          "Element": "snd_auto_unique_1"
+        },
+        {
+          "Element": "snd_auto_unique_1"
+        },
+        {
+          "Element": "snd_auto_unique_1"
+        },
+        {
+          "Element": "snd_auto_unique_1"
+        },
+        {
+          "Element": "snd_auto_unique_1"
+        },
+        {
+          "Element": "snd_auto_type_2"
+        }
+      ]
+    },
+    "maxLvHp_": "30000",
+    "maxLvAtk_": "240",
+    "maxLvDef_": "1.05",
+    "maxLvExp_": "300000",
+    "criticalBaseRate_": "0.09999999",
+    "baseBreakPower_": "10",
+    "limitDamageRate_": "1",
+    "limitSpecialArtsDamageRate_": "0.7999999",
+    "limitAbilityDamageRate_": "0.7999999",
+    "aiMoveNotargetDistance_": "20",
+    "damageLimitNormalAttack_": "9999",
+    "damageLimitNormalAttack2_": "1999",
+    "damageLimitSpecialAttack_": "14999",
+    "damageLimitAbility01_": "69999",
+    "damageLimitAbility02_": "39999",
+    "damageLimitAbility03_": "1",
+    "damageLimitAbility04_": "1",
+    "damageLimitAbility05_": "19999",
+    "damageLimitAbility06_": "1",
+    "damageLimitAbility07_": "34999",
+    "damageLimitAbility08_": "44999",
+    "damageLimitLinkAttack_": "99999",
+    "damageLimitSpecialArtsStart_": "99999",
+    "damageLimitSpecialArts_": "19999",
+    "eyeCtrlParam_": {
+      "eyeParamL_": {
+        "pupilLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "pupilLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "highlightLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "highlightLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "attenuateThresholdX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "attenuateThresholdY_": {
+          "min_": "-0.045",
+          "max_": "0.03"
+        }
+      },
+      "eyeParamR_": {
+        "pupilLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "pupilLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "highlightLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "highlightLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "attenuateThresholdX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "attenuateThresholdY_": {
+          "min_": "-0.045",
+          "max_": "0.03"
+        }
+      },
+      "attenuareHighlightRate_": [
+        "1",
+        "0.25"
+      ]
+    },
+    "weaponSetDataList_": [
+      {
+        "Element": {
+          "keyAnimationName_": "3010",
+          "weaponType_": "5",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "true",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3010",
+                "offsetPosition_": [
+                  "0.018",
+                  "0",
+                  "1.8406",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3020",
+                "offsetPosition_": [
+                  "-0.08",
+                  "0",
+                  "3.25",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3030",
+                "offsetPosition_": [
+                  "-0.06",
+                  "0",
+                  "4.377",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3040",
+                "offsetPosition_": [
+                  "0.03",
+                  "0",
+                  "5.5267",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3050",
+                "offsetPosition_": [
+                  "-0.064",
+                  "0",
+                  "6.806",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3060",
+                "offsetPosition_": [
+                  "-0.046",
+                  "0",
+                  "8.2124",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "3011",
+          "weaponType_": "5",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "true",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3011",
+                "offsetPosition_": [
+                  "-0.848",
+                  "0",
+                  "1.906",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3021",
+                "offsetPosition_": [
+                  "0.531",
+                  "0",
+                  "5.4967",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3031",
+                "offsetPosition_": [
+                  "-0.54",
+                  "0",
+                  "9.986",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3041",
+                "offsetPosition_": [
+                  "-1.877",
+                  "0",
+                  "14.668",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3051",
+                "offsetPosition_": [
+                  "0.6075",
+                  "0",
+                  "19.8427",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3061",
+                "offsetPosition_": [
+                  "-1.09",
+                  "0",
+                  "25.10353",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "3000",
+          "weaponType_": "4",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "false",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3000",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "3001",
+          "weaponType_": "4",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "false",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3001",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "3002",
+          "weaponType_": "4",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "false",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3002",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "3003",
+          "weaponType_": "4",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "false",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3003",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "3004",
+          "weaponType_": "4",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "false",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3004",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3014",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "3005",
+          "weaponType_": "4",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "false",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3005",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3015",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3025",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "3020",
+          "weaponType_": "2",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "false",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3020",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3030",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3040",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3050",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "3021",
+          "weaponType_": "2",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "false",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3021",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3031",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3041",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3051",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "3030",
+          "weaponType_": "1",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "false",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3030",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "3031",
+          "weaponType_": "1",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "false",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3031",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3041",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3051",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "3200",
+          "weaponType_": "4",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "false",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3200",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "3201",
+          "weaponType_": "4",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "false",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3201",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "3202",
+          "weaponType_": "4",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "false",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3202",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "3300",
+          "weaponType_": "5",
+          "isFallAttackMode_": "true",
+          "isGroundCheck_": "false",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3300",
+                "offsetPosition_": [
+                  "-0.0059",
+                  "0",
+                  "1.5",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3310",
+                "offsetPosition_": [
+                  "0.4603",
+                  "0",
+                  "0.8936",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3320",
+                "offsetPosition_": [
+                  "-0.441",
+                  "0",
+                  "2.1975",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3330",
+                "offsetPosition_": [
+                  "0.5686",
+                  "0",
+                  "2.0497",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3340",
+                "offsetPosition_": [
+                  "-0.587",
+                  "0",
+                  "0.8891",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "3a00",
+          "weaponType_": "5",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "true",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "3a00",
+                "offsetPosition_": [
+                  "-1.097",
+                  "0",
+                  "2.1358",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3a01",
+                "offsetPosition_": [
+                  "0.6939",
+                  "0",
+                  "1.922",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3a02",
+                "offsetPosition_": [
+                  "-0.003",
+                  "0",
+                  "3.1676",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3a03",
+                "offsetPosition_": [
+                  "-0.794",
+                  "0",
+                  "4.2887",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "3a04",
+                "offsetPosition_": [
+                  "1.1581",
+                  "0",
+                  "3.821",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "keyAnimationName_": "1800",
+          "weaponType_": "0",
+          "isFallAttackMode_": "false",
+          "isGroundCheck_": "false",
+          "animationList_": [
+            {
+              "Element": {
+                "animationName_": "1800",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "2",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1801",
+                "offsetPosition_": [
+                  "0.25",
+                  "0",
+                  "3.9",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1802",
+                "offsetPosition_": [
+                  "-0.25",
+                  "0",
+                  "3.9",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1803",
+                "offsetPosition_": [
+                  "0.65",
+                  "0",
+                  "5.75",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1804",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "5.75",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1805",
+                "offsetPosition_": [
+                  "-0.65",
+                  "0",
+                  "5.75",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1806",
+                "offsetPosition_": [
+                  "1.5",
+                  "0",
+                  "8.2",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1807",
+                "offsetPosition_": [
+                  "0.43",
+                  "0",
+                  "7.65",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1808",
+                "offsetPosition_": [
+                  "-0.43",
+                  "0",
+                  "7.65",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1809",
+                "offsetPosition_": [
+                  "-1.5",
+                  "0",
+                  "8.2",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1810",
+                "offsetPosition_": [
+                  "2.2",
+                  "0",
+                  "9.9",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1811",
+                "offsetPosition_": [
+                  "0.9",
+                  "0",
+                  "9.5",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1812",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "8.6",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1813",
+                "offsetPosition_": [
+                  "-0.9",
+                  "0",
+                  "9.5",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1814",
+                "offsetPosition_": [
+                  "-2.2",
+                  "0",
+                  "9.9",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1815",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "3",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1816",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "4.7",
+                  "1"
+                ]
+              }
+            },
+            {
+              "Element": {
+                "animationName_": "1817",
+                "offsetPosition_": [
+                  "0",
+                  "0",
+                  "6.8",
+                  "1"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "faceChangeDataList_": [
+      {
+        "Element": {
+          "actionId_": "100",
+          "faceType_": "1"
+        }
+      },
+      {
+        "Element": {
+          "actionId_": "101",
+          "faceType_": "1"
+        }
+      },
+      {
+        "Element": {
+          "actionId_": "102",
+          "faceType_": "1"
+        }
+      },
+      {
+        "Element": {
+          "actionId_": "103",
+          "faceType_": "1"
+        }
+      },
+      {
+        "Element": {
+          "actionId_": "104",
+          "faceType_": "2"
+        }
+      },
+      {
+        "Element": {
+          "actionId_": "105",
+          "faceType_": "2"
+        }
+      },
+      {
+        "Element": {
+          "actionId_": "110",
+          "faceType_": "2"
+        }
+      },
+      {
+        "Element": {
+          "actionId_": "111",
+          "faceType_": "2"
+        }
+      },
+      {
+        "Element": {
+          "actionId_": "120",
+          "faceType_": "2"
+        }
+      },
+      {
+        "Element": {
+          "actionId_": "121",
+          "faceType_": "2"
+        }
+      },
+      {
+        "Element": {
+          "actionId_": "130",
+          "faceType_": "2"
+        }
+      },
+      {
+        "Element": {
+          "actionId_": "131",
+          "faceType_": "2"
+        }
+      },
+      {
+        "Element": {
+          "actionId_": "300",
+          "faceType_": "1"
+        }
+      },
+      {
+        "Element": {
+          "actionId_": "301",
+          "faceType_": "1"
+        }
+      },
+      {
+        "Element": {
+          "actionId_": "302",
+          "faceType_": "1"
+        }
+      },
+      {
+        "Element": {
+          "actionId_": "400",
+          "faceType_": "1"
+        }
+      },
+      {
+        "Element": {
+          "actionId_": "410",
+          "faceType_": "2"
+        }
+      }
+    ],
+    "linkAttackPowerUpRate_": "0.09999999",
+    "limitBonusAddStatusRate_Lv1_": "0.07",
+    "limitBonusAddStatusRate_Lv2_": "0.14",
+    "limitBonusAddStatusRate_Lv3_": "0.2",
+    "reviveHealHpRate_": "50"
+  }
+}

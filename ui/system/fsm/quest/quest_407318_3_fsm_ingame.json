@@ -1,0 +1,98 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 255678741,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 255678741,
+    "fromNodeGuid_": 1367127906,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1367127906,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1657725456,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1968496484
+      }
+    ],
+    "toNodeGuid_": 1367127906,
+    "fromNodeGuid_": 1410192737,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1410192737,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 75168651,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CallBgm": {
+    "guid_": 529096398,
+    "parentGuid_": 1410192737,
+    "category_": 4,
+    "subcategory_": 7,
+    "index_": 792,
+    "progressIndex_": 3,
+    "progressHash_": 2872490008066802397,
+    "wwiseIdName_": "BGM_Bt_BahamutProto_B",
+    "useBgmSetType_": false,
+    "bgmSetType_": 0,
+    "skipWhileSectionJump_": false
+  },
+  "RecvSignal": {
+    "guid_": 1968496484,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 7,
+    "index_": 792,
+    "progressIndex_": 3,
+    "progressHash_": 2872490008066802397,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 9797753929150962345
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

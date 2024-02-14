@@ -1,0 +1,131 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 593360605,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 593360605,
+    "fromNodeGuid_": 1139915431,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1139915431,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1460235307,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 411140852
+      }
+    ],
+    "toNodeGuid_": 1139915431,
+    "fromNodeGuid_": 2144406908,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2144406908,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1580172590,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 444456984
+      }
+    ],
+    "toNodeGuid_": 2144406908,
+    "fromNodeGuid_": 1139915431,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "RecvSignal": {
+    "guid_": 411140852,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 5,
+    "progressIndex_": 4,
+    "progressHash_": 2982217956584619963,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 2699106806320807038
+      },
+      {
+        "Element": 2710339054233099330
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "CallTalkEvent": {
+    "guid_": 72130939,
+    "parentGuid_": 2144406908,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 5,
+    "progressIndex_": 4,
+    "progressHash_": 2982217956584619963,
+    "groupID_": "VT_MS35_0630"
+  },
+  "StartTimer": {
+    "guid_": 89057587,
+    "parentGuid_": 2144406908,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 5,
+    "progressIndex_": 4,
+    "progressHash_": 2982217956584619963,
+    "timerId_": 15
+  },
+  "CheckTimer": {
+    "guid_": 444456984,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 5,
+    "progressIndex_": 4,
+    "progressHash_": 2982217956584619963,
+    "isNoCheckSkip_": false,
+    "timerId_": 15,
+    "time_": 5
+  }
+}

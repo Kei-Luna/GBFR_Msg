@@ -1,0 +1,186 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1477528974,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1477528974,
+    "fromNodeGuid_": 80284901,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1249569419,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 171139661,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1280875179
+      }
+    ],
+    "toNodeGuid_": 1249569419,
+    "fromNodeGuid_": 94091021,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 94091021,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 2074582670,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 487767273
+      }
+    ],
+    "toNodeGuid_": 94091021,
+    "fromNodeGuid_": 1249569419,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 80284901,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1128640781,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1710854411
+      }
+    ],
+    "toNodeGuid_": 80284901,
+    "fromNodeGuid_": 1249569419,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 759460376
+      }
+    ],
+    "toNodeGuid_": 80284901,
+    "fromNodeGuid_": 94091021,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "FollowPlayerLiteAction": {
+    "guid_": 773458731,
+    "parentGuid_": 1249569419,
+    "turnSpeed_": 0.2,
+    "turnMax_": 2,
+    "stopFollowingDist_": 3,
+    "moveMotionName_": "0010",
+    "waitMotionName_": "0000"
+  },
+  "BehaviorBeginActingAction": {
+    "guid_": 1671720550,
+    "parentGuid_": 94091021,
+    "animationId_": "0000",
+    "isAnimEnd_": false,
+    "loop_": true,
+    "forceEndByBB_": false,
+    "resetForceEndByBBAtEnd_": true,
+    "roundFrame_": false,
+    "startFrame_": -1,
+    "interFrame_": -1,
+    "secondOfCorrectAnimationSpeed_": 0,
+    "speedRate_": 1,
+    "animationSlotNo_": 0,
+    "isCorrectTransform_": true,
+    "correctElement_": 2,
+    "targetPosition_": [
+      712.6511,
+      98.41527,
+      141.4667,
+      2
+    ],
+    "targetRotation_": [
+      -179.9999,
+      -89.99995,
+      -179.9999,
+      1
+    ],
+    "correctTransformSecond_": 0.3,
+    "easingType_": 0,
+    "isEnableCameraAnimation_": false,
+    "cameraAnimationUsageSecond_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 487767273,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "intName_": "FsmNpc_Routine",
+    "value_": 71,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1710854411,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "intName_": "FsmNpc_Routine",
+    "value_": 71,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 759460376,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "intName_": "FsmNpc_Routine",
+    "value_": 72,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1280875179,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "intName_": "FsmNpc_Routine",
+    "value_": 72,
+    "operatorType_": 0
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 66025959,
+    "tailIndexOfChildNodeGuids_": 6,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 66025959,
+    "fromNodeGuid_": 415466799,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 415466799,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 461012518
+      }
+    ],
+    "toNodeGuid_": 415466799,
+    "fromNodeGuid_": 2101077982,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1462976936
+      }
+    ],
+    "toNodeGuid_": 415466799,
+    "fromNodeGuid_": 36960918,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2101077982,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1020293138
+      }
+    ],
+    "toNodeGuid_": 2101077982,
+    "fromNodeGuid_": 1946878622,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1724085731
+      }
+    ],
+    "toNodeGuid_": 2101077982,
+    "fromNodeGuid_": 185334703,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1946878622,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 912352210
+      }
+    ],
+    "toNodeGuid_": 1946878622,
+    "fromNodeGuid_": 617580230,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 36960918,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 185334703,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 617580230,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "RecvSignal": {
+    "guid_": 461012518,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 8,
+    "progressHash_": 11165887355047663750,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 13795191600841548798
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "SendSignal": {
+    "guid_": 1141321975,
+    "parentGuid_": 2101077982,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 8,
+    "progressHash_": 11165887355047663750,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 13795191597685401819
+      }
+    ],
+    "skipAtSectionJump_": false
+  },
+  "SendSignal": {
+    "guid_": 711984468,
+    "parentGuid_": 1946878622,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 8,
+    "progressHash_": 11165887355047663750,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 16846065501350530563
+      }
+    ],
+    "skipAtSectionJump_": false
+  },
+  "RecvSignal": {
+    "guid_": 1020293138,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 8,
+    "progressHash_": 11165887355047663750,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 16846065502190155761
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "RecvSignal": {
+    "guid_": 1462976936,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 8,
+    "progressHash_": 11165887355047663750,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 4589545933177965109
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "RecvSignal": {
+    "guid_": 1724085731,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 8,
+    "progressHash_": 11165887355047663750,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 4589545933177965109
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "RecvSignal": {
+    "guid_": 912352210,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 8,
+    "progressHash_": 11165887355047663750,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 4589545933177965109
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "SendSignal": {
+    "guid_": 1504646214,
+    "parentGuid_": 185334703,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 8,
+    "progressHash_": 11165887355047663750,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 4589545933496853016
+      }
+    ],
+    "skipAtSectionJump_": false
+  },
+  "SendSignal": {
+    "guid_": 413356038,
+    "parentGuid_": 617580230,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 8,
+    "progressHash_": 11165887355047663750,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 4589545933496853016
+      }
+    ],
+    "skipAtSectionJump_": false
+  },
+  "SendSignal": {
+    "guid_": 423494004,
+    "parentGuid_": 617580230,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 8,
+    "progressHash_": 11165887355047663750,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 2643323363301668400
+      }
+    ],
+    "skipAtSectionJump_": false
+  }
+}

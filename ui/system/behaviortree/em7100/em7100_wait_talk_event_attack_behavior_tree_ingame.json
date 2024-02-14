@@ -1,0 +1,174 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "RandomSelectorEmNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "emParams_": [
+        {
+          "Element": {
+            "childNodeRatio_": [
+              {
+                "Element": 1
+              },
+              {
+                "Element": 3
+              }
+            ],
+            "coolTime_": [
+              {
+                "Element": 10
+              },
+              {
+                "Element": 0
+              }
+            ],
+            "randomLevel_": 0,
+            "isSameAction_": true,
+            "sameActionRatio_": 0,
+            "isSameActionRatio_": false
+          }
+        }
+      ],
+      "blackboardName_": ""
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "RandomSelectorEmNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "emParams_": [
+        {
+          "Element": {
+            "childNodeRatio_": [
+              {
+                "Element": 2
+              },
+              {
+                "Element": 1
+              },
+              {
+                "Element": 1
+              }
+            ],
+            "coolTime_": [
+              {
+                "Element": 0
+              },
+              {
+                "Element": 0
+              },
+              {
+                "Element": 0
+              }
+            ],
+            "randomLevel_": 0,
+            "isSameAction_": false,
+            "sameActionRatio_": 0,
+            "isSameActionRatio_": false
+          }
+        }
+      ],
+      "blackboardName_": ""
+    }
+  },
+  "ActionNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em7100StompAction": {
+    "guid_": 249427408,
+    "parentGuid_": 8,
+    "comboCountMax_": 0,
+    "isBeginRightAttack_": true
+  },
+  "Em7100StompAction": {
+    "guid_": 1583781127,
+    "parentGuid_": 9,
+    "comboCountMax_": 0,
+    "isBeginRightAttack_": false
+  },
+  "Em7100FireBallAction": {
+    "guid_": 310361744,
+    "parentGuid_": 7,
+    "repeatCount_": 0,
+    "startSec_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 1945501052,
+    "parentGuid_": 4,
+    "motionIdName_": "1320",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em7100",
+    "subTreeName_": "wait_talk_event_attack"
+  }
+}

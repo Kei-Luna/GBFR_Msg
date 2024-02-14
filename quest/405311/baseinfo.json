@@ -1,0 +1,327 @@
+{
+  "category_": "4",
+  "subCategory_": "5",
+  "serialNumber_": "785",
+  "difficultyHash_": "DIF_80",
+  "lv_": "0",
+  "time_": "240",
+  "lostTime_": "10",
+  "clearableTimes_": "0",
+  "mobIdHash_": "MOB0108",
+  "sortNo_": "503",
+  "multi_": {
+    "strengthValue_": "42",
+    "rcommendedCombatPower_": "5800",
+    "islandId_": "ISLAND_7ST",
+    "gameCategory_": "1",
+    "multiQuestType_": "0",
+    "location_": "LOCATION_7ST_01",
+    "enemyIds_[0]": "133120",
+    "enemyNum_[0]": "0",
+    "overwriteStatusAndReward_[0]": "0",
+    "enemyIds_[1]": "133121",
+    "enemyNum_[1]": "0",
+    "overwriteStatusAndReward_[1]": "0",
+    "enemyIds_[2]": "133122",
+    "enemyNum_[2]": "32759",
+    "overwriteStatusAndReward_[2]": "0",
+    "enemyIds_[3]": "133124",
+    "enemyNum_[3]": "0",
+    "overwriteStatusAndReward_[3]": "0",
+    "enemyIds_[4]": "133125",
+    "enemyNum_[4]": "32759",
+    "overwriteStatusAndReward_[4]": "0",
+    "enemyIds_[5]": "141312",
+    "enemyNum_[5]": "1178",
+    "overwriteStatusAndReward_[5]": "0",
+    "min_": "0.305",
+    "max_": "0.505",
+    "standard_": "0.405",
+    "hasPrepareArea_": "false",
+    "isQuestStartFromBossAppear_": "false",
+    "targetDispInfo_": {
+      "textHash_": "TXT_QT_COUNTER_005",
+      "type_": "0"
+    }
+  },
+  "occurrenceList_": [
+    {
+      "type_": "1",
+      "id_": "1089538",
+      "count_": "0"
+    }
+  ],
+  "orderList_": [],
+  "successList_": [],
+  "failureText_0": "TXT_QT_PARTYDEATH",
+  "failureText_1": "TXT_QT_OBJDESTROY",
+  "reward_": {
+    "first_": "RW_405311_100",
+    "every_": "RW_405311_101",
+    "rankRewards_[0]": "RW_405311_300",
+    "rankRewards_[1]": "RW_405311_301",
+    "rankRewards_[2]": "RW_405311_302",
+    "rankRewards_[3]": "RW_405311_303",
+    "rankRewards_[4]": "RW_405311_304",
+    "rankRewards_[5]": "RW_405311_305"
+  },
+  "fsmDataList_": [
+    {
+      "name_": "メイン進行",
+      "hash_": "18094900049703026664",
+      "suffix_": "0"
+    },
+    {
+      "name_": "ビィボイス用サブ",
+      "hash_": "11203429603056447204",
+      "suffix_": "1"
+    },
+    {
+      "name_": "エネミー出現対応",
+      "hash_": "10284389766308941093",
+      "suffix_": "2"
+    },
+    {
+      "name_": "成功判定用進行",
+      "hash_": "2713435162362346661",
+      "suffix_": "3"
+    },
+    {
+      "name_": "失敗判定用進行",
+      "hash_": "11174967058718312686",
+      "suffix_": "4"
+    },
+    {
+      "name_": "強敵無限湧き01",
+      "hash_": "5853389923599596264",
+      "suffix_": "5"
+    },
+    {
+      "name_": "強敵無限湧き02",
+      "hash_": "10668316912918935931",
+      "suffix_": "6"
+    },
+    {
+      "name_": "強敵無限湧き03",
+      "hash_": "9505850255818666810",
+      "suffix_": "7"
+    }
+  ],
+  "targetList_": [
+    {
+      "label_": "TXT_QT_406301_1",
+      "textLabel_": "TXT_QT_DEFEND_SAVEPOINT",
+      "type_": "1",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_SM0090_00",
+      "textLabel_": "TXT_QT_SM0090_00",
+      "type_": "26",
+      "id_": "0",
+      "count_": "4",
+      "canFail_": "false",
+      "isDisplay_": "true",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_SM0900_17",
+      "textLabel_": "TXT_QT_SM0370_00",
+      "type_": "3",
+      "id_": "133378",
+      "count_": "4",
+      "canFail_": "false",
+      "isDisplay_": "true",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_SM0440_00",
+      "textLabel_": "TXT_QT_SM0440_00",
+      "type_": "7",
+      "id_": "0",
+      "count_": "0.505",
+      "canFail_": "true",
+      "isDisplay_": "true",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_406101_2",
+      "textLabel_": "TXT_QT_RETURN_TOWN",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    }
+  ],
+  "subMissions_": [
+    {
+      "target_": "TXT_QT_SM0440_00",
+      "reward_": "RW_405311_SUBM_01",
+      "firstReward_": ""
+    },
+    {
+      "target_": "TXT_QT_SM0090_00",
+      "reward_": "RW_405311_SUBM_02",
+      "firstReward_": ""
+    },
+    {
+      "target_": "TXT_QT_SM0900_17",
+      "reward_": "RW_405311_SUBM_03",
+      "firstReward_": ""
+    }
+  ],
+  "sectionSortListGuid_": [
+    {
+      "guid_": "2101717883"
+    }
+  ],
+  "lotData_": "TREASURE_CHEST_QR5",
+  "treasureData_": [
+    {
+      "data_": "RW_405311_400"
+    },
+    {
+      "data_": "RW_405311_401"
+    },
+    {
+      "data_": "RW_405311_402"
+    },
+    {
+      "data_": "RW_405311_403"
+    },
+    {
+      "data_": "RW_405311_404"
+    }
+  ],
+  "rewardRank_": "4",
+  "placementsInfo_": {
+    "treasureMaxCount_": "2",
+    "treasureMinCount_": "0",
+    "pickMaxCount_": "3",
+    "pickMinCount_": "0",
+    "searchItemMaxCount_": "1",
+    "searchItemMinCount_": "0",
+    "archiveMaxCount_": "1",
+    "archiveMinCount_": "0",
+    "multiQuestCoinMaxCount_": "1",
+    "multiQuestCoinMinCount_": "0"
+  },
+  "exPlacementFilesInfo_": {
+    "suffix_": [
+      "405311"
+    ]
+  },
+  "startEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "endEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "isConsumeAppend_": "true",
+  "consumeCounts_": [
+    "-1",
+    "-1",
+    "-1",
+    "-1"
+  ],
+  "clearTimeMax_": "0",
+  "clearTimeMin_": "0",
+  "resetTownTreasureType_": "0",
+  "specialRegulationInfo_": [],
+  "actionDropRewardList_": [],
+  "preLoadQuestFSMFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "1",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "2",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "3",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "4",
+        "names_": []
+      }
+    }
+  ],
+  "preLoadVoiceEventFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": [
+          "VT_MS20_3220"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "1",
+        "names_": [
+          "VT_MS20_3260",
+          "VT_MS20_3250",
+          "VT_MS20_3240"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "2",
+        "names_": [
+          "VT_MS20_2930",
+          "VT_MS20_2880",
+          "VT_MS20_3230",
+          "VT_MS20_2862",
+          "VT_MS20_2870"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "3",
+        "names_": [
+          "VT_MS20_3270"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "4",
+        "names_": [
+          "VT_MS20_3280"
+        ]
+      }
+    }
+  ],
+  "overrideAttribute_": "0",
+  "isBroadcastVersion_": "false"
+}

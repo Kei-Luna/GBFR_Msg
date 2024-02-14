@@ -1,0 +1,871 @@
+{
+  "We3100Param": {
+    "hp_": "75000",
+    "atk_": "100",
+    "break_": "3",
+    "def_": "1",
+    "endurance_": "0",
+    "exp_": "0",
+    "hitSEMaxBreak_": "4",
+    "hitSEMinBreak_": "0",
+    "hpCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "atkCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "defCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "expCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "fsmParam_": {
+      "folderName_": [],
+      "fsmName_": []
+    },
+    "hateRateClosePlayer_": "0",
+    "hateRateFarPlayer_": "0",
+    "hateRateClosePlayerPerSec_": "0",
+    "hateRateFarPlayerPerSec_": "0",
+    "hateRateFrontAngle_": "0",
+    "hateRateBackAngle_": "0",
+    "hateRateDamage_": "0",
+    "hateRateManualPlayer_": "0",
+    "hateRateHighHpPlayer_": "0",
+    "hateRateLowHpPlayer_": "0",
+    "hateRateTargetCountManyPlayer_": "0",
+    "hateRateTargetCountFewPlayer_": "0",
+    "hateRateHelpPlayer_": "0",
+    "hateRateLastTargetPlayer_": "0",
+    "hateRateFirstTargetPlayer_": "0",
+    "badStatusHateRateMap_": [],
+    "hateUpdateTime_": "10",
+    "damageToHateRate_": "0.02",
+    "damageHateDecPerSec_": "2",
+    "closeHateIncRate_": "0",
+    "closeHateDecRate_": "0",
+    "farHateIncRate_": "0",
+    "farHateDecRate_": "0",
+    "combatPower_": "50",
+    "combatPowerList_": [
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      }
+    ],
+    "itemRewordMoneyVal_": "0",
+    "itemRewordJumpRate_": "0.5",
+    "battle2SearchLength_": "40",
+    "search2battleLength_": "10",
+    "enemySize_": "0",
+    "linkAttackCameraDistRate_": "0",
+    "targetRangeParam_": {
+      "rangeClose_": "-1",
+      "rangeShort_": "-1",
+      "rangeMiddle_": "-1",
+      "rangeLong_": "-1"
+    },
+    "counterAttackParam_": {
+      "damageMaxValue_": "0",
+      "damageMinValue_": "0",
+      "reduceDamageValueInSec_": "0",
+      "stopReduceTime_": "0",
+      "coolTime_": "0",
+      "onceCheckCounterAttack_": "false",
+      "isReferenceMaxHpRate_": "false"
+    },
+    "counterAttackParams_": [
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      }
+    ],
+    "useCounterAttackParam_": [
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      }
+    ],
+    "badStatusResistanceParams_": [
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.6",
+          "subValue_": "0.05",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.3",
+          "subValue_": "0.15",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "1",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "1",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.3",
+          "subValue_": "0.15",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.7",
+          "subValue_": "0.05",
+          "coolTime_": "0.5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.7",
+          "subValue_": "0",
+          "coolTime_": "0.5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "1",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      }
+    ],
+    "statusParams_": {
+      "regeneratePercent_": "0.5",
+      "regenerateCycleSec_": "1",
+      "multiAttackNum_": "1",
+      "multiAttackDelayFrame_": "5",
+      "multiAttackAtkRate_": "0.2",
+      "multiAttackHitStopDivision_": "2",
+      "burnDotDamageLimitRate_": "1",
+      "poisonDotDamageLimitRate_": "1",
+      "dimentionDotDamageLimitRate_": "1"
+    },
+    "cameraCollisionParams_": [],
+    "linkParam_": {
+      "linkMaxValue_": "100",
+      "linkResetTime_": "0.75",
+      "linkResetRate_": "20",
+      "linkMultiBonus_": "1.5",
+      "linkCoolTime_": "7",
+      "isOverrideCircleParts_": "true",
+      "linkPartsNumber_": "5",
+      "linkOffsetPos_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "linkCirclePartsNumber_": "5",
+      "linkCircleOffsetPos_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "linkAddDist_": "0",
+      "linkAdjustSec_": "1.5"
+    },
+    "lockOnParam_": {
+      "partsInfoList_": [
+        {
+          "Element": {
+            "offset_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "partsNumber_": "0",
+            "camRot_": "-1",
+            "collisionOffset_": "0",
+            "disableWallCheck_": "false",
+            "canManualLockOn_": "true",
+            "canLinkTarget_": "false"
+          }
+        }
+      ],
+      "spArtsPrioLayer_": "-1",
+      "spArtsPrioOffset_": "0",
+      "spArtsWarpOffset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "spArtsWarpPartsNumber_": "-1",
+      "spArtsWarpDist_": "0",
+      "rangeType_": "0"
+    },
+    "collisionParam_": {
+      "offset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "lineEndOffset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "partsNumber_": "-1",
+      "capsuleEndPartsNumber_": "-1",
+      "radius_": "1"
+    },
+    "animInterDefaultSec_": "0.1",
+    "damageAnimInterDefaultSec_": "0.1",
+    "uiPartsNo_": "5",
+    "uiOffsetY_": "0.6",
+    "basicHitStopTimeRate_": "1",
+    "damageReactionHitStopTimeRate_": "1",
+    "superArmorHitStopTimeRate_": "0.5",
+    "attackerHitStopTimeRate_": "0",
+    "addReactionHitstopFrameMin_": "-1",
+    "addReactionHitstopFrameMax_": "-1",
+    "addReactionWeightRateMin_": "-1",
+    "addReactionWeightRateMax_": "-1",
+    "addReactionWeightRateAI_": "-1",
+    "addReactionInterSec_": "-1",
+    "isEyeLookingAtLockOn_": "false",
+    "lookingAtPartsNo_": "5",
+    "isEnableSyncWeaponAnim_": "false",
+    "weakPointParam_": {
+      "weakInfoList_": []
+    },
+    "defenseTargetHateParams_": [
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      }
+    ],
+    "ignoreAilments_": [
+      {
+        "Element": "1394658927"
+      }
+    ],
+    "stageInvisibleStartDistance_": "150",
+    "stageInvisibleEndDistance_": "200",
+    "neckCtrlParam_": {
+      "partsNumber_": "5",
+      "rootPartsNumber_": "-1",
+      "basePartsNumber_": "3",
+      "baseAxisZ_": [
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      "neckAxisZ_": [
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      "baseDegree_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "maxDegreeX_": "5",
+      "maxDegreeY_": "30",
+      "minDegreeX_": "-40",
+      "minDegreeY_": "-30",
+      "rotAdjustRate_": "0.1",
+      "rotAdjustDegreeMax_": "30",
+      "baseAxisZUpLimitDegree_": "-1",
+      "seqWorkIndex_": "-1",
+      "seqFlagNumber_": "0",
+      "isSeqNeckCtrlEnable_": "false",
+      "isUseBaseParts_": "false"
+    },
+    "isChangeNormalDamageAttackReaction_": "true",
+    "isUseNormalDamageAttackReactionDefault_": "true",
+    "normalDamageAttackReaction_": [
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "1"
+      },
+      {
+        "Element": "2"
+      },
+      {
+        "Element": "3"
+      },
+      {
+        "Element": "4"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "22"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      }
+    ],
+    "isCallExplodeBodyPresageDefaultVfx_": "true",
+    "isDisableAerialDownReaction_": "false",
+    "baseBodyRadius_": "0.75",
+    "launchRiseSec_": "0.25",
+    "launchRiseHeight_": "20",
+    "launchRiseRate_": [
+      "0.8",
+      "0.95"
+    ],
+    "normalLaserSpeed_": "300",
+    "normalLaserRadius_": "0.1",
+    "normalLaserTrailLength_": "1",
+    "normalLaserTrailCycleSec_": "1",
+    "fallDownAttackParam_": {
+      "attackBasePos_": [
+        "0",
+        "6",
+        "3",
+        "1"
+      ],
+      "attackOffsetZ_": "3",
+      "attackOffsetPos_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "attackStartDegree_": "75",
+      "attackEndDegree_": "0",
+      "attackPhaseRateWait_": "1",
+      "attackPhaseRateMovePos_": "15",
+      "attackPhaseRateMoveRot_": "5",
+      "attackPhaseRateMoveEnd_": "10",
+      "attackPhaseRateAttackStart_": "10",
+      "attackPhaseRateAttackLoop_": "50",
+      "attackPhaseRateAttackEnd_": "30",
+      "attackPhaseRateEnd_": "200"
+    },
+    "homingMissileParam_": {
+      "attackBasePos_": [
+        "0",
+        "9",
+        "0",
+        "1"
+      ],
+      "attackOffsetZ_": "2",
+      "attackOffsetPos_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "attackStartDegree_": "60",
+      "attackEndDegree_": "0",
+      "attackPhaseRateWait_": "1",
+      "attackPhaseRateMovePos_": "1",
+      "attackPhaseRateMoveRot_": "1",
+      "attackPhaseRateMoveEnd_": "1",
+      "attackPhaseRateAttackStart_": "1",
+      "attackPhaseRateAttackLoop_": "2",
+      "attackPhaseRateAttackEnd_": "5",
+      "attackPhaseRateEnd_": "2"
+    },
+    "tailStabRangeParam_": {
+      "attackBasePos_": [
+        "0",
+        "1",
+        "7.5",
+        "1"
+      ],
+      "attackOffsetZ_": "32",
+      "attackOffsetPos_": [
+        "15",
+        "0",
+        "5",
+        "1"
+      ],
+      "attackStartDegree_": "100",
+      "attackEndDegree_": "135",
+      "attackPhaseRateWait_": "1",
+      "attackPhaseRateMovePos_": "3",
+      "attackPhaseRateMoveRot_": "3",
+      "attackPhaseRateMoveEnd_": "3",
+      "attackPhaseRateAttackStart_": "3",
+      "attackPhaseRateAttackLoop_": "25",
+      "attackPhaseRateAttackEnd_": "3",
+      "attackPhaseRateEnd_": "15"
+    },
+    "bladeRushAttackParam_": {
+      "phaseRateMoveWait_": "1",
+      "phaseRateMovePos_": "30",
+      "phaseRateMoveRot_": "15",
+      "phaseRateMoveEnd_": "5",
+      "phaseRateReady_": "5",
+      "phaseRateAttack_": "5",
+      "phaseRateAway_": "5",
+      "attackPosDistance_": "1",
+      "attackPosOffset_": [
+        "6",
+        "0.5",
+        "3",
+        "1"
+      ]
+    },
+    "reflectLaserLinkDistance_": "30",
+    "reflectLaserLinkOffset_": [
+      "40",
+      "0.1",
+      "8.5"
+    ],
+    "diffusionLaserParam_": {
+      "phaseRateMoveWait_": "5",
+      "phaseRateMovePos_": "20",
+      "phaseRateMoveRot_": "20",
+      "phaseRateMoveEnd_": "50",
+      "phaseRateReady_": "25",
+      "phaseRateAttack_": "280",
+      "phaseRateAway_": "60",
+      "attackPosDistance_": "7",
+      "attackPosOffset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    "diffusionLaserEndFrame_": "60",
+    "swirlTailBeamParam_": {
+      "attackBasePos_": [
+        "0",
+        "8",
+        "3",
+        "1"
+      ],
+      "attackOffsetZ_": "2",
+      "attackOffsetPos_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "attackStartDegree_": "75",
+      "attackEndDegree_": "0",
+      "attackPhaseRateWait_": "1",
+      "attackPhaseRateMovePos_": "1",
+      "attackPhaseRateMoveRot_": "3",
+      "attackPhaseRateMoveEnd_": "1",
+      "attackPhaseRateAttackStart_": "6",
+      "attackPhaseRateAttackLoop_": "3",
+      "attackPhaseRateAttackEnd_": "1",
+      "attackPhaseRateEnd_": "5"
+    },
+    "aimLaserParam_": {
+      "movePhaseSec_": "0.5",
+      "signDispSec_": "2",
+      "signAimRate_": "0.8",
+      "attackPhaseSec_": "0.6",
+      "homingRotLimitX_": "30",
+      "homingRotLimitY_": "75",
+      "homingRotLimitHighX_": "60",
+      "normalTypeBasePos_": [
+        "0",
+        "3",
+        "4"
+      ],
+      "normalTypeDistance_": "7",
+      "normalTypeOffsetY_": "3",
+      "sideTypeBasePos_": [
+        "0",
+        "5.5",
+        "3.5"
+      ],
+      "sideTypeDistance_": "5",
+      "bothTypeBasePos_": [
+        "0",
+        "2",
+        "6"
+      ],
+      "bothTypeDistance_": "15",
+      "bothTypeOffsetY_": "3",
+      "backStepSlashHeight_": "0",
+      "reflectLaserBasePos_": [
+        "3",
+        "1",
+        "3.5"
+      ],
+      "reflectLaserDistance_": "7.5",
+      "reflectLaserWaitSec_": "0.5",
+      "reflectLaserTrgRotY_": "45"
+    },
+    "grenadeShotParam_": {
+      "movePhaseSec_": "0.5",
+      "aimPhaseSec_": "0.5",
+      "waitPhaseSec_": "0.5",
+      "attackRadius_": "4",
+      "signDispSec_": "2",
+      "eftPlaySec_": "1"
+    },
+    "rapidRayParam_": {
+      "waitPhaseSec_": "0.5",
+      "movePhaseSec_": "0.5",
+      "aimPhaseSec_": "0.25",
+      "shotPhaseSec_": "0.2",
+      "signDispSec_": "1.5",
+      "attackRadius_": "1",
+      "attackReloadSec_": "2"
+    },
+    "automaticParam_": {
+      "movePhaseSec_": "5",
+      "movePhaseHeight_": "0.3",
+      "movePhaseDistRate_": "0.9",
+      "movePhaseDistRateLast_": "0.6",
+      "waitPhaseWaitSec_": [
+        "10",
+        "6"
+      ],
+      "waitPhaseMinSec_": "1.5",
+      "waitRateDamage_": "0.1",
+      "waitRateModeChange_": "0.8",
+      "waitRateOverflow_": "0.5",
+      "waitPhaseAddSpeed_": "3",
+      "attackPhaseLockHeight_": "0.8",
+      "attackPhaseLockSec_": "0.1",
+      "buildupMoveSpeed_": [
+        {
+          "Element": "6"
+        },
+        {
+          "Element": "10"
+        },
+        {
+          "Element": "12"
+        }
+      ],
+      "buildupShotTime_": [
+        {
+          "Element": "1.5"
+        },
+        {
+          "Element": "2"
+        },
+        {
+          "Element": "2"
+        }
+      ],
+      "buildupLockRate_": [
+        {
+          "Element": "0"
+        },
+        {
+          "Element": "0.5"
+        },
+        {
+          "Element": "0.7"
+        }
+      ]
+    },
+    "odAbilityParams_": {
+      "launchSec_": "1.5",
+      "laserSpeed_": "1000",
+      "laserRadius_": "0.1",
+      "reflectAttackDegreeRange_": "50",
+      "reflectAttackSignRate_": "25",
+      "reflectAttackShotRate_": "25",
+      "reflectAttackMoveStartRate_": "2",
+      "reflectAttackMoveLoopRate_": "15",
+      "reflectAttackMoveEndRate_": "2",
+      "reflectionDegreeMin_": "50",
+      "reflectionDegreeMax_": "60",
+      "reflectSafeDegreeRange_": "5",
+      "reflectAttackCount_": [
+        {
+          "Element": "3"
+        },
+        {
+          "Element": "3"
+        }
+      ],
+      "reflectAttackHeight_": [
+        {
+          "Element": "0.3"
+        },
+        {
+          "Element": "0.3"
+        },
+        {
+          "Element": "5"
+        }
+      ],
+      "finishAttackSignRate_": "1",
+      "finishAttackStartRate_": "1",
+      "finishAttackLoopRate_": "4",
+      "finishAttackEndRate_": "1",
+      "finishAttackExtensionRate_": "0.24",
+      "finishAttackFwardBasePos_": [
+        "6",
+        "10",
+        "-1",
+        "1"
+      ],
+      "finishAttackFwardPosOffset_": [
+        "14",
+        "0",
+        "0",
+        "1"
+      ],
+      "finishAttackFwardEndRotY_": "210",
+      "finishAttackBwardBasePos_": [
+        "3",
+        "12",
+        "1",
+        "1"
+      ],
+      "finishAttackBwardPosOffset_": [
+        "4",
+        "3",
+        "1",
+        "1"
+      ],
+      "finishAttackBwardStartRotX_": [
+        "75",
+        "70"
+      ],
+      "finishAttackBwardEndRotX_": [
+        "30",
+        "45"
+      ],
+      "finishAttackBwardStartRotY_": [
+        "10",
+        "60"
+      ],
+      "finishAttackBwardEndRotY_": [
+        "-20",
+        "-90"
+      ]
+    },
+    "spArtsParam_": {
+      "dpsCheckAttackReadyRate_": "10",
+      "dpsCheckAttackStartRate_": "3",
+      "dpsCheckAttackLoopRate_": "30",
+      "dpsCheckAttackEndRate_": "3",
+      "dpsCheckLaserCount_": "3",
+      "dpsCheckLaserHeight_": "9",
+      "dpsCheckLaserOffsetZ_": "7",
+      "dpsCheckLaserShotDegree_": "25",
+      "dpsCheckLaserOffsetDegreeX_": "6",
+      "dpsCheckLaserOffsetDegreeY_": "20",
+      "dpsCheckLaserTurnDegree_": "90",
+      "combinedAttackStartRate_": "100",
+      "combinedAttackLoopRate_": "30",
+      "combinedAttackEndRate_": "5",
+      "combinedHorizontalLaserCount_": "3",
+      "combinedHorizontalLaserPosOffset_": [
+        "0.1",
+        "0.1",
+        "0.1",
+        "1"
+      ],
+      "combinedHorizontalLaserMovement_": "10",
+      "combinedHorizontalLaserRotSpeed_": "60",
+      "combinedDiagonalLaserCount_": "3",
+      "combinedDiagonalLaserPosOffset_": [
+        "0",
+        "10",
+        "0.1",
+        "1"
+      ],
+      "combinedDiagonalLaserMoveRate_": "1",
+      "combinedDiagonalLaserRotSpeed_": "90",
+      "combinedVerticalLaserCount_": "3",
+      "combinedVerticalLaserHeight_": "10",
+      "combinedVerticalLaserOffsetRate_": "0.5"
+    }
+  }
+}

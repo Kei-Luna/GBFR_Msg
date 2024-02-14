@@ -1,0 +1,69 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 487673372,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 487673372,
+    "fromNodeGuid_": 220873938,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 220873938,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 441787168,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1243365236
+      }
+    ],
+    "toNodeGuid_": 220873938,
+    "fromNodeGuid_": 995303379,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 995303379,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 995303379,
+    "fromNodeGuid_": 80918291,
+    "isEndTransition_": true,
+    "params_": []
+  },
+  "MotionFlagCondition": {
+    "guid_": 1243365236,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "slot_": 0,
+    "value_": 0
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1886322649,
+    "parentGuid_": 995303379,
+    "valueName_": "ba536a_is_hit",
+    "setTiming_": 0,
+    "value_": true
+  }
+}

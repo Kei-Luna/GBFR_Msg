@@ -1,0 +1,297 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 66899616,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 66899616,
+    "fromNodeGuid_": 1269532471,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1269532471,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 92505959
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1269532471,
+    "fromNodeGuid_": 1106222183,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1664585078,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 221230190
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2087073841
+      }
+    ],
+    "toNodeGuid_": 1664585078,
+    "fromNodeGuid_": 715216921,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 715216921,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 591262721
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 715216921,
+    "fromNodeGuid_": 19869043,
+    "isEndTransition_": true,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 402521267,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1491237639
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1711121947
+      }
+    ],
+    "toNodeGuid_": 402521267,
+    "fromNodeGuid_": 1106222183,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 121457581
+      }
+    ],
+    "toNodeGuid_": 402521267,
+    "fromNodeGuid_": 1664585078,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1106222183,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1491237639
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1636105515
+      }
+    ],
+    "toNodeGuid_": 1106222183,
+    "fromNodeGuid_": 402521267,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 20810829
+      }
+    ],
+    "toNodeGuid_": 1106222183,
+    "fromNodeGuid_": 1664585078,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "AreaEffectFInishAction": {
+    "guid_": 681993199,
+    "parentGuid_": 1664585078
+  },
+  "AreaEffectStatusFlagCondition": {
+    "guid_": 1527993913,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 6,
+          "isEnable_": true
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "AreaEffectStatusFlagCondition": {
+    "guid_": 2087073841,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 2,
+          "isEnable_": true
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "AreaEffectTerminateAction": {
+    "guid_": 1289614243,
+    "parentGuid_": 715216921
+  },
+  "AreaEffectSoundAction": {
+    "guid_": 607530800,
+    "parentGuid_": 1664585078,
+    "seName_": "",
+    "isWorldPositionSet_": false
+  },
+  "AreaEffectAreaCallBackAction": {
+    "guid_": 1059796189,
+    "parentGuid_": 1269532471,
+    "target_": 2,
+    "deleySecond_": 0,
+    "lifeSecond_": 20,
+    "areaRadius_": 5,
+    "intervalSecond_": 0,
+    "isContinue_": false,
+    "isDebugDraw_": false
+  },
+  "AreaEffectVFXAction": {
+    "guid_": 756185041,
+    "parentGuid_": 1269532471,
+    "effectObjId_": 66560,
+    "effectId_": 5050,
+    "isLoop_": true,
+    "isAreaIn_": false
+  },
+  "AreaEffectVFXAction": {
+    "guid_": 86644565,
+    "parentGuid_": 1269532471,
+    "effectObjId_": 66560,
+    "effectId_": 5052,
+    "isLoop_": true,
+    "isAreaIn_": true
+  },
+  "AreaEffectSoundSoftCall": {
+    "guid_": 2138582514,
+    "parentGuid_": 1269532471,
+    "softCallType_": 0,
+    "setTiming_": 0,
+    "beginPos_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "endPos_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "defineName_": "wp0400,concentration,point_start",
+    "isCall_": true,
+    "isFirst_": true,
+    "softCallWorkIndex_": 0
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1711121947,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "boolName_": "IsAreaIn"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1636105515,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "IsAreaIn"
+  },
+  "AreaEffectStatusFlagCondition": {
+    "guid_": 20810829,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 6,
+          "isEnable_": true
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "AreaEffectStatusFlagCondition": {
+    "guid_": 121457581,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 6,
+          "isEnable_": true
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "AreaEffectSoundSoftCall": {
+    "guid_": 1977709894,
+    "parentGuid_": 402521267,
+    "softCallType_": 0,
+    "setTiming_": 0,
+    "beginPos_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "endPos_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "defineName_": "wp0400,concentration_reaction,point_start",
+    "isCall_": true,
+    "isFirst_": true,
+    "softCallWorkIndex_": 1
+  },
+  "AreaEffectEndSoundSoftCall": {
+    "guid_": 2101118469,
+    "parentGuid_": 1106222183,
+    "softCallWorkIndex_": 1
+  },
+  "AreaEffectEndSoundSoftCall": {
+    "guid_": 1706919612,
+    "parentGuid_": 1664585078,
+    "softCallWorkIndex_": 0
+  },
+  "AreaEffectEndSoundSoftCall": {
+    "guid_": 102028476,
+    "parentGuid_": 1664585078,
+    "softCallWorkIndex_": 1
+  }
+}

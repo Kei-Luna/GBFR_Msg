@@ -1,0 +1,93 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1284575111,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1284575111,
+    "fromNodeGuid_": 453053122,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 453053122,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1460235307,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1390745542
+      }
+    ],
+    "toNodeGuid_": 453053122,
+    "fromNodeGuid_": 2086894243,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2086894243,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1611544134,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CallTalkEvent": {
+    "guid_": 1510168297,
+    "parentGuid_": 2086894243,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 9,
+    "progressIndex_": 7,
+    "progressHash_": 14439513760002879866,
+    "groupID_": "VT_MS39_0590"
+  },
+  "RecvSignal": {
+    "guid_": 1390745542,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 9,
+    "progressIndex_": 7,
+    "progressHash_": 14439513760002879866,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 6034274015463686639
+      },
+      {
+        "Element": 16245042129175712237
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

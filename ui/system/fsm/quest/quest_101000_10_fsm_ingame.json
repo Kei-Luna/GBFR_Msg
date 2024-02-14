@@ -1,0 +1,278 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 967245030,
+    "tailIndexOfChildNodeGuids_": 6,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 967245030,
+    "fromNodeGuid_": 592125308,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 592125308,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 574615983
+      }
+    ],
+    "toNodeGuid_": 592125308,
+    "fromNodeGuid_": 780244427,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 446746261,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 446746261,
+    "fromNodeGuid_": 1401844481,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 522338485,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1428876551,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 726667974
+      }
+    ],
+    "toNodeGuid_": 1428876551,
+    "fromNodeGuid_": 446746261,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 780244427,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 113503588
+      }
+    ],
+    "toNodeGuid_": 780244427,
+    "fromNodeGuid_": 1428876551,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1401844481,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1401844481,
+    "fromNodeGuid_": 522338485,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SetTutorialWindow": {
+    "guid_": 1188854942,
+    "parentGuid_": 1428876551,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 16,
+    "progressHash_": 9660453743246928209,
+    "windowID_": "TUTORIAL_WIN_21"
+  },
+  "CallTalkEvent": {
+    "guid_": 1783151775,
+    "parentGuid_": 780244427,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 16,
+    "progressHash_": 9660453743246928209,
+    "groupID_": "VT_MS03_0095"
+  },
+  "SendSignal": {
+    "guid_": 580635608,
+    "parentGuid_": 1401844481,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 16,
+    "progressHash_": 9660453743246928209,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 1153125257886385094
+      },
+      {
+        "Element": 2775419804671553659
+      }
+    ],
+    "skipAtSectionJump_": false
+  },
+  "ControlPlayerInput": {
+    "guid_": 1762662606,
+    "parentGuid_": 1401844481,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 16,
+    "progressHash_": 9660453743246928209,
+    "enableMove_": true,
+    "enableAttack_": true,
+    "enableCamera_": true
+  },
+  "EndTutorialWindow": {
+    "guid_": 726667974,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 16,
+    "progressHash_": 9660453743246928209,
+    "isNoCheckSkip_": false
+  },
+  "EndTalkEvent": {
+    "guid_": 1355445713,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 16,
+    "progressHash_": 9660453743246928209,
+    "isNoCheckSkip_": false,
+    "groupID_": "VT_MS03_0097"
+  },
+  "RecvSignal": {
+    "guid_": 574615983,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 16,
+    "progressHash_": 9660453743246928209,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 1153125257886385094
+      },
+      {
+        "Element": 18361251036548382115
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "ControlPlayerInput": {
+    "guid_": 1643287188,
+    "parentGuid_": 780244427,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 16,
+    "progressHash_": 9660453743246928209,
+    "enableMove_": false,
+    "enableAttack_": false,
+    "enableCamera_": false
+  },
+  "EndTalkEvent": {
+    "guid_": 272860600,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 16,
+    "progressHash_": 9660453743246928209,
+    "isNoCheckSkip_": false,
+    "groupID_": "VT_MS03_0095"
+  },
+  "EndTalkEvent": {
+    "guid_": 113503588,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 16,
+    "progressHash_": 9660453743246928209,
+    "isNoCheckSkip_": false,
+    "groupID_": "VT_MS03_0095"
+  }
+}

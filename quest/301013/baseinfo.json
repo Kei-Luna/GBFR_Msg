@@ -1,0 +1,218 @@
+{
+  "category_": "3",
+  "subCategory_": "1",
+  "serialNumber_": "19",
+  "difficultyHash_": "FATE_050",
+  "lv_": "0",
+  "time_": "0",
+  "lostTime_": "0",
+  "clearableTimes_": "0",
+  "mobIdHash_": "",
+  "sortNo_": "0",
+  "fateEpisode_": {
+    "isStartEventTown_": "false",
+    "isEndEventTown_": "false",
+    "townType_": "0",
+    "hasStartEvent_": "true",
+    "hasEndEvent_": "true",
+    "hasStartTelop_": "true",
+    "hasClearTelop_": "true",
+    "gameCategory_": "2",
+    "location_": "",
+    "targetDispInfo_": {
+      "textHash_": "TXT_QT_301013_10",
+      "type_": "0"
+    }
+  },
+  "occurrenceList_": [],
+  "orderList_": [],
+  "successList_": [],
+  "failureText_0": "",
+  "failureText_1": "",
+  "reward_": {
+    "first_": "",
+    "every_": "",
+    "rankRewards_[0]": "",
+    "rankRewards_[1]": "",
+    "rankRewards_[2]": "",
+    "rankRewards_[3]": "",
+    "rankRewards_[4]": "",
+    "rankRewards_[5]": ""
+  },
+  "fsmDataList_": [
+    {
+      "name_": "進行制御名",
+      "hash_": "526208701544477937",
+      "suffix_": "0"
+    },
+    {
+      "name_": "橋のボイス演出(任意発生)",
+      "hash_": "1491746901526721335",
+      "suffix_": "1"
+    },
+    {
+      "name_": "敵セット1ウェーブ戦",
+      "hash_": "3035917723668849602",
+      "suffix_": "2"
+    },
+    {
+      "name_": "ボス部屋誘導リマインド",
+      "hash_": "5367579197355451473",
+      "suffix_": "3"
+    },
+    {
+      "name_": "敵セット2ウェーブ戦",
+      "hash_": "3387404439873041647",
+      "suffix_": "4"
+    }
+  ],
+  "targetList_": [
+    {
+      "label_": "TXT_QT_301013_10",
+      "textLabel_": "TXT_QT_301013_10",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_301013_20",
+      "textLabel_": "TXT_QT_301013_20",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_301013_30",
+      "textLabel_": "TXT_QT_301013_30",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    }
+  ],
+  "subMissions_": [
+    {
+      "target_": "",
+      "reward_": "",
+      "firstReward_": ""
+    },
+    {
+      "target_": "",
+      "reward_": "",
+      "firstReward_": ""
+    },
+    {
+      "target_": "",
+      "reward_": "",
+      "firstReward_": ""
+    }
+  ],
+  "sectionSortListGuid_": [
+    {
+      "guid_": "92227923"
+    }
+  ],
+  "lotData_": "",
+  "treasureData_": [
+    {
+      "data_": ""
+    },
+    {
+      "data_": ""
+    },
+    {
+      "data_": ""
+    },
+    {
+      "data_": ""
+    },
+    {
+      "data_": ""
+    }
+  ],
+  "rewardRank_": "17",
+  "placementsInfo_": {
+    "treasureMaxCount_": "2",
+    "treasureMinCount_": "0",
+    "pickMaxCount_": "3",
+    "pickMinCount_": "0",
+    "searchItemMaxCount_": "1",
+    "searchItemMinCount_": "0",
+    "archiveMaxCount_": "1",
+    "archiveMinCount_": "0",
+    "multiQuestCoinMaxCount_": "1",
+    "multiQuestCoinMinCount_": "0"
+  },
+  "exPlacementFilesInfo_": {
+    "suffix_": []
+  },
+  "startEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "endEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "isConsumeAppend_": "true",
+  "consumeCounts_": [
+    "-1",
+    "-1",
+    "-1",
+    "-1"
+  ],
+  "clearTimeMax_": "0",
+  "clearTimeMin_": "0",
+  "resetTownTreasureType_": "0",
+  "specialRegulationInfo_": [],
+  "actionDropRewardList_": [
+    {
+      "rewardLabel_": "RW_301013_00_00",
+      "rewardLabel_": "RW_301013_00_01",
+      "rewardLabel_": "RW_301013_00_02",
+      "rewardLabel_": "RW_301013_00_03",
+      "rewardLabel_": "RW_301013_00_04"
+    }
+  ],
+  "preLoadQuestFSMFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": [
+          "system/FSM/np0100/np0100_301013_discovery_fsm_ingame.yml"
+        ]
+      }
+    }
+  ],
+  "preLoadVoiceEventFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": [
+          "VT_MS43_0510",
+          "VT_MS43_0540",
+          "VT_MS43_0560",
+          "VT_MS43_0580",
+          "VT_MS43_0590",
+          "VT_MS43_0610",
+          "VT_MS43_0630",
+          "VT_MS43_0570",
+          "VT_MS43_0620"
+        ]
+      }
+    }
+  ],
+  "overrideAttribute_": "0",
+  "isBroadcastVersion_": "false"
+}

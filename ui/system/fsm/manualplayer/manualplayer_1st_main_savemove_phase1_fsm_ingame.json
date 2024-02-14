@@ -1,0 +1,186 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1534813628,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1534813628,
+    "fromNodeGuid_": 849959324,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 216676640,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 48594934,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 216676640,
+    "fromNodeGuid_": 1920030849,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1920030849,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 807534217,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 591084439
+      }
+    ],
+    "toNodeGuid_": 1920030849,
+    "fromNodeGuid_": 103467738,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 849959324,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2109089188
+      }
+    ],
+    "toNodeGuid_": 849959324,
+    "fromNodeGuid_": 216676640,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "AIMovePassAction": {
+    "guid_": 659344435,
+    "parentGuid_": 1476332546,
+    "params_": [
+      {
+        "Element": {
+          "pos_": [
+            93.79,
+            5.29,
+            107,
+            1
+          ],
+          "pointNum_": 5,
+          "useNavMesh_": true,
+          "useDash_": false
+        }
+      }
+    ],
+    "speedRate_": 0.8
+  },
+  "AIMovePassAction": {
+    "guid_": 1748226364,
+    "parentGuid_": 849959324,
+    "params_": [
+      {
+        "Element": {
+          "pos_": [
+            93.79,
+            5.29,
+            107,
+            1
+          ],
+          "pointNum_": 5,
+          "useNavMesh_": true,
+          "useDash_": false
+        }
+      }
+    ],
+    "speedRate_": 0.8
+  },
+  "TimerAction": {
+    "guid_": 433280835,
+    "parentGuid_": 1920030849,
+    "waitTimeSeconds_": 2,
+    "randomSeconds_": 0
+  },
+  "ActionEndCondition": {
+    "guid_": 591084439,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "BehaviorBeginActingAction": {
+    "guid_": 1777398527,
+    "parentGuid_": 216676640,
+    "animationId_": "0001",
+    "isAnimEnd_": false,
+    "loop_": false,
+    "forceEndByBB_": false,
+    "resetForceEndByBBAtEnd_": true,
+    "roundFrame_": false,
+    "startFrame_": -1,
+    "interFrame_": -1,
+    "secondOfCorrectAnimationSpeed_": 0,
+    "speedRate_": 1,
+    "animationSlotNo_": 0,
+    "isCorrectTransform_": true,
+    "correctElement_": 2,
+    "targetPosition_": [
+      93.09123,
+      6.401948,
+      102.9123,
+      1
+    ],
+    "targetRotation_": [
+      0,
+      0.9936572,
+      0,
+      1
+    ],
+    "correctTransformSecond_": 0.1,
+    "easingType_": 0,
+    "isEnableCameraAnimation_": false,
+    "cameraAnimationUsageSecond_": 0
+  },
+  "ActionEndCondition": {
+    "guid_": 2109089188,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  }
+}

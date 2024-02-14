@@ -1,0 +1,192 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 290866454,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 290866454,
+    "fromNodeGuid_": 2054274277,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2054274277,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1709169841
+      }
+    ],
+    "toNodeGuid_": 2054274277,
+    "fromNodeGuid_": 2070657896,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2070657896,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1878059474
+      }
+    ],
+    "toNodeGuid_": 2070657896,
+    "fromNodeGuid_": 2054274277,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CheckTimer": {
+    "guid_": 1797259026,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 0,
+    "progressIndex_": 12,
+    "progressHash_": 14140136161368949923,
+    "isNoCheckSkip_": false,
+    "timerId_": 4,
+    "time_": 30
+  },
+  "CheckTimer": {
+    "guid_": 1434783465,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 0,
+    "progressIndex_": 12,
+    "progressHash_": 14140136161368949923,
+    "isNoCheckSkip_": false,
+    "timerId_": 4,
+    "time_": 30
+  },
+  "RecvSignal": {
+    "guid_": 1878059474,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 0,
+    "progressIndex_": 12,
+    "progressHash_": 14140136161368949923,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 6101886838061440077
+      },
+      {
+        "Element": 16312746330450916478
+      }
+    ],
+    "resetOnStart_": true
+  },
+  "RecvSignal": {
+    "guid_": 1709169841,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 0,
+    "progressIndex_": 12,
+    "progressHash_": 14140136161368949923,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 6101886838061440077
+      },
+      {
+        "Element": 4419462289609610322
+      }
+    ],
+    "resetOnStart_": true
+  },
+  "RemindVoice": {
+    "guid_": 1433954524,
+    "parentGuid_": 2054274277,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 0,
+    "progressIndex_": 12,
+    "progressHash_": 14140136161368949923,
+    "enableAtBattle_": true,
+    "zoneObjectId_": 0,
+    "zoneRootId_": 0,
+    "voiceHashes_": [
+      {
+        "Element": 525732102
+      },
+      {
+        "Element": 674375006
+      },
+      {
+        "Element": 2289754288
+      }
+    ],
+    "voiceNames_": [
+      {
+        "Element": "VT_MS01_0230"
+      },
+      {
+        "Element": "VT_MS01_0235"
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "intervals_": [
+      {
+        "Element": 15
+      },
+      {
+        "Element": 30
+      }
+    ]
+  }
+}

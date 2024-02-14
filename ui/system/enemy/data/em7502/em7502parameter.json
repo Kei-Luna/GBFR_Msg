@@ -1,0 +1,532 @@
+{
+  "Em7502Param": {
+    "hp_": "100000",
+    "atk_": "100",
+    "break_": "75",
+    "def_": "1",
+    "endurance_": "0",
+    "exp_": "0",
+    "hitSEMaxBreak_": "4",
+    "hitSEMinBreak_": "0",
+    "hpCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "atkCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "defCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "expCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "hateRateClosePlayer_": "0",
+    "hateRateFarPlayer_": "0",
+    "hateRateFrontAngle_": "0",
+    "hateRateBackAngle_": "0",
+    "hateRateDamage_": "0",
+    "hateRateManualPlayer_": "0",
+    "hateRateHighHpPlayer_": "0",
+    "hateRateLowHpPlayer_": "0",
+    "hateRateTargetCountManyPlayer_": "0",
+    "hateRateTargetCountFewPlayer_": "0",
+    "hateRateHelpPlayer_": "0",
+    "hateRateLastTargetPlayer_": "0",
+    "hateRateFirstTargetPlayer_": "0",
+    "hateUpdateTime_": "10",
+    "damageToHateRate_": "0.02",
+    "damageHateDecPerSec_": "2",
+    "combatPower_": "1",
+    "itemRewordMoneyVal_": "0",
+    "itemRewordJumpRate_": "0.5",
+    "battle2SearchLength_": "10000",
+    "search2battleLength_": "1000",
+    "enemySize_": "0",
+    "targetRangeParam_": {
+      "rangeClose_": "-1",
+      "rangeShort_": "-1",
+      "rangeMiddle_": "-1",
+      "rangeLong_": "-1"
+    },
+    "counterAttackParam_": {
+      "damageMaxValue_": "0",
+      "damageMinValue_": "0",
+      "reduceDamageValueInSec_": "0",
+      "stopReduceTime_": "0",
+      "coolTime_": "0",
+      "onceCheckCounterAttack_": "false"
+    },
+    "linkParam_": {
+      "linkMaxValue_": "100",
+      "linkResetTime_": "0.75",
+      "linkResetRate_": "20",
+      "linkMultiBonus_": "1.5",
+      "linkCoolTime_": "7",
+      "linkPartsNumber_": "5"
+    },
+    "lockOnParam_": {
+      "partsNumbers_": [
+        {
+          "Element": "6"
+        }
+      ]
+    },
+    "collisionParam_": {
+      "offset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "lineEndOffset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "partsNumber_": "0",
+      "capsuleEndPartsNumber_": "-1",
+      "radius_": "1"
+    },
+    "animInterDefaultSec_": "0.1",
+    "damageAnimInterDefaultSec_": "0.1",
+    "uiPartsNo_": "5",
+    "uiOffsetY_": "0.6",
+    "basicHitStopTimeRate_": "1",
+    "damageReactionHitStopTimeRate_": "1",
+    "superArmorHitStopTimeRate_": "0.5",
+    "overDriveParam_": {
+      "hpRateNormal_": "0.1",
+      "hpRateOverDrive_": "0.1",
+      "hpRateBreak_": "0.025",
+      "forceBreakSecond_": "20",
+      "overDriveVyrnVoiceWaitSecond_": "0",
+      "overDriveCameraPartsNumber_": "0"
+    },
+    "emissiveParamDefault_": {
+      "sinMode_": "true",
+      "emissiveBlinkSecond_": "2",
+      "emissiveBlinkPow_": "1",
+      "emissiveBlinkMaxSecond_": "1",
+      "emissiveStrengthUpper_": "1",
+      "emissiveStrengthLower_": "0"
+    },
+    "emissiveParamMax_": {
+      "sinMode_": "true",
+      "emissiveBlinkSecond_": "2",
+      "emissiveBlinkPow_": "1",
+      "emissiveBlinkMaxSecond_": "1",
+      "emissiveStrengthUpper_": "1",
+      "emissiveStrengthLower_": "0"
+    },
+    "emissiveParamMin_": {
+      "sinMode_": "true",
+      "emissiveBlinkSecond_": "2",
+      "emissiveBlinkPow_": "1",
+      "emissiveBlinkMaxSecond_": "1",
+      "emissiveStrengthUpper_": "1",
+      "emissiveStrengthLower_": "0"
+    },
+    "cameraLength_": "1",
+    "odHitStopTimeRate_": "0",
+    "breakHitStopTimeRate_": "1",
+    "phaseParam_": [
+      {
+        "Element": {
+          "changeHpRate_": "85"
+        }
+      },
+      {
+        "Element": {
+          "changeHpRate_": "70"
+        }
+      },
+      {
+        "Element": {
+          "changeHpRate_": "55"
+        }
+      },
+      {
+        "Element": {
+          "changeHpRate_": "40"
+        }
+      }
+    ],
+    "wingHandCommandSetParamList_": [
+      {
+        "Element": {
+          "name_": "光弾一斉攻撃",
+          "commandList_": [
+            {
+              "Element": {
+                "actionName_": "",
+                "delayTime_": "0",
+                "addMultiDelayTime_": "0",
+                "maxJoinWingHand_": "4",
+                "minJoinWingHand_": "0",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "0",
+                "actionPriority_": "1",
+                "overrideSamePriority_": "false"
+              }
+            },
+            {
+              "Element": {
+                "actionName_": "",
+                "delayTime_": "0.4",
+                "addMultiDelayTime_": "0",
+                "maxJoinWingHand_": "4",
+                "minJoinWingHand_": "0",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "0",
+                "actionPriority_": "1",
+                "overrideSamePriority_": "false"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "name_": "4連携攻撃",
+          "commandList_": [
+            {
+              "Element": {
+                "actionName_": "",
+                "delayTime_": "3",
+                "addMultiDelayTime_": "0",
+                "maxJoinWingHand_": "4",
+                "minJoinWingHand_": "4",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "0",
+                "actionPriority_": "3",
+                "overrideSamePriority_": "true"
+              }
+            },
+            {
+              "Element": {
+                "actionName_": "",
+                "delayTime_": "0.2",
+                "addMultiDelayTime_": "0",
+                "maxJoinWingHand_": "1",
+                "minJoinWingHand_": "0",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "0",
+                "actionPriority_": "3",
+                "overrideSamePriority_": "true"
+              }
+            },
+            {
+              "Element": {
+                "actionName_": "",
+                "delayTime_": "0.8",
+                "addMultiDelayTime_": "0",
+                "maxJoinWingHand_": "1",
+                "minJoinWingHand_": "0",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "0",
+                "actionPriority_": "3",
+                "overrideSamePriority_": "true"
+              }
+            },
+            {
+              "Element": {
+                "actionName_": "",
+                "delayTime_": "1.5",
+                "addMultiDelayTime_": "0",
+                "maxJoinWingHand_": "1",
+                "minJoinWingHand_": "0",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "0",
+                "actionPriority_": "3",
+                "overrideSamePriority_": "true"
+              }
+            },
+            {
+              "Element": {
+                "actionName_": "",
+                "delayTime_": "2.2",
+                "addMultiDelayTime_": "0",
+                "maxJoinWingHand_": "1",
+                "minJoinWingHand_": "0",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "0",
+                "actionPriority_": "3",
+                "overrideSamePriority_": "true"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "name_": "一斉結晶",
+          "commandList_": [
+            {
+              "Element": {
+                "actionName_": "",
+                "delayTime_": "0",
+                "addMultiDelayTime_": "0",
+                "maxJoinWingHand_": "8",
+                "minJoinWingHand_": "8",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "0",
+                "actionPriority_": "1",
+                "overrideSamePriority_": "false"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "name_": "一本結晶",
+          "commandList_": [
+            {
+              "Element": {
+                "actionName_": "",
+                "delayTime_": "0",
+                "addMultiDelayTime_": "0",
+                "maxJoinWingHand_": "1",
+                "minJoinWingHand_": "1",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "0",
+                "actionPriority_": "1",
+                "overrideSamePriority_": "false"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "name_": "単体光弾",
+          "commandList_": [
+            {
+              "Element": {
+                "actionName_": "",
+                "delayTime_": "0",
+                "addMultiDelayTime_": "0",
+                "maxJoinWingHand_": "1",
+                "minJoinWingHand_": "1",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "0",
+                "actionPriority_": "1",
+                "overrideSamePriority_": "false"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "name_": "乱射結晶",
+          "commandList_": [
+            {
+              "Element": {
+                "actionName_": "",
+                "delayTime_": "0",
+                "addMultiDelayTime_": "0",
+                "maxJoinWingHand_": "4",
+                "minJoinWingHand_": "4",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "3",
+                "actionPriority_": "3",
+                "overrideSamePriority_": "false"
+              }
+            },
+            {
+              "Element": {
+                "actionName_": "",
+                "delayTime_": "0",
+                "addMultiDelayTime_": "0",
+                "maxJoinWingHand_": "1",
+                "minJoinWingHand_": "0",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "0",
+                "actionPriority_": "3",
+                "overrideSamePriority_": "false"
+              }
+            },
+            {
+              "Element": {
+                "actionName_": "",
+                "delayTime_": "1",
+                "addMultiDelayTime_": "0",
+                "maxJoinWingHand_": "1",
+                "minJoinWingHand_": "0",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "0",
+                "actionPriority_": "3",
+                "overrideSamePriority_": "false"
+              }
+            },
+            {
+              "Element": {
+                "actionName_": "",
+                "delayTime_": "2",
+                "addMultiDelayTime_": "0",
+                "maxJoinWingHand_": "1",
+                "minJoinWingHand_": "0",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "0",
+                "actionPriority_": "3",
+                "overrideSamePriority_": "false"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "name_": "連続叩きつけ",
+          "commandList_": [
+            {
+              "Element": {
+                "actionName_": "HandAttack",
+                "delayTime_": "0",
+                "addMultiDelayTime_": "0.7",
+                "maxJoinWingHand_": "4",
+                "minJoinWingHand_": "1",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "0",
+                "actionPriority_": "1",
+                "overrideSamePriority_": "false"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "name_": "全員待機",
+          "commandList_": [
+            {
+              "Element": {
+                "actionName_": "ForceWait",
+                "delayTime_": "0",
+                "addMultiDelayTime_": "0",
+                "maxJoinWingHand_": "10",
+                "minJoinWingHand_": "0",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "0",
+                "actionPriority_": "1",
+                "overrideSamePriority_": "true"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "name_": "直進突進",
+          "commandList_": [
+            {
+              "Element": {
+                "actionName_": "StraightTackle",
+                "delayTime_": "0",
+                "addMultiDelayTime_": "0",
+                "maxJoinWingHand_": "10",
+                "minJoinWingHand_": "1",
+                "dimensionFilterType_": "0",
+                "targetType_": "0",
+                "selectPriorityType_": "0",
+                "actionPriority_": "1",
+                "overrideSamePriority_": "false"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "wingHandWedgeRepairCommandSetParam_": {
+      "name_": "新規命令セット",
+      "commandList_": [
+        {
+          "Element": {
+            "actionName_": "RepairWedge",
+            "delayTime_": "10",
+            "addMultiDelayTime_": "0",
+            "maxJoinWingHand_": "1",
+            "minJoinWingHand_": "1",
+            "dimensionFilterType_": "0",
+            "targetType_": "0",
+            "selectPriorityType_": "0",
+            "actionPriority_": "1",
+            "overrideSamePriority_": "false"
+          }
+        }
+      ]
+    },
+    "wingHandWedgePowerUpCommandSetParam_": {
+      "name_": "新規命令セット",
+      "commandList_": [
+        {
+          "Element": {
+            "actionName_": "PowerUpWedge",
+            "delayTime_": "0",
+            "addMultiDelayTime_": "0",
+            "maxJoinWingHand_": "3",
+            "minJoinWingHand_": "3",
+            "dimensionFilterType_": "0",
+            "targetType_": "0",
+            "selectPriorityType_": "0",
+            "actionPriority_": "1",
+            "overrideSamePriority_": "false"
+          }
+        }
+      ]
+    },
+    "repairWedgeTime_": "15",
+    "powerUpDebrisWedge_": "false",
+    "powerUpNormalWedge_": "true",
+    "deadWingDamageRate_": "0.051",
+    "dimensionDeviceParam_": {
+      "hp_": "2000",
+      "deathSwarpRadius_": "8.8",
+      "lightPillerRadius_": "8.8",
+      "lightPillerHeight_": "20",
+      "repairTime_": "1",
+      "lightPillerAttackTime_": "0.5",
+      "deathSwarpDamage_": "100",
+      "deathSwarpHitIntervalTime_": "0.5",
+      "lightPillerDamage_": "100",
+      "changeNormalDimensionCoolTime_": "8",
+      "changeDimensionCoolTime_": "15",
+      "shotDamage_": "200",
+      "shotWaitTime_": "3",
+      "shotCallTime_": "3.5"
+    },
+    "lightStunStopCommandTime_": "12",
+    "dimensionChangeStopCommandTime_": "3",
+    "damageBreakStopCommandTime_": "12"
+  }
+}

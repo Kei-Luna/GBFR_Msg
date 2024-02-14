@@ -1,0 +1,276 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1203013081,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1203013081,
+    "fromNodeGuid_": 1098536273,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1098536273,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1250372872
+      }
+    ],
+    "toNodeGuid_": 1098536273,
+    "fromNodeGuid_": 1180653077,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 892336108
+      }
+    ],
+    "toNodeGuid_": 1098536273,
+    "fromNodeGuid_": 1704837683,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1575940021,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1933787804
+      }
+    ],
+    "toNodeGuid_": 1575940021,
+    "fromNodeGuid_": 524885923,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1180653077,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1430877473,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 506068615
+      }
+    ],
+    "toNodeGuid_": 1180653077,
+    "fromNodeGuid_": 1575940021,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2056881944
+      }
+    ],
+    "toNodeGuid_": 1180653077,
+    "fromNodeGuid_": 1704837683,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1704837683,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 524885923,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CheckTimer": {
+    "guid_": 1250372872,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 6,
+    "progressHash_": 12404249248506035685,
+    "isNoCheckSkip_": false,
+    "timerId_": 4,
+    "time_": 10
+  },
+  "StartTimer": {
+    "guid_": 545851678,
+    "parentGuid_": 1098536273,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 6,
+    "progressHash_": 12404249248506035685,
+    "timerId_": 4
+  },
+  "RecvSignal": {
+    "guid_": 506068615,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 6,
+    "progressHash_": 12404249248506035685,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 1773527808519970869
+      }
+    ],
+    "resetOnStart_": true
+  },
+  "RecvSignal": {
+    "guid_": 2056881944,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 6,
+    "progressHash_": 12404249248506035685,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 5002350058460754358
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "RecvSignal": {
+    "guid_": 892336108,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 6,
+    "progressHash_": 12404249248506035685,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 5002350058460754358
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "CallTalkEvent": {
+    "guid_": 1581937330,
+    "parentGuid_": 524885923,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 6,
+    "progressHash_": 12404249248506035685,
+    "groupID_": "VT_MS47_0070",
+    "delay_": 0
+  },
+  "StartTimer": {
+    "guid_": 1340607195,
+    "parentGuid_": 1575940021,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 6,
+    "progressHash_": 12404249248506035685,
+    "timerId_": 4
+  },
+  "CheckTimer": {
+    "guid_": 1933787804,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 23,
+    "progressIndex_": 6,
+    "progressHash_": 12404249248506035685,
+    "isNoCheckSkip_": false,
+    "timerId_": 4,
+    "time_": 2
+  }
+}

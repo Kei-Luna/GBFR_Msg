@@ -1,0 +1,86 @@
+{
+  "className": "ui",
+  "fsmName": "network_error_check",
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 236491920,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 2023849036,
+    "isBranch_": true,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 364639602
+      },
+      {
+        "Element": 2077391573
+      }
+    ],
+    "toNodeGuid_": 236491920,
+    "fromNodeGuid_": 5854271,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 236491920,
+    "fromNodeGuid_": 1528514397,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {
+    "Transition": {
+      "conditionGuid_": 0,
+      "conditionGuids_": [
+        {
+          "Element": 1937867017
+        }
+      ],
+      "toNodeGuid_": 732203709,
+      "fromNodeGuid_": 236491920,
+      "isEndTransition_": false,
+      "isFailedTransition_": false,
+      "params_": []
+    }
+  },
+  "EnableBaseTransition": {
+    "EnableFalseTransition": {
+      "ToGuid": 732203709,
+      "FromGuid": 919556239
+    }
+  },
+  "EnableBaseAllTransition": {},
+  "IsTitle": {
+    "guid_": 1937867017,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true
+  },
+  "IsJoinedLobbyOnError": {
+    "guid_": 364639602,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false
+  },
+  "IsRunningQuickMatch": {
+    "guid_": 2077391573,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true
+  }
+}

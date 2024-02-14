@@ -1,0 +1,244 @@
+{
+  "FSMNode": {
+    "guid_": 670454192,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "toNodeGuid_": 670454192,
+    "fromNodeGuid_": 798788545,
+    "isEndTransition_": false
+  },
+  "FSMNode": {
+    "guid_": 798788545,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "toNodeGuid_": 798788545,
+    "fromNodeGuid_": 140966635,
+    "isEndTransition_": false
+  },
+  "FSMNode": {
+    "guid_": 140966635,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 1480062438,
+    "toNodeGuid_": 140966635,
+    "fromNodeGuid_": 1496628986,
+    "isEndTransition_": false
+  },
+  "Transition": {
+    "conditionGuid_": 1636123939,
+    "toNodeGuid_": 140966635,
+    "fromNodeGuid_": 1628710811,
+    "isEndTransition_": false
+  },
+  "FSMNode": {
+    "guid_": 1628710811,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "FSMNode": {
+    "guid_": 1496628986,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 1097194392,
+    "toNodeGuid_": 1496628986,
+    "fromNodeGuid_": 1628710811,
+    "isEndTransition_": false
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 1551231445,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [],
+    "isSuccessAny_": true
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 969025423,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [],
+    "isSuccessAny_": true
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 113880834,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [],
+    "isSuccessAny_": true
+  },
+  "ShotPosAction": {
+    "guid_": 2018390944,
+    "parentGuid_": 798788545,
+    "offset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "degreeX_": 0,
+    "degreeY_": 180,
+    "scale_": 1,
+    "partsNo_": -1
+  },
+  "ShotVfxAction": {
+    "guid_": 2075513318,
+    "parentGuid_": 798788545,
+    "effectObjId_": 8126464,
+    "effectId_": 358,
+    "seName_": "",
+    "isHitEffect_": false
+  },
+  "ShotAttackAction": {
+    "guid_": 176104851,
+    "parentGuid_": 798788545,
+    "offset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "size_": [
+      0.4,
+      1,
+      1,
+      1
+    ],
+    "degreeX_": 0,
+    "degreeY_": 0,
+    "shape_": 0,
+    "direction_": 0,
+    "target_": 3,
+    "globalType_": 1,
+    "type_": 5,
+    "reaction_": 0,
+    "hitFlag_": 0,
+    "element_": 0,
+    "badStatus_": 0,
+    "attackRate_": 1,
+    "breakRate_": 1,
+    "hitStopSecond_": 0,
+    "lifeSecond_": 0,
+    "multiHitIntervalSecond_": 0,
+    "isHitOnce_": true
+  },
+  "ShotBgLayAction": {
+    "guid_": 371193700,
+    "parentGuid_": 798788545,
+    "offset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "degreeX_": 0,
+    "degreeY_": 0,
+    "hitType_": 0,
+    "isHitAttackOff_": true
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 1003178671,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 0,
+          "isEnable_": false
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 1480062438,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 8,
+          "isEnable_": true
+        }
+      },
+      {
+        "Element": {
+          "statusFlag_": 12,
+          "isEnable_": true
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 645359296,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [],
+    "isSuccessAny_": true
+  },
+  "ShotVfxAction": {
+    "guid_": 2008332665,
+    "parentGuid_": 1496628986,
+    "effectObjId_": -1,
+    "effectId_": 2060,
+    "seName_": "",
+    "isHitEffect_": true
+  },
+  "ShotTerminateAction": {
+    "guid_": 389133747,
+    "parentGuid_": 1628710811
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 1097194392,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 14,
+          "isEnable_": false
+        }
+      }
+    ],
+    "isSuccessAny_": false
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 386977338,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [],
+    "isSuccessAny_": true
+  },
+  "ShotMoveStraightAction": {
+    "guid_": 71674258,
+    "parentGuid_": 140966635,
+    "velocityBegin_": 60,
+    "velocityEnd_": -1,
+    "moveSecondMax_": 120,
+    "gravityScale_": 0,
+    "isRotateFall_": false
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 1636123939,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 0,
+          "isEnable_": false
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 667200683,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 667200683,
+    "fromNodeGuid_": 1642904613,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1642904613,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1002354469,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 950652619
+      }
+    ],
+    "toNodeGuid_": 1642904613,
+    "fromNodeGuid_": 797996390,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2061858919
+      }
+    ],
+    "toNodeGuid_": 1642904613,
+    "fromNodeGuid_": 1123774190,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1123774190,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1985943349,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "FSMNode": {
+    "guid_": 797996390,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 959940483,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CallBgm": {
+    "guid_": 1459665371,
+    "parentGuid_": 1123774190,
+    "category_": 4,
+    "subcategory_": 1,
+    "index_": 774,
+    "progressIndex_": 2,
+    "progressHash_": 5807523421323801640,
+    "wwiseIdName_": "BGM_Bt_Battle1_B",
+    "useBgmSetType_": false,
+    "bgmSetType_": 0,
+    "skipWhileSectionJump_": false
+  },
+  "RecvSignal": {
+    "guid_": 2061858919,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 1,
+    "index_": 774,
+    "progressIndex_": 2,
+    "progressHash_": 5807523421323801640,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 4219476765017589273
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "RecvSignal": {
+    "guid_": 950652619,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 1,
+    "index_": 774,
+    "progressIndex_": 2,
+    "progressHash_": 5807523421323801640,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 17987503186092853414
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

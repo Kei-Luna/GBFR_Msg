@@ -1,0 +1,188 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 2060997608,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 2060997608,
+    "fromNodeGuid_": 476490895,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1075842391
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 2024056914,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 476490895,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 2024056914,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1727307123,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 188748765
+      }
+    ],
+    "toNodeGuid_": 2024056914,
+    "fromNodeGuid_": 2024056914,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SoundMotionCheckCondition": {
+    "guid_": 1075842391,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 1468120445,
+    "parentGuid_": 2024056914,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba2615_wood_m_break_l",
+          "delayTime_": 0,
+          "requestId_": 1468120445,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 7,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba2615_wood_m_break_l_c",
+          "delayTime_": 0,
+          "requestId_": 1468120445,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba2615_wood_l_break_parts_l_05",
+          "delayTime_": 0,
+          "requestId_": 1468120445,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba2615_wood_m_break_m_scaffold_e_01",
+          "delayTime_": 0,
+          "requestId_": 1468120445,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 18,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionNames_": [
+      {
+        "Element": "0010"
+      },
+      {
+        "Element": "0010"
+      },
+      {
+        "Element": "0010"
+      },
+      {
+        "Element": "0010"
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 188748765,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1221277819,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1221277819,
+    "fromNodeGuid_": 2015913110,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2015913110,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 758165715,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 2015913110,
+    "fromNodeGuid_": 171201008,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 171201008,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1943542944,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 253419250
+      }
+    ],
+    "toNodeGuid_": 171201008,
+    "fromNodeGuid_": 139480045,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 442801486,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1718907564,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1014233019
+      }
+    ],
+    "toNodeGuid_": 442801486,
+    "fromNodeGuid_": 1856473031,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1093498361
+      }
+    ],
+    "toNodeGuid_": 442801486,
+    "fromNodeGuid_": 2015913110,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 139480045,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1619835613,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 366971199
+      }
+    ],
+    "toNodeGuid_": 139480045,
+    "fromNodeGuid_": 442801486,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1271019925
+      }
+    ],
+    "toNodeGuid_": 139480045,
+    "fromNodeGuid_": 2015913110,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1856473031,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1619835613,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 339978829
+      },
+      {
+        "Element": 502831438
+      }
+    ],
+    "toNodeGuid_": 1856473031,
+    "fromNodeGuid_": 2015913110,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "DebugPrintAction": {
+    "guid_": 817820700,
+    "parentGuid_": 2015913110,
+    "saveString_": "Np0000 : 追従位置更新",
+    "logType_": 0,
+    "outputTiming_": 1,
+    "outputScreenPosition_": [
+      0,
+      0
+    ],
+    "outputPlace_": 0
+  },
+  "Np0000SetFollowPointAction": {
+    "guid_": 1876409645,
+    "parentGuid_": 2015913110
+  },
+  "AIMoveAction": {
+    "guid_": 1571833650,
+    "parentGuid_": 171201008,
+    "type_": 2,
+    "dist_": 2,
+    "useBlackBoardValue_": false,
+    "boolName_": "",
+    "isCheckCollision_": false,
+    "positionBBName_": "Np0000_EnemyFollowPoint",
+    "positionHashValue_": 1714072123,
+    "position_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "isSetPosition_": false,
+    "isSmoothPass_": false,
+    "smoothRate_": 1,
+    "sideLength_": 0,
+    "dashLength_": 99999.9,
+    "randomLength_": 0,
+    "randomChangeTime_": 3,
+    "randomChangeAddTime_": 5,
+    "minMoveTime_": 0
+  },
+  "AIBattleWaitAction": {
+    "guid_": 41466208,
+    "parentGuid_": 442801486,
+    "frontMoveTime_": 1,
+    "sideMoveTime_": 2.5,
+    "type_": 0,
+    "moveRandomTimeMin_": 0,
+    "moveRandomTimeMax_": 1,
+    "isUseJackMode_": false
+  },
+  "TimerAction": {
+    "guid_": 1336394181,
+    "parentGuid_": 139480045,
+    "waitTimeSeconds_": 1,
+    "randomSeconds_": 0.5
+  },
+  "ActionEndCondition": {
+    "guid_": 253419250,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "ActionEndCondition": {
+    "guid_": 366971199,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "TimerAction": {
+    "guid_": 818519904,
+    "parentGuid_": 1856473031,
+    "waitTimeSeconds_": 0.3,
+    "randomSeconds_": 0.1
+  },
+  "ActionEndCondition": {
+    "guid_": 339978829,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "ActionEndCondition": {
+    "guid_": 1014233019,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 502831438,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "Np0000_IsEscapeFromGunSight"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1271019925,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "Np0000_IsEscapeFromGunSight"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1093498361,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "Np0000_IsEscapeFromGunSight"
+  }
+}

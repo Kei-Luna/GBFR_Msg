@@ -1,0 +1,157 @@
+{
+  "className": "emcommon",
+  "fsmName": "strongdamage",
+  "layerNo": 0,
+  "layerNo": 2,
+  "layerNo": 9,
+  "layerNo": 10,
+  "layerNo": 11,
+  "FSMNode": {
+    "guid_": 1499493643,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 311929963,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 944122186
+      },
+      {
+        "Element": 1677597981
+      }
+    ],
+    "toNodeGuid_": 1499493643,
+    "fromNodeGuid_": 879945875,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1144702786
+      },
+      {
+        "Element": 456264364
+      }
+    ],
+    "toNodeGuid_": 1499493643,
+    "fromNodeGuid_": 941248786,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "layerNo": 4,
+  "layerNo": 15,
+  "layerNo": 12,
+  "layerNo": 13,
+  "layerNo": 14,
+  "addAllTransition": {
+    "EnableFalseTransition": 555998270,
+    "EnableFalseTransition": 79013811
+  },
+  "addTransition": {
+    "Transition": {
+      "conditionGuid_": 0,
+      "conditionGuids_": [
+        {
+          "Element": 903858110
+        }
+      ],
+      "toNodeGuid_": 2105842445,
+      "fromNodeGuid_": 1499493643,
+      "isEndTransition_": false,
+      "isFailedTransition_": false,
+      "params_": []
+    }
+  },
+  "EnableBaseTransition": {
+    "EnableFalseTransition": {
+      "ToGuid": 1604458887,
+      "FromGuid": 555998270
+    },
+    "EnableFalseTransition": {
+      "ToGuid": 1604458887,
+      "FromGuid": 79013811
+    },
+    "EnableFalseTransition": {
+      "ToGuid": 1136070953,
+      "FromGuid": 1019278544
+    },
+    "EnableFalseTransition": {
+      "ToGuid": 958908089,
+      "FromGuid": 879945875
+    },
+    "EnableFalseTransition": {
+      "ToGuid": 79013811,
+      "FromGuid": 79013811
+    },
+    "EnableFalseTransition": {
+      "ToGuid": 2105842445,
+      "FromGuid": 941248786
+    }
+  },
+  "EnableBaseAllTransition": {
+    "EnableFalseTransition": 555998270,
+    "EnableFalseTransition": 79013811
+  },
+  "EnableFalseComponent": 1081882243,
+  "EnableFalseComponent": 2090283735,
+  "EnableFalseComponent": 1324914930,
+  "EnableFalseComponent": 1114564300,
+  "BlackBoardIntCondition": {
+    "guid_": 1144702786,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "intName_": "Em_AppearType",
+    "value_": 3,
+    "operatorType_": 0
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 456264364,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "boolName_": "Em0103_DeathForDirected"
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 944122186,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "intName_": "Em_AppearType",
+    "value_": 3,
+    "operatorType_": 0
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1677597981,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "Em0103_DeathForDirected"
+  },
+  "EmDamageLandingCondition": {
+    "guid_": 903858110,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false
+  }
+}

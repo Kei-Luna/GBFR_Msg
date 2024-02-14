@@ -1,0 +1,87 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SequencerNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em2100ComboAction": {
+    "guid_": 141539550,
+    "parentGuid_": 4,
+    "homingAngle_": 4,
+    "comboInfo_": [
+      {
+        "Element": {
+          "motionName_": "1005",
+          "moveDist_": 1.61,
+          "attackDist_": 4
+        }
+      },
+      {
+        "Element": {
+          "motionName_": "1006",
+          "moveDist_": 0.055,
+          "attackDist_": 4
+        }
+      },
+      {
+        "Element": {
+          "motionName_": "1007",
+          "moveDist_": 1.2,
+          "attackDist_": 5
+        }
+      }
+    ],
+    "baseWeaponState_": 70
+  },
+  "Em2100ComboAction": {
+    "guid_": 1487255298,
+    "parentGuid_": 3,
+    "homingAngle_": 2,
+    "comboInfo_": [
+      {
+        "Element": {
+          "motionName_": "1000",
+          "moveDist_": 0,
+          "attackDist_": 5
+        }
+      },
+      {
+        "Element": {
+          "motionName_": "1001",
+          "moveDist_": 0,
+          "attackDist_": 4
+        }
+      }
+    ],
+    "baseWeaponState_": 76
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em2100",
+    "subTreeName_": "combo1"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 66899616,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 66899616,
+    "fromNodeGuid_": 1269532471,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1269532471,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 2075214099,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 549176582
+      }
+    ],
+    "toNodeGuid_": 1269532471,
+    "fromNodeGuid_": 1664585078,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1664585078,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 668053535,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1664585078,
+    "fromNodeGuid_": 19869043,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "AreaEffectAreaCallBackAction": {
+    "guid_": 2063721928,
+    "parentGuid_": 1269532471,
+    "target_": 0,
+    "deleySecond_": 0,
+    "lifeSecond_": 0.5,
+    "areaRadius_": 7.5,
+    "intervalSecond_": 0,
+    "isContinue_": false,
+    "functionIndex_": 0,
+    "isDebugDraw_": false
+  },
+  "AreaEffectTerminateAction": {
+    "guid_": 1887081688,
+    "parentGuid_": 1664585078
+  },
+  "AreaEffectStatusFlagCondition": {
+    "guid_": 549176582,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 6,
+          "isEnable_": true
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "AreaEffectHealAction": {
+    "guid_": 1341397058,
+    "parentGuid_": 1269532471,
+    "target_": 0,
+    "healAmount_": 0.125,
+    "deleySecond_": 0,
+    "lifeSecond_": 1,
+    "areaRadius_": 7.5,
+    "intervalSecond_": 0,
+    "isContinue_": false,
+    "disableAddIndirectDamage_": true,
+    "healLimit_": 8000
+  }
+}

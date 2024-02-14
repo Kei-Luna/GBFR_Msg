@@ -1,0 +1,201 @@
+{
+  "Pl0400Param": {
+    "hp_": "1000",
+    "atk_": "10",
+    "break_": "75",
+    "def_": "1",
+    "endurance_": "0",
+    "exp_": "0",
+    "hitSEMaxBreak_": "4",
+    "hitSEMinBreak_": "0",
+    "hpCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "atkCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "defCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "expCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "fsmParam_": {
+      "folderName_": [
+        {
+          "Element": "pl0400"
+        },
+        {
+          "Element": "pl0400"
+        },
+        {
+          "Element": "pl_base"
+        }
+      ],
+      "fsmName_": [
+        {
+          "Element": "snd_auto_unique_1"
+        },
+        {
+          "Element": "snd_auto_base_1"
+        },
+        {
+          "Element": "snd_auto_type_2"
+        }
+      ]
+    },
+    "maxLvHp_": "30000",
+    "maxLvAtk_": "240",
+    "maxLvDef_": "1.05",
+    "maxLvExp_": "300000",
+    "criticalBaseRate_": "0.09999999",
+    "baseBreakPower_": "10",
+    "limitDamageRate_": "9",
+    "limitSpecialArtsDamageRate_": "0.6",
+    "limitAbilityDamageRate_": "1.3",
+    "aiMoveNotargetDistance_": "22",
+    "damageLimitNormalAttack_": "9999",
+    "damageLimitNormalAttack2_": "39999",
+    "damageLimitSpecialAttack_": "29999",
+    "damageLimitAbility01_": "1",
+    "damageLimitAbility02_": "9999",
+    "damageLimitAbility03_": "69999",
+    "damageLimitAbility04_": "19999",
+    "damageLimitAbility05_": "54999",
+    "damageLimitAbility06_": "1",
+    "damageLimitAbility07_": "69999",
+    "damageLimitAbility08_": "1",
+    "damageLimitLinkAttack_": "16666",
+    "damageLimitSpecialArtsStart_": "99999",
+    "damageLimitSpecialArts_": "34999",
+    "eyeCtrlParam_": {
+      "eyeParamL_": {
+        "pupilLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "pupilLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "highlightLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "highlightLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "attenuateThresholdX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "attenuateThresholdY_": {
+          "min_": "-0.045",
+          "max_": "0.03"
+        }
+      },
+      "eyeParamR_": {
+        "pupilLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "pupilLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "highlightLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "highlightLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "attenuateThresholdX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "attenuateThresholdY_": {
+          "min_": "-0.045",
+          "max_": "0.03"
+        }
+      },
+      "attenuareHighlightRate_": [
+        "1",
+        "0.25"
+      ]
+    },
+    "fastCastAcceptSec_": "0.5",
+    "fastCastRate_": "0.6",
+    "fastCastKeepSec_": "0.25",
+    "targetMarkerScaleArray_": [
+      {
+        "Element": "3"
+      },
+      {
+        "Element": "4"
+      },
+      {
+        "Element": "4"
+      },
+      {
+        "Element": "5"
+      },
+      {
+        "Element": "7"
+      }
+    ],
+    "linkAtkParam_": [
+      {
+        "Element": {
+          "atkRad_": "1",
+          "atkRate_": "0.6",
+          "breakRate_": "0.5",
+          "spArtsRate_": "0",
+          "hitStop_": "0",
+          "startFrame_": "40",
+          "endFrame_": "65",
+          "hitClearFrame_": "5"
+        }
+      },
+      {
+        "Element": {
+          "atkRad_": "1.2",
+          "atkRate_": "1.8",
+          "breakRate_": "1",
+          "spArtsRate_": "5",
+          "hitStop_": "0",
+          "startFrame_": "70",
+          "endFrame_": "75",
+          "hitClearFrame_": "1000"
+        }
+      }
+    ],
+    "fireAreaTimer_": "10",
+    "fireAtkWaitTime_": "1",
+    "fireInnerCircleSize_": "4.5",
+    "fireOuterCircleSize_": "5.1",
+    "fireAreaHeight_": "1",
+    "fireAreaAtkInterval_": "1",
+    "tempCollisionSizeNormal_": "0.75",
+    "tempCollisionSizeBoss_": "1.5",
+    "stargazeLv1_DamageLimitRate_": "100",
+    "stargazeLv2_DamageLimitRate_": "200",
+    "stargazeLv3_DamageLimitRate_": "350",
+    "stargazeLv4_DamageLimitRate_": "600",
+    "stargazeLv5_DamageLimitRate_": "1000"
+  }
+}

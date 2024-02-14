@@ -1,0 +1,286 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 66899616,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 66899616,
+    "fromNodeGuid_": 1269532471,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1269532471,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": 1,
+    "nameHash_": 2075214099,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1527993913
+      },
+      {
+        "Element": 1981254289
+      }
+    ],
+    "toNodeGuid_": 1269532471,
+    "fromNodeGuid_": 1664585078,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 1664585078,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 668053535,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2087073841
+      }
+    ],
+    "toNodeGuid_": 1664585078,
+    "fromNodeGuid_": 715216921,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 715216921,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 2114012909,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 715216921,
+    "fromNodeGuid_": 19869043,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "layerNo": 1,
+  "FSMNode": {
+    "guid_": 191111412,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 191111412,
+    "fromNodeGuid_": 574894374,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 574894374,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 662296040
+      }
+    ],
+    "toNodeGuid_": 574894374,
+    "fromNodeGuid_": 419898845,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "AreaEffectSoundAction": {
+    "guid_": 637371014,
+    "parentGuid_": 1269532471,
+    "seName_": "pl0100_ab_miserablemist_lv4_c",
+    "isWorldPositionSet_": false
+  },
+  "AreaEffectVFXAction": {
+    "guid_": 903606169,
+    "parentGuid_": 1269532471,
+    "effectObjId_": 65792,
+    "effectId_": 5530,
+    "effectScale_": 1,
+    "isLoop_": true,
+    "isAreaIn_": false,
+    "isEffectWorldPos_": false,
+    "effectOffset_": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "AreaEffectFInishAction": {
+    "guid_": 681993199,
+    "parentGuid_": 1664585078
+  },
+  "AreaEffectStatusFlagCondition": {
+    "guid_": 1527993913,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 2,
+          "isEnable_": true
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "AreaEffectStatusFlagCondition": {
+    "guid_": 2087073841,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 2,
+          "isEnable_": true
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "AreaEffectTerminateAction": {
+    "guid_": 1289614243,
+    "parentGuid_": 715216921
+  },
+  "AreaEffectSoundAction": {
+    "guid_": 607530800,
+    "parentGuid_": 1664585078,
+    "seName_": "",
+    "isWorldPositionSet_": false
+  },
+  "AreaEffectAttackAction": {
+    "guid_": 421446305,
+    "parentGuid_": 1269532471,
+    "offset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "size_": [
+      7,
+      1,
+      1,
+      1
+    ],
+    "degreeX_": 0,
+    "degreeY_": 0,
+    "shape_": 0,
+    "direction_": 0,
+    "target_": 1,
+    "globalType_": 0,
+    "type_": 0,
+    "reaction_": 12,
+    "hitFlag_": 67108900,
+    "categoryFlag_": 0,
+    "element_": 0,
+    "attackRate_": 0,
+    "breakRate_": 0,
+    "spArtsRate_": 1,
+    "hitStopSecond_": 0,
+    "hitVibrationType_": 0,
+    "lifeSecond_": 1.1,
+    "multiHitIntervalSecond_": 0,
+    "deleySecond_": 0.2,
+    "isMultiHit_": false,
+    "debuffList_": [
+      {
+        "Element": {
+          "category": -1663854718,
+          "type": -769741355,
+          "sec": 30,
+          "rate": 25
+        }
+      },
+      {
+        "Element": {
+          "category": -1663854718,
+          "type": -406247659,
+          "sec": 30,
+          "rate": 25
+        }
+      }
+    ],
+    "isSwept_": false
+  },
+  "FSMUnderLayerEndCondition": {
+    "guid_": 1981254289,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false
+  },
+  "TimerAction": {
+    "guid_": 1409261067,
+    "parentGuid_": 574894374,
+    "waitTimeSeconds_": 5,
+    "randomSeconds_": 0
+  },
+  "ActionEndCondition": {
+    "guid_": 662296040,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  }
+}

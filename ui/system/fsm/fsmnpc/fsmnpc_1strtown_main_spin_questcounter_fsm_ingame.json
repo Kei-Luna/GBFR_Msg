@@ -1,0 +1,164 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 101668182,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 101668182,
+    "fromNodeGuid_": 1146662939,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1175867724,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 807534217,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1146662939,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1125802726
+      }
+    ],
+    "toNodeGuid_": 1146662939,
+    "fromNodeGuid_": 623381636,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 623381636,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 31695925,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 270869192
+      }
+    ],
+    "toNodeGuid_": 623381636,
+    "fromNodeGuid_": 1175867724,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "BehaviorBeginActingAction": {
+    "guid_": 192382630,
+    "parentGuid_": 1175867724,
+    "animationId_": "0001",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "forceEndByBB_": false,
+    "resetForceEndByBBAtEnd_": true,
+    "startFrame_": -1,
+    "interFrame_": -1,
+    "secondOfCorrectAnimationSpeed_": 0,
+    "speedRate_": 1,
+    "animationSlotNo_": 0,
+    "isCorrectTransform_": false,
+    "correctElement_": 2,
+    "targetPosition_": [
+      329.1393,
+      59.98802,
+      -16.1165,
+      2
+    ],
+    "targetRotation_": [
+      -7.761048E-06,
+      65,
+      -8.831417E-06,
+      1
+    ],
+    "correctTransformSecond_": 0.5,
+    "easingType_": 0,
+    "isEnableCameraAnimation_": false,
+    "cameraAnimationUsageSecond_": 0
+  },
+  "BehaviorBeginActingAction": {
+    "guid_": 936057253,
+    "parentGuid_": 623381636,
+    "animationId_": "e360",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "forceEndByBB_": false,
+    "resetForceEndByBBAtEnd_": true,
+    "startFrame_": -1,
+    "interFrame_": -1,
+    "secondOfCorrectAnimationSpeed_": 0,
+    "speedRate_": 1,
+    "animationSlotNo_": 0,
+    "isCorrectTransform_": false,
+    "correctElement_": 2,
+    "targetPosition_": [
+      329.1393,
+      59.98802,
+      -16.1165,
+      2
+    ],
+    "targetRotation_": [
+      -7.761048E-06,
+      65,
+      -8.831417E-06,
+      1
+    ],
+    "correctTransformSecond_": 0.5,
+    "easingType_": 0,
+    "isEnableCameraAnimation_": false,
+    "cameraAnimationUsageSecond_": 0
+  },
+  "ActionEndCondition": {
+    "guid_": 270869192,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "TimerAction": {
+    "guid_": 1548488361,
+    "parentGuid_": 1146662939,
+    "waitTimeSeconds_": 0.5,
+    "randomSeconds_": 0
+  },
+  "ActionEndCondition": {
+    "guid_": 1125802726,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  }
+}

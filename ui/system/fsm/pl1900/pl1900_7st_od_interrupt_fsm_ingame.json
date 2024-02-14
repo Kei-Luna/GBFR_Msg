@@ -1,0 +1,213 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 588633122,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 588633122,
+    "fromNodeGuid_": 2046576833,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2046576833,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1163381133
+      }
+    ],
+    "toNodeGuid_": 2046576833,
+    "fromNodeGuid_": 1319019356,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "BlackBoardBoolAction": {
+    "guid_": 4585902,
+    "parentGuid_": 1766325478,
+    "valueName_": "PlayerAI_SetBattleWaitMode",
+    "setTiming_": 0,
+    "value_": true
+  },
+  "ActionEndCondition": {
+    "guid_": 1163381133,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "AIMovePassAction": {
+    "guid_": 1969228498,
+    "parentGuid_": 595359580,
+    "params_": [
+      {
+        "Element": {
+          "pos_": [
+            191,
+            69.35,
+            326.36,
+            1
+          ],
+          "pointNum_": 5,
+          "useNavMesh_": false,
+          "useDash_": false
+        }
+      }
+    ],
+    "speedRate_": 1
+  },
+  "TimerAction": {
+    "guid_": 513912201,
+    "parentGuid_": 198577207,
+    "waitTimeSeconds_": 0.5,
+    "randomSeconds_": 0
+  },
+  "EmMotionPlayAction": {
+    "guid_": 1689817271,
+    "parentGuid_": 750255409,
+    "motionIdName_": "3410",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0,
+    "useTurnDir_": false,
+    "turnRate_": 0.3,
+    "turnMaxAngle_": 0.5235988,
+    "turnOffsetAngle_": 0,
+    "attackHomingFlagOnly_": false,
+    "endSec_": -1,
+    "isChangeSequenceLayer_": true,
+    "sequenceLayer_": 65536
+  },
+  "TimerAction": {
+    "guid_": 2037175563,
+    "parentGuid_": 1589219277,
+    "waitTimeSeconds_": 1,
+    "randomSeconds_": 0
+  },
+  "AIBattleDistanceCondition": {
+    "guid_": 734603208,
+    "parentGuid_": 0,
+    "isReverseSuccess_": true,
+    "distance_": 7.5,
+    "type_": 1,
+    "useBlackBoardValue_": false,
+    "boolName_": ""
+  },
+  "AIBattleDistanceCondition": {
+    "guid_": 1092848043,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "distance_": 7.5,
+    "type_": 1,
+    "useBlackBoardValue_": false,
+    "boolName_": ""
+  },
+  "AIBattleDistanceCondition": {
+    "guid_": 569805416,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "distance_": 7.5,
+    "type_": 1,
+    "useBlackBoardValue_": false,
+    "boolName_": ""
+  },
+  "ActionEndCondition": {
+    "guid_": 1983321508,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "AIBattleDistanceCondition": {
+    "guid_": 1521676120,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "distance_": 7.5,
+    "type_": 1,
+    "useBlackBoardValue_": false,
+    "boolName_": ""
+  },
+  "ActionEndCondition": {
+    "guid_": 954481014,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "Em7201EventMotionPlayAction": {
+    "guid_": 606513761,
+    "parentGuid_": 2046576833,
+    "motionIdName_": "3410",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0,
+    "useTurnDir_": true,
+    "turnRate_": 0.3,
+    "turnMaxAngle_": 0.5235988,
+    "turnOffsetAngle_": 0,
+    "attackHomingFlagOnly_": false,
+    "endSec_": -1,
+    "isChangeSequenceLayer_": true,
+    "sequenceLayer_": 65536,
+    "isUseCutin_": true,
+    "useCutinTime_": 3,
+    "useEndInterTime_": 0.5,
+    "isCallSoundOnEnd_": true,
+    "soundEventName_": "em7211_cut_odblock_end"
+  },
+  "TimerAction": {
+    "guid_": 1458469042,
+    "parentGuid_": 2046576833,
+    "waitTimeSeconds_": 4,
+    "randomSeconds_": 0
+  }
+}

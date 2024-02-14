@@ -1,0 +1,70 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "RandomSelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "childNodeRatio0_": 0,
+      "childNodeRatio1_": 0,
+      "childNodeRatio2_": 0,
+      "childNodeRatio3_": 0,
+      "childNodeRatio4_": 0,
+      "childNodeRatio5_": 0,
+      "childNodeRatio6_": 0,
+      "childNodeRatio7_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": true
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": true
+    }
+  },
+  "Em7100FireBallAction": {
+    "guid_": 184127427,
+    "parentGuid_": 3,
+    "repeatCount_": 0,
+    "startSec_": 0
+  },
+  "Em7100FireBallAction": {
+    "guid_": 235134910,
+    "parentGuid_": 4,
+    "repeatCount_": 2,
+    "startSec_": 0
+  },
+  "TimerAction": {
+    "guid_": 1424202037,
+    "parentGuid_": 3,
+    "waitTimeSeconds_": 4,
+    "randomSeconds_": 0
+  },
+  "TimerAction": {
+    "guid_": 1294339715,
+    "parentGuid_": 4,
+    "waitTimeSeconds_": 6,
+    "randomSeconds_": 0
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em7100",
+    "subTreeName_": "fireball_attack"
+  }
+}

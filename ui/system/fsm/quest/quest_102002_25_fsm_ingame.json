@@ -1,0 +1,120 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 384075939,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 384075939,
+    "fromNodeGuid_": 1788057308,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1788057308,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1558353010,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2137820316
+      }
+    ],
+    "toNodeGuid_": 1788057308,
+    "fromNodeGuid_": 316069321,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 316069321,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 927301995,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 316069321,
+    "fromNodeGuid_": 1108325258,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1108325258,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "StartTimer": {
+    "guid_": 1101017170,
+    "parentGuid_": 1788057308,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 2,
+    "progressIndex_": 37,
+    "progressHash_": 3890445956840706384,
+    "timerId_": 5
+  },
+  "CheckTimer": {
+    "guid_": 2137820316,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 2,
+    "progressIndex_": 37,
+    "progressHash_": 3890445956840706384,
+    "isNoCheckSkip_": false,
+    "timerId_": 5,
+    "time_": 3
+  },
+  "CallSe": {
+    "guid_": 931491385,
+    "parentGuid_": 316069321,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 2,
+    "progressIndex_": 37,
+    "progressHash_": 3890445956840706384,
+    "wwiseIdName_": "EM1000_vo_DUO_battle_cry",
+    "changeState_": false,
+    "wwiseStateName_": "",
+    "enablePos_": false,
+    "pos_": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

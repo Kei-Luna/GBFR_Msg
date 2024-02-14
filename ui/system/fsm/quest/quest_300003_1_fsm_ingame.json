@@ -1,0 +1,130 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 843431565,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 273660719
+      },
+      {
+        "Element": 165981350
+      }
+    ],
+    "toNodeGuid_": 843431565,
+    "fromNodeGuid_": 893136129,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 893136129,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 735045146,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1963462400
+      }
+    ],
+    "toNodeGuid_": 893136129,
+    "fromNodeGuid_": 1728883434,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1728883434,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1968845052,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "StartTimer": {
+    "guid_": 229363542,
+    "parentGuid_": 893136129,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 1,
+    "progressHash_": 8020992869207137992,
+    "timerId_": 0
+  },
+  "CallTalkEvent": {
+    "guid_": 1869906330,
+    "parentGuid_": 1728883434,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 1,
+    "progressHash_": 8020992869207137992,
+    "groupID_": "VT_MS33_0020",
+    "delay_": 0
+  },
+  "CheckTimer": {
+    "guid_": 1963462400,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 1,
+    "progressHash_": 8020992869207137992,
+    "isNoCheckSkip_": false,
+    "timerId_": 0,
+    "time_": 50
+  },
+  "CheckReceptionState": {
+    "guid_": 273660719,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 1,
+    "progressHash_": 8020992869207137992,
+    "isNoCheckSkip_": false,
+    "state_": 12
+  },
+  "IsPlayableCamera": {
+    "guid_": 165981350,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 1,
+    "progressHash_": 8020992869207137992,
+    "isNoCheckSkip_": false
+  }
+}

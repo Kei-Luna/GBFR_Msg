@@ -1,0 +1,142 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 589813300,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "boolName_": "EmAhrimanSmallBase_IsUseTauntSwingLaser"
+  },
+  "EmAhrimanSmallBaseTauntAttackAction": {
+    "guid_": 127267422,
+    "parentGuid_": 4,
+    "landingLoopSec_": 2,
+    "homingAngle_": 10,
+    "lookDegOffset_": 45,
+    "isUseLaser_": true,
+    "isChangeNewMotion_": true,
+    "tailAttackMoveRate_": 1,
+    "searchTargetsDist_": 7,
+    "firstTailAttackCancelSec_": -1,
+    "shotLaserLoopSec_": 1.5,
+    "useShotLaserDamageStack_": 1,
+    "shotLaserMax_": 3
+  },
+  "EmAhrimanSmallBaseTauntAttackAction": {
+    "guid_": 239224714,
+    "parentGuid_": 5,
+    "landingLoopSec_": 2,
+    "homingAngle_": 10,
+    "lookDegOffset_": 45,
+    "isUseLaser_": false,
+    "isChangeNewMotion_": true,
+    "tailAttackMoveRate_": 1,
+    "searchTargetsDist_": 7,
+    "firstTailAttackCancelSec_": 1.5,
+    "shotLaserLoopSec_": 1.5,
+    "useShotLaserDamageStack_": 1,
+    "shotLaserMax_": 3
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 317930308,
+    "parentGuid_": 4,
+    "valueName_": "Em0701_IsOkTauntAttack",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 637228827,
+    "parentGuid_": 4,
+    "valueName_": "Em0701_IsOkAttack",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 409323255,
+    "parentGuid_": 5,
+    "valueName_": "Em0701_IsOkTauntAttack",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 824899706,
+    "parentGuid_": 5,
+    "valueName_": "Em0701_IsOkAttack",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "EmAhrimanSmallBaseTauntAttackAction": {
+    "guid_": 2137631916,
+    "parentGuid_": 1856824219,
+    "landingLoopSec_": 2,
+    "homingAngle_": 10,
+    "lookDegOffset_": 45,
+    "isUseLaser_": true,
+    "isChangeNewMotion_": true,
+    "tailAttackMoveRate_": 1,
+    "searchTargetsDist_": 7,
+    "firstTailAttackCancelSec_": -1,
+    "shotLaserLoopSec_": 1.5,
+    "useShotLaserDamageStack_": 1,
+    "shotLaserMax_": 3
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 765295225,
+    "parentGuid_": 1856824219,
+    "valueName_": "Em0701_IsOkTauntAttack",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 505427566,
+    "parentGuid_": 1856824219,
+    "valueName_": "Em0701_IsOkAttack",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em0701",
+    "subTreeName_": "taunt"
+  }
+}

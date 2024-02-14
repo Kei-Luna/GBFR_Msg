@@ -1,0 +1,139 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 953433613,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 953433613,
+    "fromNodeGuid_": 16426374,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 904842258
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 2146694086,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2146694086,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 29408907,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1315494593
+      }
+    ],
+    "toNodeGuid_": 2146694086,
+    "fromNodeGuid_": 2146694086,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 16426374,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SoundMotionCheckCondition": {
+    "guid_": 904842258,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ],
+    "isMaxBlendWeight_": false
+  },
+  "SoundTriggerAction": {
+    "guid_": 2084146736,
+    "parentGuid_": 2146694086,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba5550_wood_s_into_water_s",
+          "delayTime_": 0,
+          "requestId_": 2084146736,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionNames_": [
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1315494593,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ],
+    "isMaxBlendWeight_": false
+  }
+}

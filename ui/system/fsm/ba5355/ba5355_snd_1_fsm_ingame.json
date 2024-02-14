@@ -1,0 +1,90 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 2011317283,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 2011317283,
+    "fromNodeGuid_": 961989605,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 471169994
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 2039927465,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 961989605,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "FSMNode": {
+    "guid_": 2039927465,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1788893930,
+    "isBranch_": false
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SoundMotionCheckCondition": {
+    "guid_": 471169994,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0000",
+          "hashValue_": 211534962
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 1261332179,
+    "parentGuid_": 2039927465,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba5355_wood_m_creak_m_swing",
+          "delayTime_": 0.7,
+          "requestId_": 1261332179,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  }
+}

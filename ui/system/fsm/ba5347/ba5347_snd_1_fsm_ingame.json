@@ -1,0 +1,126 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 500009657,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 500009657,
+    "fromNodeGuid_": 2050456276,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1376384615
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 719462098,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2050456276,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "FSMNode": {
+    "guid_": 719462098,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 406159787,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 491444359
+      }
+    ],
+    "toNodeGuid_": 719462098,
+    "fromNodeGuid_": 719462098,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "SoundMotionCheckCondition": {
+    "guid_": 1376384615,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 951710520,
+    "parentGuid_": 719462098,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba5347_wood_s_break_s_scaffold_01",
+          "delayTime_": 0.5,
+          "requestId_": 951710520,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 22,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5347_wood_s_break_s_scaffold_b_01",
+          "delayTime_": 0.7,
+          "requestId_": 951710520,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 36,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 491444359,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  }
+}

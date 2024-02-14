@@ -1,0 +1,214 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "RandomSelectorNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "childNodeRatio0_": 0,
+      "childNodeRatio1_": 0,
+      "childNodeRatio2_": 0,
+      "childNodeRatio3_": 0,
+      "childNodeRatio4_": 0,
+      "childNodeRatio5_": 0,
+      "childNodeRatio6_": 0,
+      "childNodeRatio7_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 10,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 11,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 860463515,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "checkRange_": 4,
+    "operatorType_": 3,
+    "isUseRangeXZ_": true
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 1721020780,
+    "parentGuid_": 5,
+    "isReverseSuccess_": false,
+    "checkRange_": 3,
+    "operatorType_": 3,
+    "isUseRangeXZ_": true
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 1996601,
+    "parentGuid_": 7,
+    "isReverseSuccess_": false,
+    "checkRange_": 0,
+    "operatorType_": 1,
+    "isUseRangeXZ_": true
+  },
+  "Em7300WalkAction": {
+    "guid_": 1041139367,
+    "parentGuid_": 6,
+    "dir_": 0,
+    "homingAngle_": 1,
+    "minWaitTime_": 2
+  },
+  "Em7300WalkAction": {
+    "guid_": 1144982939,
+    "parentGuid_": 8,
+    "dir_": 1,
+    "homingAngle_": 1,
+    "minWaitTime_": 2
+  },
+  "Em7300WalkAction": {
+    "guid_": 1063899415,
+    "parentGuid_": 10,
+    "dir_": 3,
+    "homingAngle_": 1,
+    "minWaitTime_": 2
+  },
+  "Em7300WalkAction": {
+    "guid_": 2048038446,
+    "parentGuid_": 11,
+    "dir_": 2,
+    "homingAngle_": 1,
+    "minWaitTime_": 2
+  },
+  "Em7300WalkAction": {
+    "guid_": 1772203667,
+    "parentGuid_": 4,
+    "dir_": 0,
+    "homingAngle_": 1,
+    "minWaitTime_": 4
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 417439079,
+    "parentGuid_": 4,
+    "valueName_": "Em7300_IsOkWaitAction",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 583060168,
+    "parentGuid_": 6,
+    "valueName_": "Em7300_IsOkWaitAction",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 305223384,
+    "parentGuid_": 8,
+    "valueName_": "Em7300_IsOkWaitAction",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 2119986730,
+    "parentGuid_": 10,
+    "valueName_": "Em7300_IsOkWaitAction",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 346986115,
+    "parentGuid_": 11,
+    "valueName_": "Em7300_IsOkWaitAction",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em7300",
+    "subTreeName_": "watching"
+  }
+}

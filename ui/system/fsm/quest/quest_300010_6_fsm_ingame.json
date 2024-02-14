@@ -1,0 +1,93 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1227975944,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1227975944,
+    "fromNodeGuid_": 1011815623,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1011815623,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1460235307,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1526098934
+      }
+    ],
+    "toNodeGuid_": 1011815623,
+    "fromNodeGuid_": 554272054,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 554272054,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 607882650,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CallTalkEvent": {
+    "guid_": 1008223207,
+    "parentGuid_": 554272054,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 16,
+    "progressIndex_": 6,
+    "progressHash_": 504707148552542532,
+    "groupID_": "VT_MS40_0090"
+  },
+  "RecvSignal": {
+    "guid_": 1526098934,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 16,
+    "progressIndex_": 6,
+    "progressHash_": 504707148552542532,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 13729656186310525679
+      },
+      {
+        "Element": 17385442881692942680
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

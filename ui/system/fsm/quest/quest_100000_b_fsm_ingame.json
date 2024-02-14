@@ -1,0 +1,124 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1364922113,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1364922113,
+    "fromNodeGuid_": 12600951,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1134284472,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 276591161,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "FSMNode": {
+    "guid_": 12600951,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 311148370,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1356808620
+      }
+    ],
+    "toNodeGuid_": 12600951,
+    "fromNodeGuid_": 1134284472,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "StartTimer": {
+    "guid_": 1435680394,
+    "parentGuid_": 12600951,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 0,
+    "progressIndex_": 11,
+    "progressHash_": 16148349654730709685,
+    "timerId_": 6
+  },
+  "CheckTimer": {
+    "guid_": 1356808620,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 0,
+    "progressIndex_": 11,
+    "progressHash_": 16148349654730709685,
+    "isNoCheckSkip_": false,
+    "timerId_": 6,
+    "time_": 1,
+    "useDifficulty_": false,
+    "difficultyTimes_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ]
+  },
+  "SendSignal": {
+    "guid_": 488026979,
+    "parentGuid_": 1134284472,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 0,
+    "progressIndex_": 11,
+    "progressHash_": 16148349654730709685,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 18348483077491916602
+      },
+      {
+        "Element": 3845892498414584926
+      }
+    ],
+    "skipAtSectionJump_": false
+  }
+}

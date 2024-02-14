@@ -1,0 +1,178 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ReferenceTreeNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "referenceTreeFolderName_": "em7100",
+      "referenceTreeName_": "fireball_attack"
+    }
+  },
+  "DecorationNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ReferenceTreeNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "referenceTreeFolderName_": "em7100",
+      "referenceTreeName_": "backhand_blow"
+    }
+  },
+  "DecorationNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "RandomSelectorNode": {
+    "guid_": 10,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "childNodeRatio0_": 1,
+      "childNodeRatio1_": 2,
+      "childNodeRatio2_": 0,
+      "childNodeRatio3_": 0,
+      "childNodeRatio4_": 0,
+      "childNodeRatio5_": 0,
+      "childNodeRatio6_": 0,
+      "childNodeRatio7_": 0
+    }
+  },
+  "ReferenceTreeNode": {
+    "guid_": 11,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "referenceTreeFolderName_": "em7100",
+      "referenceTreeName_": "fireball_attack"
+    }
+  },
+  "ReferenceTreeNode": {
+    "guid_": 12,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "referenceTreeFolderName_": "em7100",
+      "referenceTreeName_": "stomp_attack"
+    }
+  },
+  "ReferenceTreeNode": {
+    "guid_": 13,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "referenceTreeFolderName_": "em7100",
+      "referenceTreeName_": "stomp_attack"
+    }
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 573531478,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "boolName_": "ExEmCounterAttack_IsCounter"
+  },
+  "Em7100CounterAction": {
+    "guid_": 1991325448,
+    "parentGuid_": 4
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 143859791,
+    "parentGuid_": 9,
+    "isReverseSuccess_": false,
+    "checkRange_": 2,
+    "operatorType_": 2,
+    "isUseRangeXZ_": true
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 1509643821,
+    "parentGuid_": 5,
+    "isReverseSuccess_": false,
+    "checkRange_": 3,
+    "operatorType_": 3,
+    "isUseRangeXZ_": true
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1150236899,
+    "parentGuid_": 7,
+    "isReverseSuccess_": false,
+    "boolName_": "Em7100_CanBackHandBlow"
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 1438839557,
+    "parentGuid_": 7,
+    "isReverseSuccess_": false,
+    "checkRange_": 0,
+    "operatorType_": 2,
+    "isUseRangeXZ_": true
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em7100",
+    "subTreeName_": "battle1st"
+  }
+}

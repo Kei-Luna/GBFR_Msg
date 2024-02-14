@@ -1,0 +1,356 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 293747532,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 293747532,
+    "fromNodeGuid_": 1499427314,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1354590819
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1520499875,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1526323524
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1291510002,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2007139400
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 626910345,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1499427314,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "FSMNode": {
+    "guid_": 1520499875,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "FSMNode": {
+    "guid_": 1291510002,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "FSMNode": {
+    "guid_": 626910345,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1606821362,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "0b00",
+    "hash_": 1671642796,
+    "checkType_": 0,
+    "motionDataList_": []
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1140973714,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "0000",
+    "hash_": 211534962,
+    "checkType_": 0,
+    "motionDataList_": []
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1526323524,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "0b00",
+    "hash_": 1671642796,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0500",
+          "hashValue_": 173016729
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0501",
+          "hashValue_": 2102867471
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0502",
+          "hashValue_": 1683908533
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0503",
+          "hashValue_": 324622115
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0520",
+          "hashValue_": 946234395
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0525",
+          "hashValue_": 1208782996
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0530",
+          "hashValue_": 561861978
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0550",
+          "hashValue_": 1999106780
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0590",
+          "hashValue_": 1536343504
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0600",
+          "hashValue_": 135706816
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0620",
+          "hashValue_": 975231554
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0670",
+          "hashValue_": 1196895751
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0b00",
+          "hashValue_": 1671642796
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0b10",
+          "hashValue_": 2058883053
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1354590819,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "0000",
+    "hash_": 211534962,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0000",
+          "hashValue_": 211534962
+        }
+      }
+    ]
+  },
+  "SoundOneVelAutoTriggerAction": {
+    "guid_": 98128406,
+    "parentGuid_": 1520499875,
+    "eventName_": "",
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "em1300_mov_lp",
+          "delayTime_": 0,
+          "requestId_": 98128406,
+          "isEndCancel_": true,
+          "partsNo_": 0,
+          "nameType_": 0
+        }
+      }
+    ],
+    "partsNo_": -1,
+    "nameType_": 0,
+    "chasePartsNo_": 0,
+    "stopVel_": 0.01,
+    "moveVel_": 0.05,
+    "limitCount_": 0,
+    "coolTime_": 0,
+    "waitTime_": 0,
+    "isMoveTrigger_": true,
+    "isStartTrigger_": true
+  },
+  "SoundTriggerAction": {
+    "guid_": 2064971744,
+    "parentGuid_": 1291510002,
+    "eventName_": "stop_em1300_mov_lp",
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "stop_em1300_mov_lp",
+          "delayTime_": 0.5,
+          "requestId_": 2064971744,
+          "isEndCancel_": true,
+          "partsNo_": 0,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "Stop_em1300_atk_bomb_rush_alart",
+          "delayTime_": 0,
+          "requestId_": 2064971744,
+          "isEndCancel_": true,
+          "partsNo_": 0,
+          "nameType_": 0
+        }
+      }
+    ],
+    "partsNo_": -1,
+    "nameType_": 0,
+    "delayTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  },
+  "SoundOneVelAutoTriggerAction": {
+    "guid_": 1688245051,
+    "parentGuid_": 1520499875,
+    "eventName_": "",
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "stop_em1300_mov_lp",
+          "delayTime_": 0,
+          "requestId_": 1688245051,
+          "isEndCancel_": true,
+          "partsNo_": 0,
+          "nameType_": 0
+        }
+      }
+    ],
+    "partsNo_": -1,
+    "nameType_": 0,
+    "chasePartsNo_": 0,
+    "stopVel_": 0.01,
+    "moveVel_": 0.05,
+    "limitCount_": 0,
+    "coolTime_": 0,
+    "waitTime_": 0,
+    "isMoveTrigger_": false,
+    "isStartTrigger_": true
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 2007139400,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "1202",
+          "hashValue_": 1504515669
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 803459667,
+    "parentGuid_": 626910345,
+    "eventName_": "stop_em1300_mov_lp",
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "stop_em1300_mov_lp",
+          "delayTime_": 0.5,
+          "requestId_": 803459667,
+          "isEndCancel_": true,
+          "partsNo_": 0,
+          "nameType_": 0
+        }
+      }
+    ],
+    "partsNo_": -1,
+    "nameType_": 0,
+    "delayTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  },
+  "SoundOneVelAutoTriggerAction": {
+    "guid_": 891520329,
+    "parentGuid_": 626910345,
+    "eventName_": "",
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "Stop_em1300_atk_bomb_rush_alart",
+          "delayTime_": 0,
+          "requestId_": 891520329,
+          "isEndCancel_": true,
+          "partsNo_": 0,
+          "nameType_": 0
+        }
+      }
+    ],
+    "partsNo_": -1,
+    "nameType_": 0,
+    "chasePartsNo_": 0,
+    "stopVel_": 0.008,
+    "moveVel_": 0.01,
+    "limitCount_": 0,
+    "coolTime_": 0,
+    "waitTime_": 0.3,
+    "isMoveTrigger_": false,
+    "isStartTrigger_": false
+  }
+}

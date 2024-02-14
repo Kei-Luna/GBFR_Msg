@@ -1,0 +1,594 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 841835052,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 841835052,
+    "fromNodeGuid_": 2102979505,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1445795762
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 2032762879,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1439024124
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1905395422,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2102979505,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "FSMNode": {
+    "guid_": 2032762879,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 988083642,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "FSMNode": {
+    "guid_": 1905395422,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 686360489,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SoundMotionCheckCondition": {
+    "guid_": 1445795762,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ],
+    "isMaxBlendWeight_": false
+  },
+  "SoundTriggerAction": {
+    "guid_": 1305100462,
+    "parentGuid_": 2032762879,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba4065_env_base_wind_blow_C",
+          "delayTime_": 0,
+          "requestId_": 1305100462,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": true,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba4065_env_base_wind_blow_LR",
+          "delayTime_": 0,
+          "requestId_": 1305100462,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": true,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba4065_stone_door_open_l_end_01_hight",
+          "delayTime_": 0,
+          "requestId_": 1305100462,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": true,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionFrames_": [
+      {
+        "Element": [
+          {
+            "Element": 1
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 2
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 604
+          }
+        ]
+      }
+    ],
+    "eventNames_": [
+      {
+        "Element": "ba4065_env_base_wind_blow_C"
+      },
+      {
+        "Element": "ba4065_env_base_wind_blow_LR"
+      },
+      {
+        "Element": "ba4065_stone_door_open_l_end_01_hight"
+      }
+    ],
+    "motionNames_": [
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": [
+          {
+            "Element": 1
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 2
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 604
+          }
+        ]
+      }
+    ],
+    "isEndTrigger_": false,
+    "checkFrameRange_": 9999
+  },
+  "SoundTriggerAction": {
+    "guid_": 69798948,
+    "parentGuid_": 2032762879,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba4065_stone_l_door_mvmt_end",
+          "delayTime_": 0,
+          "requestId_": 69798948,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba4065_stone_l_door_L_start",
+          "delayTime_": 0,
+          "requestId_": 69798948,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba4065_stone_l_door_mvmt_L",
+          "delayTime_": 0,
+          "requestId_": 69798948,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba4065_stone_l_door_L_end",
+          "delayTime_": 0,
+          "requestId_": 69798948,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba4065_stone_l_door_R_start",
+          "delayTime_": 0,
+          "requestId_": 69798948,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba4065_stone_l_door_mvmt_R",
+          "delayTime_": 0,
+          "requestId_": 69798948,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba4065_stone_l_door_R_end",
+          "delayTime_": 0,
+          "requestId_": 69798948,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba4065_stone_l_door_L_end_stop",
+          "delayTime_": 0,
+          "requestId_": 69798948,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba4065_stone_l_door_R_end_stop",
+          "delayTime_": 0,
+          "requestId_": 69798948,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionFrames_": [
+      {
+        "Element": [
+          {
+            "Element": 0
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 5
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 7
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 540
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 6
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 8
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 540
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 629
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 629
+          }
+        ]
+      }
+    ],
+    "eventNames_": [
+      {
+        "Element": "ba4065_stone_l_door_mvmt_end"
+      },
+      {
+        "Element": "ba4065_stone_l_door_L_start"
+      },
+      {
+        "Element": "ba4065_stone_l_door_mvmt_L"
+      },
+      {
+        "Element": "ba4065_stone_l_door_L_end"
+      },
+      {
+        "Element": "ba4065_stone_l_door_R_start"
+      },
+      {
+        "Element": "ba4065_stone_l_door_mvmt_R"
+      },
+      {
+        "Element": "ba4065_stone_l_door_R_end"
+      },
+      {
+        "Element": "ba4065_stone_l_door_L_end_stop"
+      },
+      {
+        "Element": "ba4065_stone_l_door_R_end_stop"
+      }
+    ],
+    "motionNames_": [
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": [
+          {
+            "Element": 0
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 5
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 7
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 540
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 6
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 8
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 540
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 629
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 629
+          }
+        ]
+      }
+    ],
+    "isEndTrigger_": false,
+    "checkFrameRange_": 20
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1439024124,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0001",
+          "hashValue_": 2073883876
+        }
+      }
+    ],
+    "isMaxBlendWeight_": false
+  }
+}

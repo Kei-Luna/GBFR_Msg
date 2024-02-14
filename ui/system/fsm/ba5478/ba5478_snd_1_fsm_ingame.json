@@ -1,0 +1,278 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1783336421,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1783336421,
+    "fromNodeGuid_": 1242829016,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1090213496
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 844696095,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1217326312
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 940624776,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1242829016,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "FSMNode": {
+    "guid_": 844696095,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1415352821,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 172735463
+      }
+    ],
+    "toNodeGuid_": 844696095,
+    "fromNodeGuid_": 844696095,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 940624776,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 348727518,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 951726647
+      }
+    ],
+    "toNodeGuid_": 940624776,
+    "fromNodeGuid_": 940624776,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "SoundMotionCheckCondition": {
+    "guid_": 1090213496,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1217326312,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0120",
+          "hashValue_": 1064291527
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 2024377838,
+    "parentGuid_": 844696095,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba5478_stone_l_creak_l_01",
+          "delayTime_": 1.5,
+          "requestId_": 2024377838,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1428,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5478_stone_l_creak_l_02",
+          "delayTime_": 2,
+          "requestId_": 2024377838,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1840,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5478_stone_l_creak_l_03",
+          "delayTime_": 2.5,
+          "requestId_": 2024377838,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2065,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5478_wood_l_creak_l_01",
+          "delayTime_": 0.5,
+          "requestId_": 2024377838,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1536,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5478_wood_l_creak_l_02",
+          "delayTime_": 1.5,
+          "requestId_": 2024377838,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1832,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5478_wood_l_creak_l_03",
+          "delayTime_": 2,
+          "requestId_": 2024377838,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2048,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  },
+  "SoundTriggerAction": {
+    "guid_": 1558169306,
+    "parentGuid_": 940624776,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba5478_wood_l_break_l_c_01",
+          "delayTime_": 6,
+          "requestId_": 1558169306,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1536,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5478_wood_l_break_l_c_02",
+          "delayTime_": 7.5,
+          "requestId_": 1558169306,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1832,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5478_wood_l_break_l_c_03",
+          "delayTime_": 8.5,
+          "requestId_": 1558169306,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2048,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 172735463,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 951726647,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0120",
+          "hashValue_": 1064291527
+        }
+      }
+    ]
+  }
+}

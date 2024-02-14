@@ -1,0 +1,135 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1618251627,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1618251627,
+    "fromNodeGuid_": 1743012619,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1743012619,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1309248477,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 263558122
+      }
+    ],
+    "toNodeGuid_": 1743012619,
+    "fromNodeGuid_": 45825195,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 45825195,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 765683302,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 305897548
+      }
+    ],
+    "toNodeGuid_": 45825195,
+    "fromNodeGuid_": 386418285,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 386418285,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1405000633,
+    "isBranch_": false
+  },
+  "SetTutorialWindow": {
+    "guid_": 967514563,
+    "parentGuid_": 45825195,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 3,
+    "progressHash_": 2324407130366175488,
+    "windowID_": "TUTORIAL_WIN_12"
+  },
+  "EndTutorialWindow": {
+    "guid_": 305897548,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 3,
+    "progressHash_": 2324407130366175488
+  },
+  "RecvSignal": {
+    "guid_": 431005778,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 3,
+    "progressHash_": 2324407130366175488,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 7920195061372554560
+      },
+      {
+        "Element": 5216595806280389029
+      }
+    ]
+  },
+  "RecvSignal": {
+    "guid_": 263558122,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 3,
+    "progressHash_": 2324407130366175488,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 7920195061372554560
+      },
+      {
+        "Element": 5216595806280389029
+      }
+    ]
+  }
+}

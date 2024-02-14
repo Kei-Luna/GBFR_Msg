@@ -1,0 +1,89 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 754074697,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 754074697,
+    "fromNodeGuid_": 579140226,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 579140226,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 405000234
+      }
+    ],
+    "toNodeGuid_": 579140226,
+    "fromNodeGuid_": 1681550747,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1681550747,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1165171383
+      }
+    ],
+    "toNodeGuid_": 1681550747,
+    "fromNodeGuid_": 1653507334,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1653507334,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923
+  },
+  "MotionPlayAction": {
+    "guid_": 381436153,
+    "parentGuid_": 1681550747,
+    "motionIdName_": "0001",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 405000234,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "StartMove"
+  },
+  "MotionEndCondition": {
+    "guid_": 1165171383,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionSlot_": 0
+  }
+}

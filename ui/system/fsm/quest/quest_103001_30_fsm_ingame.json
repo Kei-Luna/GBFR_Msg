@@ -1,0 +1,183 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 721531920,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 721531920,
+    "fromNodeGuid_": 2043195711,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2043195711,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 902318900,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 751693123
+      }
+    ],
+    "toNodeGuid_": 2043195711,
+    "fromNodeGuid_": 1863017789,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1863017789,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 421006568,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "StartTimer": {
+    "guid_": 1888760439,
+    "parentGuid_": 2043195711,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 48,
+    "progressHash_": 7754277730642505068,
+    "timerId_": 4
+  },
+  "CallTalkEvent": {
+    "guid_": 1335801520,
+    "parentGuid_": 1863017789,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 48,
+    "progressHash_": 7754277730642505068,
+    "groupID_": "VT_MS07_2430"
+  },
+  "CheckTimer": {
+    "guid_": 751693123,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 48,
+    "progressHash_": 7754277730642505068,
+    "isNoCheckSkip_": false,
+    "timerId_": 4,
+    "time_": 20
+  },
+  "CheckTimer": {
+    "guid_": 378096524,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 48,
+    "progressHash_": 7754277730642505068,
+    "isNoCheckSkip_": false,
+    "timerId_": 5,
+    "time_": 30
+  },
+  "CheckTimer": {
+    "guid_": 989595188,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 48,
+    "progressHash_": 7754277730642505068,
+    "isNoCheckSkip_": false,
+    "timerId_": 5,
+    "time_": 30
+  },
+  "CheckTimer": {
+    "guid_": 1888138887,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 48,
+    "progressHash_": 7754277730642505068,
+    "isNoCheckSkip_": false,
+    "timerId_": 5,
+    "time_": 30
+  },
+  "CheckForKeyOperation": {
+    "guid_": 202589196,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 48,
+    "progressHash_": 7754277730642505068,
+    "isNoCheckSkip_": false
+  },
+  "CheckTimer": {
+    "guid_": 206697514,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 48,
+    "progressHash_": 7754277730642505068,
+    "isNoCheckSkip_": false,
+    "timerId_": 5,
+    "time_": 15
+  },
+  "EndTalkEvent": {
+    "guid_": 2075510003,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 48,
+    "progressHash_": 7754277730642505068,
+    "isNoCheckSkip_": false,
+    "groupID_": "VT_MS07_2210",
+    "useQuestParameter_": false,
+    "questParameterName_": "",
+    "questParameterHash_": 0
+  },
+  "EndTalkEvent": {
+    "guid_": 1903793735,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 48,
+    "progressHash_": 7754277730642505068,
+    "isNoCheckSkip_": false,
+    "groupID_": "VT_MS07_2200",
+    "useQuestParameter_": false,
+    "questParameterName_": "",
+    "questParameterHash_": 0
+  }
+}

@@ -1,0 +1,837 @@
+{
+  "SceneHierarchy": {
+    "mEditorOptions": {
+      "IsDropAuto": true,
+      "IsDropForWorld": true,
+      "IsEditForWorld": false,
+      "IsFocusAutoFit": true,
+      "IsHidePrefabSymbol": true,
+      "LeftColumnSize": 482.5,
+      "ManipulateOperation": "SCALE",
+      "NameDigit": 3,
+      "NameDisplayType": 0,
+      "RotateSnap": 1,
+      "ScaleSnap": 0.1,
+      "SurfaceHighlightMode": 0,
+      "TranslateSnap": 0.1,
+      "WindowPos": [
+        3134,
+        346
+      ],
+      "WindowSize": [
+        969,
+        777
+      ]
+    },
+    "mName": [
+      "r1d0",
+      3801327267
+    ],
+    "mRootSceneObject": {
+      "RootSceneObject": {
+        "attachDefaultActive_": true,
+        "curvePlayer_": [
+          10
+        ],
+        "disappearCurve_": {
+          "Params": [
+            0,
+            1
+          ]
+        },
+        "disappearLv_": 0,
+        "disappearTime_": 0,
+        "forPC_": true,
+        "forPS4_": true,
+        "forPS5_": true,
+        "isBrokenCheckBhTrans_": false,
+        "isBrokenCheckHP_": true,
+        "isBrokenDisppear_": false,
+        "isDelayAttach_": false,
+        "isUseModelOpacity_": false,
+        "mActive": true,
+        "mAttachModelJoint": {
+          "mIsEnable": false,
+          "mTargetEntity": 0,
+          "mTargetJoint": -1
+        },
+        "mInheritanceTransform": "InheritAll",
+        "mLocalMatrix": [
+          0.9999998,
+          0,
+          0,
+          0,
+          0,
+          0.9999998,
+          0,
+          0,
+          0,
+          0,
+          0.9999998,
+          0,
+          0,
+          0,
+          0,
+          0.9999998
+        ],
+        "mName": [
+          "Root",
+          3066451557
+        ],
+        "mUuid": [
+          2877678018864,
+          12765868407357856352
+        ],
+        "mpChild": [
+          {
+            "LocalIBLSceneObject": {
+              "_blendRate": 1,
+              "_diffuseRate": [
+                1,
+                1,
+                1,
+                1,
+                130
+              ],
+              "_specularRate": [
+                1,
+                1,
+                1,
+                1,
+                130
+              ],
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "influenceDistanceFadeCorrectly_": false,
+              "intencityInterpolateSec_": 1,
+              "intencityInterpolateSecUseArea_": true,
+              "intensity_": 1,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                100000,
+                0,
+                0,
+                0,
+                0,
+                100000,
+                0,
+                0,
+                0,
+                0,
+                100000,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "mName": [
+                "Virtual_GlobalIBL(for Engine)",
+                2382307274
+              ],
+              "mUuid": [
+                2379707888640,
+                6637416487607429827
+              ],
+              "specularIntensity_": 1,
+              "specularRoughnessOffset_": 0,
+              "useModelOpacityToChildren_": true,
+              "useTexGlobalIBL_": true
+            }
+          },
+          {
+            "PrefabSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mFilePath": "layout/attachlight/treasure_light_00.scene.yml",
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999999,
+                0,
+                0,
+                0,
+                0,
+                0.9999999,
+                0,
+                0,
+                0,
+                0,
+                0.9999999,
+                0,
+                0,
+                0,
+                0,
+                0.9999999
+              ],
+              "mName": [
+                "TresureLight",
+                3078699259
+              ],
+              "mUuid": [
+                1766202984448,
+                13148537563453240827
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "AreaSceneObject": {
+              "_areaColor": [
+                1,
+                0,
+                0,
+                0.2,
+                130
+              ],
+              "_areaRadius": 1,
+              "_areaType": 0,
+              "_composite": [
+                1,
+                "filter/p104/p104altar_00.ccomp.yml"
+              ],
+              "_curve": [
+                2,
+                "",
+                ""
+              ],
+              "_hierarchy": [
+                2,
+                "layout/p104/p104altar_common_00.scene.yml",
+                "layout/p104/p104altar_gsmoke_00.scene.yml"
+              ],
+              "_interpolateSec": 2,
+              "_priority": -3,
+              "_useParent": false,
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999999,
+                0,
+                0,
+                0,
+                0,
+                0.9999999,
+                0,
+                0,
+                0,
+                0,
+                0.9999999,
+                0,
+                0,
+                0,
+                0,
+                0.9999999
+              ],
+              "mName": [
+                "Altar_Cloud",
+                3036943404
+              ],
+              "mUuid": [
+                2878188078704,
+                13461907096495922007
+              ],
+              "mpChild": [],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "AreaSceneObject": {
+              "_areaColor": [
+                1,
+                0,
+                0,
+                0.2,
+                130
+              ],
+              "_areaRadius": 1,
+              "_areaType": 0,
+              "_composite": [
+                1,
+                "filter/p104/p104altar_01.ccomp.yml"
+              ],
+              "_curve": [
+                2,
+                "",
+                ""
+              ],
+              "_hierarchy": [
+                3,
+                "layout/p104/p104altar_common_01.scene.yml",
+                "layout/p104/effect/effect_rain.scene.yml",
+                "layout/p104/p104altar_gsmoke_00.scene.yml"
+              ],
+              "_interpolateSec": 2,
+              "_priority": -2,
+              "_useParent": false,
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999982,
+                0,
+                0,
+                0,
+                0,
+                0.9999982,
+                0,
+                0,
+                0,
+                0,
+                0.9999982,
+                0,
+                0,
+                0,
+                0,
+                0.9999998
+              ],
+              "mName": [
+                "Altar_Rain",
+                3891503164
+              ],
+              "mUuid": [
+                2254565892096,
+                1700478492808955175
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "PrefabSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mFilePath": "layout/p104/p104altar_localibl_00.scene.yml",
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998
+              ],
+              "mName": [
+                "LocalIBL",
+                4282566918
+              ],
+              "mUuid": [
+                2732653705216,
+                6749565320713436913
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "PrefabSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": false,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mFilePath": "layout/p103/p103altar_localibl_00.scene.yml",
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998
+              ],
+              "mName": [
+                "",
+                75416519
+              ],
+              "mUuid": [
+                1759226984448,
+                14756118804141487619
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "PrefabSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mFilePath": "layout/p104/effect/effect_common.scene.yml",
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998
+              ],
+              "mName": [
+                "Effect_Common",
+                754798860
+              ],
+              "mUuid": [
+                2732653694976,
+                7980201496877429531
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "AreaSceneObject": {
+              "_areaColor": [
+                1,
+                0,
+                0,
+                0.2,
+                130
+              ],
+              "_areaRadius": 1,
+              "_areaType": 0,
+              "_composite": [
+                1,
+                "filter/p103/p103altar_00.ccomp.yml"
+              ],
+              "_curve": [
+                2,
+                "",
+                ""
+              ],
+              "_hierarchy": [
+                1,
+                "layout/p103/p103altar_common_00.scene.yml"
+              ],
+              "_interpolateSec": 2,
+              "_priority": -1,
+              "_useParent": false,
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": false,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998
+              ],
+              "mName": [
+                "",
+                1267044137
+              ],
+              "mUuid": [
+                2379128537088,
+                18285775545637990717
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "PrefabSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mFilePath": "layout/p104/p104altar_wind_00.scene.yml",
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                5.260406,
+                212.4795,
+                -9.806736,
+                1
+              ],
+              "mName": [
+                "WindSceneObject_Altar",
+                3682093439
+              ],
+              "mUuid": [
+                1299693235200,
+                9048977420978506181
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "PrefabSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mFilePath": "layout/attachlight/quest_light_00.scene.yml",
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "mName": [
+                "QuestLight",
+                3064573130
+              ],
+              "mUuid": [
+                1901898357760,
+                17300658808431912388
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "PrefabSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mFilePath": "layout\\chara_material\\ferryghost_chara_00.scene.yml",
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999999,
+                0,
+                0,
+                0,
+                0,
+                0.9999999,
+                0,
+                0,
+                0,
+                0,
+                0.9999999,
+                0,
+                0.1728728,
+                -0.168051,
+                -0.02177761,
+                1
+              ],
+              "mName": [
+                "FerryGhost_Chara_00",
+                3427986762
+              ],
+              "mUuid": [
+                4637164725248,
+                16807151127503629073
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          }
+        ],
+        "useModelOpacityToChildren_": true
+      }
+    }
+  }
+}

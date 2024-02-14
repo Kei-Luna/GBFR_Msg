@@ -1,0 +1,146 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 906353579,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 906353579,
+    "fromNodeGuid_": 763573104,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1131369532
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 643778363,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 763573104,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "FSMNode": {
+    "guid_": 643778363,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SoundBreakLvCondition": {
+    "guid_": 1131369532,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "breakLv_": 2,
+    "isCheckForceBreak_": true
+  },
+  "SoundTriggerAction": {
+    "guid_": 1295351201,
+    "parentGuid_": 643778363,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "bh5377_wood_l_break_l",
+          "delayTime_": 0,
+          "requestId_": 1295351201,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 5,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "bh5377_wood_l_break_l_b_01",
+          "delayTime_": 0.3,
+          "requestId_": 1295351201,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 6,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionFrames_": [
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      }
+    ],
+    "eventNames_": [
+      {
+        "Element": "bh5377_wood_l_break_l"
+      },
+      {
+        "Element": "bh5377_wood_l_break_l_b_01"
+      }
+    ],
+    "motionNames_": [
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false,
+    "checkFrameRange_": 9999
+  }
+}

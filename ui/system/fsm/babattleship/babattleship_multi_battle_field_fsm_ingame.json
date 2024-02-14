@@ -1,0 +1,71 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1443467120,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1443467120,
+    "fromNodeGuid_": 1251498452,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1251498452,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CollisionChangeAction": {
+    "guid_": 290580161,
+    "parentGuid_": 1251498452,
+    "valueName_": "phase3_attack_gc",
+    "enable_": false
+  },
+  "CollisionChangeAction": {
+    "guid_": 997666589,
+    "parentGuid_": 1251498452,
+    "valueName_": "phase3_sidebreak",
+    "enable_": false
+  },
+  "CollisionChangeAction": {
+    "guid_": 742644365,
+    "parentGuid_": 1251498452,
+    "valueName_": "phase3_slip",
+    "enable_": false
+  },
+  "CollisionChangeAction": {
+    "guid_": 771625984,
+    "parentGuid_": 1251498452,
+    "valueName_": "phase1",
+    "enable_": false
+  },
+  "CollisionChangeAction": {
+    "guid_": 915572029,
+    "parentGuid_": 1251498452,
+    "valueName_": "shooting",
+    "enable_": false
+  },
+  "CollisionChangeAction": {
+    "guid_": 1201282595,
+    "parentGuid_": 1251498452,
+    "valueName_": "allphase",
+    "enable_": false
+  }
+}

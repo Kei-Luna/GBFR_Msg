@@ -1,0 +1,351 @@
+{
+  "category_": "4",
+  "subCategory_": "1",
+  "serialNumber_": "790",
+  "difficultyHash_": "DIF_12",
+  "lv_": "0",
+  "time_": "240",
+  "lostTime_": "10",
+  "clearableTimes_": "0",
+  "mobIdHash_": "MOB0014",
+  "sortNo_": "104",
+  "multi_": {
+    "strengthValue_": "2",
+    "rcommendedCombatPower_": "400",
+    "islandId_": "ISLAND_1ST",
+    "gameCategory_": "1",
+    "multiQuestType_": "32756",
+    "location_": "LOCATION_1ST_03",
+    "enemyIds_[0]": "131072",
+    "enemyNum_[0]": "14",
+    "enemyIds_[1]": "131073",
+    "enemyNum_[1]": "7",
+    "enemyIds_[2]": "131075",
+    "enemyNum_[2]": "4",
+    "enemyIds_[3]": "131074",
+    "enemyNum_[3]": "4",
+    "enemyIds_[4]": "131076",
+    "enemyNum_[4]": "4",
+    "enemyIds_[5]": "-1",
+    "enemyNum_[5]": "0",
+    "min_": "0.305",
+    "max_": "0.655",
+    "standard_": "0.505",
+    "hasPrepareArea_": "false",
+    "isQuestStartFromBossAppear_": "false",
+    "targetDispInfo_": {
+      "textHash_": "TXT_QT_COUNTER_005",
+      "type_": "0"
+    }
+  },
+  "occurrenceList_": [
+    {
+      "type_": "1",
+      "id_": "1052677",
+      "count_": "0"
+    }
+  ],
+  "orderList_": [],
+  "successList_": [],
+  "failureText_0": "TXT_QT_PARTYDEATH",
+  "failureText_1": "TXT_QT_OBJDESTROY",
+  "reward_": {
+    "first_": "RW_401316_100",
+    "every_": "RW_401316_101",
+    "rankRewards_[0]": "RW_401316_300",
+    "rankRewards_[1]": "RW_401316_301",
+    "rankRewards_[2]": "RW_401316_302",
+    "rankRewards_[3]": "RW_401316_303",
+    "rankRewards_[4]": "RW_401316_304",
+    "rankRewards_[5]": "RW_401316_305"
+  },
+  "fsmDataList_": [
+    {
+      "name_": "メイン進行",
+      "hash_": "18094900049703026664",
+      "suffix_": "0"
+    },
+    {
+      "name_": "防衛オブジェクトHP管理",
+      "hash_": "1105785295543376658",
+      "suffix_": "1"
+    },
+    {
+      "name_": "失敗判定",
+      "hash_": "7682595009934881003",
+      "suffix_": "2"
+    },
+    {
+      "name_": "未使用：敵体数削減グループ開始用１",
+      "hash_": "18160443675296989874",
+      "suffix_": "3"
+    },
+    {
+      "name_": "敵体数削減グループ開始用２",
+      "hash_": "1214123393479911504",
+      "suffix_": "4"
+    },
+    {
+      "name_": "敵体数削減グループ開始用３",
+      "hash_": "7809851176900582155",
+      "suffix_": "5"
+    },
+    {
+      "name_": "敵体数削減グループ開始用４",
+      "hash_": "13496050209403037364",
+      "suffix_": "6"
+    },
+    {
+      "name_": "敵体数削減グループ開始用1.5",
+      "hash_": "13672644066503349156",
+      "suffix_": "7"
+    },
+    {
+      "name_": "ソルジャー無限湧き設定01",
+      "hash_": "9445631384226363194",
+      "suffix_": "8"
+    },
+    {
+      "name_": "ソルジャー無限湧き設定02",
+      "hash_": "10590409039781558005",
+      "suffix_": "9"
+    },
+    {
+      "name_": "ソルジャー無限湧き設定03",
+      "hash_": "4847309262321330792",
+      "suffix_": "10"
+    }
+  ],
+  "targetList_": [
+    {
+      "label_": "TXT_QT_401316_1",
+      "textLabel_": "TXT_QT_DEFEND_SAVEPOINT",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_SM0920_02",
+      "textLabel_": "TXT_QT_SM0370_00",
+      "type_": "3",
+      "id_": "131076",
+      "count_": "4",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_SM0090_00",
+      "textLabel_": "TXT_QT_SM0090_00",
+      "type_": "26",
+      "id_": "0",
+      "count_": "3",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_SM0900_04",
+      "textLabel_": "TXT_QT_SM0440_00",
+      "type_": "7",
+      "id_": "0",
+      "count_": "0.655",
+      "canFail_": "true",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_401316_2",
+      "textLabel_": "TXT_QT_RETURN_TOWN",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    }
+  ],
+  "subMissions_": [
+    {
+      "target_": "TXT_QT_SM0900_04",
+      "reward_": "RW_401316_SUBM_01",
+      "firstReward_": ""
+    },
+    {
+      "target_": "TXT_QT_SM0090_00",
+      "reward_": "RW_401316_SUBM_02",
+      "firstReward_": ""
+    },
+    {
+      "target_": "TXT_QT_SM0920_02",
+      "reward_": "RW_401316_SUBM_03",
+      "firstReward_": ""
+    }
+  ],
+  "sectionSortListGuid_": [
+    {
+      "guid_": "920766117"
+    }
+  ],
+  "lotData_": "TREASURE_CHEST_QR1",
+  "treasureData_": [
+    {
+      "data_": "RW_401316_400"
+    },
+    {
+      "data_": "RW_401316_401"
+    },
+    {
+      "data_": "RW_401316_402"
+    },
+    {
+      "data_": "RW_401316_403"
+    },
+    {
+      "data_": "RW_401316_404"
+    }
+  ],
+  "rewardRank_": "0",
+  "placementsInfo_": {
+    "treasureMaxCount_": "0",
+    "treasureMinCount_": "0",
+    "pickMaxCount_": "0",
+    "pickMinCount_": "0",
+    "searchItemMaxCount_": "0",
+    "searchItemMinCount_": "0",
+    "archiveMaxCount_": "1",
+    "archiveMinCount_": "0",
+    "multiQuestCoinMaxCount_": "1",
+    "multiQuestCoinMinCount_": "0"
+  },
+  "exPlacementFilesInfo_": {
+    "suffix_": [
+      "401316"
+    ]
+  },
+  "startEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "endEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "isConsumeAppend_": "true",
+  "consumeCounts_": [
+    "-1",
+    "-1",
+    "-1",
+    "-1"
+  ],
+  "clearTimeMax_": "0",
+  "clearTimeMin_": "0",
+  "resetTownTreasureType_": "0",
+  "specialRegulationInfo_": [],
+  "actionDropRewardList_": [],
+  "preLoadQuestFSMFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "2",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "4",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "5",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "6",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "7",
+        "names_": []
+      }
+    }
+  ],
+  "preLoadVoiceEventFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": [
+          "VT_MS20_3690",
+          "VT_MS20_3680",
+          "VT_MS20_3270",
+          "VT_MS20_3220"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "2",
+        "names_": [
+          "VT_MS20_3280"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "4",
+        "names_": [
+          "VT_MS20_2820",
+          "VT_MS20_2930"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "5",
+        "names_": [
+          "VT_MS20_2862",
+          "VT_MS20_2930"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "6",
+        "names_": [
+          "VT_MS20_2660",
+          "VT_MS20_2930"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "7",
+        "names_": [
+          "VT_MS20_3230",
+          "VT_MS20_2930"
+        ]
+      }
+    }
+  ],
+  "overrideAttribute_": "0",
+  "isBroadcastVersion_": "false"
+}

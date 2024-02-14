@@ -1,0 +1,1636 @@
+{
+  "Em2000Param": {
+    "hp_": "330000",
+    "atk_": "400",
+    "break_": "10",
+    "def_": "0",
+    "endurance_": "10",
+    "exp_": "20",
+    "hitSEMaxBreak_": "4",
+    "hitSEMinBreak_": "0",
+    "hpCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "atkCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "defCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "expCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "fsmParam_": {
+      "folderName_": [
+        {
+          "Element": "em2000"
+        },
+        {
+          "Element": "em2000"
+        }
+      ],
+      "fsmName_": [
+        {
+          "Element": "snd_auto_unique_1"
+        },
+        {
+          "Element": "snd_auto_unique_2"
+        }
+      ]
+    },
+    "hateRateClosePlayer_": "0",
+    "hateRateFarPlayer_": "0",
+    "hateRateClosePlayerPerSec_": "15",
+    "hateRateFarPlayerPerSec_": "25",
+    "hateRateFrontAngle_": "0",
+    "hateRateBackAngle_": "5",
+    "hateRateDamage_": "55",
+    "hateRateManualPlayer_": "0",
+    "hateRateHighHpPlayer_": "0",
+    "hateRateLowHpPlayer_": "0",
+    "hateRateTargetCountManyPlayer_": "0",
+    "hateRateTargetCountFewPlayer_": "0",
+    "hateRateHelpPlayer_": "0",
+    "hateRateLastTargetPlayer_": "0",
+    "hateRateFirstTargetPlayer_": "5",
+    "badStatusHateRateMap_": [],
+    "hateUpdateTime_": "1",
+    "damageToHateRate_": "0.001",
+    "damageHateDecPerSec_": "5",
+    "closeHateIncRate_": "0.06",
+    "closeHateDecRate_": "0.1",
+    "farHateIncRate_": "0.03",
+    "farHateDecRate_": "0.05",
+    "combatPower_": "70",
+    "combatPowerList_": [
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      }
+    ],
+    "itemRewordMoneyVal_": "0",
+    "itemRewordJumpRate_": "0.5",
+    "battle2SearchLength_": "1000",
+    "search2battleLength_": "10",
+    "enemySize_": "1",
+    "linkAttackCameraDistRate_": "0.25",
+    "targetRangeParam_": {
+      "rangeClose_": "3",
+      "rangeShort_": "7",
+      "rangeMiddle_": "12",
+      "rangeLong_": "30"
+    },
+    "counterAttackParam_": {
+      "damageMaxValue_": "3",
+      "damageMinValue_": "2",
+      "reduceDamageValueInSec_": "10",
+      "stopReduceTime_": "4",
+      "coolTime_": "10",
+      "onceCheckCounterAttack_": "false",
+      "isReferenceMaxHpRate_": "true"
+    },
+    "counterAttackParams_": [
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      }
+    ],
+    "useCounterAttackParam_": [
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      }
+    ],
+    "badStatusResistanceParams_": [
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.6",
+          "subValue_": "0.05",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.3",
+          "subValue_": "0.15",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "1",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "1",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.3",
+          "subValue_": "0.15",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.7",
+          "subValue_": "0.05",
+          "coolTime_": "0.5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.7",
+          "subValue_": "0.05",
+          "coolTime_": "0.5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "1",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      }
+    ],
+    "statusParams_": {
+      "regeneratePercent_": "0.5",
+      "regenerateCycleSec_": "1",
+      "multiAttackNum_": "1",
+      "multiAttackDelayFrame_": "5",
+      "multiAttackAtkRate_": "0.2",
+      "multiAttackHitStopDivision_": "2",
+      "burnDotDamageLimitRate_": "1",
+      "poisonDotDamageLimitRate_": "1",
+      "dimentionDotDamageLimitRate_": "1"
+    },
+    "cameraCollisionParams_": [],
+    "linkParam_": {
+      "linkMaxValue_": "930",
+      "linkResetTime_": "3.5",
+      "linkResetRate_": "90",
+      "linkMultiBonus_": "1.5",
+      "linkCoolTime_": "25",
+      "isOverrideCircleParts_": "true",
+      "linkPartsNumber_": "5",
+      "linkOffsetPos_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "linkCirclePartsNumber_": "5",
+      "linkCircleOffsetPos_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "linkAddDist_": "0",
+      "linkAdjustSec_": "1.5"
+    },
+    "lockOnParam_": {
+      "partsInfoList_": [],
+      "spArtsPrioLayer_": "3",
+      "spArtsPrioOffset_": "0",
+      "spArtsWarpOffset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "spArtsWarpPartsNumber_": "-1",
+      "spArtsWarpDist_": "0",
+      "rangeType_": "0"
+    },
+    "collisionParam_": {
+      "offset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "lineEndOffset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "partsNumber_": "-1",
+      "capsuleEndPartsNumber_": "-1",
+      "radius_": "1"
+    },
+    "animInterDefaultSec_": "0.2",
+    "damageAnimInterDefaultSec_": "0.1",
+    "uiPartsNo_": "5",
+    "uiOffsetY_": "0.6",
+    "basicHitStopTimeRate_": "0.2",
+    "damageReactionHitStopTimeRate_": "1",
+    "superArmorHitStopTimeRate_": "1",
+    "attackerHitStopTimeRate_": "1",
+    "addReactionHitstopFrameMin_": "-1",
+    "addReactionHitstopFrameMax_": "-1",
+    "addReactionWeightRateMin_": "-1",
+    "addReactionWeightRateMax_": "-1",
+    "addReactionWeightRateAI_": "-1",
+    "addReactionInterSec_": "-1",
+    "isEyeLookingAtLockOn_": "false",
+    "lookingAtPartsNo_": "5",
+    "isEnableSyncWeaponAnim_": "false",
+    "weakPointParam_": {
+      "weakInfoList_": []
+    },
+    "defenseTargetHateParams_": [
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      }
+    ],
+    "ignoreAilments_": [],
+    "stageInvisibleStartDistance_": "150",
+    "stageInvisibleEndDistance_": "200",
+    "neckCtrlParam_": {
+      "partsNumber_": "5",
+      "rootPartsNumber_": "-1",
+      "basePartsNumber_": "3",
+      "baseAxisZ_": [
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      "neckAxisZ_": [
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      "baseDegree_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "maxDegreeX_": "5",
+      "maxDegreeY_": "30",
+      "minDegreeX_": "-40",
+      "minDegreeY_": "-30",
+      "rotAdjustRate_": "0.1",
+      "rotAdjustDegreeMax_": "30",
+      "baseAxisZUpLimitDegree_": "-1",
+      "seqWorkIndex_": "0",
+      "seqFlagNumber_": "11",
+      "isSeqNeckCtrlEnable_": "false",
+      "isUseBaseParts_": "true"
+    },
+    "isChangeNormalDamageAttackReaction_": "true",
+    "isUseNormalDamageAttackReactionDefault_": "true",
+    "normalDamageAttackReaction_": [
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "1"
+      },
+      {
+        "Element": "2"
+      },
+      {
+        "Element": "3"
+      },
+      {
+        "Element": "4"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "22"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      }
+    ],
+    "isCallExplodeBodyPresageDefaultVfx_": "true",
+    "isDisableAerialDownReaction_": "true",
+    "overDriveParam_": {
+      "hpRateNormal_": "0.25",
+      "hpRateOverDrive_": "0.15",
+      "hpRateBreak_": "0.05",
+      "minBreakSecond_": "5",
+      "forceBreakSecond_": "12",
+      "overDriveVyrnVoiceWaitSecond_": "3",
+      "overDriveCameraPartsNumber_": "-1"
+    },
+    "emissiveParamDefault_": {
+      "sinMode_": "false",
+      "emissiveBlinkSecond_": "6",
+      "emissiveBlinkMaxSecond_": "1",
+      "emissiveBlinkPow_": "1",
+      "emissiveStrengthUpper_": "1",
+      "emissiveStrengthLower_": "0.01"
+    },
+    "emissiveParamMax_": {
+      "sinMode_": "false",
+      "emissiveBlinkSecond_": "3",
+      "emissiveBlinkMaxSecond_": "1",
+      "emissiveBlinkPow_": "1",
+      "emissiveStrengthUpper_": "1",
+      "emissiveStrengthLower_": "0.01"
+    },
+    "emissiveParamMin_": {
+      "sinMode_": "false",
+      "emissiveBlinkSecond_": "6",
+      "emissiveBlinkMaxSecond_": "1",
+      "emissiveBlinkPow_": "1",
+      "emissiveStrengthUpper_": "0.05",
+      "emissiveStrengthLower_": "0.01"
+    },
+    "spArtsCutinParam_": {
+      "spArtsTextId_": "TXT_BT_2000_2"
+    },
+    "odAbilityParam_": {
+      "textId_": "TXT_BT_2000_1"
+    },
+    "cameraLength_": "1.5",
+    "odHitStopTimeRate_": "0",
+    "breakHitStopTimeRate_": "1",
+    "emissiveInitValue_": "0",
+    "odAttackRateFirstTime_": "1.1",
+    "odDefenseRateFirstTime_": "0.9",
+    "odAttackRateSecondTime_": "1.2",
+    "odDefenseRateSecondTime_": "0.7",
+    "abilityCoolSec_": "10",
+    "isCutInDamageDisable_": "true",
+    "bossStunOffsetY_": "0",
+    "specialArtsTriggerHpRate1st_": "60",
+    "specialArtsTriggerHpRate2nd_": "20",
+    "specialArtsDerivedExplodeScale_": "1.5",
+    "specialArtsCameraStartRotMax_": "6.283185",
+    "specialArtsCameraStartMoveRate_": "0.3",
+    "specialArtsCameraStartMoveRotMax_": "0.5235988",
+    "phaseParam_": [
+      {
+        "Element": {
+          "attackPowerRate_": "1",
+          "abilityCoolTimeSec_": "60",
+          "followMissCount_": "3",
+          "attackCountToStrongAttack_": "3",
+          "odAbilityCoolTimeSec_": "0",
+          "odAbilityLoopMaxCount_": "1",
+          "odAbilityCoolTimeSecOD_": "60",
+          "odAbilityLoopMaxCountOD_": "4",
+          "aiLevelParams_": [
+            {
+              "Element": {
+                "throwSpearSpeed_": "80",
+                "throwSpearBackProbability_": "0",
+                "throwSpearCoolTimeSec_": "60",
+                "stepCoolTimeSec_": "8",
+                "spearBreakSec_": "0",
+                "tackleMoveSpeed_": "60",
+                "jumpCounterGravityRate_": "1.5",
+                "jumpCounterFallSpeed_": "0.7",
+                "shotActionCountMax_": "1",
+                "spearAbilitySwitchCount_": "0",
+                "spearAbilityMoveSpeed_": "40",
+                "spearAbilityMoveSpeedOD_": "50",
+                "spearAbilitySwitchMotionSpeed_": "0.8",
+                "spearAbilitySwitchMotionSpeedOD_": "0.8",
+                "earthWaveMoveSec_": "4.5",
+                "slashWaveMoveSec_": "4",
+                "slashWaveOneceShotNum_": "3",
+                "earthWaveOneceShotNum_": "1",
+                "isOdAbilitySwingDown_": "false",
+                "spArtsCombinationSlashSpeed_": "10"
+              }
+            },
+            {
+              "Element": {
+                "throwSpearSpeed_": "80",
+                "throwSpearBackProbability_": "20",
+                "throwSpearCoolTimeSec_": "60",
+                "stepCoolTimeSec_": "10",
+                "spearBreakSec_": "0",
+                "tackleMoveSpeed_": "60",
+                "jumpCounterGravityRate_": "1.5",
+                "jumpCounterFallSpeed_": "0.7",
+                "shotActionCountMax_": "1",
+                "spearAbilitySwitchCount_": "1",
+                "spearAbilityMoveSpeed_": "40",
+                "spearAbilityMoveSpeedOD_": "50",
+                "spearAbilitySwitchMotionSpeed_": "0.8",
+                "spearAbilitySwitchMotionSpeedOD_": "0.8",
+                "earthWaveMoveSec_": "3.5",
+                "slashWaveMoveSec_": "2.5",
+                "slashWaveOneceShotNum_": "4",
+                "earthWaveOneceShotNum_": "2",
+                "isOdAbilitySwingDown_": "false",
+                "spArtsCombinationSlashSpeed_": "20"
+              }
+            },
+            {
+              "Element": {
+                "throwSpearSpeed_": "160",
+                "throwSpearBackProbability_": "40",
+                "throwSpearCoolTimeSec_": "45",
+                "stepCoolTimeSec_": "10",
+                "spearBreakSec_": "0",
+                "tackleMoveSpeed_": "60",
+                "jumpCounterGravityRate_": "1.5",
+                "jumpCounterFallSpeed_": "0.7",
+                "shotActionCountMax_": "1",
+                "spearAbilitySwitchCount_": "2",
+                "spearAbilityMoveSpeed_": "50",
+                "spearAbilityMoveSpeedOD_": "60",
+                "spearAbilitySwitchMotionSpeed_": "1",
+                "spearAbilitySwitchMotionSpeedOD_": "1",
+                "earthWaveMoveSec_": "3",
+                "slashWaveMoveSec_": "2",
+                "slashWaveOneceShotNum_": "5",
+                "earthWaveOneceShotNum_": "2",
+                "isOdAbilitySwingDown_": "false",
+                "spArtsCombinationSlashSpeed_": "20"
+              }
+            },
+            {
+              "Element": {
+                "throwSpearSpeed_": "200",
+                "throwSpearBackProbability_": "60",
+                "throwSpearCoolTimeSec_": "30",
+                "stepCoolTimeSec_": "10",
+                "spearBreakSec_": "0",
+                "tackleMoveSpeed_": "90",
+                "jumpCounterGravityRate_": "5",
+                "jumpCounterFallSpeed_": "0.4",
+                "shotActionCountMax_": "3",
+                "spearAbilitySwitchCount_": "3",
+                "spearAbilityMoveSpeed_": "80",
+                "spearAbilityMoveSpeedOD_": "90",
+                "spearAbilitySwitchMotionSpeed_": "1",
+                "spearAbilitySwitchMotionSpeedOD_": "1",
+                "earthWaveMoveSec_": "2.5",
+                "slashWaveMoveSec_": "1.5",
+                "slashWaveOneceShotNum_": "6",
+                "earthWaveOneceShotNum_": "2",
+                "isOdAbilitySwingDown_": "true",
+                "spArtsCombinationSlashSpeed_": "30"
+              }
+            },
+            {
+              "Element": {
+                "throwSpearSpeed_": "200",
+                "throwSpearBackProbability_": "90",
+                "throwSpearCoolTimeSec_": "60",
+                "stepCoolTimeSec_": "10",
+                "spearBreakSec_": "0",
+                "tackleMoveSpeed_": "60",
+                "jumpCounterGravityRate_": "1.5",
+                "jumpCounterFallSpeed_": "0.7",
+                "shotActionCountMax_": "3",
+                "spearAbilitySwitchCount_": "4",
+                "spearAbilityMoveSpeed_": "60",
+                "spearAbilityMoveSpeedOD_": "70",
+                "spearAbilitySwitchMotionSpeed_": "1",
+                "spearAbilitySwitchMotionSpeedOD_": "1",
+                "earthWaveMoveSec_": "2.5",
+                "slashWaveMoveSec_": "1.5",
+                "slashWaveOneceShotNum_": "6",
+                "earthWaveOneceShotNum_": "2",
+                "isOdAbilitySwingDown_": "true",
+                "spArtsCombinationSlashSpeed_": "40"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "attackPowerRate_": "1.25",
+          "abilityCoolTimeSec_": "45",
+          "followMissCount_": "5",
+          "attackCountToStrongAttack_": "2",
+          "odAbilityCoolTimeSec_": "60",
+          "odAbilityLoopMaxCount_": "5",
+          "odAbilityCoolTimeSecOD_": "60",
+          "odAbilityLoopMaxCountOD_": "5",
+          "aiLevelParams_": [
+            {
+              "Element": {
+                "throwSpearSpeed_": "80",
+                "throwSpearBackProbability_": "0",
+                "throwSpearCoolTimeSec_": "60",
+                "stepCoolTimeSec_": "8",
+                "spearBreakSec_": "0",
+                "tackleMoveSpeed_": "60",
+                "jumpCounterGravityRate_": "1.5",
+                "jumpCounterFallSpeed_": "0.7",
+                "shotActionCountMax_": "3",
+                "spearAbilitySwitchCount_": "1",
+                "spearAbilityMoveSpeed_": "50",
+                "spearAbilityMoveSpeedOD_": "70",
+                "spearAbilitySwitchMotionSpeed_": "0.8",
+                "spearAbilitySwitchMotionSpeedOD_": "0.8",
+                "earthWaveMoveSec_": "4",
+                "slashWaveMoveSec_": "3.5",
+                "slashWaveOneceShotNum_": "3",
+                "earthWaveOneceShotNum_": "1",
+                "isOdAbilitySwingDown_": "false",
+                "spArtsCombinationSlashSpeed_": "40"
+              }
+            },
+            {
+              "Element": {
+                "throwSpearSpeed_": "80",
+                "throwSpearBackProbability_": "20",
+                "throwSpearCoolTimeSec_": "60",
+                "stepCoolTimeSec_": "10",
+                "spearBreakSec_": "0",
+                "tackleMoveSpeed_": "60",
+                "jumpCounterGravityRate_": "1.5",
+                "jumpCounterFallSpeed_": "0.7",
+                "shotActionCountMax_": "3",
+                "spearAbilitySwitchCount_": "2",
+                "spearAbilityMoveSpeed_": "50",
+                "spearAbilityMoveSpeedOD_": "70",
+                "spearAbilitySwitchMotionSpeed_": "0.8",
+                "spearAbilitySwitchMotionSpeedOD_": "0.8",
+                "earthWaveMoveSec_": "3",
+                "slashWaveMoveSec_": "2",
+                "slashWaveOneceShotNum_": "5",
+                "earthWaveOneceShotNum_": "2",
+                "isOdAbilitySwingDown_": "false",
+                "spArtsCombinationSlashSpeed_": "40"
+              }
+            },
+            {
+              "Element": {
+                "throwSpearSpeed_": "160",
+                "throwSpearBackProbability_": "40",
+                "throwSpearCoolTimeSec_": "45",
+                "stepCoolTimeSec_": "10",
+                "spearBreakSec_": "0",
+                "tackleMoveSpeed_": "60",
+                "jumpCounterGravityRate_": "1.5",
+                "jumpCounterFallSpeed_": "0.7",
+                "shotActionCountMax_": "3",
+                "spearAbilitySwitchCount_": "3",
+                "spearAbilityMoveSpeed_": "60",
+                "spearAbilityMoveSpeedOD_": "80",
+                "spearAbilitySwitchMotionSpeed_": "1",
+                "spearAbilitySwitchMotionSpeedOD_": "1",
+                "earthWaveMoveSec_": "2.5",
+                "slashWaveMoveSec_": "1.5",
+                "slashWaveOneceShotNum_": "7",
+                "earthWaveOneceShotNum_": "2",
+                "isOdAbilitySwingDown_": "false",
+                "spArtsCombinationSlashSpeed_": "40"
+              }
+            },
+            {
+              "Element": {
+                "throwSpearSpeed_": "1000",
+                "throwSpearBackProbability_": "60",
+                "throwSpearCoolTimeSec_": "30",
+                "stepCoolTimeSec_": "10",
+                "spearBreakSec_": "0",
+                "tackleMoveSpeed_": "90",
+                "jumpCounterGravityRate_": "5",
+                "jumpCounterFallSpeed_": "0.4",
+                "shotActionCountMax_": "5",
+                "spearAbilitySwitchCount_": "4",
+                "spearAbilityMoveSpeed_": "110",
+                "spearAbilityMoveSpeedOD_": "120",
+                "spearAbilitySwitchMotionSpeed_": "1",
+                "spearAbilitySwitchMotionSpeedOD_": "1",
+                "earthWaveMoveSec_": "2",
+                "slashWaveMoveSec_": "1",
+                "slashWaveOneceShotNum_": "8",
+                "earthWaveOneceShotNum_": "3",
+                "isOdAbilitySwingDown_": "true",
+                "spArtsCombinationSlashSpeed_": "40"
+              }
+            },
+            {
+              "Element": {
+                "throwSpearSpeed_": "1000",
+                "throwSpearBackProbability_": "90",
+                "throwSpearCoolTimeSec_": "60",
+                "stepCoolTimeSec_": "10",
+                "spearBreakSec_": "0",
+                "tackleMoveSpeed_": "60",
+                "jumpCounterGravityRate_": "1.5",
+                "jumpCounterFallSpeed_": "0.7",
+                "shotActionCountMax_": "5",
+                "spearAbilitySwitchCount_": "5",
+                "spearAbilityMoveSpeed_": "70",
+                "spearAbilityMoveSpeedOD_": "90",
+                "spearAbilitySwitchMotionSpeed_": "1",
+                "spearAbilitySwitchMotionSpeedOD_": "1",
+                "earthWaveMoveSec_": "2",
+                "slashWaveMoveSec_": "1",
+                "slashWaveOneceShotNum_": "8",
+                "earthWaveOneceShotNum_": "3",
+                "isOdAbilitySwingDown_": "true",
+                "spArtsCombinationSlashSpeed_": "40"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "popOutMaxHeightEm": "12",
+    "popOutDistXZEm": "8",
+    "popOutRollingRateEm": "3",
+    "popOutMaxHeightPl": "4",
+    "popOutDistXZPl": "15",
+    "popOutRollingRatePl": "2",
+    "tacklePickUpWaitMinSec_": "1",
+    "tacklePickUpWaitMaxSec_": "3",
+    "tacklePickUpWaitMinDist_": "4",
+    "tacklePickUpWaitMaxDist_": "10",
+    "stompQuakeCoolSec_": "20",
+    "stompQuakeAttackWaitSec_": "1.5",
+    "stompQuakeAttackMeleeWaitSec_": "1.5",
+    "stompQuakeBranchParams_": [
+      {
+        "Element": {
+          "offsetX_": "0",
+          "offsetZ_": "3",
+          "degreeY_": "-10",
+          "length_": "10",
+          "width_": "3",
+          "id_": "0",
+          "parentId_": "-1"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "1",
+          "offsetZ_": "2.25",
+          "degreeY_": "60",
+          "length_": "10",
+          "width_": "2",
+          "id_": "1",
+          "parentId_": "-1"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-1",
+          "offsetZ_": "2.25",
+          "degreeY_": "-60",
+          "length_": "10",
+          "width_": "2",
+          "id_": "2",
+          "parentId_": "-1"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-1.7",
+          "offsetZ_": "12",
+          "degreeY_": "20",
+          "length_": "10",
+          "width_": "3",
+          "id_": "3",
+          "parentId_": "0"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "1.7",
+          "offsetZ_": "21",
+          "degreeY_": "37",
+          "length_": "10",
+          "width_": "3",
+          "id_": "4",
+          "parentId_": "3"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "0",
+          "offsetZ_": "13",
+          "degreeY_": "60",
+          "length_": "10",
+          "width_": "2",
+          "id_": "5",
+          "parentId_": "0"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "8.5",
+          "offsetZ_": "18",
+          "degreeY_": "73",
+          "length_": "10",
+          "width_": "2",
+          "id_": "6",
+          "parentId_": "5"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-1",
+          "offsetZ_": "16",
+          "degreeY_": "-60",
+          "length_": "10",
+          "width_": "2",
+          "id_": "7",
+          "parentId_": "0"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-9.5",
+          "offsetZ_": "21",
+          "degreeY_": "-73",
+          "length_": "10",
+          "width_": "2",
+          "id_": "8",
+          "parentId_": "7"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "8",
+          "offsetZ_": "28",
+          "degreeY_": "-20",
+          "length_": "10",
+          "width_": "3",
+          "id_": "9",
+          "parentId_": "4"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "8.5",
+          "offsetZ_": "30",
+          "degreeY_": "60",
+          "length_": "10",
+          "width_": "2",
+          "id_": "10",
+          "parentId_": "9"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "17",
+          "offsetZ_": "35",
+          "degreeY_": "80",
+          "length_": "10",
+          "width_": "2",
+          "id_": "11",
+          "parentId_": "10"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "3",
+          "offsetZ_": "25",
+          "degreeY_": "-50",
+          "length_": "10",
+          "width_": "2",
+          "id_": "12",
+          "parentId_": "4"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-4.5",
+          "offsetZ_": "31.5",
+          "degreeY_": "-40",
+          "length_": "10",
+          "width_": "2",
+          "id_": "13",
+          "parentId_": "12"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-10",
+          "offsetZ_": "38",
+          "degreeY_": "-45",
+          "length_": "10",
+          "width_": "2",
+          "id_": "14",
+          "parentId_": "13"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "3",
+          "offsetZ_": "5",
+          "degreeY_": "40",
+          "length_": "10",
+          "width_": "2",
+          "id_": "15",
+          "parentId_": "1"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-4",
+          "offsetZ_": "5",
+          "degreeY_": "-30",
+          "length_": "10",
+          "width_": "2",
+          "id_": "16",
+          "parentId_": "2"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-9",
+          "offsetZ_": "14",
+          "degreeY_": "-70",
+          "length_": "6",
+          "width_": "2",
+          "id_": "17",
+          "parentId_": "16"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-1",
+          "offsetZ_": "17",
+          "degreeY_": "-35",
+          "length_": "10",
+          "width_": "2",
+          "id_": "18",
+          "parentId_": "7"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-6.6",
+          "offsetZ_": "25",
+          "degreeY_": "-30",
+          "length_": "10",
+          "width_": "2",
+          "id_": "19",
+          "parentId_": "18"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-12",
+          "offsetZ_": "22",
+          "degreeY_": "-15",
+          "length_": "10",
+          "width_": "2",
+          "id_": "20",
+          "parentId_": "8"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "6",
+          "offsetZ_": "17",
+          "degreeY_": "34",
+          "length_": "10",
+          "width_": "2",
+          "id_": "21",
+          "parentId_": "5"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "11",
+          "offsetZ_": "25",
+          "degreeY_": "70",
+          "length_": "10",
+          "width_": "2",
+          "id_": "22",
+          "parentId_": "21"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "3",
+          "offsetZ_": "26",
+          "degreeY_": "-25",
+          "length_": "10",
+          "width_": "2",
+          "id_": "23",
+          "parentId_": "12"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-1.2",
+          "offsetZ_": "34",
+          "degreeY_": "20",
+          "length_": "10",
+          "width_": "2",
+          "id_": "24",
+          "parentId_": "23"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-17",
+          "offsetZ_": "45",
+          "degreeY_": "-60",
+          "length_": "10",
+          "width_": "2",
+          "id_": "25",
+          "parentId_": "14"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-10",
+          "offsetZ_": "38",
+          "degreeY_": "-80",
+          "length_": "17",
+          "width_": "2",
+          "id_": "26",
+          "parentId_": "13"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-5",
+          "offsetZ_": "33",
+          "degreeY_": "0",
+          "length_": "10",
+          "width_": "2",
+          "id_": "27",
+          "parentId_": "13"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "10",
+          "offsetZ_": "31",
+          "degreeY_": "18",
+          "length_": "14",
+          "width_": "2",
+          "id_": "28",
+          "parentId_": "10"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "12",
+          "offsetZ_": "36",
+          "degreeY_": "56",
+          "length_": "14",
+          "width_": "2",
+          "id_": "29",
+          "parentId_": "28"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "6",
+          "offsetZ_": "17",
+          "degreeY_": "15",
+          "length_": "9",
+          "width_": "2",
+          "id_": "30",
+          "parentId_": "21"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-2",
+          "offsetZ_": "18",
+          "degreeY_": "-3",
+          "length_": "9",
+          "width_": "2",
+          "id_": "31",
+          "parentId_": "18"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "11",
+          "offsetZ_": "31",
+          "degreeY_": "90",
+          "length_": "10",
+          "width_": "2",
+          "id_": "32",
+          "parentId_": "10"
+        }
+      }
+    ],
+    "stompQuakeBranchMeleeParams_": [
+      {
+        "Element": {
+          "offsetX_": "1.5",
+          "offsetZ_": "1.5",
+          "degreeY_": "45",
+          "length_": "4",
+          "width_": "2",
+          "id_": "0",
+          "parentId_": "-1"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "1.5",
+          "offsetZ_": "-1.5",
+          "degreeY_": "135",
+          "length_": "5",
+          "width_": "2",
+          "id_": "1",
+          "parentId_": "-1"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-1.5",
+          "offsetZ_": "-1.5",
+          "degreeY_": "225",
+          "length_": "5",
+          "width_": "2",
+          "id_": "2",
+          "parentId_": "-1"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-1.5",
+          "offsetZ_": "1.5",
+          "degreeY_": "315",
+          "length_": "5",
+          "width_": "2",
+          "id_": "3",
+          "parentId_": "-1"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "2",
+          "offsetZ_": "2",
+          "degreeY_": "100",
+          "length_": "7",
+          "width_": "1",
+          "id_": "4",
+          "parentId_": "0"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "5",
+          "offsetZ_": "1.3",
+          "degreeY_": "1230",
+          "length_": "5",
+          "width_": "1",
+          "id_": "5",
+          "parentId_": "4"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "2",
+          "offsetZ_": "3",
+          "degreeY_": "15",
+          "length_": "7",
+          "width_": "1",
+          "id_": "6",
+          "parentId_": "0"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "7",
+          "offsetZ_": "6",
+          "degreeY_": "-5",
+          "length_": "7",
+          "width_": "1",
+          "id_": "7",
+          "parentId_": "0"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "4",
+          "offsetZ_": "4",
+          "degreeY_": "70",
+          "length_": "5",
+          "width_": "2",
+          "id_": "8",
+          "parentId_": "0"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "8.6",
+          "offsetZ_": "5.3",
+          "degreeY_": "35",
+          "length_": "5",
+          "width_": "2",
+          "id_": "9",
+          "parentId_": "8"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "7",
+          "offsetZ_": "4",
+          "degreeY_": "100",
+          "length_": "7",
+          "width_": "1",
+          "id_": "10",
+          "parentId_": "8"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "4",
+          "offsetZ_": "-3",
+          "degreeY_": "90",
+          "length_": "3",
+          "width_": "1",
+          "id_": "11",
+          "parentId_": "1"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "6",
+          "offsetZ_": "-5",
+          "degreeY_": "60",
+          "length_": "5",
+          "width_": "1",
+          "id_": "12",
+          "parentId_": "1"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "6.3",
+          "offsetZ_": "-7",
+          "degreeY_": "100",
+          "length_": "5",
+          "width_": "1",
+          "id_": "13",
+          "parentId_": "1"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "5",
+          "offsetZ_": "-4.7",
+          "degreeY_": "170",
+          "length_": "5",
+          "width_": "2",
+          "id_": "14",
+          "parentId_": "1"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "6",
+          "offsetZ_": "-9.5",
+          "degreeY_": "200",
+          "length_": "5",
+          "width_": "2",
+          "id_": "15",
+          "parentId_": "14"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-1",
+          "offsetZ_": "-7",
+          "degreeY_": "30",
+          "length_": "5",
+          "width_": "1",
+          "id_": "16",
+          "parentId_": "1"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "1",
+          "offsetZ_": "-10",
+          "degreeY_": "45",
+          "length_": "6",
+          "width_": "1",
+          "id_": "17",
+          "parentId_": "14"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-5",
+          "offsetZ_": "-5",
+          "degreeY_": "260",
+          "length_": "5",
+          "width_": "2",
+          "id_": "18",
+          "parentId_": "2"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-9.56",
+          "offsetZ_": "-5.5",
+          "degreeY_": "200",
+          "length_": "5",
+          "width_": "2",
+          "id_": "19",
+          "parentId_": "18"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-3",
+          "offsetZ_": "-1.5",
+          "degreeY_": "280",
+          "length_": "5",
+          "width_": "1",
+          "id_": "20",
+          "parentId_": "2"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-6",
+          "offsetZ_": "-6",
+          "degreeY_": "130",
+          "length_": "5",
+          "width_": "1",
+          "id_": "21",
+          "parentId_": "18"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-8",
+          "offsetZ_": "-5",
+          "degreeY_": "300",
+          "length_": "5",
+          "width_": "1",
+          "id_": "22",
+          "parentId_": "18"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-5",
+          "offsetZ_": "4.5",
+          "degreeY_": "0",
+          "length_": "5",
+          "width_": "2",
+          "id_": "23",
+          "parentId_": "3"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-5",
+          "offsetZ_": "9",
+          "degreeY_": "30",
+          "length_": "5",
+          "width_": "2",
+          "id_": "24",
+          "parentId_": "23"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-4",
+          "offsetZ_": "3",
+          "degreeY_": "280",
+          "length_": "5",
+          "width_": "1",
+          "id_": "25",
+          "parentId_": "3"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-3",
+          "offsetZ_": "4",
+          "degreeY_": "50",
+          "length_": "5",
+          "width_": "1",
+          "id_": "26",
+          "parentId_": "3"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-4",
+          "offsetZ_": "7",
+          "degreeY_": "45",
+          "length_": "5",
+          "width_": "1",
+          "id_": "27",
+          "parentId_": "23"
+        }
+      },
+      {
+        "Element": {
+          "offsetX_": "-6",
+          "offsetZ_": "8",
+          "degreeY_": "-30",
+          "length_": "5",
+          "width_": "1",
+          "id_": "28",
+          "parentId_": "23"
+        }
+      }
+    ],
+    "tackleMoveLength_": "15",
+    "stepMovementRate_": "2",
+    "stepMovementRateOD_": "2.5",
+    "forceComboFinishCoolSec_": "30",
+    "odAttackPowerRate_": "1",
+    "additionalExplodeDelaySec_": "1.5",
+    "swingDownAttackRate_": "2.5",
+    "throwSpearPlAttackPower_": "25",
+    "throwSpearBelowSpearLandingAttackRate_": "1.2",
+    "throwSpearBelowCenterExplodeAttackRate_": "3",
+    "throwSpearBelowCrackExplodeAttackRate_": "2.5",
+    "throwSpearTargetSpearLandingAttackRate_": "2",
+    "counterCenterExplodeAttackRate_": "3",
+    "counterCrackExplodeAttackRate_": "2.5",
+    "odAbilityEarthWaveAttackRate_": "2",
+    "odAbilitySlashWaveAttackRate_": "2",
+    "spArtsSpearLandingAttackRate_": "1.2",
+    "spArtsCenterExplodeAttackRate_": "6.5",
+    "spArtsCrackExplodeAttackRate_": "5",
+    "counterCenterExplodeBreakRate_": "3",
+    "counterCrackExplodeBreakRate_": "2.5",
+    "stompQuakeBreakRate_": "1",
+    "eyeCtrlParam_": {
+      "eyeParamL_": {
+        "pupilLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "pupilLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "highlightLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "highlightLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "attenuateThresholdX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "attenuateThresholdY_": {
+          "min_": "-0.045",
+          "max_": "0.03"
+        }
+      },
+      "eyeParamR_": {
+        "pupilLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "pupilLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "highlightLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "highlightLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "attenuateThresholdX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "attenuateThresholdY_": {
+          "min_": "-0.045",
+          "max_": "0.03"
+        }
+      },
+      "attenuareHighlightRate_": [
+        "1",
+        "0.25"
+      ]
+    },
+    "hpRate6stNormal_": "0.2",
+    "hpRate6stOverDrive_": "0.2",
+    "hpRate6stBreak_": "0.03",
+    "combatPower6st_": "50",
+    "hateLessCombatPower_": "50",
+    "hatePinch_": "1000",
+    "spArtsHpRate6st_": "50",
+    "hpRate6stMemberDie_": "0.8",
+    "specialAttackCoolSec6st_": "10",
+    "emLinkAttackEffectWaitSecLaunch_": "0.5",
+    "emLinkAttackEffectWaitSecFinish_": "0.2",
+    "emLinkAttackFinishHitEffectPartsNo_": "3",
+    "emLinkAttackFinishHitEffectOffset_": [
+      "0",
+      "-1.4",
+      "-2",
+      "1"
+    ],
+    "spArtsCombinationHpRates_": [
+      {
+        "Element": "0.5"
+      },
+      {
+        "Element": "0.2"
+      }
+    ],
+    "spArtsCombinationTextId_": "TXT_BT_2000_3",
+    "spArtsCombinationStartOfsY_": "10",
+    "spArtsCombinationStartOfsZ_": "-1.5",
+    "spArtsCombinationStartRotOfsY_": "3.141593",
+    "spArtsCombinationShotIntervalSec_": "0.75",
+    "spArtsCombinationSlashDanceSec_": "11",
+    "spArtsCombinationBeginThrowRate_": "0.3",
+    "spArtsCombinationThrowTargetOfsX_": "0.16",
+    "spArtsCombinationThrowTargetOfsZ_": "0",
+    "spArtsCombinationWearSwordsWatchWaitSec_": "2.5",
+    "spArtsCombinationWearSwordsWatchSec_": "4",
+    "spArtsCombinationSpearLandingSec_": "4"
+  }
+}

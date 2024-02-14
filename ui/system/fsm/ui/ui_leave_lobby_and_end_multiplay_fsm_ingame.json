@@ -1,0 +1,242 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 497166509,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2060158621
+      }
+    ],
+    "toNodeGuid_": 497166509,
+    "fromNodeGuid_": 89826679,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1005470957
+      }
+    ],
+    "toNodeGuid_": 497166509,
+    "fromNodeGuid_": 408995979,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1030469057,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 363166532,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1176560146
+      }
+    ],
+    "toNodeGuid_": 1030469057,
+    "fromNodeGuid_": 519886094,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 519886094,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 155432385,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1481103477
+      },
+      {
+        "Element": 1039949260
+      }
+    ],
+    "toNodeGuid_": 519886094,
+    "fromNodeGuid_": 812191891,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 89826679,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1434940400,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 812191891,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 966528058,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1579850389
+      }
+    ],
+    "toNodeGuid_": 812191891,
+    "fromNodeGuid_": 89826679,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 408995979,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 821403538,
+    "isBranch_": true,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 631871930
+      }
+    ],
+    "toNodeGuid_": 408995979,
+    "fromNodeGuid_": 1030469057,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 618141095
+      }
+    ],
+    "toNodeGuid_": 408995979,
+    "fromNodeGuid_": 812191891,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "LeaveLobby": {
+    "guid_": 1168897323,
+    "parentGuid_": 1030469057,
+    "mode_": {
+      "str_": "LeavePlayerSession",
+      "index_": 0
+    }
+  },
+  "WaitLeaveLobby": {
+    "guid_": 1607567603,
+    "parentGuid_": 519886094
+  },
+  "Event": {
+    "guid_": 1176560146,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "ToWaitLeaveLobby",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "FlowEnd": {
+    "guid_": 1383149069,
+    "parentGuid_": 89826679,
+    "result_": 0,
+    "fsmLabel_": "LeaveLobbyAndEndMultiplay"
+  },
+  "IsOnlineMode": {
+    "guid_": 2060158621,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true
+  },
+  "EndOnlineAndMulti": {
+    "guid_": 707452717,
+    "parentGuid_": 812191891
+  },
+  "IsOnlineMode": {
+    "guid_": 1579850389,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true
+  },
+  "IsOnlineMode": {
+    "guid_": 1005470957,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false
+  },
+  "IsJoinLobby": {
+    "guid_": 631871930,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false
+  },
+  "IsJoinLobby": {
+    "guid_": 618141095,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true
+  },
+  "Event": {
+    "guid_": 1481103477,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "SuccessLeaveLobby",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "Event": {
+    "guid_": 1039949260,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "FailedLeaveLobby",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  }
+}

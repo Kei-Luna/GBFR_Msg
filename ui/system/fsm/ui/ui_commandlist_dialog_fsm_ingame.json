@@ -1,0 +1,279 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1522832693,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1522832693,
+    "fromNodeGuid_": 120277513,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 980160076,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 403438490,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "FSMNode": {
+    "guid_": 120277513,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 650031798,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1718192351
+      },
+      {
+        "Element": 102647039
+      }
+    ],
+    "toNodeGuid_": 120277513,
+    "fromNodeGuid_": 761867814,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1899257920
+      },
+      {
+        "Element": 53048817
+      }
+    ],
+    "toNodeGuid_": 120277513,
+    "fromNodeGuid_": 980160076,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1220842551
+      },
+      {
+        "Element": 509576293
+      }
+    ],
+    "toNodeGuid_": 120277513,
+    "fromNodeGuid_": 511854946,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 761867814,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 2133631229,
+    "isBranch_": true,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 761867814,
+    "fromNodeGuid_": 980160076,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 511854946,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1312225343,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 557017124
+      }
+    ],
+    "toNodeGuid_": 511854946,
+    "fromNodeGuid_": 980160076,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "FlowEnd": {
+    "guid_": 1953642603,
+    "parentGuid_": 980160076,
+    "result_": 0,
+    "fsmLabel_": "CommandListDialog"
+  },
+  "OpenCommandListDialog": {
+    "guid_": 1285277195,
+    "parentGuid_": 120277513
+  },
+  "ViewOpen": {
+    "guid_": 680058100,
+    "parentGuid_": 120277513,
+    "views_": [
+      {
+        "Element": "CommandFooter"
+      }
+    ],
+    "count_": 1,
+    "layerOffset_": 0,
+    "openSkip_": false,
+    "closeSkip_": false,
+    "skip_": false
+  },
+  "Guide": {
+    "guid_": 1677618782,
+    "parentGuid_": 120277513,
+    "guides_": [
+      {
+        "Element": "Close"
+      }
+    ],
+    "count_": 1,
+    "footer_": {
+      "str_": "CommandFooter",
+      "index_": 4
+    },
+    "isFixAdd_": false
+  },
+  "FooterType": {
+    "guid_": 441508993,
+    "parentGuid_": 120277513,
+    "type_": {
+      "str_": "MainMenu",
+      "index_": 0
+    }
+  },
+  "IsEndCommandListDialog": {
+    "guid_": 1718192351,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "includeClose_": true
+  },
+  "FlowParam": {
+    "guid_": 102647039,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "fsmLabel_": "CommandListDialog",
+    "param_": 0
+  },
+  "ViewClose": {
+    "guid_": 935059424,
+    "parentGuid_": 761867814,
+    "views_": [
+      {
+        "Element": "CommandFooter"
+      }
+    ],
+    "count_": 1,
+    "layerOffset_": 1,
+    "openSkip_": false,
+    "closeSkip_": false,
+    "skip_": false
+  },
+  "IsEndCommandListDialog": {
+    "guid_": 1899257920,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "includeClose_": true
+  },
+  "FlowParam": {
+    "guid_": 53048817,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "fsmLabel_": "CommandListDialog",
+    "param_": 0
+  },
+  "ViewClose": {
+    "guid_": 185694269,
+    "parentGuid_": 511854946,
+    "views_": [
+      {
+        "Element": "DialogCommandList"
+      }
+    ],
+    "count_": 1,
+    "layerOffset_": 1,
+    "openSkip_": false,
+    "closeSkip_": false,
+    "skip_": false
+  },
+  "IsEndCommandListDialog": {
+    "guid_": 557017124,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "includeClose_": true
+  },
+  "IsOnlineTopMemberNumChanged": {
+    "guid_": 1220842551,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false
+  },
+  "IsNeedLeaveStatus": {
+    "guid_": 509576293,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 2110744938,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 2110744938,
+    "fromNodeGuid_": 1127537648,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1127537648,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1552909936,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1156400279
+      },
+      {
+        "Element": 900574687
+      }
+    ],
+    "toNodeGuid_": 1127537648,
+    "fromNodeGuid_": 1448442459,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 1448442459,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1443759855,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1396173929
+      }
+    ],
+    "toNodeGuid_": 1448442459,
+    "fromNodeGuid_": 1849231019,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1849231019,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1443759855,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "StartTimer": {
+    "guid_": 952853128,
+    "parentGuid_": 1127537648,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 29,
+    "progressHash_": 5308621573396994623,
+    "timerId_": 0
+  },
+  "CallTalkEvent": {
+    "guid_": 1433582753,
+    "parentGuid_": 1448442459,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 29,
+    "progressHash_": 5308621573396994623,
+    "groupID_": "VT_MS02_0380"
+  },
+  "StartTimer": {
+    "guid_": 1254052141,
+    "parentGuid_": 1448442459,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 29,
+    "progressHash_": 5308621573396994623,
+    "timerId_": 0
+  },
+  "CallTalkEvent": {
+    "guid_": 933623056,
+    "parentGuid_": 1849231019,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 29,
+    "progressHash_": 5308621573396994623,
+    "groupID_": "VT_MS02_0390"
+  },
+  "CheckTimer": {
+    "guid_": 1156400279,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 29,
+    "progressHash_": 5308621573396994623,
+    "isNoCheckSkip_": false,
+    "timerId_": 0,
+    "time_": 20
+  },
+  "RecvSignal": {
+    "guid_": 900574687,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 29,
+    "progressHash_": 5308621573396994623,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 10225997749437707768
+      },
+      {
+        "Element": 12688306266722627920
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "CheckTimer": {
+    "guid_": 1396173929,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 29,
+    "progressHash_": 5308621573396994623,
+    "isNoCheckSkip_": false,
+    "timerId_": 1,
+    "time_": 40
+  }
+}

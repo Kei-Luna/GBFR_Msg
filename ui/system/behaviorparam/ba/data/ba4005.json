@@ -1,0 +1,78 @@
+{
+  "BaMachineGunParam": {
+    "yawMax_": "60",
+    "yawMin_": "-60",
+    "pitchMax_": "75",
+    "pitchMin_": "-5",
+    "destroyedPitch_": "15",
+    "repairedPitch_": "0",
+    "coolDowmTime_": "5",
+    "turretFireParHeat_": "0.93",
+    "normalShotPower_": "90",
+    "grenadeFireRate_": "1.4",
+    "grenadeFireParHeat_": "13",
+    "chargeShotChargingTime_": "1.7",
+    "chargeShotFireRate_": [
+      {
+        "Element": "0.3"
+      },
+      {
+        "Element": "0.3"
+      },
+      {
+        "Element": "0.3"
+      }
+    ],
+    "chargeShoFireParHeat_": [
+      {
+        "Element": "3"
+      },
+      {
+        "Element": "6"
+      },
+      {
+        "Element": "12"
+      }
+    ],
+    "rotSpeedRate_": "0.8",
+    "rotInertia_": "0.2",
+    "hp_": "1000",
+    "accessRange_": "2",
+    "accessInterval_": "0.5",
+    "grenadeBombPower_": "500"
+  },
+  "ExFSMParam": {
+    "dataParams_": [
+      [
+        {
+          "className_": "ba4005",
+          "fileName_": "voice_text"
+        },
+        {
+          "className_": "ba2610",
+          "fileName_": "snd_1"
+        }
+      ],
+      [],
+      [
+        {
+          "boolValue_": "false",
+          "name_": "Ba4005_IsSuspend"
+        },
+        {
+          "boolValue_": "false",
+          "name_": "Ba4005_EnableDmgVoice"
+        },
+        {
+          "boolValue_": "false",
+          "name_": "Ba4005_InRange"
+        }
+      ]
+    ]
+  },
+  "BaSuspendableGunParam": {
+    "suspendHitCount_": "1",
+    "suspendTime_": "30",
+    "disableDmgDist_": "50"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1205292472,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1205292472,
+    "fromNodeGuid_": 1790014756,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 926752205,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 300837654,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "FSMNode": {
+    "guid_": 1790014756,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 703239012,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 859279793
+      }
+    ],
+    "toNodeGuid_": 1790014756,
+    "fromNodeGuid_": 926752205,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "FlowEnd": {
+    "guid_": 1279018360,
+    "parentGuid_": 926752205,
+    "result_": 0,
+    "fsmLabel_": "CutWordList"
+  },
+  "Event": {
+    "guid_": 859279793,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "Cancel",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "ViewOpenClose": {
+    "guid_": 2109792402,
+    "parentGuid_": 1790014756,
+    "views_": [
+      {
+        "Element": "WinCutWordList"
+      }
+    ],
+    "count_": 1,
+    "layerOffset_": 1,
+    "openSkip_": false,
+    "closeSkip_": false
+  },
+  "CurrentMenu": {
+    "guid_": 426926172,
+    "parentGuid_": 1790014756,
+    "menuID_": "WinCutWordListMenu",
+    "title_": "",
+    "info_": "",
+    "setCachedHeader_": false,
+    "type_": {
+      "str_": "TrialMenu",
+      "index_": 0
+    }
+  },
+  "Guide": {
+    "guid_": 1178464609,
+    "parentGuid_": 1790014756,
+    "guides_": [
+      {
+        "Element": "Cancel"
+      },
+      {
+        "Element": "WinCutWordListScroll"
+      }
+    ],
+    "count_": 2,
+    "footer_": {
+      "str_": "PauseFooter",
+      "index_": 0
+    },
+    "isFixAdd_": false
+  },
+  "FooterType": {
+    "guid_": 1609396333,
+    "parentGuid_": 1790014756,
+    "type_": {
+      "str_": "",
+      "index_": 0
+    }
+  }
+}

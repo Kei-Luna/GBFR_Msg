@@ -1,0 +1,181 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 724131733,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 724131733,
+    "fromNodeGuid_": 801537891,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 717312669
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 198413184,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1424377427
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1231458123,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 801537891,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 198413184,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1083171368,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1231458123,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1783344584,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SoundMotionCheckCondition": {
+    "guid_": 717312669,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 1171203427,
+    "parentGuid_": 198413184,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "baa004_door_wood_open_m_01_L",
+          "delayTime_": 0,
+          "requestId_": 1171203427,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "baa004_door_wood_open_m_01_R",
+          "delayTime_": 0,
+          "requestId_": 1171203427,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1424377427,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0100",
+          "hashValue_": 223981125
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 1699944601,
+    "parentGuid_": 1231458123,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "baa004_door_wood_close_m_01_L",
+          "delayTime_": 0,
+          "requestId_": 1699944601,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "baa004_door_wood_close_m_01_R",
+          "delayTime_": 0,
+          "requestId_": 1699944601,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  }
+}

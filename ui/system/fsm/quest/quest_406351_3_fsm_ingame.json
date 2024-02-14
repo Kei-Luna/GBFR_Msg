@@ -1,0 +1,93 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1265795879,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1265795879,
+    "fromNodeGuid_": 791237407,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2040768660,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1833083024,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 791237407,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1401267331
+      }
+    ],
+    "toNodeGuid_": 791237407,
+    "fromNodeGuid_": 2040768660,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "FinishManualCompleteTargetTask": {
+    "guid_": 632637534,
+    "parentGuid_": 2040768660,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 849,
+    "progressIndex_": 3,
+    "progressHash_": 10783943852838048159,
+    "label_": "サブミッション3",
+    "asFailed_": true
+  },
+  "AddTargetTask": {
+    "guid_": 1006513115,
+    "parentGuid_": 791237407,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 849,
+    "progressIndex_": 3,
+    "progressHash_": 10783943852838048159,
+    "label_": "時間経過監視",
+    "isAllInMode_": false
+  },
+  "CompleteTargetTask": {
+    "guid_": 1401267331,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 849,
+    "progressIndex_": 3,
+    "progressHash_": 10783943852838048159,
+    "isNoCheckSkip_": false,
+    "label_": "時間経過監視"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1156996743,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1156996743,
+    "fromNodeGuid_": 1009771980,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1163655708,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 696464993,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1690406645
+      }
+    ],
+    "toNodeGuid_": 1163655708,
+    "fromNodeGuid_": 1009771980,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1009771980,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 255264539,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2067846093
+      }
+    ],
+    "toNodeGuid_": 1009771980,
+    "fromNodeGuid_": 1163655708,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "ControlRespawnSystem": {
+    "guid_": 726916396,
+    "parentGuid_": 1163655708,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 25,
+    "progressIndex_": 10,
+    "progressHash_": 13054741389889903315,
+    "enable_": false
+  },
+  "ControlRespawnSystem": {
+    "guid_": 897635022,
+    "parentGuid_": 1009771980,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 25,
+    "progressIndex_": 10,
+    "progressHash_": 13054741389889903315,
+    "enable_": true
+  },
+  "RecvSignal": {
+    "guid_": 2067846093,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 25,
+    "progressIndex_": 10,
+    "progressHash_": 13054741389889903315,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 16080047642787050450
+      }
+    ],
+    "resetOnStart_": true
+  },
+  "RecvSignal": {
+    "guid_": 1690406645,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 25,
+    "progressIndex_": 10,
+    "progressHash_": 13054741389889903315,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 11796685676484213129
+      }
+    ],
+    "resetOnStart_": true
+  }
+}

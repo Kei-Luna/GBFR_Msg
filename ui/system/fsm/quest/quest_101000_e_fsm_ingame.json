@@ -1,0 +1,184 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 934176378,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 934176378,
+    "fromNodeGuid_": 1892914968,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1892914968,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1564019816
+      }
+    ],
+    "toNodeGuid_": 1892914968,
+    "fromNodeGuid_": 1403642157,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1728371140
+      }
+    ],
+    "toNodeGuid_": 1892914968,
+    "fromNodeGuid_": 64592072,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 64592072,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 958950110,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 64592072,
+    "fromNodeGuid_": 1892914968,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1403642157,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1629942905,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1403642157,
+    "fromNodeGuid_": 1892914968,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "RecvSignal": {
+    "guid_": 1564019816,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 14,
+    "progressHash_": 16643014377099045652,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 1709923718624015663
+      },
+      {
+        "Element": 16295167476089582275
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "RecvSignal": {
+    "guid_": 1728371140,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 14,
+    "progressHash_": 16643014377099045652,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 5705308030588068141
+      },
+      {
+        "Element": 4992710751413593501
+      }
+    ],
+    "resetOnStart_": true
+  },
+  "CallPlayerFSM": {
+    "guid_": 107274576,
+    "parentGuid_": 64592072,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 14,
+    "progressHash_": 16643014377099045652,
+    "fsmFileName_": "1str.town_churchcheck",
+    "isManualPlayer_": false,
+    "isVyrn_": true,
+    "isAI_": false,
+    "isGuest_": false
+  },
+  "CallPlayerFSM": {
+    "guid_": 677896550,
+    "parentGuid_": 1403642157,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 0,
+    "progressIndex_": 14,
+    "progressHash_": 16643014377099045652,
+    "fsmFileName_": "1str.town_highgroundcheck",
+    "isManualPlayer_": false,
+    "isVyrn_": true,
+    "isAI_": false,
+    "isGuest_": false
+  }
+}

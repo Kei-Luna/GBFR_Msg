@@ -1,0 +1,339 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1875432307,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1875432307,
+    "fromNodeGuid_": 1881520867,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 433383942,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 119870558,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1456978459
+      }
+    ],
+    "toNodeGuid_": 433383942,
+    "fromNodeGuid_": 1513337380,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1881520867,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1620030613
+      }
+    ],
+    "toNodeGuid_": 1881520867,
+    "fromNodeGuid_": 433383942,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 238037353
+      }
+    ],
+    "toNodeGuid_": 1881520867,
+    "fromNodeGuid_": 1513337380,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1808574236,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1031077612,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1240364434
+      }
+    ],
+    "toNodeGuid_": 1808574236,
+    "fromNodeGuid_": 433383942,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1324357844,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1001347961,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2080678200
+      }
+    ],
+    "toNodeGuid_": 1324357844,
+    "fromNodeGuid_": 433383942,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1513337380,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 678914400,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2003865943
+      }
+    ],
+    "toNodeGuid_": 1513337380,
+    "fromNodeGuid_": 1808574236,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 430780061
+      }
+    ],
+    "toNodeGuid_": 1513337380,
+    "fromNodeGuid_": 1324357844,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 258269543
+      }
+    ],
+    "toNodeGuid_": 1513337380,
+    "fromNodeGuid_": 433383942,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "RegisterBlackBoardIntAction": {
+    "guid_": 1726422193,
+    "parentGuid_": 1881520867,
+    "valueName_": "Action",
+    "value_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 2015566051,
+    "parentGuid_": 1808574236,
+    "motionIdName_": "e000",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": 1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0
+  },
+  "PlayerNeckTargetAction": {
+    "guid_": 310224509,
+    "parentGuid_": 1808574236,
+    "target_": [
+      270.36,
+      15.177,
+      546.364,
+      1
+    ]
+  },
+  "MotionPlayAction": {
+    "guid_": 777249292,
+    "parentGuid_": 1324357844,
+    "motionIdName_": "e000",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": 1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0
+  },
+  "PlayerNeckTargetAction": {
+    "guid_": 109206888,
+    "parentGuid_": 1324357844,
+    "target_": [
+      0.379,
+      1.866,
+      -48.185,
+      1
+    ]
+  },
+  "NpcShopWaitAction": {
+    "guid_": 1813737858,
+    "parentGuid_": 433383942,
+    "waitMotionName_": "e000",
+    "gesturesMotion_": [
+      {
+        "Element": "e001"
+      },
+      {
+        "Element": "e002"
+      }
+    ],
+    "waitTime_": 10
+  },
+  "NpcShopWaitAction": {
+    "guid_": 876318328,
+    "parentGuid_": 1513337380,
+    "waitMotionName_": "e000",
+    "gesturesMotion_": [],
+    "waitTime_": 10
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 2003865943,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "intName_": "Action",
+    "value_": 4,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 430780061,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "intName_": "Action",
+    "value_": 2,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1240364434,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "intName_": "Action",
+    "value_": 0,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 2080678200,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "intName_": "Action",
+    "value_": 0,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 238037353,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "intName_": "Action",
+    "value_": 1,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1620030613,
+    "parentGuid_": 0,
+    "isReverseSuccess_": true,
+    "intName_": "Action",
+    "value_": 1,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1456978459,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "intName_": "Action",
+    "value_": 1,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 258269543,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "intName_": "Action",
+    "value_": 0,
+    "operatorType_": 0
+  }
+}

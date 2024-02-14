@@ -1,0 +1,249 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "SelectorNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "SelectorNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": -791621424,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": -791621424,
+      "AnySuccessMode_": false
+    }
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 10,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 11,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em7600ManagerAddFSMAction": {
+    "guid_": 188672379,
+    "parentGuid_": 10,
+    "charaNo_": 4,
+    "fsmNo_": 0
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 308520480,
+    "parentGuid_": 2,
+    "isReverseSuccess_": false,
+    "boolName_": "Em_IsAppear"
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1986712105,
+    "parentGuid_": 4,
+    "isReverseSuccess_": false,
+    "intName_": "Em_AppearType",
+    "value_": 5,
+    "operatorType_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 181435515,
+    "parentGuid_": 6,
+    "motionIdName_": "0000",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 102565206,
+    "parentGuid_": 7,
+    "isReverseSuccess_": false,
+    "intName_": "Em_AppearType",
+    "value_": 10,
+    "operatorType_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 1671607179,
+    "parentGuid_": 8,
+    "motionIdName_": "5050",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0
+  },
+  "Em7600PosHomingAction": {
+    "guid_": 1011002024,
+    "parentGuid_": 11,
+    "em7600PosHomings_": [
+      {
+        "Element": {
+          "homingSpeed_": 10,
+          "startFrame_": 30,
+          "endFrame_": 70,
+          "offsetTargetPos_": [
+            0,
+            0,
+            -10,
+            0
+          ],
+          "useOrigin_": true
+        }
+      }
+    ]
+  },
+  "EmMotionPlayAction": {
+    "guid_": 1095389542,
+    "parentGuid_": 11,
+    "motionIdName_": "1150",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": 0.3,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0,
+    "useTurnDir_": false,
+    "turnRate_": 0.3,
+    "turnMaxAngle_": 0.5235988,
+    "turnOffsetAngle_": 0,
+    "attackHomingFlagOnly_": false,
+    "endSec_": -1,
+    "isChangeSequenceLayer_": false,
+    "sequenceLayer_": 0
+  },
+  "Em7600PosHomingAction": {
+    "guid_": 726611441,
+    "parentGuid_": 11,
+    "em7600PosHomings_": [
+      {
+        "Element": {
+          "homingSpeed_": 15,
+          "startFrame_": 70,
+          "endFrame_": 180,
+          "offsetTargetPos_": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "useOrigin_": true
+        }
+      }
+    ]
+  },
+  "EmExitAppearAction": {
+    "guid_": 1605699049,
+    "parentGuid_": 11,
+    "isAlwaysRun_": false,
+    "isContinueAppear_": false,
+    "afterType_": -1,
+    "isExitAppearWhenStart_": true
+  },
+  "Em7600SetStageBattleAction": {
+    "guid_": 1276951221,
+    "parentGuid_": 10
+  }
+}

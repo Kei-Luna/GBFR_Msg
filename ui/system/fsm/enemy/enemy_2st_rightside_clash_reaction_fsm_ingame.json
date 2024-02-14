@@ -1,0 +1,101 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1572873925,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1572873925,
+    "fromNodeGuid_": 818138163,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 818138163,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1848050431
+      }
+    ],
+    "toNodeGuid_": 818138163,
+    "fromNodeGuid_": 206124010,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 206124010,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1598263007
+      }
+    ],
+    "toNodeGuid_": 206124010,
+    "fromNodeGuid_": 208440229,
+    "isEndTransition_": true,
+    "params_": []
+  },
+  "MotionPlayAction": {
+    "guid_": 678916659,
+    "parentGuid_": 818138163,
+    "motionIdName_": "0601",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": true,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": 0,
+    "interTime_": 0.5,
+    "speedRate_": 1
+  },
+  "TimerAction": {
+    "guid_": 2107789436,
+    "parentGuid_": 818138163,
+    "waitTimeSeconds_": 3
+  },
+  "ActionEndCondition": {
+    "guid_": 822743463,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "MotionPlayAction": {
+    "guid_": 378253701,
+    "parentGuid_": 206124010,
+    "motionIdName_": "0602",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": 0.5,
+    "speedRate_": 1
+  },
+  "MotionEndCondition": {
+    "guid_": 1598263007,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false
+  },
+  "ActionEndCondition": {
+    "guid_": 1848050431,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  }
+}

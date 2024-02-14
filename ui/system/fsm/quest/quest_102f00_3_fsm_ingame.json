@@ -1,0 +1,206 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1939264085,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1939264085,
+    "fromNodeGuid_": 779422660,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 779422660,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1820073749
+      }
+    ],
+    "toNodeGuid_": 779422660,
+    "fromNodeGuid_": 1309303778,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 860933793
+      }
+    ],
+    "toNodeGuid_": 779422660,
+    "fromNodeGuid_": 744008992,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1309303778,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1951872011,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2001675558
+      }
+    ],
+    "toNodeGuid_": 1309303778,
+    "fromNodeGuid_": 779422660,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 744008992,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 143894658,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 131741813
+      }
+    ],
+    "toNodeGuid_": 744008992,
+    "fromNodeGuid_": 779422660,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CheckManualPlayerCharacter": {
+    "guid_": 1820073749,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 3840,
+    "progressIndex_": 3,
+    "progressHash_": 13088210636276052239,
+    "isNoCheckSkip_": false,
+    "objId_": 1024
+  },
+  "CheckManualPlayerCharacter": {
+    "guid_": 860933793,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 3840,
+    "progressIndex_": 3,
+    "progressHash_": 13088210636276052239,
+    "isNoCheckSkip_": false,
+    "objId_": 1536
+  },
+  "CheckManualPlayerCharacter": {
+    "guid_": 2001675558,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 3840,
+    "progressIndex_": 3,
+    "progressHash_": 13088210636276052239,
+    "isNoCheckSkip_": false,
+    "objId_": 1024
+  },
+  "CheckManualPlayerCharacter": {
+    "guid_": 131741813,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 3840,
+    "progressIndex_": 3,
+    "progressHash_": 13088210636276052239,
+    "isNoCheckSkip_": false,
+    "objId_": 1536
+  },
+  "OverwriteBloomTalk": {
+    "guid_": 1576875996,
+    "parentGuid_": 1309303778,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 3840,
+    "progressIndex_": 3,
+    "progressHash_": 13088210636276052239,
+    "npcUniqueIdList_": [
+      {
+        "Element": 14647936059794997792
+      }
+    ],
+    "talkId_": "BT162830"
+  },
+  "OverwriteBloomTalk": {
+    "guid_": 1761609580,
+    "parentGuid_": 744008992,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 3840,
+    "progressIndex_": 3,
+    "progressHash_": 13088210636276052239,
+    "npcUniqueIdList_": [
+      {
+        "Element": 8553433563331777679
+      }
+    ],
+    "talkId_": "BT162820"
+  },
+  "CancelOverwriteBloomTalk": {
+    "guid_": 1837288651,
+    "parentGuid_": 779422660,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 3840,
+    "progressIndex_": 3,
+    "progressHash_": 13088210636276052239,
+    "ownerUniqueId_": 8553433563331777679
+  },
+  "CancelOverwriteBloomTalk": {
+    "guid_": 1450107612,
+    "parentGuid_": 779422660,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 3840,
+    "progressIndex_": 3,
+    "progressHash_": 13088210636276052239,
+    "ownerUniqueId_": 14647936059794997792
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1154854527,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "RecvSignal": {
+    "guid_": 1030883211,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 3,
+    "progressIndex_": 13,
+    "progressHash_": 2857870571246082466,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 7325302092292471555
+      },
+      {
+        "Element": 10151013425920622351
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "CallTalkEvent": {
+    "guid_": 1999558772,
+    "parentGuid_": 2120453075,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 3,
+    "progressIndex_": 13,
+    "progressHash_": 2857870571246082466,
+    "groupID_": "VT_MS04_1770",
+    "delay_": 0
+  },
+  "CallTalkEvent": {
+    "guid_": 1278885970,
+    "parentGuid_": 1137938726,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 3,
+    "progressIndex_": 13,
+    "progressHash_": 2857870571246082466,
+    "groupID_": "VT_MS04_1740",
+    "delay_": 0
+  },
+  "StartTimer": {
+    "guid_": 1913516916,
+    "parentGuid_": 1323828391,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 3,
+    "progressIndex_": 13,
+    "progressHash_": 2857870571246082466,
+    "timerId_": 7
+  },
+  "CheckTimer": {
+    "guid_": 1638359447,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 3,
+    "progressIndex_": 13,
+    "progressHash_": 2857870571246082466,
+    "isNoCheckSkip_": false,
+    "timerId_": 7,
+    "time_": 2,
+    "useDifficulty_": false,
+    "difficultyTimes_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ]
+  },
+  "EndTalkEvent": {
+    "guid_": 155284380,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 3,
+    "progressIndex_": 13,
+    "progressHash_": 2857870571246082466,
+    "isNoCheckSkip_": false,
+    "groupID_": "VT_MS04_1770",
+    "useQuestParameter_": false,
+    "questParameterName_": "",
+    "questParameterHash_": 0
+  },
+  "StartTimer": {
+    "guid_": 1918674097,
+    "parentGuid_": 485938930,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 3,
+    "progressIndex_": 13,
+    "progressHash_": 2857870571246082466,
+    "timerId_": 7
+  },
+  "CheckTimer": {
+    "guid_": 1004480914,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 3,
+    "progressIndex_": 13,
+    "progressHash_": 2857870571246082466,
+    "isNoCheckSkip_": false,
+    "timerId_": 7,
+    "time_": 1,
+    "useDifficulty_": false,
+    "difficultyTimes_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ]
+  },
+  "CallPlayerFSM": {
+    "guid_": 251763787,
+    "parentGuid_": 642205913,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 3,
+    "progressIndex_": 13,
+    "progressHash_": 2857870571246082466,
+    "fsmFileName_": "1st_main_3rd_square_phase1",
+    "isManualPlayer_": false,
+    "isVyrn_": true,
+    "isAI_": false,
+    "isGuest_": false
+  },
+  "CallPlayerFSM": {
+    "guid_": 1708229462,
+    "parentGuid_": 485938930,
+    "category_": 1,
+    "subcategory_": 1,
+    "index_": 3,
+    "progressIndex_": 13,
+    "progressHash_": 2857870571246082466,
+    "fsmFileName_": "1st_main_3rd_square_phase1",
+    "isManualPlayer_": false,
+    "isVyrn_": true,
+    "isAI_": false,
+    "isGuest_": false
+  }
+}

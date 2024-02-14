@@ -1,0 +1,264 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 292648459,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 292648459,
+    "fromNodeGuid_": 935672820,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 935672820,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 2123387729,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 935672820,
+    "fromNodeGuid_": 767727671,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 767727671,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 971837286,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 948673359
+      }
+    ],
+    "toNodeGuid_": 767727671,
+    "fromNodeGuid_": 1862112359,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1862112359,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1063461085,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 737190379
+      }
+    ],
+    "toNodeGuid_": 1862112359,
+    "fromNodeGuid_": 1784891318,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1784891318,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1302456598
+      }
+    ],
+    "toNodeGuid_": 1784891318,
+    "fromNodeGuid_": 767727671,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CallTalkEvent": {
+    "guid_": 224615612,
+    "parentGuid_": 899520477,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 849,
+    "progressIndex_": 1,
+    "progressHash_": 8516696369479701220,
+    "groupID_": "VT_MS20_1010",
+    "delay_": 0
+  },
+  "StartTimer": {
+    "guid_": 1966157013,
+    "parentGuid_": 1199572958,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 849,
+    "progressIndex_": 1,
+    "progressHash_": 8516696369479701220,
+    "timerId_": 1
+  },
+  "EndTalkEvent": {
+    "guid_": 2005442616,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 849,
+    "progressIndex_": 1,
+    "progressHash_": 8516696369479701220,
+    "isNoCheckSkip_": false,
+    "groupID_": "VT_MS20_1010",
+    "useQuestParameter_": false,
+    "questParameterName_": "",
+    "questParameterHash_": 0
+  },
+  "RecvSignal": {
+    "guid_": 1921190683,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 849,
+    "progressIndex_": 1,
+    "progressHash_": 8516696369479701220,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 12913200170026320841
+      },
+      {
+        "Element": 2598650636542925533
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "CheckTimer": {
+    "guid_": 440578265,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 849,
+    "progressIndex_": 1,
+    "progressHash_": 8516696369479701220,
+    "isNoCheckSkip_": false,
+    "timerId_": 1,
+    "time_": 1
+  },
+  "CallTalkEvent": {
+    "guid_": 1302705467,
+    "parentGuid_": 1862112359,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 849,
+    "progressIndex_": 1,
+    "progressHash_": 8516696369479701220,
+    "groupID_": "VT_MS20_1010",
+    "delay_": 0
+  },
+  "EndTalkEvent": {
+    "guid_": 737190379,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 849,
+    "progressIndex_": 1,
+    "progressHash_": 8516696369479701220,
+    "isNoCheckSkip_": false,
+    "groupID_": "VT_MS20_1010",
+    "useQuestParameter_": false,
+    "questParameterName_": "",
+    "questParameterHash_": 0
+  },
+  "StartTimer": {
+    "guid_": 87983652,
+    "parentGuid_": 1784891318,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 849,
+    "progressIndex_": 1,
+    "progressHash_": 8516696369479701220,
+    "timerId_": 1
+  },
+  "CheckTimer": {
+    "guid_": 1302456598,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 849,
+    "progressIndex_": 1,
+    "progressHash_": 8516696369479701220,
+    "isNoCheckSkip_": false,
+    "timerId_": 1,
+    "time_": 1
+  },
+  "RecvSignal": {
+    "guid_": 948673359,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 849,
+    "progressIndex_": 1,
+    "progressHash_": 8516696369479701220,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 2598650636542925533
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

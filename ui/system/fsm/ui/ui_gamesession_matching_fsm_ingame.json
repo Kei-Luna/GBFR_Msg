@@ -1,0 +1,269 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 474607460,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2005810343
+      }
+    ],
+    "toNodeGuid_": 474607460,
+    "fromNodeGuid_": 446378207,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1228988974
+      }
+    ],
+    "toNodeGuid_": 474607460,
+    "fromNodeGuid_": 1388964242,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2002876623,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 2091792877,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "FSMNode": {
+    "guid_": 92768943,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1277892045,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "FSMNode": {
+    "guid_": 1687420522,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1660937278,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "FSMNode": {
+    "guid_": 446378207,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1256542230,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1743554032
+      }
+    ],
+    "toNodeGuid_": 446378207,
+    "fromNodeGuid_": 1687420522,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1138218593
+      }
+    ],
+    "toNodeGuid_": 446378207,
+    "fromNodeGuid_": 92768943,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 448335209
+      }
+    ],
+    "toNodeGuid_": 446378207,
+    "fromNodeGuid_": 2002876623,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1388964242,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 2002938561,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2094427106
+      }
+    ],
+    "toNodeGuid_": 1388964242,
+    "fromNodeGuid_": 1687420522,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 84895262
+      }
+    ],
+    "toNodeGuid_": 1388964242,
+    "fromNodeGuid_": 92768943,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 984854396
+      }
+    ],
+    "toNodeGuid_": 1388964242,
+    "fromNodeGuid_": 2002876623,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "FlowEnd": {
+    "guid_": 1388240408,
+    "parentGuid_": 1687420522,
+    "result_": 0,
+    "fsmLabel_": "GameSessionMatching"
+  },
+  "FlowEnd": {
+    "guid_": 2019809867,
+    "parentGuid_": 92768943,
+    "result_": 1,
+    "fsmLabel_": "GameSessionMatching"
+  },
+  "FlowEnd": {
+    "guid_": 839564175,
+    "parentGuid_": 2002876623,
+    "result_": 2,
+    "fsmLabel_": "GameSessionMatching"
+  },
+  "IsOnlineLeader": {
+    "guid_": 2005810343,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isLocalLeader_": true
+  },
+  "IsOnlineLeader": {
+    "guid_": 1228988974,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "isLocalLeader_": false
+  },
+  "CheckMatchingResult": {
+    "guid_": 1743554032,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "resultType_": {
+      "str_": "成功",
+      "index_": 1
+    }
+  },
+  "CheckMatchingResult": {
+    "guid_": 2094427106,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "resultType_": {
+      "str_": "成功",
+      "index_": 1
+    }
+  },
+  "CheckMatchingResult": {
+    "guid_": 1138218593,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "resultType_": {
+      "str_": "キャンセル終了",
+      "index_": 2
+    }
+  },
+  "CheckMatchingResult": {
+    "guid_": 84895262,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "resultType_": {
+      "str_": "キャンセル終了",
+      "index_": 2
+    }
+  },
+  "CheckMatchingResult": {
+    "guid_": 448335209,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "resultType_": {
+      "str_": "エラー終了",
+      "index_": 3
+    }
+  },
+  "CheckMatchingResult": {
+    "guid_": 984854396,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "resultType_": {
+      "str_": "エラー終了",
+      "index_": 3
+    }
+  },
+  "StartMatchingHost": {
+    "guid_": 1465731613,
+    "parentGuid_": 446378207
+  },
+  "StartMatchingGuest": {
+    "guid_": 1579754173,
+    "parentGuid_": 1388964242
+  }
+}

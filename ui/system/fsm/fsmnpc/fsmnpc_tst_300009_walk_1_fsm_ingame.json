@@ -1,0 +1,447 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1382020627,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1382020627,
+    "fromNodeGuid_": 1465032973,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1465032973,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1465032973,
+    "fromNodeGuid_": 1258792729,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1258792729,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1329798205
+      }
+    ],
+    "toNodeGuid_": 1258792729,
+    "fromNodeGuid_": 1300571994,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1300571994,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1300571994,
+    "fromNodeGuid_": 623307803,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "MotionPlayAction": {
+    "guid_": 1227342438,
+    "parentGuid_": 1300571994,
+    "motionIdName_": "0001",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0
+  },
+  "ActionEndCondition": {
+    "guid_": 1329798205,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "EmMovePassAction": {
+    "guid_": 870818782,
+    "parentGuid_": 1258792729,
+    "params_": [
+      {
+        "Element": {
+          "pos_": [
+            378.9597,
+            -35.17501,
+            -59.95036
+          ],
+          "rot_": [
+            -0.08137853,
+            0.7265827,
+            0
+          ],
+          "animationName_": "0a30",
+          "animationStartSecond_": 0,
+          "animationSpeed_": 1,
+          "animationInterpolateSecond_": -1,
+          "length_": 2.979638,
+          "moveSpeedScale_": 1,
+          "frontMoveRotZ_": 0,
+          "blackBoardSetRate_": 0,
+          "isUseCurrentPos_": false,
+          "isSetFrontMoveDirection_": true,
+          "isSetAnimation_": true,
+          "isLoopAnimation_": true,
+          "isWaitAnimation_": false,
+          "isCancelSameAnimation_": false,
+          "isEnableManipulaterRot_": true,
+          "isSetBoolBlackBoard_": false
+        }
+      },
+      {
+        "Element": {
+          "pos_": [
+            380.9334,
+            -34.93283,
+            -57.73132
+          ],
+          "rot_": [
+            -0.08135922,
+            0.726851,
+            0
+          ],
+          "animationName_": "0000",
+          "animationStartSecond_": 0,
+          "animationSpeed_": 1,
+          "animationInterpolateSecond_": -1,
+          "length_": 57.40075,
+          "moveSpeedScale_": 1,
+          "frontMoveRotZ_": 0,
+          "blackBoardSetRate_": 0,
+          "isUseCurrentPos_": false,
+          "isSetFrontMoveDirection_": true,
+          "isSetAnimation_": false,
+          "isLoopAnimation_": true,
+          "isWaitAnimation_": false,
+          "isCancelSameAnimation_": false,
+          "isEnableManipulaterRot_": true,
+          "isSetBoolBlackBoard_": false
+        }
+      }
+    ],
+    "paramCount_": 0,
+    "moveSpeed_": 1.5,
+    "rotSpeedPerFrame_": 360,
+    "groundCheckHeight_": 1,
+    "groundCheckOffsetY_": 0,
+    "groundAngleMax_": 50,
+    "enableBlackBoardBoolName_": "",
+    "param0_": {
+      "pos_": [
+        0,
+        0,
+        0
+      ],
+      "rot_": [
+        0,
+        0,
+        0
+      ],
+      "animationName_": "0000",
+      "animationStartSecond_": 0,
+      "animationSpeed_": 1,
+      "animationInterpolateSecond_": -1,
+      "length_": 0,
+      "moveSpeedScale_": 1,
+      "frontMoveRotZ_": 0,
+      "blackBoardSetRate_": 0,
+      "isUseCurrentPos_": false,
+      "isSetFrontMoveDirection_": true,
+      "isSetAnimation_": false,
+      "isLoopAnimation_": true,
+      "isWaitAnimation_": false,
+      "isCancelSameAnimation_": false,
+      "isEnableManipulaterRot_": true,
+      "isSetBoolBlackBoard_": false
+    },
+    "param1_": {
+      "pos_": [
+        0,
+        0,
+        0
+      ],
+      "rot_": [
+        0,
+        0,
+        0
+      ],
+      "animationName_": "0000",
+      "animationStartSecond_": 0,
+      "animationSpeed_": 1,
+      "animationInterpolateSecond_": -1,
+      "length_": 0,
+      "moveSpeedScale_": 1,
+      "frontMoveRotZ_": 0,
+      "blackBoardSetRate_": 0,
+      "isUseCurrentPos_": false,
+      "isSetFrontMoveDirection_": true,
+      "isSetAnimation_": false,
+      "isLoopAnimation_": true,
+      "isWaitAnimation_": false,
+      "isCancelSameAnimation_": false,
+      "isEnableManipulaterRot_": true,
+      "isSetBoolBlackBoard_": false
+    },
+    "param2_": {
+      "pos_": [
+        0,
+        0,
+        0
+      ],
+      "rot_": [
+        0,
+        0,
+        0
+      ],
+      "animationName_": "0000",
+      "animationStartSecond_": 0,
+      "animationSpeed_": 1,
+      "animationInterpolateSecond_": -1,
+      "length_": 0,
+      "moveSpeedScale_": 1,
+      "frontMoveRotZ_": 0,
+      "blackBoardSetRate_": 0,
+      "isUseCurrentPos_": false,
+      "isSetFrontMoveDirection_": true,
+      "isSetAnimation_": false,
+      "isLoopAnimation_": true,
+      "isWaitAnimation_": false,
+      "isCancelSameAnimation_": false,
+      "isEnableManipulaterRot_": true,
+      "isSetBoolBlackBoard_": false
+    },
+    "param3_": {
+      "pos_": [
+        0,
+        0,
+        0
+      ],
+      "rot_": [
+        0,
+        0,
+        0
+      ],
+      "animationName_": "0000",
+      "animationStartSecond_": 0,
+      "animationSpeed_": 1,
+      "animationInterpolateSecond_": -1,
+      "length_": 0,
+      "moveSpeedScale_": 1,
+      "frontMoveRotZ_": 0,
+      "blackBoardSetRate_": 0,
+      "isUseCurrentPos_": false,
+      "isSetFrontMoveDirection_": true,
+      "isSetAnimation_": false,
+      "isLoopAnimation_": true,
+      "isWaitAnimation_": false,
+      "isCancelSameAnimation_": false,
+      "isEnableManipulaterRot_": true,
+      "isSetBoolBlackBoard_": false
+    },
+    "param4_": {
+      "pos_": [
+        0,
+        0,
+        0
+      ],
+      "rot_": [
+        0,
+        0,
+        0
+      ],
+      "animationName_": "0000",
+      "animationStartSecond_": 0,
+      "animationSpeed_": 1,
+      "animationInterpolateSecond_": -1,
+      "length_": 0,
+      "moveSpeedScale_": 1,
+      "frontMoveRotZ_": 0,
+      "blackBoardSetRate_": 0,
+      "isUseCurrentPos_": false,
+      "isSetFrontMoveDirection_": true,
+      "isSetAnimation_": false,
+      "isLoopAnimation_": true,
+      "isWaitAnimation_": false,
+      "isCancelSameAnimation_": false,
+      "isEnableManipulaterRot_": true,
+      "isSetBoolBlackBoard_": false
+    },
+    "param5_": {
+      "pos_": [
+        0,
+        0,
+        0
+      ],
+      "rot_": [
+        0,
+        0,
+        0
+      ],
+      "animationName_": "0000",
+      "animationStartSecond_": 0,
+      "animationSpeed_": 1,
+      "animationInterpolateSecond_": -1,
+      "length_": 0,
+      "moveSpeedScale_": 1,
+      "frontMoveRotZ_": 0,
+      "blackBoardSetRate_": 0,
+      "isUseCurrentPos_": false,
+      "isSetFrontMoveDirection_": true,
+      "isSetAnimation_": false,
+      "isLoopAnimation_": true,
+      "isWaitAnimation_": false,
+      "isCancelSameAnimation_": false,
+      "isEnableManipulaterRot_": true,
+      "isSetBoolBlackBoard_": false
+    },
+    "param6_": {
+      "pos_": [
+        0,
+        0,
+        0
+      ],
+      "rot_": [
+        0,
+        0,
+        0
+      ],
+      "animationName_": "0000",
+      "animationStartSecond_": 0,
+      "animationSpeed_": 1,
+      "animationInterpolateSecond_": -1,
+      "length_": 0,
+      "moveSpeedScale_": 1,
+      "frontMoveRotZ_": 0,
+      "blackBoardSetRate_": 0,
+      "isUseCurrentPos_": false,
+      "isSetFrontMoveDirection_": true,
+      "isSetAnimation_": false,
+      "isLoopAnimation_": true,
+      "isWaitAnimation_": false,
+      "isCancelSameAnimation_": false,
+      "isEnableManipulaterRot_": true,
+      "isSetBoolBlackBoard_": false
+    },
+    "param7_": {
+      "pos_": [
+        0,
+        0,
+        0
+      ],
+      "rot_": [
+        0,
+        0,
+        0
+      ],
+      "animationName_": "0000",
+      "animationStartSecond_": 0,
+      "animationSpeed_": 1,
+      "animationInterpolateSecond_": -1,
+      "length_": 0,
+      "moveSpeedScale_": 1,
+      "frontMoveRotZ_": 0,
+      "blackBoardSetRate_": 0,
+      "isUseCurrentPos_": false,
+      "isSetFrontMoveDirection_": true,
+      "isSetAnimation_": false,
+      "isLoopAnimation_": true,
+      "isWaitAnimation_": false,
+      "isCancelSameAnimation_": false,
+      "isEnableManipulaterRot_": true,
+      "isSetBoolBlackBoard_": false
+    },
+    "isYAxisOnly_": false,
+    "isCheckGround_": true,
+    "isNoGroundUsePrevPos_": true,
+    "isStartCurTransform_": false,
+    "enableMovePartNo900_": false
+  },
+  "NpcMovePassAction": {
+    "guid_": 509343884,
+    "parentGuid_": 721907810,
+    "params_": [
+      {
+        "Element": {
+          "pos_": [
+            382.6224,
+            -34.71413,
+            -55.41866,
+            1
+          ],
+          "length_": 0,
+          "useNavMesh_": true
+        }
+      }
+    ],
+    "moveSpeed_": 1.8,
+    "isStartCurPos_": true,
+    "startMotionName_": "0a30",
+    "endMotionName_": "0a32",
+    "jumpRizeMotionName_": "0000",
+    "jumpEndMotionName_": "0000",
+    "secondFromLandToMove_": 0.5,
+    "adjustAnimation_": false,
+    "waitEndMotion_": false
+  }
+}

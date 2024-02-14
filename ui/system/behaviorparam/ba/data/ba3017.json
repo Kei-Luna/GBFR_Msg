@@ -1,0 +1,68 @@
+{
+  "BaIcePillarParam": {
+    "atkPower_": "1000",
+    "atkRadius_": "12",
+    "atkSignTime_": "2.667",
+    "atkProductionTime_": "0",
+    "enableAttackPlayer_": "true",
+    "camDistAttack_": "5",
+    "atkTime_": "0.83",
+    "vibPower_": "0.8",
+    "vibTime_": "0.6"
+  },
+  "ExFSMParam": {
+    "dataParams_": [
+      [
+        {
+          "className_": "ba3004",
+          "fileName_": "snd_1"
+        }
+      ],
+      [
+        {
+          "intValue_": "0",
+          "name_": "ba3004_break"
+        }
+      ],
+      []
+    ]
+  },
+  "BaAttackPowerParam": {
+    "atkPowerList_": [
+      {
+        "label_": "pl",
+        "power_": "200",
+        "maxPower_": "0"
+      },
+      {
+        "label_": "em",
+        "power_": "700",
+        "maxPower_": "0"
+      }
+    ],
+    "isSetMaxPower_": "false"
+  },
+  "GimmickEnduranceParam": {
+    "dataParams_": {
+      "genericValue_": "600",
+      "eachLevelList_": [
+        {
+          "lv_": "1",
+          "endurance_": "84"
+        },
+        {
+          "lv_": "50",
+          "endurance_": "1400"
+        },
+        {
+          "lv_": "100",
+          "endurance_": "15400"
+        },
+        {
+          "lv_": "200",
+          "endurance_": "43400"
+        }
+      ]
+    }
+  }
+}

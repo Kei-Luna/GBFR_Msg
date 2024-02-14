@@ -1,0 +1,219 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "RandomSelectorNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "childNodeRatio0_": 1,
+      "childNodeRatio1_": 1,
+      "childNodeRatio2_": 1,
+      "childNodeRatio3_": 0,
+      "childNodeRatio4_": 0,
+      "childNodeRatio5_": 0,
+      "childNodeRatio6_": 0,
+      "childNodeRatio7_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 10,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 11,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 12,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 13,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 14,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1026782812,
+    "parentGuid_": 4,
+    "valueName_": "Em2100_InitSkipAction",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "Em2100StepAction": {
+    "guid_": 613179328,
+    "parentGuid_": 4,
+    "selectStepType_": 1,
+    "isNextStep_": true,
+    "homingAngle_": 0,
+    "motionMovementRate_": 2,
+    "backMotionAngle_": 135
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1692833659,
+    "parentGuid_": 1000000001,
+    "valueName_": "Em2100_InitSkipAction",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "Em2100StepAction": {
+    "guid_": 170970597,
+    "parentGuid_": 1000000001,
+    "selectStepType_": 0,
+    "isNextStep_": true,
+    "homingAngle_": 0,
+    "motionMovementRate_": 2,
+    "backMotionAngle_": 135
+  },
+  "Em2100StepAction": {
+    "guid_": 1357329732,
+    "parentGuid_": 6,
+    "selectStepType_": 2,
+    "isNextStep_": false,
+    "homingAngle_": 1,
+    "motionMovementRate_": 2,
+    "backMotionAngle_": 135
+  },
+  "Em2100StepAction": {
+    "guid_": 1055516270,
+    "parentGuid_": 8,
+    "selectStepType_": 2,
+    "isNextStep_": true,
+    "homingAngle_": 1,
+    "motionMovementRate_": 2,
+    "backMotionAngle_": 135
+  },
+  "Em2100StepAction": {
+    "guid_": 270223462,
+    "parentGuid_": 9,
+    "selectStepType_": 1,
+    "isNextStep_": false,
+    "homingAngle_": 5,
+    "motionMovementRate_": 2,
+    "backMotionAngle_": 135
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1291919916,
+    "parentGuid_": 14,
+    "valueName_": "Em2100_CanStep",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "Em2100StepAction": {
+    "guid_": 623491315,
+    "parentGuid_": 11,
+    "selectStepType_": 2,
+    "isNextStep_": true,
+    "homingAngle_": 1,
+    "motionMovementRate_": 2,
+    "backMotionAngle_": 135
+  },
+  "Em2100StepAction": {
+    "guid_": 1245074179,
+    "parentGuid_": 12,
+    "selectStepType_": 1,
+    "isNextStep_": true,
+    "homingAngle_": 5,
+    "motionMovementRate_": 2,
+    "backMotionAngle_": 135
+  },
+  "Em2100StepAction": {
+    "guid_": 1940963769,
+    "parentGuid_": 13,
+    "selectStepType_": 2,
+    "isNextStep_": false,
+    "homingAngle_": 5,
+    "motionMovementRate_": 2,
+    "backMotionAngle_": 135
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em2100",
+    "subTreeName_": "step"
+  }
+}

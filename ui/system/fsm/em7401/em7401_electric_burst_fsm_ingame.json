@@ -1,0 +1,468 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 2080928384,
+    "tailIndexOfChildNodeGuids_": 6,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 2080928384,
+    "fromNodeGuid_": 1703927252,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1516281403,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1991519954,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1516281403,
+    "fromNodeGuid_": 1652371518,
+    "isEndTransition_": true,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1703927252,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 329938433,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1529135079
+      }
+    ],
+    "toNodeGuid_": 1703927252,
+    "fromNodeGuid_": 566928582,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1075458820,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 92505959,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 135851793
+      }
+    ],
+    "toNodeGuid_": 1075458820,
+    "fromNodeGuid_": 127905838,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 566928582,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 780633314,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1749283453
+      }
+    ],
+    "toNodeGuid_": 566928582,
+    "fromNodeGuid_": 1075458820,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 127905838,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1985588958,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2110754465
+      }
+    ],
+    "toNodeGuid_": 127905838,
+    "fromNodeGuid_": 1877942156,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1877942156,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 64270083,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1877942156,
+    "fromNodeGuid_": 1516281403,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "ShotTerminateAction": {
+    "guid_": 358819893,
+    "parentGuid_": 1516281403
+  },
+  "ShotPosAction": {
+    "guid_": 1147523773,
+    "parentGuid_": 1703927252,
+    "offset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "degreeX_": 0,
+    "degreeY_": 0,
+    "scale_": 1,
+    "partsNo_": -1,
+    "isUpdateAttachParent_": false,
+    "isUseOnMoveInfo_": true,
+    "isUseHomingTargetOnMoveInfo_": true,
+    "isInit_": true
+  },
+  "ShotAttackAction": {
+    "guid_": 169946995,
+    "parentGuid_": 1075458820,
+    "offset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "size_": [
+      9.5,
+      1,
+      1,
+      1
+    ],
+    "degreeX_": 0,
+    "degreeY_": 0,
+    "shape_": 0,
+    "direction_": 0,
+    "target_": 0,
+    "globalType_": 1,
+    "type_": 4,
+    "reaction_": 2,
+    "hitFlag_": 0,
+    "categoryFlag_": 0,
+    "element_": 3,
+    "badStatus_": 0,
+    "attackRate_": 1,
+    "breakRate_": 1,
+    "spArtsRate_": 1,
+    "hitStopSecond_": 0.5,
+    "lifeSecond_": 0.5,
+    "multiHitIntervalSecond_": 0,
+    "knockBackRate_": 1,
+    "damageMovementRate_": 1,
+    "damageMovementRateY_": 1,
+    "isHitOnce_": true,
+    "isMoveToHitPos_": false,
+    "isSetAttackerPos_": false,
+    "isSetAttackerHitList_": false,
+    "isClearHitList_": true,
+    "multiHitLimit_": 0,
+    "isSwept_": false,
+    "debuffList_": [],
+    "attackClearTime_": 0
+  },
+  "ShotAttackSignAction": {
+    "guid_": 1171611163,
+    "parentGuid_": 1703927252,
+    "shape_": 3,
+    "size_": [
+      10,
+      0,
+      0,
+      1
+    ],
+    "time_": 3,
+    "posType_": 0,
+    "posOffset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "lineEndOffset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "isUpdateAttach_": false,
+    "isUpdateLineEnd_": true,
+    "isApplyScale_": false,
+    "isChangeEffect_": false,
+    "effectObjId_": -1,
+    "effectBaseId_": -1,
+    "effectFillId_": -1,
+    "effectVanishId_": -1
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 1749283453,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 21,
+          "isEnable_": false
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 1529135079,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 21,
+          "isEnable_": false
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "ShotVfxAction": {
+    "guid_": 1610406561,
+    "parentGuid_": 566928582,
+    "effectObjId_": 16982289,
+    "effectId_": 2201,
+    "seName_": "",
+    "scale_": 1,
+    "scaleY_": 1,
+    "scaleZ_": 1,
+    "delCode_": 2147483648,
+    "oneShot_": false,
+    "isHitEffect_": false,
+    "isSetHitEffectEspCtrl_": false,
+    "canEditScaleXYZ_": false,
+    "isUseParentObjId_": false
+  },
+  "ShotTimerAction": {
+    "guid_": 2105549824,
+    "parentGuid_": 1703927252,
+    "waitTimeSeconds_": 2.2
+  },
+  "ShotTimerAction": {
+    "guid_": 77630211,
+    "parentGuid_": 566928582,
+    "waitTimeSeconds_": 0.8
+  },
+  "ShotVfxAction": {
+    "guid_": 2115637845,
+    "parentGuid_": 127905838,
+    "effectObjId_": 135937,
+    "effectId_": 2200,
+    "seName_": "",
+    "scale_": 1.2,
+    "scaleY_": 1,
+    "scaleZ_": 1,
+    "delCode_": 0,
+    "oneShot_": false,
+    "isHitEffect_": false,
+    "isSetHitEffectEspCtrl_": false,
+    "canEditScaleXYZ_": false,
+    "isUseParentObjId_": false
+  },
+  "ShotTimerAction": {
+    "guid_": 1094952205,
+    "parentGuid_": 127905838,
+    "waitTimeSeconds_": 3
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 135851793,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 7,
+          "isEnable_": false
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "ShotAttackAction": {
+    "guid_": 898274984,
+    "parentGuid_": 127905838,
+    "offset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "size_": [
+      6,
+      1,
+      1,
+      1
+    ],
+    "degreeX_": 0,
+    "degreeY_": 0,
+    "shape_": 4,
+    "direction_": 0,
+    "target_": 0,
+    "globalType_": 1,
+    "type_": 4,
+    "reaction_": 2,
+    "hitFlag_": 0,
+    "categoryFlag_": 0,
+    "element_": 3,
+    "badStatus_": 0,
+    "attackRate_": 1,
+    "breakRate_": 1,
+    "spArtsRate_": 1,
+    "hitStopSecond_": 0.5,
+    "lifeSecond_": -1,
+    "multiHitIntervalSecond_": 0,
+    "knockBackRate_": 1,
+    "damageMovementRate_": 1,
+    "damageMovementRateY_": 1,
+    "isHitOnce_": true,
+    "isMoveToHitPos_": false,
+    "isSetAttackerPos_": false,
+    "isSetAttackerHitList_": false,
+    "isClearHitList_": true,
+    "multiHitLimit_": 0,
+    "isSwept_": false,
+    "debuffList_": [],
+    "attackClearTime_": 0
+  },
+  "ShotCreateSoundCallAction": {
+    "guid_": 848282958,
+    "parentGuid_": 1075458820,
+    "softCallType_": 0,
+    "posParam1_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "posParam2_": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "ShotSoundCallSePlayAction": {
+    "guid_": 1745864832,
+    "parentGuid_": 1075458820,
+    "defineName_": "em7400,arc_exp,point_start",
+    "isImmediate_": false
+  },
+  "ShotCreateSoundCallAction": {
+    "guid_": 1319981548,
+    "parentGuid_": 1703927252,
+    "softCallType_": 0,
+    "posParam1_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "posParam2_": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "ShotSoundCallSePlayAction": {
+    "guid_": 1451526225,
+    "parentGuid_": 1703927252,
+    "defineName_": "em7400,arc_charge,point_start",
+    "isImmediate_": false
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 2110754465,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 21,
+          "isEnable_": false
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "ShotCreateSoundCallAction": {
+    "guid_": 37912358,
+    "parentGuid_": 1877942156,
+    "softCallType_": 0,
+    "posParam1_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "posParam2_": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "ShotSoundCallSePlayAction": {
+    "guid_": 1033407015,
+    "parentGuid_": 1877942156,
+    "defineName_": "em7400,arc_vanish,point_start",
+    "isImmediate_": true
+  }
+}

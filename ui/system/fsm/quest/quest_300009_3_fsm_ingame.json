@@ -1,0 +1,190 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1720616585,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1720616585,
+    "fromNodeGuid_": 1075577239,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1075577239,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1351772846,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 81938374
+      }
+    ],
+    "toNodeGuid_": 1075577239,
+    "fromNodeGuid_": 972989236,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 972989236,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1808487376,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1112029021
+      },
+      {
+        "Element": 663304557
+      }
+    ],
+    "toNodeGuid_": 972989236,
+    "fromNodeGuid_": 1275984936,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 1275984936,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1693751067,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CallTalkEvent": {
+    "guid_": 2018263784,
+    "parentGuid_": 972989236,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 9,
+    "progressIndex_": 3,
+    "progressHash_": 769227318638176194,
+    "groupID_": "VT_MS39_0070"
+  },
+  "CallTalkEvent": {
+    "guid_": 1532674862,
+    "parentGuid_": 1275984936,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 9,
+    "progressIndex_": 3,
+    "progressHash_": 769227318638176194,
+    "groupID_": "VT_MS39_0080"
+  },
+  "RecvSignal": {
+    "guid_": 81938374,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 9,
+    "progressIndex_": 3,
+    "progressHash_": 769227318638176194,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 14504748266822372591
+      },
+      {
+        "Element": 7251070273672107010
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "RecvSignal": {
+    "guid_": 1112029021,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 9,
+    "progressIndex_": 3,
+    "progressHash_": 769227318638176194,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 14504748266822372591
+      },
+      {
+        "Element": 363563979652794406
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "RecvSignal": {
+    "guid_": 663304557,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 9,
+    "progressIndex_": 3,
+    "progressHash_": 769227318638176194,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 14504748266822372591
+      },
+      {
+        "Element": 17783079341265601759
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

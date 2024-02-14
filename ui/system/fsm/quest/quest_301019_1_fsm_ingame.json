@@ -1,0 +1,93 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1421662255,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1421662255,
+    "fromNodeGuid_": 1346372197,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1346372197,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 429405853
+      }
+    ],
+    "toNodeGuid_": 1346372197,
+    "fromNodeGuid_": 1423308678,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1423308678,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "StartTimer": {
+    "guid_": 1864589520,
+    "parentGuid_": 1346372197,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 25,
+    "progressIndex_": 1,
+    "progressHash_": 11085661981339467571,
+    "timerId_": 4
+  },
+  "CheckTimer": {
+    "guid_": 429405853,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 25,
+    "progressIndex_": 1,
+    "progressHash_": 11085661981339467571,
+    "isNoCheckSkip_": false,
+    "timerId_": 4,
+    "time_": 30
+  },
+  "CallTalkEvent": {
+    "guid_": 286736167,
+    "parentGuid_": 1423308678,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 25,
+    "progressIndex_": 1,
+    "progressHash_": 11085661981339467571,
+    "groupID_": "VT_MS49_0600",
+    "delay_": 0
+  }
+}

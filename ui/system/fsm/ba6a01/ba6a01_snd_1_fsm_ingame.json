@@ -1,0 +1,365 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 439520745,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 439520745,
+    "fromNodeGuid_": 1733372236,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 980903785
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 250781102,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 196265721
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1384427944,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1427849132
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 118946174,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1733372236,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 118946174,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1404791641,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 250781102,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 510904914,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1384427944,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 417839356,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SoundMotionCheckCondition": {
+    "guid_": 980903785,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 196265721,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0020",
+          "hashValue_": 1051567856
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1427849132,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0030",
+          "hashValue_": 666277809
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 1031742640,
+    "parentGuid_": 250781102,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba6a01_glass_m_break_m_01",
+          "delayTime_": 0,
+          "requestId_": 1031742640,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 66,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba6a01_glass_s_debri_s_01",
+          "delayTime_": 1.833333,
+          "requestId_": 1031742640,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 66,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba6a01_glass_debri_m_LR_01",
+          "delayTime_": 1.333333,
+          "requestId_": 1031742640,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 9,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionNames_": [
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false
+  },
+  "SoundTriggerAction": {
+    "guid_": 808916073,
+    "parentGuid_": 1384427944,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba6a01_glass_m_break_m_02",
+          "delayTime_": 0,
+          "requestId_": 808916073,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 66,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba6a01_glass_s_debri_s_02",
+          "delayTime_": 0,
+          "requestId_": 808916073,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 66,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionNames_": [
+      {
+        "Element": "0020"
+      },
+      {
+        "Element": "0020"
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": [
+          {
+            "Element": 3
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 88
+          }
+        ]
+      }
+    ],
+    "isEndTrigger_": false
+  },
+  "SoundTriggerAction": {
+    "guid_": 496867612,
+    "parentGuid_": 118946174,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba6a01_glass_m_break_m_03",
+          "delayTime_": 0,
+          "requestId_": 496867612,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 66,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba6a01_glass_s_debri_s_03",
+          "delayTime_": 0,
+          "requestId_": 496867612,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 66,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba6a01_glass_debri_m_LR_02",
+          "delayTime_": 1.666667,
+          "requestId_": 496867612,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 34,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionNames_": [
+      {
+        "Element": "0030"
+      },
+      {
+        "Element": "0030"
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": [
+          {
+            "Element": 5
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 90
+          }
+        ]
+      },
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false
+  }
+}

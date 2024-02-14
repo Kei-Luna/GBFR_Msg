@@ -1,0 +1,273 @@
+{
+  "category_": "4",
+  "subCategory_": "3",
+  "serialNumber_": "777",
+  "difficultyHash_": "DIF_50",
+  "lv_": "0",
+  "time_": "1800",
+  "lostTime_": "0",
+  "clearableTimes_": "0",
+  "mobIdHash_": "MOB0029",
+  "sortNo_": "311",
+  "multi_": {
+    "strengthValue_": "30",
+    "rcommendedCombatPower_": "3800",
+    "islandId_": "ISLAND_7ST",
+    "gameCategory_": "2",
+    "multiQuestType_": "2",
+    "location_": "LOCATION_7ST_01",
+    "enemyIds_[0]": "132870",
+    "enemyNum_[0]": "1",
+    "enemyIds_[1]": "-1",
+    "enemyNum_[1]": "0",
+    "enemyIds_[2]": "-1",
+    "enemyNum_[2]": "0",
+    "enemyIds_[3]": "-1",
+    "enemyNum_[3]": "0",
+    "enemyIds_[4]": "-1",
+    "enemyNum_[4]": "0",
+    "enemyIds_[5]": "-1",
+    "enemyNum_[5]": "0",
+    "min_": "300",
+    "max_": "901",
+    "standard_": "600",
+    "hasPrepareArea_": "false",
+    "isQuestStartFromBossAppear_": "true",
+    "targetDispInfo_": {
+      "textHash_": "TXT_QT_COUNTER_010",
+      "type_": "0"
+    }
+  },
+  "occurrenceList_": [
+    {
+      "type_": "1",
+      "id_": "1085442",
+      "count_": "0"
+    }
+  ],
+  "orderList_": [],
+  "successList_": [],
+  "failureText_0": "TXT_QT_PARTYDEATH",
+  "failureText_1": "",
+  "reward_": {
+    "first_": "RW_403309_100",
+    "every_": "RW_403309_101",
+    "rankRewards_[0]": "RW_403309_300",
+    "rankRewards_[1]": "RW_403309_301",
+    "rankRewards_[2]": "RW_403309_302",
+    "rankRewards_[3]": "RW_403309_303",
+    "rankRewards_[4]": "RW_403309_304",
+    "rankRewards_[5]": "RW_403309_305"
+  },
+  "fsmDataList_": [
+    {
+      "name_": "メイン進行",
+      "hash_": "18094900049703026664",
+      "suffix_": "0"
+    },
+    {
+      "name_": "防衛対象関連 使用しない",
+      "hash_": "11423657263581812551",
+      "suffix_": "1"
+    },
+    {
+      "name_": "成功時ボイス",
+      "hash_": "17095880813070654577",
+      "suffix_": "2"
+    },
+    {
+      "name_": "終了時ボイス",
+      "hash_": "11067985047625704257",
+      "suffix_": "3"
+    },
+    {
+      "name_": "リマインドボイス",
+      "hash_": "10628182175891789223",
+      "suffix_": "4"
+    },
+    {
+      "name_": "BGM切り替え",
+      "hash_": "5807523421323801640",
+      "suffix_": "5"
+    }
+  ],
+  "targetList_": [
+    {
+      "label_": "TXT_QT_403309_1",
+      "textLabel_": "TXT_QT_403309_1",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_403309_2",
+      "textLabel_": "TXT_QT_BEAT_EM",
+      "type_": "3",
+      "id_": "132870",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "時間",
+      "textLabel_": "TXT_QT_SM0010_00",
+      "type_": "2",
+      "id_": "0",
+      "count_": "601",
+      "canFail_": "true",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "時間2",
+      "textLabel_": "TXT_QT_SM0010_00",
+      "type_": "2",
+      "id_": "0",
+      "count_": "301",
+      "canFail_": "true",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "瀕死",
+      "textLabel_": "TXT_QT_SM0020_00",
+      "type_": "15",
+      "id_": "0",
+      "count_": "2",
+      "canFail_": "true",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_403309_3",
+      "textLabel_": "TXT_QT_RETURN_TOWN",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    }
+  ],
+  "subMissions_": [
+    {
+      "target_": "時間",
+      "reward_": "RW_403309_SUBM_01",
+      "firstReward_": ""
+    },
+    {
+      "target_": "瀕死",
+      "reward_": "RW_403309_SUBM_02",
+      "firstReward_": ""
+    },
+    {
+      "target_": "時間2",
+      "reward_": "RW_403309_SUBM_03",
+      "firstReward_": ""
+    }
+  ],
+  "sectionSortListGuid_": [
+    {
+      "guid_": "669437137"
+    }
+  ],
+  "lotData_": "TREASURE_CHEST_QR3",
+  "treasureData_": [
+    {
+      "data_": "RW_403309_400"
+    },
+    {
+      "data_": "RW_403309_401"
+    },
+    {
+      "data_": "RW_403309_402"
+    },
+    {
+      "data_": "RW_403309_403"
+    },
+    {
+      "data_": "RW_403309_404"
+    }
+  ],
+  "rewardRank_": "2",
+  "placementsInfo_": {
+    "treasureMaxCount_": "0",
+    "treasureMinCount_": "0",
+    "pickMaxCount_": "0",
+    "pickMinCount_": "0",
+    "searchItemMaxCount_": "0",
+    "searchItemMinCount_": "0",
+    "archiveMaxCount_": "1",
+    "archiveMinCount_": "0",
+    "multiQuestCoinMaxCount_": "1",
+    "multiQuestCoinMinCount_": "0"
+  },
+  "exPlacementFilesInfo_": {
+    "suffix_": [
+      "403309"
+    ]
+  },
+  "startEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "endEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "isConsumeAppend_": "true",
+  "consumeCounts_": [
+    "-1",
+    "-1",
+    "-1",
+    "-1"
+  ],
+  "clearTimeMax_": "0",
+  "clearTimeMin_": "0",
+  "resetTownTreasureType_": "0",
+  "specialRegulationInfo_": [],
+  "actionDropRewardList_": [],
+  "preLoadQuestFSMFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "4",
+        "names_": []
+      }
+    }
+  ],
+  "preLoadVoiceEventFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": [
+          "VT_MS20_2270"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "4",
+        "names_": [
+          "VT_MS20_3060"
+        ]
+      }
+    }
+  ],
+  "overrideAttribute_": "0"
+}

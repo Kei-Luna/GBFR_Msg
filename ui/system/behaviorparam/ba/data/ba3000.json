@@ -1,0 +1,74 @@
+{
+  "BaDefenseBarrierParam": {
+    "phaseParam_": {
+      "list_": [
+        {
+          "phaseThresholds": "0",
+          "addPtPerSecond": "1",
+          "magicCircleEspSize": "1.45",
+          "ringEspSize": "4.15",
+          "armorialEspSize": "0.3",
+          "spreadingMagicCircleEspSize": "0.078"
+        },
+        {
+          "phaseThresholds": "70",
+          "addPtPerSecond": "1",
+          "magicCircleEspSize": "1.48",
+          "ringEspSize": "13.912",
+          "armorialEspSize": "0.4",
+          "spreadingMagicCircleEspSize": "0.32"
+        },
+        {
+          "phaseThresholds": "120",
+          "addPtPerSecond": "1",
+          "magicCircleEspSize": "1.455",
+          "ringEspSize": "21",
+          "armorialEspSize": "0.973",
+          "spreadingMagicCircleEspSize": "0.53"
+        },
+        {
+          "phaseThresholds": "180",
+          "addPtPerSecond": "0",
+          "magicCircleEspSize": "1",
+          "ringEspSize": "38.5",
+          "armorialEspSize": "1.01",
+          "spreadingMagicCircleEspSize": "0.89"
+        }
+      ],
+      "voiceIdList_": [
+        {
+          "upgrade2_": "VT_MS07_2400",
+          "upgrade3_": "VT_MS07_2403",
+          "upgrade4_": "VT_MS07_2407",
+          "reduceTo1_": "VT_MS07_2350",
+          "reduceTo2_": "VT_MS07_2350",
+          "aboutToComp_": "VT_MS07_2406",
+          "completed_": "VT_MS07_2408"
+        }
+      ]
+    },
+    "stopTimeByDamage_": "3",
+    "stopSubTimeByDamage_": "2",
+    "stopTimeByBreak_": "6",
+    "beforeFinishVoicePoint_": "170",
+    "completeVoiceWaitTime_": "5",
+    "maxRingSize_": "49.5",
+    "dmgVoiceIntervalTime_": "20",
+    "noLevelDown_": "false",
+    "bossParam_": [],
+    "zakoParam_": [
+      {
+        "Element": {
+          "minPower_": "0",
+          "subPoint_": "5"
+        }
+      },
+      {
+        "Element": {
+          "minPower_": "50",
+          "subPoint_": "8"
+        }
+      }
+    ]
+  }
+}

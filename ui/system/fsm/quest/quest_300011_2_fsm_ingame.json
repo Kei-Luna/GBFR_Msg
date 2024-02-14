@@ -1,0 +1,106 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1918562976,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1918562976,
+    "fromNodeGuid_": 1149664660,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1149664660,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1460235307,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 169938580
+      }
+    ],
+    "toNodeGuid_": 1149664660,
+    "fromNodeGuid_": 1796741058,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1796741058,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1831226631,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CallTalkEvent": {
+    "guid_": 1422511891,
+    "parentGuid_": 1796741058,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 17,
+    "progressIndex_": 2,
+    "progressHash_": 8249924930832475537,
+    "groupID_": "VT_MS41_0040"
+  },
+  "CheckTimer": {
+    "guid_": 997982689,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 17,
+    "progressIndex_": 2,
+    "progressHash_": 8249924930832475537,
+    "isNoCheckSkip_": false,
+    "timerId_": 1,
+    "time_": 150
+  },
+  "RecvSignal": {
+    "guid_": 169938580,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 17,
+    "progressIndex_": 2,
+    "progressHash_": 8249924930832475537,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 6674584378653191728
+      },
+      {
+        "Element": 5263062628045847956
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

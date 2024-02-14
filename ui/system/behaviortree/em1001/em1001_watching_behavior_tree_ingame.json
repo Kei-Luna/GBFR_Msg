@@ -1,0 +1,209 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": true
+    }
+  },
+  "DecorationNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": true
+    }
+  },
+  "ActionNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 10,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "ReferenceTreeNode": {
+    "guid_": 11,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "referenceTreeFolderName_": "em1000",
+      "referenceTreeName_": "watchingLR",
+      "assetPattern_": 4294967295
+    }
+  },
+  "EmMotionPlayAction": {
+    "guid_": 2108862934,
+    "parentGuid_": 6,
+    "motionIdName_": "0017",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0,
+    "useTurnDir_": true,
+    "turnRate_": 0.1,
+    "turnMaxAngle_": 0.1,
+    "turnOffsetAngle_": 0,
+    "attackHomingFlagOnly_": false,
+    "endSec_": -1,
+    "isChangeSequenceLayer_": false,
+    "sequenceLayer_": 0
+  },
+  "EmCultSoldierBaseApproachAction": {
+    "guid_": 1490324050,
+    "parentGuid_": 9,
+    "turnRate_": 0.1,
+    "turnMaxAngle_": 0.1,
+    "startMotionId_": "",
+    "motionId_": "0014"
+  },
+  "BlackBoardFloatCondition": {
+    "guid_": 1877421727,
+    "parentGuid_": 5,
+    "isReverseSuccess_": false,
+    "valueName_": "Em_TargetDistanceXZ",
+    "value_": 8.5,
+    "operatorType_": 0
+  },
+  "BlackBoardFloatCondition": {
+    "guid_": 826093012,
+    "parentGuid_": 7,
+    "isReverseSuccess_": false,
+    "valueName_": "Em_TargetDistanceXZ",
+    "value_": 14,
+    "operatorType_": 0
+  },
+  "BlackBoardFloatCondition": {
+    "guid_": 1198327187,
+    "parentGuid_": 10,
+    "isReverseSuccess_": false,
+    "valueName_": "Em_TargetDistanceXZ",
+    "value_": 8,
+    "operatorType_": 4
+  },
+  "EmCultSoldierBaseApproachAction": {
+    "guid_": 1745420840,
+    "parentGuid_": 4,
+    "turnRate_": 0.1,
+    "turnMaxAngle_": 0.1,
+    "startMotionId_": "0011",
+    "motionId_": "0010"
+  },
+  "BlackBoardFloatCondition": {
+    "guid_": 1684317917,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "valueName_": "Em_TargetDistanceXZ",
+    "value_": 13,
+    "operatorType_": 4
+  },
+  "BlackBoardFloatCondition": {
+    "guid_": 5645297,
+    "parentGuid_": 8,
+    "isReverseSuccess_": false,
+    "valueName_": "Em_TargetDistanceXZ",
+    "value_": 9,
+    "operatorType_": 4
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 202468398,
+    "parentGuid_": 7,
+    "isReverseSuccess_": false,
+    "boolName_": "EmCultSoldierBase_IsRequireJump"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 407696946,
+    "parentGuid_": 8,
+    "isReverseSuccess_": false,
+    "boolName_": "EmCultSoldierBase_IsRequireJump"
+  }
+}

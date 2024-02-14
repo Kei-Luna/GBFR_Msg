@@ -1,0 +1,116 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1261272996,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1261272996,
+    "fromNodeGuid_": 392897662,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1851156989,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 820664330,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2110439467
+      }
+    ],
+    "toNodeGuid_": 1851156989,
+    "fromNodeGuid_": 392897662,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 392897662,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 807534217,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 622235636
+      }
+    ],
+    "toNodeGuid_": 392897662,
+    "fromNodeGuid_": 1851156989,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "PlayerRotResetAction": {
+    "guid_": 180636507,
+    "parentGuid_": 1851156989,
+    "waitSec_": 0.1
+  },
+  "BlackBoardIntAction": {
+    "guid_": 1387247583,
+    "parentGuid_": 1851156989,
+    "valueName_": "Routine",
+    "setTiming_": 1,
+    "value_": 0
+  },
+  "NpcTurnToManualPlayerAction": {
+    "guid_": 297464364,
+    "parentGuid_": 1851156989,
+    "rightMotionId_": "e030",
+    "leftMotionId_": "e031",
+    "rightBackMotionId_": "e032",
+    "leftBackMotionId_": "e033",
+    "endMotionId_": "e000"
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 622235636,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "intName_": "Routine",
+    "value_": 1,
+    "operatorType_": 0
+  },
+  "ActionEndCondition": {
+    "guid_": 188419090,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "ActionEndCondition": {
+    "guid_": 2110439467,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  }
+}

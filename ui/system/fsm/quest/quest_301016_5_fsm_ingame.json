@@ -1,0 +1,112 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1724793327,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1724793327,
+    "fromNodeGuid_": 1636950459,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1636950459,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1351772846,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1171386970
+      }
+    ],
+    "toNodeGuid_": 1636950459,
+    "fromNodeGuid_": 990479766,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 990479766,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 975464566,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CallTalkEvent": {
+    "guid_": 1981655848,
+    "parentGuid_": 990479766,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 22,
+    "progressIndex_": 5,
+    "progressHash_": 3460052258909529719,
+    "groupID_": "VT_MS46_0570",
+    "delay_": 0
+  },
+  "RecvSignal": {
+    "guid_": 1171386970,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 22,
+    "progressIndex_": 5,
+    "progressHash_": 3460052258909529719,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 8100382040621577708
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "CallBgm": {
+    "guid_": 513818580,
+    "parentGuid_": 990479766,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 22,
+    "progressIndex_": 5,
+    "progressHash_": 3460052258909529719,
+    "wwiseIdName_": "BGM_Bt_FourEmperors_B",
+    "useBgmSetType_": false,
+    "bgmSetType_": 0,
+    "skipWhileSectionJump_": false
+  }
+}

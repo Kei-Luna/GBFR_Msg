@@ -1,0 +1,98 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1069266672,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1069266672,
+    "fromNodeGuid_": 533532691,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 533532691,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1068004025,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 702170855
+      }
+    ],
+    "toNodeGuid_": 533532691,
+    "fromNodeGuid_": 1868347871,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1868347871,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1166027647,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "StartTimer": {
+    "guid_": 1887547710,
+    "parentGuid_": 533532691,
+    "category_": 4,
+    "subcategory_": 1,
+    "index_": 771,
+    "progressIndex_": 1,
+    "progressHash_": 10628182175891789223,
+    "timerId_": 0
+  },
+  "RecvSignal": {
+    "guid_": 702170855,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 1,
+    "index_": 771,
+    "progressIndex_": 1,
+    "progressHash_": 10628182175891789223,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 13461182225937557830
+      },
+      {
+        "Element": 9980383345240448479
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

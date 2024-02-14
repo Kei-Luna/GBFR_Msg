@@ -1,0 +1,166 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "SelectorNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "EmCultSoldierBaseComboAction": {
+    "guid_": 1812685825,
+    "parentGuid_": 7,
+    "turnRate_": 0.1,
+    "turnMaxAngle_": 0.05,
+    "motionId_": "1141",
+    "permissionNoHitProbability_": 100,
+    "permissionNoHitDist_": 11,
+    "permissionNoHitAngleDeg_": 100,
+    "startMotionTime_": 0,
+    "movementRateOnFlag_": 1
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1607825788,
+    "parentGuid_": 6,
+    "isReverseSuccess_": true,
+    "boolName_": "EmCultSoldierBase_CanComboAttack"
+  },
+  "EmCultSoldierBaseComboAction": {
+    "guid_": 779484470,
+    "parentGuid_": 9,
+    "turnRate_": 0.1,
+    "turnMaxAngle_": 0.05,
+    "motionId_": "1142",
+    "permissionNoHitProbability_": 50,
+    "permissionNoHitDist_": 10,
+    "permissionNoHitAngleDeg_": 190,
+    "startMotionTime_": 0,
+    "movementRateOnFlag_": 1
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1098986527,
+    "parentGuid_": 8,
+    "isReverseSuccess_": true,
+    "boolName_": "EmCultSoldierBase_CanComboAttack"
+  },
+  "EmCultSoldierBaseComboAction": {
+    "guid_": 645377493,
+    "parentGuid_": 5,
+    "turnRate_": 0.1,
+    "turnMaxAngle_": 0.05,
+    "motionId_": "1140",
+    "permissionNoHitProbability_": 100,
+    "permissionNoHitDist_": 7,
+    "permissionNoHitAngleDeg_": 100,
+    "startMotionTime_": 0,
+    "movementRateOnFlag_": 1
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 2041292380,
+    "parentGuid_": 4,
+    "isReverseSuccess_": true,
+    "boolName_": "EmCultSoldierBase_CanComboAttack"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 181346492,
+    "parentGuid_": 2,
+    "isReverseSuccess_": true,
+    "boolName_": "Em1003_BuffAction"
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 289521932,
+    "parentGuid_": 2,
+    "isReverseSuccess_": false,
+    "intName_": "EmCultSoldierBase_GroupActionSyncState",
+    "value_": -1,
+    "operatorType_": 0
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em1003",
+    "subTreeName_": "comboattack"
+  }
+}

@@ -1,0 +1,6814 @@
+{
+  "Em7100Param": {
+    "hp_": "120000",
+    "atk_": "900",
+    "break_": "10",
+    "def_": "1",
+    "endurance_": "0",
+    "exp_": "0",
+    "hitSEMaxBreak_": "4",
+    "hitSEMinBreak_": "0",
+    "hpCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "atkCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "defCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "expCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "fsmParam_": {
+      "folderName_": [],
+      "fsmName_": []
+    },
+    "hateRateClosePlayer_": "50",
+    "hateRateFarPlayer_": "0",
+    "hateRateClosePlayerPerSec_": "0",
+    "hateRateFarPlayerPerSec_": "0",
+    "hateRateFrontAngle_": "0",
+    "hateRateBackAngle_": "0",
+    "hateRateDamage_": "50",
+    "hateRateManualPlayer_": "0",
+    "hateRateHighHpPlayer_": "0",
+    "hateRateLowHpPlayer_": "0",
+    "hateRateTargetCountManyPlayer_": "0",
+    "hateRateTargetCountFewPlayer_": "0",
+    "hateRateHelpPlayer_": "0",
+    "hateRateLastTargetPlayer_": "0",
+    "hateRateFirstTargetPlayer_": "0",
+    "badStatusHateRateMap_": [],
+    "hateUpdateTime_": "5",
+    "damageToHateRate_": "0.2",
+    "damageHateDecPerSec_": "2",
+    "closeHateIncRate_": "0",
+    "closeHateDecRate_": "0",
+    "farHateIncRate_": "0",
+    "farHateDecRate_": "0",
+    "combatPower_": "100",
+    "combatPowerList_": [
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      }
+    ],
+    "itemRewordMoneyVal_": "0",
+    "itemRewordJumpRate_": "0.5",
+    "battle2SearchLength_": "200",
+    "search2battleLength_": "150",
+    "enemySize_": "2",
+    "linkAttackCameraDistRate_": "1",
+    "targetRangeParam_": {
+      "rangeClose_": "22",
+      "rangeShort_": "31",
+      "rangeMiddle_": "35",
+      "rangeLong_": "-1"
+    },
+    "counterAttackParam_": {
+      "damageMaxValue_": "4",
+      "damageMinValue_": "2",
+      "reduceDamageValueInSec_": "5",
+      "stopReduceTime_": "10",
+      "coolTime_": "10",
+      "onceCheckCounterAttack_": "false",
+      "isReferenceMaxHpRate_": "true"
+    },
+    "counterAttackParams_": [
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      }
+    ],
+    "useCounterAttackParam_": [
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      }
+    ],
+    "badStatusResistanceParams_": [
+      {
+        "Element": {
+          "maxValue_": "0",
+          "minValue_": "0",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.3",
+          "subValue_": "0.15",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "1",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "1",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.3",
+          "subValue_": "0.15",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "0",
+          "minValue_": "0",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.7",
+          "subValue_": "0.05",
+          "coolTime_": "0.5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "1",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      }
+    ],
+    "statusParams_": {
+      "regeneratePercent_": "0.5",
+      "regenerateCycleSec_": "1",
+      "multiAttackNum_": "1",
+      "multiAttackDelayFrame_": "5",
+      "multiAttackAtkRate_": "0.2",
+      "multiAttackHitStopDivision_": "2",
+      "burnDotDamageLimitRate_": "1",
+      "poisonDotDamageLimitRate_": "1",
+      "dimentionDotDamageLimitRate_": "2"
+    },
+    "cameraCollisionParams_": [],
+    "linkParam_": {
+      "linkMaxValue_": "500",
+      "linkResetTime_": "8",
+      "linkResetRate_": "30",
+      "linkMultiBonus_": "2",
+      "linkCoolTime_": "30",
+      "isOverrideCircleParts_": "true",
+      "linkPartsNumber_": "0",
+      "linkOffsetPos_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "linkCirclePartsNumber_": "5",
+      "linkCircleOffsetPos_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "linkAddDist_": "13",
+      "linkAdjustSec_": "1.8"
+    },
+    "lockOnParam_": {
+      "partsInfoList_": [
+        {
+          "Element": {
+            "offset_": [
+              "-1.1",
+              "1.2",
+              "0",
+              "1"
+            ],
+            "partsNumber_": "9",
+            "camRot_": "-1",
+            "collisionOffset_": "3.6",
+            "disableWallCheck_": "false",
+            "canManualLockOn_": "true",
+            "canLinkTarget_": "false"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "1.1",
+              "1.2",
+              "0",
+              "1"
+            ],
+            "partsNumber_": "13",
+            "camRot_": "-1",
+            "collisionOffset_": "3.6",
+            "disableWallCheck_": "false",
+            "canManualLockOn_": "true",
+            "canLinkTarget_": "false"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "0.6",
+              "0.5",
+              "0.1",
+              "1"
+            ],
+            "partsNumber_": "2050",
+            "camRot_": "-1",
+            "collisionOffset_": "2.9",
+            "disableWallCheck_": "false",
+            "canManualLockOn_": "true",
+            "canLinkTarget_": "false"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "partsNumber_": "848",
+            "camRot_": "-1",
+            "collisionOffset_": "6.9",
+            "disableWallCheck_": "false",
+            "canManualLockOn_": "true",
+            "canLinkTarget_": "false"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "partsNumber_": "0",
+            "camRot_": "-1",
+            "collisionOffset_": "6.9",
+            "disableWallCheck_": "false",
+            "canManualLockOn_": "true",
+            "canLinkTarget_": "false"
+          }
+        }
+      ],
+      "spArtsPrioLayer_": "4",
+      "spArtsPrioOffset_": "0",
+      "spArtsWarpOffset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "spArtsWarpPartsNumber_": "-1",
+      "spArtsWarpDist_": "0",
+      "rangeType_": "0"
+    },
+    "collisionParam_": {
+      "offset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "lineEndOffset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "partsNumber_": "-1",
+      "capsuleEndPartsNumber_": "-1",
+      "radius_": "1"
+    },
+    "animInterDefaultSec_": "1",
+    "damageAnimInterDefaultSec_": "0.3",
+    "uiPartsNo_": "0",
+    "uiOffsetY_": "0",
+    "basicHitStopTimeRate_": "0",
+    "damageReactionHitStopTimeRate_": "0",
+    "superArmorHitStopTimeRate_": "0",
+    "attackerHitStopTimeRate_": "0",
+    "addReactionHitstopFrameMin_": "-1",
+    "addReactionHitstopFrameMax_": "-1",
+    "addReactionWeightRateMin_": "-1",
+    "addReactionWeightRateMax_": "-1",
+    "addReactionWeightRateAI_": "-1",
+    "addReactionInterSec_": "-1",
+    "isEyeLookingAtLockOn_": "false",
+    "lookingAtPartsNo_": "5",
+    "isEnableSyncWeaponAnim_": "false",
+    "weakPointParam_": {
+      "weakInfoList_": [
+        {
+          "Element": {
+            "isWeakPoint_": "true",
+            "hardValue_": "1.5",
+            "damageWorkUniqueId_": "1"
+          }
+        },
+        {
+          "Element": {
+            "isWeakPoint_": "true",
+            "hardValue_": "1.5",
+            "damageWorkUniqueId_": "6"
+          }
+        },
+        {
+          "Element": {
+            "isWeakPoint_": "false",
+            "hardValue_": "0.2",
+            "damageWorkUniqueId_": "0"
+          }
+        },
+        {
+          "Element": {
+            "isWeakPoint_": "false",
+            "hardValue_": "0.2",
+            "damageWorkUniqueId_": "2"
+          }
+        },
+        {
+          "Element": {
+            "isWeakPoint_": "false",
+            "hardValue_": "0.2",
+            "damageWorkUniqueId_": "3"
+          }
+        },
+        {
+          "Element": {
+            "isWeakPoint_": "false",
+            "hardValue_": "0.2",
+            "damageWorkUniqueId_": "4"
+          }
+        },
+        {
+          "Element": {
+            "isWeakPoint_": "false",
+            "hardValue_": "0.2",
+            "damageWorkUniqueId_": "5"
+          }
+        }
+      ]
+    },
+    "defenseTargetHateParams_": [
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      }
+    ],
+    "ignoreAilments_": [
+      {
+        "Element": "3465211907"
+      },
+      {
+        "Element": "282221916"
+      }
+    ],
+    "stageInvisibleStartDistance_": "150",
+    "stageInvisibleEndDistance_": "200",
+    "neckCtrlParam_": {
+      "partsNumber_": "5",
+      "rootPartsNumber_": "4",
+      "basePartsNumber_": "3",
+      "baseAxisZ_": [
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      "neckAxisZ_": [
+        "0",
+        "1",
+        "0",
+        "1"
+      ],
+      "baseDegree_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "maxDegreeX_": "5",
+      "maxDegreeY_": "40",
+      "minDegreeX_": "-40",
+      "minDegreeY_": "-40",
+      "rotAdjustRate_": "0.05",
+      "rotAdjustDegreeMax_": "5",
+      "baseAxisZUpLimitDegree_": "-1",
+      "seqWorkIndex_": "0",
+      "seqFlagNumber_": "11",
+      "isSeqNeckCtrlEnable_": "true",
+      "isUseBaseParts_": "true"
+    },
+    "isChangeNormalDamageAttackReaction_": "true",
+    "isUseNormalDamageAttackReactionDefault_": "true",
+    "normalDamageAttackReaction_": [
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "1"
+      },
+      {
+        "Element": "2"
+      },
+      {
+        "Element": "3"
+      },
+      {
+        "Element": "4"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "22"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      }
+    ],
+    "isCallExplodeBodyPresageDefaultVfx_": "true",
+    "isDisableAerialDownReaction_": "false",
+    "overDriveParam_": {
+      "hpRateNormal_": "0.35",
+      "hpRateOverDrive_": "0.3",
+      "hpRateBreak_": "0.05",
+      "minBreakSecond_": "5",
+      "forceBreakSecond_": "20",
+      "overDriveVyrnVoiceWaitSecond_": "0",
+      "overDriveCameraPartsNumber_": "-1"
+    },
+    "emissiveParamDefault_": {
+      "sinMode_": "false",
+      "emissiveBlinkSecond_": "6",
+      "emissiveBlinkMaxSecond_": "1.5",
+      "emissiveBlinkPow_": "1",
+      "emissiveStrengthUpper_": "1",
+      "emissiveStrengthLower_": "0.06"
+    },
+    "emissiveParamMax_": {
+      "sinMode_": "false",
+      "emissiveBlinkSecond_": "3",
+      "emissiveBlinkMaxSecond_": "1",
+      "emissiveBlinkPow_": "1",
+      "emissiveStrengthUpper_": "1",
+      "emissiveStrengthLower_": "0.06"
+    },
+    "emissiveParamMin_": {
+      "sinMode_": "false",
+      "emissiveBlinkSecond_": "6",
+      "emissiveBlinkMaxSecond_": "1",
+      "emissiveBlinkPow_": "1",
+      "emissiveStrengthUpper_": "0.05",
+      "emissiveStrengthLower_": "0.01"
+    },
+    "spArtsCutinParam_": {
+      "spArtsTextId_": "TXT_BT_7100_2"
+    },
+    "odAbilityParam_": {
+      "textId_": "TXT_BT_7100_1"
+    },
+    "cameraLength_": "0",
+    "odHitStopTimeRate_": "0",
+    "breakHitStopTimeRate_": "0",
+    "emissiveInitValue_": "0.06",
+    "odAttackRateFirstTime_": "1.1",
+    "odDefenseRateFirstTime_": "0.9",
+    "odAttackRateSecondTime_": "1.2",
+    "odDefenseRateSecondTime_": "0.7",
+    "abilityCoolSec_": "10",
+    "isCutInDamageDisable_": "true",
+    "bossStunOffsetY_": "0",
+    "addDamageParam_": {
+      "playInfoList_": [
+        {
+          "Element": {
+            "motionName_": "05a0",
+            "damageWorkUniqueId_": "1",
+            "slotNumber_": "1",
+            "weight_": "1"
+          }
+        },
+        {
+          "Element": {
+            "motionName_": "05a1",
+            "damageWorkUniqueId_": "4",
+            "slotNumber_": "2",
+            "weight_": "1"
+          }
+        },
+        {
+          "Element": {
+            "motionName_": "05a2",
+            "damageWorkUniqueId_": "5",
+            "slotNumber_": "3",
+            "weight_": "1"
+          }
+        }
+      ]
+    },
+    "moveParam_": {
+      "offsets_": [
+        {
+          "Element": {
+            "offset_": [
+              "58.50547",
+              "-173.13",
+              "-1051.915",
+              "1"
+            ],
+            "degY_": "-45"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "58.577",
+              "275.63",
+              "655.201",
+              "1"
+            ],
+            "degY_": "135"
+          }
+        }
+      ],
+      "locationsArray_": [
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "-12.29813",
+                  "0.01303101",
+                  "-47.81525",
+                  "1"
+                ],
+                "degY_": "22.357",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "8.411573",
+                  "2",
+                  "-58.75149",
+                  "1"
+                ],
+                "degY_": "2",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "38.67848",
+                  "2",
+                  "-52.80317",
+                  "1"
+                ],
+                "degY_": "-47",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "54.60347",
+                  "2",
+                  "-30.00404",
+                  "1"
+                ],
+                "degY_": "-59",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "52.39748",
+                  "0.007659912",
+                  "-13.37366",
+                  "1"
+                ],
+                "degY_": "-78.53",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "60.66651",
+                  "2",
+                  "5.455498",
+                  "1"
+                ],
+                "degY_": "-94.967",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "52.84683",
+                  "2",
+                  "35.30477",
+                  "1"
+                ],
+                "degY_": "-129",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "24.48299",
+                  "2",
+                  "57.78725",
+                  "1"
+                ],
+                "degY_": "-162",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "9.504991",
+                  "0.01408386",
+                  "50.22699",
+                  "1"
+                ],
+                "degY_": "181.869",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-15.85976",
+                  "2",
+                  "57.26713",
+                  "1"
+                ],
+                "degY_": "-196",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-36.434",
+                  "2",
+                  "46.59295",
+                  "1"
+                ],
+                "degY_": "131",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-54.8326",
+                  "2",
+                  "25.47767",
+                  "1"
+                ],
+                "degY_": "107",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-50.45741",
+                  "0.007553101",
+                  "10.59635",
+                  "1"
+                ],
+                "degY_": "98.825",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-59.52673",
+                  "2",
+                  "-13.86908",
+                  "1"
+                ],
+                "degY_": "79.879",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-47.48811",
+                  "2",
+                  "-36.16628",
+                  "1"
+                ],
+                "degY_": "46",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-27.89736",
+                  "2",
+                  "-50.84266",
+                  "1"
+                ],
+                "degY_": "22",
+                "type_": "1"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "-1.186589",
+                  "0.005630493",
+                  "-5.826457",
+                  "1"
+                ],
+                "degY_": "179",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "4.576409",
+                  "0.005340576",
+                  "-0.0875787",
+                  "1"
+                ],
+                "degY_": "83",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "1.317309",
+                  "0.01252747",
+                  "4.061796",
+                  "1"
+                ],
+                "degY_": "-2",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-4.794348",
+                  "0.007156372",
+                  "0.5018294",
+                  "1"
+                ],
+                "degY_": "-91",
+                "type_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "34.47897",
+                  "-0.6679077",
+                  "-57.47007",
+                  "1"
+                ],
+                "degY_": "-28.912",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "55.3424",
+                  "-0.6679077",
+                  "33.80421",
+                  "1"
+                ],
+                "degY_": "-122.418",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-38.0227",
+                  "-0.6679077",
+                  "47.939",
+                  "1"
+                ],
+                "degY_": "135.126",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-55.04498",
+                  "-0.6679077",
+                  "-37.44628",
+                  "1"
+                ],
+                "degY_": "54",
+                "type_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "24.69982",
+                  "-0.5279083",
+                  "-48.56323",
+                  "1"
+                ],
+                "degY_": "-107.12",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "45.1375",
+                  "-0.5279083",
+                  "24.98239",
+                  "1"
+                ],
+                "degY_": "151.398",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-24.61819",
+                  "-0.5279083",
+                  "41.09906",
+                  "1"
+                ],
+                "degY_": "57.376",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-45.85619",
+                  "-0.5279083",
+                  "-27.24349",
+                  "1"
+                ],
+                "degY_": "-30.344",
+                "type_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "24.50838",
+                  "-1.447357",
+                  "-49.20958",
+                  "1"
+                ],
+                "degY_": "-126.601",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "46.22559",
+                  "-1.447815",
+                  "22.40483",
+                  "1"
+                ],
+                "degY_": "136.501",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-24.10125",
+                  "-1.448913",
+                  "41.11538",
+                  "1"
+                ],
+                "degY_": "40.187",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-46.55153",
+                  "-1.447388",
+                  "-25.01258",
+                  "1"
+                ],
+                "degY_": "-42.94901",
+                "type_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "-2.332018",
+                  "0.0001373291",
+                  "-29.13486",
+                  "1"
+                ],
+                "degY_": "180",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "28.48551",
+                  "0.0001525879",
+                  "-3.121444",
+                  "1"
+                ],
+                "degY_": "90",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "3.462768",
+                  "0.0001373291",
+                  "28.84117",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-30.57706",
+                  "0.001617432",
+                  "3.242517",
+                  "1"
+                ],
+                "degY_": "-90",
+                "type_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "4.731984",
+                  "0.004180908",
+                  "-76.67905",
+                  "0.9999999"
+                ],
+                "degY_": "-1",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "76.23392",
+                  "0.001464844",
+                  "5.323586",
+                  "0.9999999"
+                ],
+                "degY_": "-90",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-7.986925",
+                  "0.0001068115",
+                  "76.50824",
+                  "1"
+                ],
+                "degY_": "175",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-75.73143",
+                  "0.002883911",
+                  "-10.87566",
+                  "0.9999999"
+                ],
+                "degY_": "81",
+                "type_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "-9.668233",
+                  "0.0009918212",
+                  "-53.33188",
+                  "1"
+                ],
+                "degY_": "13",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "56.80278",
+                  "0.0001068115",
+                  "-6.873829",
+                  "1"
+                ],
+                "degY_": "-102",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "1.111037",
+                  "0.000717163",
+                  "53.47004",
+                  "1"
+                ],
+                "degY_": "-186",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-56.90854",
+                  "0.001266479",
+                  "5.642154",
+                  "1"
+                ],
+                "degY_": "93",
+                "type_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "-5.154942",
+                  "0.0009613037",
+                  "-29.27778",
+                  "1"
+                ],
+                "degY_": "180",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "30.9149",
+                  "0.0001831055",
+                  "-7.394909",
+                  "1"
+                ],
+                "degY_": "90",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "7.0325",
+                  "0.0001678467",
+                  "29.74402",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-31.67128",
+                  "0.00163269",
+                  "4.132504",
+                  "1"
+                ],
+                "degY_": "-90",
+                "type_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "2.590709",
+                  "0.0001525879",
+                  "-29.46887",
+                  "0.9999999"
+                ],
+                "degY_": "180",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "30.6339",
+                  "0.0001983642",
+                  "3.48056",
+                  "0.9999999"
+                ],
+                "degY_": "90",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-3.620069",
+                  "0.001937866",
+                  "29.87919",
+                  "0.9999999"
+                ],
+                "degY_": "0",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-31.26031",
+                  "0.001953125",
+                  "-3.954147",
+                  "0.9999999"
+                ],
+                "degY_": "-90",
+                "type_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "-0.7647043",
+                  "0.004547119",
+                  "-25.27394",
+                  "1"
+                ],
+                "degY_": "180",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "26.62734",
+                  "0.003890991",
+                  "1.119021",
+                  "1"
+                ],
+                "degY_": "90",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "1.727047",
+                  "0.006591797",
+                  "27.4413",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-25.87519",
+                  "0.005340576",
+                  "2.122912",
+                  "1"
+                ],
+                "degY_": "-90",
+                "type_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "20.53611",
+                  "2.471054",
+                  "-32.81742",
+                  "0.9999999"
+                ],
+                "degY_": "180",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "31.72502",
+                  "2.471054",
+                  "17.21002",
+                  "0.9999999"
+                ],
+                "degY_": "90",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-17.60886",
+                  "2.471039",
+                  "28.08341",
+                  "0.9999999"
+                ],
+                "degY_": "0",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-32.29571",
+                  "2.471054",
+                  "-20.0514",
+                  "0.9999999"
+                ],
+                "degY_": "-90",
+                "type_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "32.15839",
+                  "2.471176",
+                  "-30.34002",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "35.40312",
+                  "0.5711365",
+                  "-26.8056",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "43.80008",
+                  "0.5711365",
+                  "-23.92494",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "45.6589",
+                  "0.5711823",
+                  "-16.29203",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "45.13504",
+                  "0.5711823",
+                  "-10.85622",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "44.5078",
+                  "0.5711823",
+                  "-7.649496",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "43.91156",
+                  "0.5764923",
+                  "-1.915514",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "42.8313",
+                  "0.5712737",
+                  "3.272643",
+                  "0.9999999"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "40.63446",
+                  "2.471206",
+                  "9.333278",
+                  "0.9999999"
+                ],
+                "degY_": "0",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "29.25369",
+                  "2.471146",
+                  "30.22133",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "26.58173",
+                  "0.5711517",
+                  "34.32675",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "23.39395",
+                  "0.5711823",
+                  "40.22824",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "19.58122",
+                  "0.571167",
+                  "44.14558",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "13.47814",
+                  "0.571167",
+                  "42.90855",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "8.157784",
+                  "0.5711975",
+                  "43.49314",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "4.699871",
+                  "0.5712128",
+                  "42.96848",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-0.7935936",
+                  "0.5712128",
+                  "41.42601",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-6.698755",
+                  "0.571228",
+                  "41.02798",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-11.81772",
+                  "2.471146",
+                  "37.56413",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-29.52525",
+                  "2.471176",
+                  "23.9846",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-32.71213",
+                  "0.5718994",
+                  "21.15727",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-37.01512",
+                  "0.5722656",
+                  "19.61696",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-38.27072",
+                  "0.5711212",
+                  "15.23452",
+                  "0.9999999"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-41.48464",
+                  "0.5711517",
+                  "10.80769",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-43.97654",
+                  "0.5711975",
+                  "7.296937",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-41.53167",
+                  "0.5712128",
+                  "2.602144",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-41.17031",
+                  "0.5711975",
+                  "-2.904905",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-43.5811",
+                  "0.5715942",
+                  "-7.418962",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-40.92426",
+                  "2.475265",
+                  "-12.94739",
+                  "0.9999999"
+                ],
+                "degY_": "0",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-29.21684",
+                  "2.47113",
+                  "-30.79832",
+                  "0.9999999"
+                ],
+                "degY_": "0",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-25.89104",
+                  "0.5711212",
+                  "-33.79146",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-24.23041",
+                  "0.5710907",
+                  "-36.58266",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-20.81913",
+                  "0.5710754",
+                  "-39.67889",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-16.94722",
+                  "0.5710602",
+                  "-41.24942",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-12.47813",
+                  "0.5710754",
+                  "-41.62209",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-8.150063",
+                  "0.5710907",
+                  "-40.72126",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-1.332188",
+                  "0.5710907",
+                  "-40.99253",
+                  "1"
+                ],
+                "degY_": "0",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "5.372734",
+                  "0.5710449",
+                  "-43.7072",
+                  "0.9999999"
+                ],
+                "degY_": "0",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "11.39367",
+                  "2.471115",
+                  "-41.4374",
+                  "0.9999999"
+                ],
+                "degY_": "0",
+                "type_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "-1.22548",
+                  "0.007507324",
+                  "-3.68196",
+                  "1"
+                ],
+                "degY_": "179",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "3.288087",
+                  "0.006729126",
+                  "0.001288251",
+                  "1"
+                ],
+                "degY_": "93.873",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "1.430219",
+                  "0.01643372",
+                  "0.7629342",
+                  "1"
+                ],
+                "degY_": "-2",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-4.794348",
+                  "0.007156372",
+                  "0.5018294",
+                  "1"
+                ],
+                "degY_": "-91",
+                "type_": "3"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-11.989",
+                  "0.01560974",
+                  "-53.724",
+                  "1"
+                ],
+                "degY_": "16.639",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "54.87116",
+                  "0.01092529",
+                  "-11.9624",
+                  "1"
+                ],
+                "degY_": "-78.53",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "9.388514",
+                  "0.015625",
+                  "51.53318",
+                  "1"
+                ],
+                "degY_": "184.869",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-54.66046",
+                  "0.010849",
+                  "9.679956",
+                  "1"
+                ],
+                "degY_": "98.825",
+                "type_": "3"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "-3.36328",
+                  "2.469954",
+                  "-42.35085",
+                  "1"
+                ],
+                "degY_": "189",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "43.41135",
+                  "2.469985",
+                  "-4.18997",
+                  "1"
+                ],
+                "degY_": "90",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "3.122636",
+                  "2.469985",
+                  "41.43425",
+                  "1"
+                ],
+                "degY_": "-5",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-42.77643",
+                  "2.469985",
+                  "2.001184",
+                  "1"
+                ],
+                "degY_": "-90",
+                "type_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "-1.167361",
+                  "14",
+                  "-12.67154",
+                  "1"
+                ],
+                "degY_": "2",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "11.02499",
+                  "14",
+                  "-0.2296065",
+                  "1"
+                ],
+                "degY_": "258",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "1.664893",
+                  "14",
+                  "10.5365",
+                  "1"
+                ],
+                "degY_": "-176",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-10.03658",
+                  "14",
+                  "3.122014",
+                  "1"
+                ],
+                "degY_": "-263",
+                "type_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "0.693985",
+                  "0.6",
+                  "-15.89349",
+                  "1"
+                ],
+                "degY_": "177",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "16.0143",
+                  "0.601",
+                  "0.004375506",
+                  "1"
+                ],
+                "degY_": "87",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "1.036964",
+                  "0.6031647",
+                  "15.60544",
+                  "1"
+                ],
+                "degY_": "-7",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-17.32404",
+                  "0.60672",
+                  "1.010706",
+                  "1"
+                ],
+                "degY_": "-96",
+                "type_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "-2.667363",
+                  "6.103516e-05",
+                  "-22.13505",
+                  "1"
+                ],
+                "degY_": "16.3",
+                "type_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "18.01766",
+                  "1.525879e-05",
+                  "-13.41299",
+                  "1"
+                ],
+                "degY_": "4.05",
+                "type_": "1"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "15.13093",
+                  "4.577637e-05",
+                  "20.80327",
+                  "1"
+                ],
+                "degY_": "4.92",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-25.48058",
+                  "1.525879e-05",
+                  "30.42102",
+                  "1"
+                ],
+                "degY_": "10.07",
+                "type_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-17.46852",
+                  "9.155273e-05",
+                  "4.255339",
+                  "1"
+                ],
+                "degY_": "10.47",
+                "type_": "3"
+              }
+            }
+          ]
+        }
+      ],
+      "magmaAreaLocationsArray_": [
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "-21.20013",
+                  "0.001663208",
+                  "-34.49084",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-14.39493",
+                  "0.001678467",
+                  "-28.3185",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-12.67228",
+                  "0.001693725",
+                  "-20.42011",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-13.21068",
+                  "0.001693725",
+                  "-37.0748",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-5.663864",
+                  "0.001724243",
+                  "-38.83149",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-6.180545",
+                  "0.001724243",
+                  "-31.33834",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-5.879258",
+                  "0.001739502",
+                  "-24.79989",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-2.374001",
+                  "0.001770019",
+                  "-17.25178",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-9.602474",
+                  "0.001770019",
+                  "-14.58307",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "1.693138",
+                  "0.001800537",
+                  "-27.16739",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "1.79288",
+                  "0.001831055",
+                  "-34.84264",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-0.8430285",
+                  "0.001831055",
+                  "-42.69128",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "7.106351",
+                  "0.001861572",
+                  "-41.71412",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "8.322758",
+                  "0.00189209",
+                  "-32.41284",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "9.949134",
+                  "0.001953125",
+                  "-26.39759",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "4.25879",
+                  "0.001922607",
+                  "-19.3115",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "5.554554",
+                  "0.001937866",
+                  "-12.56669",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "10.35289",
+                  "0.001968384",
+                  "-19.40055",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "17.28635",
+                  "0.001998901",
+                  "-24.93844",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "16.36198",
+                  "2.470154",
+                  "-44.50048",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "22.67825",
+                  "2.470169",
+                  "-43.60223",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "14.26342",
+                  "2.470184",
+                  "-39.51066",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "20.00938",
+                  "2.470215",
+                  "-34.86874",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "27.80183",
+                  "2.470215",
+                  "-39.41102",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "30.69551",
+                  "2.470245",
+                  "-34.26171",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "24.08491",
+                  "2.470245",
+                  "-32.40889",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "20.02605",
+                  "0.002029419",
+                  "-10.80357",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "26.14457",
+                  "0.002059936",
+                  "-14.72239",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "32.79718",
+                  "0.002075195",
+                  "-18.80828",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "38.49198",
+                  "0.002059936",
+                  "-23.72606",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "45.49316",
+                  "0.002090454",
+                  "-19.69751",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "39.85854",
+                  "0.002105713",
+                  "-15.56394",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "46.15966",
+                  "0.002120971",
+                  "-11.44336",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "33.36302",
+                  "0.00213623",
+                  "-10.59968",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "40.55706",
+                  "0.002151489",
+                  "-7.460918",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "43.59158",
+                  "0.002166748",
+                  "-1.016393",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "43.58127",
+                  "0.002182007",
+                  "4.449398",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "34.85171",
+                  "0.002197265",
+                  "4.233265",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "27.70876",
+                  "0.002212524",
+                  "6.820075",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "36.46387",
+                  "0.002273559",
+                  "27.73626",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "15.09121",
+                  "0.002288818",
+                  "9.101706",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "20.9597",
+                  "0.002319336",
+                  "4.807292",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "14.74882",
+                  "0.002334594",
+                  "2.043127",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "18.35019",
+                  "0.002349853",
+                  "-3.937305",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "26.76519",
+                  "0.002349853",
+                  "-5.704879",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "26.48208",
+                  "0.002349853",
+                  "0.9416711",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "34.63503",
+                  "0.002365112",
+                  "-2.645808",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "39.39841",
+                  "2.470108",
+                  "11.87017",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "33.91094",
+                  "2.470138",
+                  "16.08628",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "28.96892",
+                  "2.470138",
+                  "20.8958",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "45.59959",
+                  "2.470154",
+                  "14.97816",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "41.31697",
+                  "2.470169",
+                  "20.84961",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "36.65666",
+                  "2.470199",
+                  "25.5687",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "31.9605",
+                  "2.470199",
+                  "28.5445",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "5.728599",
+                  "0.002319336",
+                  "15.11281",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "12.87702",
+                  "0.002349853",
+                  "19.91408",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "16.78842",
+                  "0.002349853",
+                  "26.86772",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "24.74528",
+                  "0.002365112",
+                  "36.50618",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "19.03413",
+                  "0.002380371",
+                  "33.03625",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "19.26786",
+                  "0.002410888",
+                  "42.46887",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "15.27043",
+                  "0.002426147",
+                  "45.54539",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "12.57746",
+                  "0.002441406",
+                  "37.8018",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "6.853288",
+                  "0.002456665",
+                  "43.04856",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "10.48396",
+                  "0.002471924",
+                  "30.94866",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "8.332613",
+                  "0.002487182",
+                  "24.32056",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "1.201779",
+                  "0.002502441",
+                  "21.81965",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-2.961419",
+                  "0.0025177",
+                  "16.22422",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "2.016288",
+                  "0.002532959",
+                  "29.93875",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "4.552448",
+                  "0.002548218",
+                  "36.61242",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-1.718983",
+                  "0.002563476",
+                  "41.23045",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-3.993056",
+                  "0.002578735",
+                  "34.45482",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-5.449107",
+                  "0.002593994",
+                  "26.30312",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-8.337169",
+                  "0.002609253",
+                  "40.98084",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-10.10279",
+                  "0.002609253",
+                  "19.60443",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-18.45132",
+                  "2.470108",
+                  "39.90714",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-13.43874",
+                  "2.470123",
+                  "33.9556",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-15.53035",
+                  "2.470138",
+                  "28.0327",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-19.70203",
+                  "2.470138",
+                  "23.86101",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-25.97623",
+                  "2.470184",
+                  "36.08658",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-27.30759",
+                  "2.470199",
+                  "27.27572",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-21.62557",
+                  "2.470199",
+                  "32.06547",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-13.9675",
+                  "0.00263977",
+                  "7.955434",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-21.70047",
+                  "0.002670288",
+                  "11.08081",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-29.12045",
+                  "0.002685547",
+                  "15.52062",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-36.5245",
+                  "0.002700805",
+                  "19.8468",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-43.18675",
+                  "0.002700805",
+                  "17.9832",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-36.91858",
+                  "0.002716064",
+                  "11.83465",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-29.53402",
+                  "0.002731323",
+                  "7.53885",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-22.48143",
+                  "0.002746582",
+                  "2.918669",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-15.12126",
+                  "0.002761841",
+                  "-0.2297613",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-18.26989",
+                  "0.002777099",
+                  "-6.980628",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-24.36405",
+                  "0.002792358",
+                  "-4.195506",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-31.0945",
+                  "0.002807617",
+                  "0.04867738",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-36.57251",
+                  "0.002822876",
+                  "4.259908",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-44.50944",
+                  "0.002838135",
+                  "9.735251",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-43.69911",
+                  "0.002853393",
+                  "2.524884",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-44.75668",
+                  "0.002868652",
+                  "-5.685726",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-38.445",
+                  "0.00289917",
+                  "-3.039798",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-35.28514",
+                  "0.00289917",
+                  "-7.648227",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-29.08189",
+                  "0.002914428",
+                  "-8.74619",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-22.10117",
+                  "0.002929687",
+                  "-13.07974",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-22.14236",
+                  "0.002944946",
+                  "-18.67227",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-41.23742",
+                  "2.470123",
+                  "-15.37542",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-34.94313",
+                  "2.470138",
+                  "-17.7568",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-28.60027",
+                  "2.470154",
+                  "-22.63021",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-31.89102",
+                  "2.470154",
+                  "-28.24424",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-45.99278",
+                  "2.470169",
+                  "-19.72993",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-38.21406",
+                  "2.470199",
+                  "-23.63665",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-38.16351",
+                  "2.470215",
+                  "-29.99126",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-44.27208",
+                  "2.47023",
+                  "-26.12849",
+                  "1"
+                ],
+                "radius_": "2",
+                "randomAddRadius_": "2.5"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "2.449433",
+                  "0.0001831055",
+                  "-41.45677",
+                  "1"
+                ],
+                "radius_": "12.3",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "20.61135",
+                  "2.470154",
+                  "-40.68304",
+                  "1"
+                ],
+                "radius_": "10.5",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "8.319328",
+                  "0.0001678467",
+                  "-28.00604",
+                  "1"
+                ],
+                "radius_": "8.8",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "26.9585",
+                  "2.470123",
+                  "-36.45276",
+                  "1"
+                ],
+                "radius_": "9.6",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-17.66471",
+                  "0.0002288818",
+                  "-37.20287",
+                  "1"
+                ],
+                "radius_": "10.5",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-8.881708",
+                  "0.0001983642",
+                  "-26.09291",
+                  "1"
+                ],
+                "radius_": "11.6",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "5.629092",
+                  "0.0004119873",
+                  "-17.60086",
+                  "1"
+                ],
+                "radius_": "10.1",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "17.59882",
+                  "0.0004119873",
+                  "-26.98696",
+                  "1"
+                ],
+                "radius_": "8.8",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-6.638091",
+                  "0.0002593994",
+                  "-15.60866",
+                  "1"
+                ],
+                "radius_": "9.1",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "39.8278",
+                  "0.0003051758",
+                  "-16.03285",
+                  "1"
+                ],
+                "radius_": "14.2",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "42.62963",
+                  "0.0003051758",
+                  "4.221345",
+                  "1"
+                ],
+                "radius_": "9.7",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "39.39735",
+                  "2.470093",
+                  "20.84748",
+                  "1"
+                ],
+                "radius_": "13.1",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "33.07127",
+                  "2.470093",
+                  "24.62108",
+                  "1"
+                ],
+                "radius_": "9.7",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "23.57515",
+                  "0.0002441406",
+                  "-11.10617",
+                  "1"
+                ],
+                "radius_": "9",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "26.16997",
+                  "0.0002746582",
+                  "15.69065",
+                  "1"
+                ],
+                "radius_": "7.9",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "29.48931",
+                  "0.0002441406",
+                  "2.948068",
+                  "1"
+                ],
+                "radius_": "9.2",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "15.96555",
+                  "0.0003509521",
+                  "6.314029",
+                  "1"
+                ],
+                "radius_": "8.6",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "16.2955",
+                  "0.0003051758",
+                  "0.05013831",
+                  "1"
+                ],
+                "radius_": "8.6",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-22.22582",
+                  "2.470093",
+                  "30.82476",
+                  "1"
+                ],
+                "radius_": "11.8",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-19.31953",
+                  "2.470093",
+                  "33.73104",
+                  "1"
+                ],
+                "radius_": "11.8",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-3.703736",
+                  "0.0001220703",
+                  "39.15461",
+                  "1"
+                ],
+                "radius_": "14.4",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "15.54543",
+                  "0.0001831055",
+                  "36.32672",
+                  "1"
+                ],
+                "radius_": "13.1",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "8.846364",
+                  "0.0001983642",
+                  "24.2705",
+                  "1"
+                ],
+                "radius_": "10.9",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-13.83869",
+                  "0.0002441406",
+                  "22.91755",
+                  "1"
+                ],
+                "radius_": "8.7",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-4.951055",
+                  "0.0002746582",
+                  "19.08186",
+                  "1"
+                ],
+                "radius_": "7.3",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "2.578224",
+                  "0.0003662109",
+                  "14.58001",
+                  "1"
+                ],
+                "radius_": "7.8",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-34.78231",
+                  "2.470154",
+                  "-24.30144",
+                  "1"
+                ],
+                "radius_": "10.5",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-39.43443",
+                  "2.470169",
+                  "-20.54545",
+                  "1"
+                ],
+                "radius_": "10.1",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-38.2044",
+                  "0.0001678467",
+                  "13.37063",
+                  "1"
+                ],
+                "radius_": "12.2",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-41.73975",
+                  "0.0002288818",
+                  "-3.246568",
+                  "1"
+                ],
+                "radius_": "12.5",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-27.17826",
+                  "0.0002746582",
+                  "10.49831",
+                  "1"
+                ],
+                "radius_": "8.7",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-16.90872",
+                  "0.0004272461",
+                  "4.242785",
+                  "1"
+                ],
+                "radius_": "10.1",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-27.94033",
+                  "0.0003204345",
+                  "-3.828822",
+                  "1"
+                ],
+                "radius_": "8.5",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-27.12153",
+                  "0.0003662109",
+                  "-17.58098",
+                  "1"
+                ],
+                "radius_": "8.5",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-17.68414",
+                  "0.0003967285",
+                  "-3.639654",
+                  "1"
+                ],
+                "radius_": "6.9",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-21.41288",
+                  "0.0003967285",
+                  "-10.87798",
+                  "1"
+                ],
+                "radius_": "6.2",
+                "randomAddRadius_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "-1.111805",
+                  "9.155273e-05",
+                  "-16.71742",
+                  "0.9999999"
+                ],
+                "radius_": "6.5",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "6.165",
+                  "0.0001220703",
+                  "-13.56734",
+                  "0.9999999"
+                ],
+                "radius_": "7",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-7.844942",
+                  "0.0001220703",
+                  "-13.60527",
+                  "0.9999999"
+                ],
+                "radius_": "7",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "14.87172",
+                  "0.0002288818",
+                  "0.4593511",
+                  "0.9999999"
+                ],
+                "radius_": "9",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "15.52081",
+                  "0.0001068115",
+                  "8.675858",
+                  "0.9999999"
+                ],
+                "radius_": "6",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "19.39853",
+                  "0.0001525879",
+                  "-10.35218",
+                  "0.9999999"
+                ],
+                "radius_": "6",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-5.535038",
+                  "4.577636e-05",
+                  "17.87092",
+                  "0.9999999"
+                ],
+                "radius_": "6",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "2.853043",
+                  "0.0001068115",
+                  "16.45188",
+                  "0.9999999"
+                ],
+                "radius_": "8.5",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "13.15897",
+                  "0.000213623",
+                  "19.49397",
+                  "0.9999999"
+                ],
+                "radius_": "5",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-14.21699",
+                  "0.0001678467",
+                  "2.868597",
+                  "0.9999999"
+                ],
+                "radius_": "8.5",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-16.06818",
+                  "0.0007476806",
+                  "9.570271",
+                  "0.9999999"
+                ],
+                "radius_": "5.5",
+                "randomAddRadius_": "0"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-16.84214",
+                  "0.0007629394",
+                  "-6.015726",
+                  "0.9999999"
+                ],
+                "radius_": "5.5",
+                "randomAddRadius_": "0"
+              }
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": {
+                "pos_": [
+                  "-20.04211",
+                  "0.001724243",
+                  "-33.55885",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-13.25256",
+                  "0.001815796",
+                  "-23.45811",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-7.857014",
+                  "0.001831055",
+                  "-20.38098",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-8.089298",
+                  "0.001800537",
+                  "-13.82271",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "7.789825",
+                  "0.001953125",
+                  "-16.21588",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "8.968967",
+                  "0.00201416",
+                  "-22.78947",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "15.98002",
+                  "0.002029419",
+                  "-24.36517",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "27.90085",
+                  "2.470276",
+                  "-33.089",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "21.52865",
+                  "0.00213623",
+                  "-11.89431",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "29.30081",
+                  "0.002197265",
+                  "-14.76523",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "37.63859",
+                  "0.002090454",
+                  "-21.06887",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "26.50737",
+                  "0.002349853",
+                  "-7.404082",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "16.36576",
+                  "0.002410888",
+                  "9.000324",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "24.1494",
+                  "0.002410888",
+                  "11.99833",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "22.14418",
+                  "0.00239563",
+                  "5.166105",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "31.63496",
+                  "2.47023",
+                  "23.35728",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "6.22119",
+                  "0.002426147",
+                  "17.48364",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "6.362764",
+                  "0.00239563",
+                  "26.75612",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "14.02675",
+                  "0.002365112",
+                  "23.28627",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "17.23768",
+                  "0.002410888",
+                  "31.30747",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-1.487435",
+                  "0.00239563",
+                  "15.53671",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-4.108249",
+                  "0.002593994",
+                  "21.54632",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-11.13021",
+                  "0.002670288",
+                  "19.22034",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-24.83392",
+                  "2.47023",
+                  "26.96044",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-14.78966",
+                  "0.002685547",
+                  "4.836148",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-19.72707",
+                  "0.002716064",
+                  "9.30434",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-26.50951",
+                  "0.002761841",
+                  "9.185069",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-34.4256",
+                  "0.002746582",
+                  "16.77091",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-17.62376",
+                  "0.002853393",
+                  "-4.744869",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-24.60785",
+                  "0.002868652",
+                  "-8.861623",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-23.56338",
+                  "0.003005981",
+                  "-14.23281",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            },
+            {
+              "Element": {
+                "pos_": [
+                  "-31.90234",
+                  "2.470199",
+                  "-25.5644",
+                  "0.9999999"
+                ],
+                "radius_": "3",
+                "randomAddRadius_": "2"
+              }
+            }
+          ]
+        }
+      ],
+      "fireWallLocations_": [
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "-15.44775",
+                  "0.08581542",
+                  "-8.617339",
+                  "0.9999999"
+                ]
+              },
+              {
+                "Element": [
+                  "-12.14509",
+                  "0.08670043",
+                  "-11.41126",
+                  "0.9999999"
+                ]
+              }
+            ],
+            "pos_": [
+              "-13.38534",
+              "-0.9059753",
+              "-9.735107",
+              "0.9999999"
+            ],
+            "degY_": "-57",
+            "group_": "0",
+            "type_": "0",
+            "size_": "2"
+          }
+        },
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "-16.20728",
+                  "0.08387756",
+                  "-19.48364",
+                  "0.9999999"
+                ]
+              },
+              {
+                "Element": [
+                  "-19.9765",
+                  "0.08389281",
+                  "-17.06355",
+                  "0.9999999"
+                ]
+              }
+            ],
+            "pos_": [
+              "-18.58946",
+              "-0.9053192",
+              "-19.83839",
+              "0.9999999"
+            ],
+            "degY_": "113",
+            "group_": "0",
+            "type_": "0",
+            "size_": "2"
+          }
+        },
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "-16.07986",
+                  "0.08384704",
+                  "-19.15669",
+                  "0.9999999"
+                ]
+              },
+              {
+                "Element": [
+                  "-19.67963",
+                  "0.08384704",
+                  "-16.78642",
+                  "0.9999999"
+                ]
+              }
+            ],
+            "pos_": [
+              "-22.18222",
+              "-0.9070129",
+              "-26.20141",
+              "0.9999999"
+            ],
+            "degY_": "140",
+            "group_": "0",
+            "type_": "2",
+            "size_": "1"
+          }
+        },
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "0",
+                  "0",
+                  "1",
+                  "1"
+                ]
+              },
+              {
+                "Element": [
+                  "-0",
+                  "-0",
+                  "-1",
+                  "-1"
+                ]
+              }
+            ],
+            "pos_": [
+              "-27.21551",
+              "-0.9084319",
+              "-31.83548",
+              "0.9999999"
+            ],
+            "degY_": "128",
+            "group_": "0",
+            "type_": "1",
+            "size_": "2"
+          }
+        },
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "16.30901",
+                  "0.09104919",
+                  "-11.4435",
+                  "0.9999999"
+                ]
+              },
+              {
+                "Element": [
+                  "11.65171",
+                  "0.09104919",
+                  "-12.37123",
+                  "0.9999999"
+                ]
+              }
+            ],
+            "pos_": [
+              "11.74009",
+              "-0.8977203",
+              "-8.855889",
+              "0.9999999"
+            ],
+            "degY_": "56",
+            "group_": "1",
+            "type_": "0",
+            "size_": "2"
+          }
+        },
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "15.77826",
+                  "0.09100341",
+                  "-12.04609",
+                  "0.9999999"
+                ]
+              },
+              {
+                "Element": [
+                  "13.48193",
+                  "0.09100341",
+                  "-17.15936",
+                  "0.9999999"
+                ]
+              }
+            ],
+            "pos_": [
+              "15.14495",
+              "-0.8892669",
+              "-15.19846",
+              "0.9999999"
+            ],
+            "degY_": "44",
+            "group_": "1",
+            "type_": "2",
+            "size_": "1"
+          }
+        },
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "21.52881",
+                  "0.09056091",
+                  "-16.25675",
+                  "0.9999999"
+                ]
+              },
+              {
+                "Element": [
+                  "18.48415",
+                  "0.09054565",
+                  "-20.78414",
+                  "0.9999999"
+                ]
+              }
+            ],
+            "pos_": [
+              "21.25967",
+              "-0.8903198",
+              "-19.41455",
+              "0.9999999"
+            ],
+            "degY_": "31",
+            "group_": "1",
+            "type_": "0",
+            "size_": "2"
+          }
+        },
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "24.59587",
+                  "0.09049987",
+                  "-19.59726",
+                  "0.9999999"
+                ]
+              },
+              {
+                "Element": [
+                  "22.00298",
+                  "0.09048461",
+                  "-23.22436",
+                  "0.9999999"
+                ]
+              }
+            ],
+            "pos_": [
+              "28.05688",
+              "-0.8905334",
+              "-23.31583",
+              "0.9999999"
+            ],
+            "degY_": "31",
+            "group_": "1",
+            "type_": "2",
+            "size_": "1"
+          }
+        },
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "0",
+                  "0",
+                  "1",
+                  "1"
+                ]
+              },
+              {
+                "Element": [
+                  "-0",
+                  "-0",
+                  "-1",
+                  "-1"
+                ]
+              }
+            ],
+            "pos_": [
+              "33.80679",
+              "-0.8834075",
+              "-27.98973",
+              "0.9999999"
+            ],
+            "degY_": "41",
+            "group_": "1",
+            "type_": "1",
+            "size_": "2"
+          }
+        },
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "8.282209",
+                  "0.04417419",
+                  "12.62216",
+                  "0.9999999"
+                ]
+              },
+              {
+                "Element": [
+                  "12.15911",
+                  "-0.2129059",
+                  "10.48541",
+                  "0.9999999"
+                ]
+              }
+            ],
+            "pos_": [
+              "10.02039",
+              "-0.899887",
+              "12.04097",
+              "0.9999999"
+            ],
+            "degY_": "-47",
+            "group_": "2",
+            "type_": "0",
+            "size_": "2"
+          }
+        },
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "16.49584",
+                  "0.09432983",
+                  "17.69423",
+                  "0.9999999"
+                ]
+              },
+              {
+                "Element": [
+                  "19.09557",
+                  "0.1487579",
+                  "13.17257",
+                  "0.9999999"
+                ]
+              }
+            ],
+            "pos_": [
+              "16.65114",
+              "-0.8967285",
+              "15.72076",
+              "0.9999999"
+            ],
+            "degY_": "-11",
+            "group_": "2",
+            "type_": "0",
+            "size_": "1"
+          }
+        },
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "0",
+                  "0",
+                  "1",
+                  "1"
+                ]
+              },
+              {
+                "Element": [
+                  "-0",
+                  "-0",
+                  "-1",
+                  "-1"
+                ]
+              }
+            ],
+            "pos_": [
+              "20.58526",
+              "-0.90596",
+              "21.62459",
+              "0.9999999"
+            ],
+            "degY_": "116",
+            "group_": "2",
+            "type_": "2",
+            "size_": "2"
+          }
+        },
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "0",
+                  "0",
+                  "1",
+                  "1"
+                ]
+              },
+              {
+                "Element": [
+                  "-0",
+                  "-0",
+                  "-1",
+                  "-1"
+                ]
+              }
+            ],
+            "pos_": [
+              "26.05487",
+              "-0.9025878",
+              "30.29289",
+              "0.9999999"
+            ],
+            "degY_": "128",
+            "group_": "2",
+            "type_": "1",
+            "size_": "2"
+          }
+        },
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "-6.757995",
+                  "0.08854675",
+                  "13.8895",
+                  "0.9999999"
+                ]
+              },
+              {
+                "Element": [
+                  "-10.98304",
+                  "0.08851623",
+                  "9.590241",
+                  "0.9999999"
+                ]
+              }
+            ],
+            "pos_": [
+              "-6.955623",
+              "-0.892868",
+              "11.54475",
+              "0.9999999"
+            ],
+            "degY_": "27",
+            "group_": "3",
+            "type_": "1",
+            "size_": "2"
+          }
+        },
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "-16.80122",
+                  "0.08862304",
+                  "16.997",
+                  "0.9999999"
+                ]
+              },
+              {
+                "Element": [
+                  "-18.4753",
+                  "0.08857726",
+                  "13.02475",
+                  "0.9999999"
+                ]
+              }
+            ],
+            "pos_": [
+              "-18.06497",
+              "-0.9083709",
+              "15.73167",
+              "0.9999999"
+            ],
+            "degY_": "21",
+            "group_": "3",
+            "type_": "0",
+            "size_": "2"
+          }
+        },
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "-13.46845",
+                  "0.08850097",
+                  "16.57828",
+                  "0.9999999"
+                ]
+              },
+              {
+                "Element": [
+                  "-14.42463",
+                  "0.08848571",
+                  "11.19277",
+                  "0.9999999"
+                ]
+              }
+            ],
+            "pos_": [
+              "-23.78074",
+              "-0.9006805",
+              "18.69653",
+              "0.9999999"
+            ],
+            "degY_": "27",
+            "group_": "3",
+            "type_": "2",
+            "size_": "0"
+          }
+        },
+        {
+          "Element": {
+            "jumpOffsets_": [
+              {
+                "Element": [
+                  "0",
+                  "0",
+                  "1",
+                  "1"
+                ]
+              },
+              {
+                "Element": [
+                  "-0",
+                  "-0",
+                  "-1",
+                  "-1"
+                ]
+              }
+            ],
+            "pos_": [
+              "-29.53664",
+              "-0.9060058",
+              "21.67061",
+              "0.9999999"
+            ],
+            "degY_": "30",
+            "group_": "3",
+            "type_": "1",
+            "size_": "2"
+          }
+        }
+      ],
+      "locationIndicesArray_": [
+        {
+          "Element": [
+            {
+              "Element": [
+                {
+                  "Element": "0"
+                },
+                {
+                  "Element": "1"
+                },
+                {
+                  "Element": "2"
+                },
+                {
+                  "Element": "3"
+                },
+                {
+                  "Element": "4"
+                },
+                {
+                  "Element": "5"
+                },
+                {
+                  "Element": "6"
+                },
+                {
+                  "Element": "7"
+                },
+                {
+                  "Element": "8"
+                }
+              ]
+            },
+            {
+              "Element": [
+                {
+                  "Element": "9"
+                },
+                {
+                  "Element": "10"
+                },
+                {
+                  "Element": "11"
+                },
+                {
+                  "Element": "12"
+                },
+                {
+                  "Element": "13"
+                },
+                {
+                  "Element": "14"
+                },
+                {
+                  "Element": "15"
+                },
+                {
+                  "Element": "16"
+                },
+                {
+                  "Element": "17"
+                },
+                {
+                  "Element": "18"
+                }
+              ]
+            },
+            {
+              "Element": [
+                {
+                  "Element": "19"
+                },
+                {
+                  "Element": "20"
+                },
+                {
+                  "Element": "21"
+                },
+                {
+                  "Element": "22"
+                },
+                {
+                  "Element": "23"
+                },
+                {
+                  "Element": "24"
+                },
+                {
+                  "Element": "25"
+                },
+                {
+                  "Element": "26"
+                },
+                {
+                  "Element": "27"
+                },
+                {
+                  "Element": "28"
+                }
+              ]
+            },
+            {
+              "Element": [
+                {
+                  "Element": "29"
+                },
+                {
+                  "Element": "30"
+                },
+                {
+                  "Element": "31"
+                },
+                {
+                  "Element": "32"
+                },
+                {
+                  "Element": "33"
+                },
+                {
+                  "Element": "34"
+                },
+                {
+                  "Element": "35"
+                },
+                {
+                  "Element": "36"
+                },
+                {
+                  "Element": "37"
+                },
+                {
+                  "Element": "38"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": [
+                {
+                  "Element": "0"
+                },
+                {
+                  "Element": "1"
+                },
+                {
+                  "Element": "2"
+                },
+                {
+                  "Element": "3"
+                },
+                {
+                  "Element": "4"
+                },
+                {
+                  "Element": "5"
+                },
+                {
+                  "Element": "6"
+                },
+                {
+                  "Element": "7"
+                },
+                {
+                  "Element": "8"
+                }
+              ]
+            },
+            {
+              "Element": [
+                {
+                  "Element": "9"
+                },
+                {
+                  "Element": "10"
+                },
+                {
+                  "Element": "11"
+                },
+                {
+                  "Element": "12"
+                },
+                {
+                  "Element": "13"
+                },
+                {
+                  "Element": "14"
+                },
+                {
+                  "Element": "15"
+                },
+                {
+                  "Element": "16"
+                },
+                {
+                  "Element": "17"
+                }
+              ]
+            },
+            {
+              "Element": [
+                {
+                  "Element": "18"
+                },
+                {
+                  "Element": "19"
+                },
+                {
+                  "Element": "20"
+                },
+                {
+                  "Element": "21"
+                },
+                {
+                  "Element": "22"
+                },
+                {
+                  "Element": "23"
+                },
+                {
+                  "Element": "24"
+                },
+                {
+                  "Element": "25"
+                }
+              ]
+            },
+            {
+              "Element": [
+                {
+                  "Element": "26"
+                },
+                {
+                  "Element": "27"
+                },
+                {
+                  "Element": "28"
+                },
+                {
+                  "Element": "29"
+                },
+                {
+                  "Element": "30"
+                },
+                {
+                  "Element": "31"
+                },
+                {
+                  "Element": "32"
+                },
+                {
+                  "Element": "33"
+                },
+                {
+                  "Element": "34"
+                },
+                {
+                  "Element": "35"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": [
+                {
+                  "Element": "0"
+                },
+                {
+                  "Element": "1"
+                },
+                {
+                  "Element": "2"
+                }
+              ]
+            },
+            {
+              "Element": [
+                {
+                  "Element": "3"
+                },
+                {
+                  "Element": "4"
+                },
+                {
+                  "Element": "5"
+                }
+              ]
+            },
+            {
+              "Element": [
+                {
+                  "Element": "6"
+                },
+                {
+                  "Element": "7"
+                },
+                {
+                  "Element": "8"
+                }
+              ]
+            },
+            {
+              "Element": [
+                {
+                  "Element": "9"
+                },
+                {
+                  "Element": "10"
+                },
+                {
+                  "Element": "11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Element": [
+            {
+              "Element": [
+                {
+                  "Element": "28"
+                },
+                {
+                  "Element": "29"
+                },
+                {
+                  "Element": "30"
+                },
+                {
+                  "Element": "31"
+                }
+              ]
+            },
+            {
+              "Element": [
+                {
+                  "Element": "8"
+                },
+                {
+                  "Element": "9"
+                },
+                {
+                  "Element": "10"
+                },
+                {
+                  "Element": "11"
+                }
+              ]
+            },
+            {
+              "Element": [
+                {
+                  "Element": "4"
+                },
+                {
+                  "Element": "5"
+                },
+                {
+                  "Element": "6"
+                },
+                {
+                  "Element": "7"
+                }
+              ]
+            },
+            {
+              "Element": [
+                {
+                  "Element": "16"
+                },
+                {
+                  "Element": "17"
+                },
+                {
+                  "Element": "18"
+                },
+                {
+                  "Element": "19"
+                }
+              ]
+            },
+            {
+              "Element": [
+                {
+                  "Element": "12"
+                },
+                {
+                  "Element": "13"
+                },
+                {
+                  "Element": "14"
+                },
+                {
+                  "Element": "15"
+                }
+              ]
+            },
+            {
+              "Element": [
+                {
+                  "Element": "24"
+                },
+                {
+                  "Element": "25"
+                },
+                {
+                  "Element": "26"
+                },
+                {
+                  "Element": "27"
+                }
+              ]
+            },
+            {
+              "Element": [
+                {
+                  "Element": "20"
+                },
+                {
+                  "Element": "21"
+                },
+                {
+                  "Element": "22"
+                },
+                {
+                  "Element": "23"
+                }
+              ]
+            },
+            {
+              "Element": [
+                {
+                  "Element": "0"
+                },
+                {
+                  "Element": "1"
+                },
+                {
+                  "Element": "2"
+                },
+                {
+                  "Element": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "shellParams_": [
+      {
+        "Element": {
+          "addDamageParam_": {
+            "playInfoList_": [
+              {
+                "Element": {
+                  "motionName_": "05a3",
+                  "damageWorkUniqueId_": "0",
+                  "slotNumber_": "4",
+                  "weight_": "1"
+                }
+              }
+            ]
+          },
+          "pos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "degree_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "partsNumber_": "9",
+          "shakePartsNumber_": "3840",
+          "objHitUniqueId_": "5",
+          "damageWorkIndex_": "1",
+          "lockOnIndex_": "1",
+          "damageRadiusBreak_": "2.3",
+          "shellMeshName_": "b20_crystal",
+          "coverMeshName_": "c10_arm",
+          "breakMeshName_": "",
+          "id_": "28928"
+        }
+      },
+      {
+        "Element": {
+          "addDamageParam_": {
+            "playInfoList_": [
+              {
+                "Element": {
+                  "motionName_": "05a4",
+                  "damageWorkUniqueId_": "0",
+                  "slotNumber_": "5",
+                  "weight_": "1"
+                }
+              }
+            ]
+          },
+          "pos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "degree_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "partsNumber_": "13",
+          "shakePartsNumber_": "3841",
+          "objHitUniqueId_": "4",
+          "damageWorkIndex_": "0",
+          "lockOnIndex_": "2",
+          "damageRadiusBreak_": "2.3",
+          "shellMeshName_": "b10_crystal",
+          "coverMeshName_": "c00_arm",
+          "breakMeshName_": "",
+          "id_": "28928"
+        }
+      }
+    ],
+    "magmaAreaParam_": {
+      "locations_": [
+        {
+          "Element": {
+            "pos_": [
+              "-7.003745",
+              "4.287359e-09",
+              "11.721",
+              "1"
+            ],
+            "obstaclePos_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "degY_": "0",
+            "radius_": "3.2",
+            "addRadius_": "0",
+            "addPosX_": "0",
+            "waitSec_": "1.8",
+            "obstacleRadius_": "0"
+          }
+        },
+        {
+          "Element": {
+            "pos_": [
+              "-6.008682",
+              "2.501565e-07",
+              "14.06844",
+              "1"
+            ],
+            "obstaclePos_": [
+              "-6.009",
+              "0",
+              "13.768",
+              "1"
+            ],
+            "degY_": "169.9855",
+            "radius_": "4.6",
+            "addRadius_": "0",
+            "addPosX_": "0",
+            "waitSec_": "0.15",
+            "obstacleRadius_": "5.4"
+          }
+        },
+        {
+          "Element": {
+            "pos_": [
+              "-3.858",
+              "-4.939438e-06",
+              "16.67",
+              "0.9999999"
+            ],
+            "obstaclePos_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "degY_": "2.670288e-05",
+            "radius_": "5.5",
+            "addRadius_": "0",
+            "addPosX_": "0",
+            "waitSec_": "0.25",
+            "obstacleRadius_": "0"
+          }
+        },
+        {
+          "Element": {
+            "pos_": [
+              "-0.51",
+              "-4.939438e-06",
+              "18.328",
+              "0.9999999"
+            ],
+            "obstaclePos_": [
+              "1.49",
+              "0",
+              "17.328",
+              "1"
+            ],
+            "degY_": "2.670288e-05",
+            "radius_": "4.8",
+            "addRadius_": "0",
+            "addPosX_": "0",
+            "waitSec_": "0.3",
+            "obstacleRadius_": "7.7"
+          }
+        },
+        {
+          "Element": {
+            "pos_": [
+              "1.29",
+              "-4.939438e-06",
+              "20.028",
+              "0.9999999"
+            ],
+            "obstaclePos_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "degY_": "2.670288e-05",
+            "radius_": "4.8",
+            "addRadius_": "0",
+            "addPosX_": "0",
+            "waitSec_": "0.4",
+            "obstacleRadius_": "0"
+          }
+        },
+        {
+          "Element": {
+            "pos_": [
+              "0.7907447",
+              "-4.939438e-06",
+              "14.96",
+              "0.9999999"
+            ],
+            "obstaclePos_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "degY_": "2.670288e-05",
+            "radius_": "5.2",
+            "addRadius_": "0",
+            "addPosX_": "0",
+            "waitSec_": "0.2",
+            "obstacleRadius_": "0"
+          }
+        },
+        {
+          "Element": {
+            "pos_": [
+              "3.69",
+              "-4.939438e-06",
+              "18.628",
+              "0.9999999"
+            ],
+            "obstaclePos_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "degY_": "2.670288e-05",
+            "radius_": "5.2",
+            "addRadius_": "0",
+            "addPosX_": "0",
+            "waitSec_": "0.3",
+            "obstacleRadius_": "0"
+          }
+        },
+        {
+          "Element": {
+            "pos_": [
+              "-3.334",
+              "-6.013384e-06",
+              "19.87",
+              "0.9999999"
+            ],
+            "obstaclePos_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "degY_": "0",
+            "radius_": "4.8",
+            "addRadius_": "0",
+            "addPosX_": "0",
+            "waitSec_": "1.5",
+            "obstacleRadius_": "0"
+          }
+        },
+        {
+          "Element": {
+            "pos_": [
+              "-5.53",
+              "-1.599716e-05",
+              "20.848",
+              "0.9999999"
+            ],
+            "obstaclePos_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "degY_": "0",
+            "radius_": "4.4",
+            "addRadius_": "0",
+            "addPosX_": "0",
+            "waitSec_": "0.6",
+            "obstacleRadius_": "0"
+          }
+        },
+        {
+          "Element": {
+            "pos_": [
+              "-8.286771",
+              "4.347976e-06",
+              "21.47617",
+              "1"
+            ],
+            "obstaclePos_": [
+              "-8.787",
+              "0",
+              "21.376",
+              "1"
+            ],
+            "degY_": "169.9855",
+            "radius_": "4.2",
+            "addRadius_": "0",
+            "addPosX_": "0",
+            "waitSec_": "0.5",
+            "obstacleRadius_": "5.8"
+          }
+        },
+        {
+          "Element": {
+            "pos_": [
+              "-12.64973",
+              "2.216179e-06",
+              "22.98069",
+              "1"
+            ],
+            "obstaclePos_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "degY_": "169.9855",
+            "radius_": "4.1",
+            "addRadius_": "0",
+            "addPosX_": "0",
+            "waitSec_": "0.4",
+            "obstacleRadius_": "0"
+          }
+        },
+        {
+          "Element": {
+            "pos_": [
+              "-15.71092",
+              "1.504648e-06",
+              "25.20319",
+              "1"
+            ],
+            "obstaclePos_": [
+              "-15.711",
+              "0",
+              "25.203",
+              "1"
+            ],
+            "degY_": "169.9855",
+            "radius_": "3.8",
+            "addRadius_": "0",
+            "addPosX_": "0",
+            "waitSec_": "0.25",
+            "obstacleRadius_": "5"
+          }
+        },
+        {
+          "Element": {
+            "pos_": [
+              "-18.74488",
+              "4.847165e-06",
+              "28.32623",
+              "1"
+            ],
+            "obstaclePos_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "degY_": "169.9855",
+            "radius_": "3.5",
+            "addRadius_": "0",
+            "addPosX_": "0",
+            "waitSec_": "0.2",
+            "obstacleRadius_": "0"
+          }
+        },
+        {
+          "Element": {
+            "pos_": [
+              "-20.533",
+              "-1.260978e-07",
+              "30.04466",
+              "1"
+            ],
+            "obstaclePos_": [
+              "-20.533",
+              "0",
+              "30.045",
+              "1"
+            ],
+            "degY_": "169.9855",
+            "radius_": "2.6",
+            "addRadius_": "0",
+            "addPosX_": "0",
+            "waitSec_": "0.15",
+            "obstacleRadius_": "3.7"
+          }
+        },
+        {
+          "Element": {
+            "pos_": [
+              "-21.7125",
+              "-9.070755e-08",
+              "32.28263",
+              "1"
+            ],
+            "obstaclePos_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "degY_": "169.9855",
+            "radius_": "1.9",
+            "addRadius_": "0",
+            "addPosX_": "0",
+            "waitSec_": "0.1",
+            "obstacleRadius_": "0"
+          }
+        }
+      ]
+    },
+    "hammerCrackParams_": [
+      {
+        "Element": {
+          "offsetPos_": [
+            "-8.13",
+            "0",
+            "28.64",
+            "1"
+          ],
+          "offsetRotY_": "0.2617994",
+          "partsNumber_": "-1",
+          "isRightCrack_": "true",
+          "isShortCrack_": "false"
+        }
+      },
+      {
+        "Element": {
+          "offsetPos_": [
+            "-5.14",
+            "0",
+            "25",
+            "1"
+          ],
+          "offsetRotY_": "0.8726684",
+          "partsNumber_": "-1",
+          "isRightCrack_": "true",
+          "isShortCrack_": "false"
+        }
+      },
+      {
+        "Element": {
+          "offsetPos_": [
+            "8.62",
+            "0",
+            "26.1",
+            "1"
+          ],
+          "offsetRotY_": "-0.2617994",
+          "partsNumber_": "-1",
+          "isRightCrack_": "false",
+          "isShortCrack_": "false"
+        }
+      },
+      {
+        "Element": {
+          "offsetPos_": [
+            "5.47",
+            "0",
+            "23.8",
+            "1"
+          ],
+          "offsetRotY_": "-0.8726684",
+          "partsNumber_": "-1",
+          "isRightCrack_": "false",
+          "isShortCrack_": "false"
+        }
+      },
+      {
+        "Element": {
+          "offsetPos_": [
+            "-5.93",
+            "0",
+            "20.14",
+            "1"
+          ],
+          "offsetRotY_": "2.268929",
+          "partsNumber_": "-1",
+          "isRightCrack_": "true",
+          "isShortCrack_": "true"
+        }
+      },
+      {
+        "Element": {
+          "offsetPos_": [
+            "5.93",
+            "0",
+            "20.14",
+            "1"
+          ],
+          "offsetRotY_": "-2.268929",
+          "partsNumber_": "-1",
+          "isRightCrack_": "false",
+          "isShortCrack_": "true"
+        }
+      }
+    ],
+    "aiLevelParams_": [
+      {
+        "Element": {
+          "shellBreakDownSec_": "10",
+          "shellBreakAllDownSec_": "20",
+          "shellBreakValueNormal_": "150",
+          "shellBreakValueSpArts_": "150",
+          "divideHpRate_": "0.03",
+          "odAnimRate_": "1",
+          "burnAilmentSec_": "5",
+          "dimensionDamageAilmentSec_": "1.5",
+          "defenseDebuffSec_": "20",
+          "defenseDebuffRate_": "20",
+          "meteorIntervalSecMin_": "4",
+          "meteorIntervalSecMax_": "7",
+          "meteorSpArts2ndIntervalSecMin_": "4",
+          "meteorSpArts2ndIntervalSecMax_": "7",
+          "cannonShotCountMax_": "1",
+          "waveCannonShotCountMax_": "1",
+          "cannonShotCountMaxWaitTalkEvent_": "1",
+          "isStompOdExplosion_": "false",
+          "bodyPressSlowRate_": "1",
+          "magmaWaveMoveRate_": "0.8",
+          "isHammerQuake_": "false"
+        }
+      },
+      {
+        "Element": {
+          "shellBreakDownSec_": "7.5",
+          "shellBreakAllDownSec_": "15",
+          "shellBreakValueNormal_": "175",
+          "shellBreakValueSpArts_": "250",
+          "divideHpRate_": "0.05",
+          "odAnimRate_": "1",
+          "burnAilmentSec_": "5",
+          "dimensionDamageAilmentSec_": "1.5",
+          "defenseDebuffSec_": "20",
+          "defenseDebuffRate_": "20",
+          "meteorIntervalSecMin_": "3.5",
+          "meteorIntervalSecMax_": "5",
+          "meteorSpArts2ndIntervalSecMin_": "3.5",
+          "meteorSpArts2ndIntervalSecMax_": "5",
+          "cannonShotCountMax_": "2",
+          "waveCannonShotCountMax_": "2",
+          "cannonShotCountMaxWaitTalkEvent_": "1",
+          "isStompOdExplosion_": "true",
+          "bodyPressSlowRate_": "1",
+          "magmaWaveMoveRate_": "0.9",
+          "isHammerQuake_": "false"
+        }
+      },
+      {
+        "Element": {
+          "shellBreakDownSec_": "5",
+          "shellBreakAllDownSec_": "10",
+          "shellBreakValueNormal_": "200",
+          "shellBreakValueSpArts_": "300",
+          "divideHpRate_": "0.05",
+          "odAnimRate_": "1.05",
+          "burnAilmentSec_": "5",
+          "dimensionDamageAilmentSec_": "1.5",
+          "defenseDebuffSec_": "20",
+          "defenseDebuffRate_": "20",
+          "meteorIntervalSecMin_": "3",
+          "meteorIntervalSecMax_": "4",
+          "meteorSpArts2ndIntervalSecMin_": "3",
+          "meteorSpArts2ndIntervalSecMax_": "4",
+          "cannonShotCountMax_": "2",
+          "waveCannonShotCountMax_": "2",
+          "cannonShotCountMaxWaitTalkEvent_": "1",
+          "isStompOdExplosion_": "true",
+          "bodyPressSlowRate_": "1",
+          "magmaWaveMoveRate_": "1",
+          "isHammerQuake_": "true"
+        }
+      },
+      {
+        "Element": {
+          "shellBreakDownSec_": "3",
+          "shellBreakAllDownSec_": "5",
+          "shellBreakValueNormal_": "250",
+          "shellBreakValueSpArts_": "350",
+          "divideHpRate_": "0.05",
+          "odAnimRate_": "1.1",
+          "burnAilmentSec_": "5",
+          "dimensionDamageAilmentSec_": "1.5",
+          "defenseDebuffSec_": "20",
+          "defenseDebuffRate_": "20",
+          "meteorIntervalSecMin_": "2",
+          "meteorIntervalSecMax_": "3",
+          "meteorSpArts2ndIntervalSecMin_": "2",
+          "meteorSpArts2ndIntervalSecMax_": "3",
+          "cannonShotCountMax_": "3",
+          "waveCannonShotCountMax_": "3",
+          "cannonShotCountMaxWaitTalkEvent_": "1",
+          "isStompOdExplosion_": "true",
+          "bodyPressSlowRate_": "1.1",
+          "magmaWaveMoveRate_": "1",
+          "isHammerQuake_": "true"
+        }
+      },
+      {
+        "Element": {
+          "shellBreakDownSec_": "3",
+          "shellBreakAllDownSec_": "5",
+          "shellBreakValueNormal_": "250",
+          "shellBreakValueSpArts_": "200",
+          "divideHpRate_": "0.05",
+          "odAnimRate_": "1.1",
+          "burnAilmentSec_": "5",
+          "dimensionDamageAilmentSec_": "1.5",
+          "defenseDebuffSec_": "20",
+          "defenseDebuffRate_": "20",
+          "meteorIntervalSecMin_": "2",
+          "meteorIntervalSecMax_": "3",
+          "meteorSpArts2ndIntervalSecMin_": "2",
+          "meteorSpArts2ndIntervalSecMax_": "3",
+          "cannonShotCountMax_": "3",
+          "waveCannonShotCountMax_": "3",
+          "cannonShotCountMaxWaitTalkEvent_": "1",
+          "isStompOdExplosion_": "true",
+          "bodyPressSlowRate_": "1.1",
+          "magmaWaveMoveRate_": "1",
+          "isHammerQuake_": "true"
+        }
+      }
+    ],
+    "shellDamageRadius_": "2.7",
+    "shellDamageRadiusAddHit_": "1.6",
+    "shellDamageOffset_": [
+      "0",
+      "1.2",
+      "0",
+      "1"
+    ],
+    "shellShakeSecond_": "0.12",
+    "shellShakeDegreeMax_": "3.5",
+    "shellShakeCycle_": "3",
+    "shellShakeEndRate_": "1",
+    "shellReviveCoolSec_": "1",
+    "breakShellHitEffectStopSec_": "0.2",
+    "hpLowerLimitRate1stBattle_": "0.8",
+    "hpLowerLimitRate2ndBattle_": "0.84",
+    "hpLowerLimitRate3rdBattle1st_": "0.7",
+    "hpLowerLimitRate3rdBattle2nd_": "0.4",
+    "hpLowerLimitRate3rdBattle3rd_": "0.01",
+    "damageCutBuffHpTrigger2ndBattle_": "85",
+    "damageCutBuffHpTrigger3rdBattle3rd_": "7",
+    "spArtsHpTrigger1st_": "60",
+    "spArtsHpTrigger2nd_": "20",
+    "damageCutRate_": "0.99",
+    "damageTurnRate_": "0.9",
+    "damageTurnRotY_": "0.09",
+    "guardEffectOffsetZ_": "1.5",
+    "damageCutHitEffectCoolSec_": "1",
+    "lastDamageCutStunGaugeMaxRate_": "0.6",
+    "damageCutBuffTextId_": "TXT_BT_7100_3",
+    "shellDamageEmissiveInSec_": "0.1",
+    "shellDamageEmissiveMaxSec_": "0.3",
+    "shellDamageEmissiveOutSec_": "0.2",
+    "shellDamageEmissiveMin_": "0.06",
+    "shellDamageEmissiveMax_": "1",
+    "shellDamageEmissiveInEaseParam_": {
+      "category_": "-1",
+      "calcType_": "-1"
+    },
+    "shellDamageEmissiveOutEaseParam_": {
+      "category_": "-1",
+      "calcType_": "-1"
+    },
+    "centerDistance_": "12",
+    "battleAreaRadius_": "48",
+    "moveSpeedMax_": "15",
+    "moveRotDegSpeed_": "20",
+    "moveBlendAddDegSpeed_": "1",
+    "moveSpeedChangeSec_": "2",
+    "moveEffectOffsetY_": "1.22",
+    "moveAttackRadius_": "6.5",
+    "moveAttackRate_": "0.25",
+    "moveAttackResetSec_": "1",
+    "moveCoolSec_": "60",
+    "moveCoolSecAddRandom_": "10",
+    "turnRate_": "0.8",
+    "turnRotY_": "0.02617995",
+    "stageFrontDegreeY_": "175.6",
+    "surfaceAnimCancelSec_": "1.666",
+    "archMoveturnRate_": "0.9",
+    "archMoveturnRotY_": "0.03490659",
+    "posAdjustReturnSec_": "1",
+    "posAdjustEaseParam_": {
+      "category_": "2",
+      "calcType_": "1"
+    },
+    "magmaLevelDefault_": "0",
+    "magmaLevelLow_": "1.3",
+    "magmaLevelChangeSpeedDefault_": "0.5",
+    "magmaLevelChangeSpeedLow_": "0.4",
+    "magmaLevelChangeRoarSec_": "2",
+    "magmaLevelEscapeSec_": "4.2",
+    "explosionMotionWaitSec_": "999",
+    "explosionWaitSec_": "1.6",
+    "fireCoreWaitSec_": "5.5",
+    "fireCoreOffsetY_": "20",
+    "fireCoreScaleBegin_": "2.5",
+    "fireCoreScaleEnd_": "4.5",
+    "fireCoreScaleSubRate_": "0.6",
+    "fireCoreScaleSubSec_": "0.75",
+    "fireCoreScaleWaitSec_": "1.2",
+    "fireCoreScaleSubEaseParam_": {
+      "category_": "0",
+      "calcType_": "9"
+    },
+    "fireCoreCompressEaseParam_": {
+      "category_": "0",
+      "calcType_": "2"
+    },
+    "fireCoreCompressSec_": "0.7",
+    "fireCoreCompressScaleRate_": "0",
+    "fireCoreCompressScaleWaitSec_": "0.85",
+    "fireCoreCompressEffectWaitSec_": "0.001",
+    "fireCoreParticleChangeWaitSec_": "3",
+    "fireCoreRadius_": "10",
+    "fireCoreLineVanishWaitSec_": "0.8",
+    "fireCoreLineOffset_": [
+      "0",
+      "12",
+      "28",
+      "1"
+    ],
+    "spArtsCameraOffset_": [
+      "0",
+      "3",
+      "90",
+      "1"
+    ],
+    "spArtsCameraAddDegreeYHead_": "0",
+    "spArtsCameraAddDegreeYBody_": "90",
+    "spArtsCameraAddDegreeYTail_": "90",
+    "spArtsCameraWaitSec_": "4.5",
+    "spArtsCameraPanRate_": "0.2",
+    "spArtsCameraMoveRate_": "0.02",
+    "spArtsCameraFovBegin_": "60",
+    "spArtsCameraFovEnd_": "50",
+    "spArtsCameraFovChangeSec_": "1",
+    "spArtsResetPosAddMinZ_": "2",
+    "spArtsResetPosAddMaxZ_": "5",
+    "spArtsCameraDamageReactionRate_": "0.03",
+    "spArtsCameraDamageReactionSec_": "2.75",
+    "spArtsExplosionCameraOffset_": [
+      "0",
+      "10",
+      "-50",
+      "1"
+    ],
+    "spArtsExplosionCameraTargetAddY_": "-10",
+    "spArtsExplosionCameraSec_": "7",
+    "spArtsExplosionCameraMoveRate_": "0.02",
+    "spArtsExplosionMagmaAreaVanishSec_": "5",
+    "spArtsPlayerWarpPositions_": [
+      {
+        "Element": [
+          "0",
+          "3.2",
+          "18",
+          "1"
+        ]
+      },
+      {
+        "Element": [
+          "12",
+          "3",
+          "0",
+          "1"
+        ]
+      },
+      {
+        "Element": [
+          "11.5",
+          "4",
+          "0",
+          "1"
+        ]
+      }
+    ],
+    "magmaLevelRaiseWaitSeconds_": [
+      {
+        "Element": "10"
+      },
+      {
+        "Element": "60"
+      }
+    ],
+    "spartsExplosionAttackRates_": [
+      {
+        "Element": "3"
+      },
+      {
+        "Element": "4"
+      },
+      {
+        "Element": "5"
+      }
+    ],
+    "spartsGaugeTextId_": "TXT_BT_7100_2",
+    "nihillaSpartsGaugeTextId_": "TXT_BT_7110_2",
+    "magmaWaveFirstCoolSec_": "100",
+    "magmaWaveCoolSec_": "100",
+    "magmaWaveAttackRate_": "3",
+    "magmaWaveAreaVanishSec_": "5",
+    "magmaWaveMoveAnimId_": "80",
+    "magmaWaveMoveSlowRate_": "0.5",
+    "magmaWaveOffset_": [
+      "0",
+      "-1.5",
+      "15",
+      "1"
+    ],
+    "magmaWaveScale_": "1",
+    "magmaWaveCollisionNormalChangeSec_": "6",
+    "magmaWaveCollisionSpArtsChangeSec_": "1",
+    "magmaWaveCollisionAutoVanishSec_": "5",
+    "magmaWaveCollisionManualVanishSec_": "1",
+    "magmaWaveAreaCheckPartsNumber_": "3",
+    "magmaWaveAreaCheckBeginOffsetZ_": "-5",
+    "magmaWaveAreaCheckEndOffsetZ_": "0",
+    "magmaWaveAreaCheckWaitSec_": "0.2",
+    "magmaWaveDiveMoveturnRate_": "0.9",
+    "magmaWaveDiveMoveturnRotY_": "0.08726647",
+    "magmaWaveOdStartlSec_": "1.3",
+    "magmaWaveOdCancelSec_": "4",
+    "magmaWaveAttackCancelSec_": "10",
+    "magmaWaveAttackAnimRate_": "1.5",
+    "magmaWaveEscapeAnimRate_": "1.5",
+    "magmaWaveEscapeStartSec_": "0.833",
+    "magmaWaveEscapeInterSec_": "1",
+    "magmaWaveEscapeCancelSec_": "4",
+    "magmaWaveDiveOffsetZ_": "50",
+    "magmaAreaCoolSec_": "60",
+    "magmaAreaVanishSec_": "10",
+    "magmaAreaRadius_": "13",
+    "magmaAreaLeftAddRotY_": "-0.122274",
+    "magmaAreaRightAddRotY_": "0.1223",
+    "magmaAreaAddOffsetZ_": "2.5",
+    "magmaAreaHitListClearIntervalSec_": "0.5",
+    "magmaAreaPosAdjustDist_": "5",
+    "cannonMoveSec_": "2",
+    "cannonMagmaAreaVanishSec_": "5",
+    "cannonGravityScale_": "3",
+    "cannonBeginWaitSec_": "1",
+    "cannonEndWaitSec_": "1",
+    "cannonIntervalSec_": "0.1",
+    "cannonShotRadius_": "1",
+    "cannonTargetRadius_": "12",
+    "waveCannonWaitSec_": "2",
+    "fireBallCancelFrame_": "90",
+    "fireBallTargetDegreeMaxX_": "20",
+    "fireBallTargetOffsetZ_": "0",
+    "fireBallTurnOffsetDegree_": "-1.2",
+    "fireBallHandGroundCheckRadius_": "2.5",
+    "fireBallHandGroundCheckOffsets_": [
+      {
+        "Element": [
+          "-9.25",
+          "1",
+          "12.07",
+          "1"
+        ]
+      },
+      {
+        "Element": [
+          "10.22",
+          "1",
+          "7.21",
+          "1"
+        ]
+      }
+    ],
+    "fireBallAttackSignPartsOffset_": [
+      "0",
+      "5.44",
+      "20.74",
+      "1"
+    ],
+    "fireBallAttackSignPartsNo_": "-1",
+    "fireBallGroundHandFireOffsetX_": "1.38",
+    "fireWallRemoveCountMin_": "1",
+    "fireWallRemoveCountMax_": "1",
+    "fireWallVanishSec_": "10",
+    "fireWallOdAnimRate_": "1.5",
+    "fireWallOdCancelSec_": "4.333",
+    "stompComboStartSec_": "0.833",
+    "stompComboInterSec_": "1.5",
+    "stompComboCancelSec_": "3.66667",
+    "stompOdComboStartSec_": "1.667",
+    "stompOdComboInterSec_": "0.667",
+    "stompOdComboCancelSec_": "3.166",
+    "stompEndSec_": "8",
+    "stompTurnRate_": "0.8",
+    "stompTurnMaxDegree_": "0.974",
+    "stompTurnOffsetDegree_": "-10.027",
+    "stompAdjustPosInterSec_": "2",
+    "stompComboAdjustPosInterSec_": "0.5",
+    "stompAdjustPosReturnSec_": "6",
+    "stompAdjustEaseParam_": {
+      "category_": "2",
+      "calcType_": "2"
+    },
+    "stompOdSlowBeginSec_": "4",
+    "stompOdSlowEndSec_": "6",
+    "stompOdSlowBeginRate_": "0.5",
+    "stompOdSlowEaseParam_": {
+      "category_": "-1",
+      "calcType_": "-1"
+    },
+    "stompPosAdjustDist_": "5",
+    "stompPosAdjustDistEventBattle_": "7.5",
+    "backHandBlowCoolSec_": "15",
+    "backHandBlowPosAdjustDist_": "5",
+    "breathAnimStartSec_": "0",
+    "breathAnimEndSec_": "6.333",
+    "breathStartSec_": "2.333",
+    "breathEndSec_": "5",
+    "breathMinDegreeY_": "-65",
+    "breathMaxDegreeY_": "73",
+    "breathMinDegreeX_": "0",
+    "breathMaxDegreeX_": "18",
+    "breathBeginDegreeX_": "110",
+    "breathRotXCycleScale_": "2.1",
+    "breathMagmaAreaVanishSec_": "7.5",
+    "breathParam_": {
+      "moveAxis_": [
+        "0",
+        "1",
+        "0"
+      ],
+      "offset_": [
+        "0",
+        "-0.6",
+        "0.1"
+      ],
+      "rot_": [
+        "0",
+        "0",
+        "0"
+      ],
+      "jointNumber_": "768",
+      "intervalSecond_": "0.1",
+      "lifeSecond_": "1",
+      "waitSecond_": "0",
+      "speed_": "30",
+      "radius_": "1.1",
+      "maxRadius_": "0",
+      "hitGroundCheck": "false"
+    },
+    "breathAttackRate_": "1",
+    "breathBreakRate_": "1",
+    "odHpRateNormalNext_": "0.1",
+    "tackleCoolSec_": "20",
+    "tacklePosAdjustDist_": "7",
+    "hammerCoolSec_": "20",
+    "hammerMotionEndSec_": "-1",
+    "hammerExplosionSmallWaitSec_": "1",
+    "hammerPosAdjustDist_": "7",
+    "counterRockStartFrame_": "174",
+    "counterRockEndFrame_": "196",
+    "counterRockDegreeStart_": "60",
+    "counterRockDegreeEnd_": "-60",
+    "counterRockCount_": "8",
+    "counterRockShotOffsetY_": "1.75",
+    "counterRockDegreeX_": "-30",
+    "counterRockAddDegreeY_": "0",
+    "counterRockScaleMin_": "2",
+    "counterRockScaleMax_": "3.5",
+    "counterPosAdjustDist_": "7",
+    "meteorAddPosRadius_": "3",
+    "meteorScale_": "0.5",
+    "meteorSignRadius_": "3.2",
+    "meteorSignSec_": "2",
+    "meteorMoveSpeed_": "40",
+    "meteorMinDistFromEnemy_": "20",
+    "meteorHighStageDist_": "16",
+    "bodyPressEndAnimStartSec_": "5.5833",
+    "bodyPressEndAnimInterSec_": "1",
+    "bodyPressSpArtsNormalHitSec_": "2.916667",
+    "bodyPressSpArtsCustomHitSec_": "6.75",
+    "bodyPressAfterDamageObjHitOffIndex_": "2",
+    "bodyPressSpArtsDamageBeginInterSec_": "0.333",
+    "bodyPressObjHitOffFlags_": [
+      {
+        "Element": "18"
+      },
+      {
+        "Element": "36"
+      },
+      {
+        "Element": "64"
+      },
+      {
+        "Element": "36"
+      },
+      {
+        "Element": "82"
+      },
+      {
+        "Element": "64"
+      }
+    ],
+    "bodyPressSpArtsBeginOffsets_": [
+      {
+        "Element": [
+          "9.9",
+          "0",
+          "40.4",
+          "1"
+        ]
+      },
+      {
+        "Element": [
+          "3.1",
+          "0",
+          "42.9",
+          "1"
+        ]
+      },
+      {
+        "Element": [
+          "-4.4",
+          "0",
+          "41.8",
+          "1"
+        ]
+      },
+      {
+        "Element": [
+          "-10.4",
+          "0",
+          "38.3",
+          "1"
+        ]
+      }
+    ],
+    "bodyPressAttackSignParams_": [
+      {
+        "Element": {
+          "offset_": [
+            "2",
+            "0",
+            "31.8",
+            "1"
+          ],
+          "radius_": "4.7",
+          "dispSec_": "3.1"
+        }
+      },
+      {
+        "Element": {
+          "offset_": [
+            "10.8",
+            "0",
+            "27.3",
+            "1"
+          ],
+          "radius_": "5",
+          "dispSec_": "2.85"
+        }
+      },
+      {
+        "Element": {
+          "offset_": [
+            "-10.5",
+            "0",
+            "29.4",
+            "1"
+          ],
+          "radius_": "5",
+          "dispSec_": "3.01"
+        }
+      },
+      {
+        "Element": {
+          "offset_": [
+            "0.2",
+            "0",
+            "23.1",
+            "1"
+          ],
+          "radius_": "6.2",
+          "dispSec_": "3.1"
+        }
+      },
+      {
+        "Element": {
+          "offset_": [
+            "0",
+            "0",
+            "13.3",
+            "1"
+          ],
+          "radius_": "4.8",
+          "dispSec_": "3.1"
+        }
+      },
+      {
+        "Element": {
+          "offset_": [
+            "0",
+            "0",
+            "6",
+            "1"
+          ],
+          "radius_": "4.7",
+          "dispSec_": "3.1"
+        }
+      }
+    ],
+    "talkEventStunGaugeCoolSec_": "30",
+    "talkEventStunGaugeRate_": "0.5",
+    "talkEventSetDamageCutWaitSec_": "2",
+    "talkEventRequestWaitSec_": "0.75",
+    "talkEventRequestLastWaitSec_": "10",
+    "talkEventBattleCutinWaitSec_": "0.01",
+    "talkEventSpArtsFireBallAppearWaitSec_": "6.5",
+    "battleCutinEffectSrcOffset_": [
+      "0",
+      "0.01",
+      "0",
+      "1"
+    ],
+    "battleCutinEffectDstOffset_": [
+      "0",
+      "1",
+      "0.7",
+      "1"
+    ],
+    "battleCutinEffectSrcPartsNumber_": "0",
+    "battleCutinEffectDstPartsNumber_": "913",
+    "ikWaistPartsNumber_": "-2",
+    "ikCheckPartsNoArmR_": "1026",
+    "ikCheckPartsNoArmL_": "1027",
+    "ikWaistAdjustHeight_": "-5",
+    "ikFingerOffsetY_": "0.8",
+    "ikHandRotLimit_": "0.5235988",
+    "ikParams_": [
+      {
+        "Element": {
+          "checkBeginOffsetY_": "6",
+          "checkEndOffsetY_": "2",
+          "checkRadius_": "5",
+          "stickHeight_": "0"
+        }
+      },
+      {
+        "Element": {
+          "checkBeginOffsetY_": "6",
+          "checkEndOffsetY_": "5.3",
+          "checkRadius_": "5.2",
+          "stickHeight_": "0"
+        }
+      },
+      {
+        "Element": {
+          "checkBeginOffsetY_": "6",
+          "checkEndOffsetY_": "2",
+          "checkRadius_": "3",
+          "stickHeight_": "2"
+        }
+      }
+    ],
+    "event5st2ndBattleDamageCutOffSec_": "4.2",
+    "event5st3rdBattle2ndDamageCutOffSec_": "14.6",
+    "event5st3rdBattle3rdDamageCutOffSec_": "6.8",
+    "lockOnLengthChase_": "10000",
+    "lockOnLengthBattle_": "200",
+    "lockOnUnderMagmaOffsetY_": "-2",
+    "lockOnAdjustStartRotY_": "0.3926991",
+    "lockOnAdjustEaseParam_": {
+      "category_": "1",
+      "calcType_": "2"
+    },
+    "nihillaSpArtsTextId_": "TXT_BT_7110_2",
+    "nihillaOdTextId_": "TXT_BT_7110_1",
+    "nihillaOverDriveParam_": {
+      "hpRateNormal_": "0.2",
+      "hpRateOverDrive_": "0.3",
+      "hpRateBreak_": "0.05",
+      "minBreakSecond_": "5",
+      "forceBreakSecond_": "10",
+      "overDriveVyrnVoiceWaitSecond_": "0",
+      "overDriveCameraPartsNumber_": "-1"
+    },
+    "nihillaOdAttackRateFirstTime_": "1.1",
+    "nihillaOdDefenseRateFirstTime_": "0.9",
+    "nihillaOdAttackRateSecondTime_": "1.2",
+    "nihillaOdDefenseRateSecondTime_": "0.7",
+    "nihillaShotHomingTargetOffsetY_": "4.4",
+    "nihillaShotSetHeight_": "20",
+    "nihillaShotSetDistance_": "20",
+    "nihillaShotSetStartRotY_": "-1.570796",
+    "nihillaShotSetEndRotY_": "1.570796",
+    "nihillaShotFirstCoolSec_": "90",
+    "nihillaShotCoolSec_": "60",
+    "nihillaShotMagmaAreaCount_": "12",
+    "nihillaShotMagmaAreaRadius_": "4",
+    "nihillaShotMagmaAreaSmallSizeRate_": "0.35",
+    "nihillaShotMagmaAreaVanishSec_": "5",
+    "nihillaShotCheckGroundLengthStart_": "2.5",
+    "nihillaShotCheckGroundLengthEnd_": "-6.5",
+    "odAbilityWave1stPosSetWaitSec_": "1",
+    "odAbilityWave2ndPosSetWaitSec_": "1",
+    "odAbilityWaveCheckBeginWaitSec_": "1.5",
+    "odAbilityBreathPosSetWaitSec_": "0.01",
+    "odAbilityBreathCheckBeginWaitSec_": "1.5",
+    "odAbilityBreathBlockOffset_": [
+      "0",
+      "7",
+      "25.36",
+      "1"
+    ],
+    "nearCameraDistance_": "13",
+    "nearCameraReturnSec_": "2",
+    "nearCameraLookUpRotX_": "-0.2181662",
+    "buffCameraMoveRate_": "0.02",
+    "buffCameraOffset_": [
+      "15",
+      "5",
+      "40",
+      "1"
+    ],
+    "buffCameraWatchOffset_": [
+      "0",
+      "10",
+      "0",
+      "1"
+    ]
+  }
+}

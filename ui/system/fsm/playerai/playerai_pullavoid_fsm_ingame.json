@@ -1,0 +1,82 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 780468604,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 780468604,
+    "fromNodeGuid_": 1069040464,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1069040464,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1508693536
+      }
+    ],
+    "toNodeGuid_": 1069040464,
+    "fromNodeGuid_": 248570146,
+    "isEndTransition_": true,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "AIMoveAction": {
+    "guid_": 1842038843,
+    "parentGuid_": 1069040464,
+    "type_": 2,
+    "dist_": 1,
+    "useBlackBoardValue_": false,
+    "boolName_": "",
+    "isCheckCollision_": false,
+    "positionBBName_": "PlayerAI_PullAvoidPoint",
+    "positionHashValue_": 1101615579,
+    "position_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "isSetPosition_": false,
+    "isUseObstacle_": false,
+    "obstacleRadius_": 0.3,
+    "obstacleLength_": 1,
+    "obstacleCount_": 3,
+    "isSmoothPass_": false,
+    "smoothRate_": 1,
+    "sideLength_": 0,
+    "dashLength_": 99999.9,
+    "randomLength_": 0,
+    "randomChangeTime_": 3,
+    "randomChangeAddTime_": 5
+  },
+  "ActionEndCondition": {
+    "guid_": 1508693536,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  }
+}

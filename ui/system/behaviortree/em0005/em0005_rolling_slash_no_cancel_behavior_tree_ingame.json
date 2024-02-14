@@ -1,0 +1,200 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "SequencerNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ReferenceTreeNode": {
+    "guid_": 10,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "referenceTreeFolderName_": "em0005",
+      "referenceTreeName_": "four_rolling_slash"
+    }
+  },
+  "ComboMotionPlayAction": {
+    "guid_": 1005243809,
+    "parentGuid_": 4,
+    "param0_": {
+      "motionName_": "1210",
+      "startSecond_": 0,
+      "interpSecond_": 0.2,
+      "cancelSecond_": -1
+    },
+    "param1_": {
+      "motionName_": "",
+      "startSecond_": 0,
+      "interpSecond_": 0,
+      "cancelSecond_": -1
+    },
+    "param2_": {
+      "motionName_": "",
+      "startSecond_": 0,
+      "interpSecond_": 0,
+      "cancelSecond_": -1
+    },
+    "param3_": {
+      "motionName_": "",
+      "startSecond_": 0,
+      "interpSecond_": 0,
+      "cancelSecond_": -1
+    }
+  },
+  "ComboMotionPlayAction": {
+    "guid_": 1938635021,
+    "parentGuid_": 6,
+    "param0_": {
+      "motionName_": "1210",
+      "startSecond_": 0,
+      "interpSecond_": 0.2,
+      "cancelSecond_": -1
+    },
+    "param1_": {
+      "motionName_": "",
+      "startSecond_": 0,
+      "interpSecond_": 0,
+      "cancelSecond_": -1
+    },
+    "param2_": {
+      "motionName_": "",
+      "startSecond_": 0,
+      "interpSecond_": 0,
+      "cancelSecond_": -1
+    },
+    "param3_": {
+      "motionName_": "",
+      "startSecond_": 0,
+      "interpSecond_": 0,
+      "cancelSecond_": -1
+    }
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1575323840,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "intName_": "Em0005_RollingSlashCount",
+    "value_": 0,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1826854456,
+    "parentGuid_": 5,
+    "isReverseSuccess_": false,
+    "intName_": "Em0005_RollingSlashCount",
+    "value_": 1,
+    "operatorType_": 0
+  },
+  "BlackBoardIntAction": {
+    "guid_": 2056900502,
+    "parentGuid_": 4,
+    "valueName_": "Em0005_RollingSlashCount",
+    "setTiming_": 0,
+    "value_": 1
+  },
+  "BlackBoardIntAction": {
+    "guid_": 850590509,
+    "parentGuid_": 6,
+    "valueName_": "Em0005_RollingSlashCount",
+    "setTiming_": 0,
+    "value_": 2
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 2054949664,
+    "parentGuid_": 7,
+    "isReverseSuccess_": false,
+    "intName_": "Em0005_RollingSlashCount",
+    "value_": 2,
+    "operatorType_": 0
+  },
+  "BlackBoardIntAction": {
+    "guid_": 601898474,
+    "parentGuid_": 9,
+    "valueName_": "Em0005_RollingSlashCount",
+    "setTiming_": 0,
+    "value_": 0
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em0005",
+    "subTreeName_": "rolling_slash_no_cancel"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 163949346,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 163949346,
+    "fromNodeGuid_": 590681548,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 590681548,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1351772846,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1002673862
+      }
+    ],
+    "toNodeGuid_": 590681548,
+    "fromNodeGuid_": 1462918074,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1462918074,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 784921029,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "StartTimer": {
+    "guid_": 561224526,
+    "parentGuid_": 590681548,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 17,
+    "progressIndex_": 2,
+    "progressHash_": 14846120288621477730,
+    "timerId_": 6
+  },
+  "CallTalkEvent": {
+    "guid_": 1865868327,
+    "parentGuid_": 1462918074,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 17,
+    "progressIndex_": 2,
+    "progressHash_": 14846120288621477730,
+    "groupID_": "VT_MS41_0550",
+    "delay_": 0
+  },
+  "CheckTimer": {
+    "guid_": 1002673862,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 17,
+    "progressIndex_": 2,
+    "progressHash_": 14846120288621477730,
+    "isNoCheckSkip_": false,
+    "timerId_": 6,
+    "time_": 15
+  }
+}

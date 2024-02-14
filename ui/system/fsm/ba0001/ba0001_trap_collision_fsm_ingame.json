@@ -1,0 +1,145 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 30110033,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 30110033,
+    "fromNodeGuid_": 2084699715,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1929425048
+      },
+      {
+        "Element": 1509179788
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 2084699715,
+    "isEndTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1822695924
+      },
+      {
+        "Element": 991183620
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 2001007587,
+    "isEndTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 2084699715,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1926392004,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 86806383
+      }
+    ],
+    "toNodeGuid_": 2084699715,
+    "fromNodeGuid_": 2001007587,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2001007587,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 926699740,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CollisionChangeAction": {
+    "guid_": 2145757790,
+    "parentGuid_": 2084699715,
+    "valueName_": "Phase1_2st_1st_tarap",
+    "enable_": false
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 86806383,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "TrapCollsionState"
+  },
+  "CollisionChangeAction": {
+    "guid_": 729327002,
+    "parentGuid_": 2001007587,
+    "valueName_": "Phase1_2st_1st_tarap",
+    "enable_": true
+  },
+  "EndEventCondition": {
+    "guid_": 1929425048,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "type_": 0,
+    "id_": -1
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1509179788,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "boolName_": "TrapCollsionState"
+  },
+  "EndEventCondition": {
+    "guid_": 1822695924,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "type_": 0,
+    "id_": -1
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 991183620,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "TrapCollsionState"
+  }
+}

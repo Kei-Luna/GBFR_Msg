@@ -1,0 +1,158 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "SelectorNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em7300FrozenBreathAction": {
+    "guid_": 1540911229,
+    "parentGuid_": 8,
+    "startHomingAngle_": 0.2,
+    "loopCount_": 1,
+    "shotInterval_": 0.05
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 505831459,
+    "parentGuid_": 8,
+    "valueName_": "Em7300_IsOkNarrowDust",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 2101354003,
+    "parentGuid_": 3,
+    "isReverseSuccess_": true,
+    "checkDirection_": 0,
+    "checkAngle_": 90
+  },
+  "MotionPlayAction": {
+    "guid_": 811197413,
+    "parentGuid_": 6,
+    "motionIdName_": "203c",
+    "isAnimEnd_": false,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1
+  },
+  "TimerAction": {
+    "guid_": 577478726,
+    "parentGuid_": 6,
+    "waitTimeSeconds_": 1.666,
+    "randomSeconds_": 0
+  },
+  "BlackBoardFloatAction": {
+    "guid_": 231587465,
+    "parentGuid_": 6,
+    "valueName_": "Em7300_TargetHomingAngle",
+    "setTiming_": 0,
+    "value_": 1
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 146958613,
+    "parentGuid_": 5,
+    "isReverseSuccess_": false,
+    "checkRange_": 2,
+    "operatorType_": 3,
+    "isUseRangeXZ_": false
+  },
+  "Em7300BackAction": {
+    "guid_": 1015982921,
+    "parentGuid_": 7,
+    "homingAngleFront_": 4,
+    "homingAngleLR_": 2.5,
+    "homingAngleBack_": 1.5,
+    "movementRate_": 1,
+    "beforeHevyRush_": false
+  },
+  "Em7300FangRequestAction": {
+    "guid_": 185975265,
+    "parentGuid_": 7,
+    "time_": 0,
+    "callEnd_": false,
+    "type_": 0
+  },
+  "Em7300PostBaseAttackAction": {
+    "guid_": 229015804,
+    "parentGuid_": 8
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em7300",
+    "subTreeName_": "p_frozen_breath"
+  }
+}

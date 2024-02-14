@@ -1,0 +1,187 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1348443063,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1348443063,
+    "fromNodeGuid_": 1080712859,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1080712859,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1487466786,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1080712859,
+    "fromNodeGuid_": 268815001,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1809191378,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 958192560,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1584228307
+      }
+    ],
+    "toNodeGuid_": 1809191378,
+    "fromNodeGuid_": 268815001,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 268815001,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1309248477,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 55403596
+      }
+    ],
+    "toNodeGuid_": 268815001,
+    "fromNodeGuid_": 1809191378,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "MotionPlayAction": {
+    "guid_": 1638711382,
+    "parentGuid_": 268815001,
+    "motionIdName_": "ea11",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 55403596,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "np1900_ea13_ON"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1584228307,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "np1900_ea13_OFF"
+  },
+  "MotionPlayAction": {
+    "guid_": 878870116,
+    "parentGuid_": 1809191378,
+    "motionIdName_": "ea13",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1
+  },
+  "RegisterBlackBoardBoolAction": {
+    "guid_": 951721126,
+    "parentGuid_": 1080712859,
+    "valueName_": "np1900_ea13_ON",
+    "value_": false
+  },
+  "RegisterBlackBoardBoolAction": {
+    "guid_": 653438728,
+    "parentGuid_": 1080712859,
+    "valueName_": "np1900_ea13_OFF",
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1662941061,
+    "parentGuid_": 1809191378,
+    "valueName_": "np1900_ea13_ON",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1587288531,
+    "parentGuid_": 268815001,
+    "valueName_": "np1900_ea13_OFF",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 352456402,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "boolName_": "np1900_ea50_22_ON"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 365931808,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "boolName_": "np1900_ea50_22_OFF"
+  },
+  "EmNeckControlAction": {
+    "guid_": 2142921491,
+    "parentGuid_": 268815001,
+    "isEnable_": true,
+    "isEndEnable_": true
+  },
+  "EmNeckControlAction": {
+    "guid_": 529771180,
+    "parentGuid_": 1809191378,
+    "isEnable_": false,
+    "isEndEnable_": false
+  }
+}

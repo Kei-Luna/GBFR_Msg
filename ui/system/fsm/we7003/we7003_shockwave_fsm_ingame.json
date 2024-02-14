@@ -1,0 +1,169 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 639600189,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 639600189,
+    "fromNodeGuid_": 525269366,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 525269366,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 596323846,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 433488883
+      }
+    ],
+    "toNodeGuid_": 525269366,
+    "fromNodeGuid_": 85348513,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 85348513,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 92505959,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 438900616
+      }
+    ],
+    "toNodeGuid_": 85348513,
+    "fromNodeGuid_": 1271037341,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1271037341,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 438618307,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1980250041
+      }
+    ],
+    "toNodeGuid_": 1271037341,
+    "fromNodeGuid_": 749188431,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "We7003ShockWaveSignAction": {
+    "guid_": 1908357669,
+    "parentGuid_": 525269366,
+    "shape_": 3,
+    "size_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "time_": 1,
+    "posType_": 0,
+    "posOffset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "lineEndOffset_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "isUpdateAttach_": false,
+    "isUpdateLineEnd_": true,
+    "isApplyScale_": false,
+    "isAdjustScaleY_": false,
+    "signScaleY_": 1,
+    "isChangeEffect_": true,
+    "effectObjId_": 17002515,
+    "effectUseParentObjId_": false,
+    "effectBaseId_": 1030,
+    "effectFillId_": -1,
+    "effectVanishId_": -1
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 433488883,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 20,
+          "isEnable_": false
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "We7003ShockWaveAttackAction": {
+    "guid_": 2090689962,
+    "parentGuid_": 85348513
+  },
+  "ActionEndCondition": {
+    "guid_": 438900616,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "ShotTerminateAction": {
+    "guid_": 569117570,
+    "parentGuid_": 1271037341
+  },
+  "ActionEndCondition": {
+    "guid_": 1980250041,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  }
+}

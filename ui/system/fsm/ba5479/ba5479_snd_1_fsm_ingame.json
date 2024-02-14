@@ -1,0 +1,148 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1401256572,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1401256572,
+    "fromNodeGuid_": 1244941275,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 713636278
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 473325272,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1244941275,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "FSMNode": {
+    "guid_": 473325272,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 406159787,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 359911993
+      }
+    ],
+    "toNodeGuid_": 473325272,
+    "fromNodeGuid_": 473325272,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "SoundMotionCheckCondition": {
+    "guid_": 713636278,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 359911993,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 1260806593,
+    "parentGuid_": 473325272,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba5479_wood_l_break_l_01",
+          "delayTime_": 0.2,
+          "requestId_": 1260806593,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 260,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5479_wood_l_break_l_02",
+          "delayTime_": 2.4,
+          "requestId_": 1260806593,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 784,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5479_wood_l_break_l_03",
+          "delayTime_": 6.8,
+          "requestId_": 1260806593,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1365,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5479_wood_l_break_l_04",
+          "delayTime_": 7,
+          "requestId_": 1260806593,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1042,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 2143115343,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 2143115343,
+    "fromNodeGuid_": 678506583,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 678506583,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 86023620,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1892877022
+      }
+    ],
+    "toNodeGuid_": 678506583,
+    "fromNodeGuid_": 1264454431,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 39925164
+      }
+    ],
+    "toNodeGuid_": 678506583,
+    "fromNodeGuid_": 227221783,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1264454431,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 2029276175,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1783274705
+      }
+    ],
+    "toNodeGuid_": 1264454431,
+    "fromNodeGuid_": 678506583,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 227221783,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1414942832,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "StartTimer": {
+    "guid_": 277303801,
+    "parentGuid_": 678506583,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 853,
+    "progressIndex_": 1,
+    "progressHash_": 10628182175891789223,
+    "timerId_": 0
+  },
+  "CallTalkEvent": {
+    "guid_": 2139761289,
+    "parentGuid_": 1264454431,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 853,
+    "progressIndex_": 1,
+    "progressHash_": 10628182175891789223,
+    "groupID_": "VT_MS20_3060"
+  },
+  "CheckTimer": {
+    "guid_": 1892877022,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 853,
+    "progressIndex_": 1,
+    "progressHash_": 10628182175891789223,
+    "isNoCheckSkip_": false,
+    "timerId_": 0,
+    "time_": 60
+  },
+  "EndTalkEvent": {
+    "guid_": 1783274705,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 853,
+    "progressIndex_": 1,
+    "progressHash_": 10628182175891789223,
+    "isNoCheckSkip_": false,
+    "groupID_": "VT_MS20_3060",
+    "useQuestParameter_": false,
+    "questParameterName_": "",
+    "questParameterHash_": 0
+  },
+  "RecvSignal": {
+    "guid_": 39925164,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 853,
+    "progressIndex_": 1,
+    "progressHash_": 10628182175891789223,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 14508032703786573
+      },
+      {
+        "Element": 15127787224197203510
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

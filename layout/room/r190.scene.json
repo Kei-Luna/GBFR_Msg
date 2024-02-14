@@ -1,0 +1,1321 @@
+{
+  "SceneHierarchy": {
+    "mEditorOptions": {
+      "IsDropAuto": true,
+      "IsDropForWorld": true,
+      "IsEditForWorld": false,
+      "IsFocusAutoFit": true,
+      "IsHidePrefabSymbol": true,
+      "LeftColumnSize": 546.8964,
+      "ManipulateOperation": "TRANSLATE",
+      "NameDigit": 3,
+      "NameDisplayType": 0,
+      "RotateSnap": 1,
+      "ScaleSnap": 0.1,
+      "SurfaceHighlightMode": 0,
+      "TranslateSnap": 0.1,
+      "WindowPos": [
+        110,
+        155
+      ],
+      "WindowSize": [
+        1279,
+        1096
+      ]
+    },
+    "mName": [
+      "r190",
+      3985016250
+    ],
+    "mRootSceneObject": {
+      "RootSceneObject": {
+        "attachDefaultActive_": true,
+        "curvePlayer_": [
+          10
+        ],
+        "disappearCurve_": {
+          "Params": [
+            0,
+            1
+          ]
+        },
+        "disappearLv_": 0,
+        "disappearTime_": 0,
+        "forPC_": true,
+        "forPS4_": true,
+        "forPS5_": true,
+        "isBrokenCheckBhTrans_": false,
+        "isBrokenCheckHP_": true,
+        "isBrokenDisppear_": false,
+        "isDelayAttach_": false,
+        "isUseModelOpacity_": false,
+        "mActive": true,
+        "mAttachModelJoint": {
+          "mIsEnable": false,
+          "mTargetEntity": 0,
+          "mTargetJoint": -1
+        },
+        "mInheritanceTransform": "InheritAll",
+        "mLocalMatrix": [
+          0.9999998,
+          0,
+          0,
+          0,
+          0,
+          0.9999998,
+          0,
+          0,
+          0,
+          0,
+          0.9999998,
+          0,
+          0,
+          0,
+          0,
+          0.9999998
+        ],
+        "mName": [
+          "Root",
+          3066451557
+        ],
+        "mUuid": [
+          2133832424144,
+          14977033526505478069
+        ],
+        "mpChild": [
+          {
+            "LocalIBLSceneObject": {
+              "_blendRate": 1,
+              "_diffuseRate": [
+                1,
+                1,
+                1,
+                1,
+                130
+              ],
+              "_specularRate": [
+                1,
+                1,
+                1,
+                1,
+                130
+              ],
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "influenceDistanceFadeCorrectly_": false,
+              "intencityInterpolateSec_": 1,
+              "intencityInterpolateSecUseArea_": true,
+              "intensity_": 1,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                100000,
+                0,
+                0,
+                0,
+                0,
+                100000,
+                0,
+                0,
+                0,
+                0,
+                100000,
+                0,
+                0,
+                0,
+                0,
+                0.9999997
+              ],
+              "mName": [
+                "Virtual_GlobalIBL(for Engine)",
+                2382307274
+              ],
+              "mUuid": [
+                2379896465408,
+                4045926834307958030
+              ],
+              "specularIntensity_": 1,
+              "specularRoughnessOffset_": 0,
+              "useModelOpacityToChildren_": true,
+              "useTexGlobalIBL_": true
+            }
+          },
+          {
+            "PrefabSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mFilePath": "layout/p100/distantview_bakeshadowmap_00.scene.yml",
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999995,
+                0,
+                0,
+                0,
+                0,
+                0.9999995,
+                0,
+                0,
+                0,
+                0,
+                0.9999995,
+                0,
+                0,
+                0,
+                0,
+                0.9999995
+              ],
+              "mName": [
+                "bakeShadowMap",
+                3645462248
+              ],
+              "mUuid": [
+                2062168964096,
+                5689291311549329885
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "AreaSceneObject": {
+              "_areaColor": [
+                1,
+                0,
+                0,
+                0.2,
+                130
+              ],
+              "_areaRadius": 1,
+              "_areaType": 1,
+              "_composite": [
+                1,
+                "filter/p100/start_00.ccomp.yml"
+              ],
+              "_curve": [
+                2,
+                "",
+                ""
+              ],
+              "_hierarchy": [
+                3,
+                "layout/p100/start_common_00.scene.yml",
+                "layout/p100/road_common_00.scene.yml",
+                "layout/p100/distantview_common_00.scene.yml"
+              ],
+              "_interpolateSec": 2,
+              "_priority": 1,
+              "_useParent": false,
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                158.0625,
+                0,
+                -57.52993,
+                0,
+                0,
+                168.2061,
+                0,
+                0,
+                57.52988,
+                0,
+                158.0623,
+                0,
+                122.8562,
+                0,
+                140.207,
+                1
+              ],
+              "mName": [
+                "Start_Common",
+                817772815
+              ],
+              "mUuid": [
+                2573726621696,
+                12644208836984102957
+              ],
+              "mpChild": [
+                {
+                  "AreaSceneObject": {
+                    "_areaColor": [
+                      1,
+                      0,
+                      0,
+                      0.2,
+                      130
+                    ],
+                    "_areaRadius": 1,
+                    "_areaType": 1,
+                    "_composite": [
+                      0
+                    ],
+                    "_curve": [
+                      2,
+                      "",
+                      ""
+                    ],
+                    "_hierarchy": [
+                      0
+                    ],
+                    "_interpolateSec": 2,
+                    "_priority": 0,
+                    "_useParent": true,
+                    "attachDefaultActive_": true,
+                    "curvePlayer_": [
+                      10
+                    ],
+                    "disappearCurve_": {
+                      "Params": [
+                        0,
+                        1
+                      ]
+                    },
+                    "disappearLv_": 0,
+                    "disappearTime_": 0,
+                    "forPC_": true,
+                    "forPS4_": true,
+                    "forPS5_": true,
+                    "isBrokenCheckBhTrans_": false,
+                    "isBrokenCheckHP_": true,
+                    "isBrokenDisppear_": false,
+                    "isDelayAttach_": false,
+                    "isUseModelOpacity_": false,
+                    "mActive": true,
+                    "mAttachModelJoint": {
+                      "mIsEnable": false,
+                      "mTargetEntity": 0,
+                      "mTargetJoint": -1
+                    },
+                    "mInheritanceTransform": "InheritNone",
+                    "mLocalMatrix": [
+                      167.9706,
+                      0,
+                      8.802915,
+                      0,
+                      0,
+                      168.2,
+                      0,
+                      0,
+                      -2.816949,
+                      0,
+                      53.75053,
+                      0,
+                      81.76347,
+                      -0.3684851,
+                      76.18786,
+                      0.9999719
+                    ],
+                    "mName": [
+                      "Start_Common@001",
+                      1071983019
+                    ],
+                    "mUuid": [
+                      2658118746112,
+                      5956949086402697822
+                    ],
+                    "useModelOpacityToChildren_": true
+                  }
+                }
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "AreaSceneObject": {
+              "_areaColor": [
+                1,
+                0.712401,
+                0,
+                0.2,
+                131
+              ],
+              "_areaRadius": 1,
+              "_areaType": 1,
+              "_composite": [
+                1,
+                "filter/p100/outside_01.ccomp.yml"
+              ],
+              "_curve": [
+                2,
+                "",
+                ""
+              ],
+              "_hierarchy": [
+                4,
+                "layout/p100/road_common_00.scene.yml",
+                "layout/p100/distantview_common_00.scene.yml",
+                "layout/p100/start_common_00.scene.yml",
+                "layout/p100/cave_common_00.scene.yml"
+              ],
+              "_interpolateSec": 2,
+              "_priority": 0,
+              "_useParent": false,
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                113.3652,
+                0,
+                -50.47144,
+                0,
+                0,
+                113.3936,
+                0,
+                0,
+                79.8222,
+                0,
+                179.2907,
+                0,
+                72.08856,
+                -7.450068,
+                -26.41319,
+                1
+              ],
+              "mName": [
+                "Road_Common",
+                4062182600
+              ],
+              "mUuid": [
+                2133833170944,
+                9520910521973670621
+              ],
+              "mpChild": [
+                {
+                  "AreaSceneObject": {
+                    "_areaColor": [
+                      1,
+                      0,
+                      0,
+                      0.2,
+                      130
+                    ],
+                    "_areaRadius": 1,
+                    "_areaType": 1,
+                    "_composite": [
+                      0
+                    ],
+                    "_curve": [
+                      2,
+                      "",
+                      ""
+                    ],
+                    "_hierarchy": [
+                      0
+                    ],
+                    "_interpolateSec": 2,
+                    "_priority": 0,
+                    "_useParent": true,
+                    "attachDefaultActive_": true,
+                    "curvePlayer_": [
+                      10
+                    ],
+                    "disappearCurve_": {
+                      "Params": [
+                        0,
+                        1
+                      ]
+                    },
+                    "disappearLv_": 0,
+                    "disappearTime_": 0,
+                    "forPC_": true,
+                    "forPS4_": true,
+                    "forPS5_": true,
+                    "isBrokenCheckBhTrans_": false,
+                    "isBrokenCheckHP_": true,
+                    "isBrokenDisppear_": false,
+                    "isDelayAttach_": false,
+                    "isUseModelOpacity_": false,
+                    "mActive": true,
+                    "mAttachModelJoint": {
+                      "mIsEnable": false,
+                      "mTargetEntity": 0,
+                      "mTargetJoint": -1
+                    },
+                    "mInheritanceTransform": "InheritNone",
+                    "mLocalMatrix": [
+                      197.23,
+                      0,
+                      -87.80898,
+                      0,
+                      0,
+                      104.2936,
+                      0,
+                      0,
+                      73.11189,
+                      0,
+                      164.2185,
+                      0,
+                      26.80145,
+                      -1.780556,
+                      -15.28199,
+                      1
+                    ],
+                    "mName": [
+                      "Road_Common@001",
+                      2171438475
+                    ],
+                    "mUuid": [
+                      5008789618688,
+                      439838942134742642
+                    ],
+                    "useModelOpacityToChildren_": true
+                  }
+                }
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "AreaSceneObject": {
+              "_areaColor": [
+                1,
+                0,
+                0,
+                0.2,
+                130
+              ],
+              "_areaRadius": 1,
+              "_areaType": 1,
+              "_composite": [
+                1,
+                "filter/p100/outside_00.ccomp.yml"
+              ],
+              "_curve": [
+                2,
+                "",
+                ""
+              ],
+              "_hierarchy": [
+                4,
+                "layout/p100/cave_common_00.scene.yml",
+                "layout/p100/road_common_00.scene.yml",
+                "layout/p100/village_common_00.scene.yml",
+                "layout/p100/distantview_common_00.scene.yml"
+              ],
+              "_interpolateSec": 2,
+              "_priority": -1,
+              "_useParent": false,
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                90.85416,
+                0,
+                -40.4508,
+                0,
+                0,
+                133.1702,
+                0,
+                0,
+                20.61588,
+                0,
+                46.30411,
+                0,
+                8.433521,
+                -12.71587,
+                -91.37714,
+                0.9999997
+              ],
+              "mName": [
+                "Cave_Common",
+                2275801174
+              ],
+              "mUuid": [
+                1198083039232,
+                3027223470003976443
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "AreaSceneObject": {
+              "_areaColor": [
+                0.959854,
+                1,
+                0,
+                0.2,
+                131
+              ],
+              "_areaRadius": 1,
+              "_areaType": 1,
+              "_composite": [
+                1,
+                "filter/p100/outside_00.ccomp.yml"
+              ],
+              "_curve": [
+                2,
+                "",
+                ""
+              ],
+              "_hierarchy": [
+                3,
+                "layout/p100/village_common_00.scene.yml",
+                "layout/p100/distantview_common_00.scene.yml",
+                "layout/p100/cave_common_00.scene.yml"
+              ],
+              "_interpolateSec": 2,
+              "_priority": 1,
+              "_useParent": false,
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                491.4092,
+                0,
+                -198.5469,
+                0,
+                0,
+                328.5183,
+                0,
+                0,
+                140.7874,
+                0,
+                348.461,
+                0,
+                7.113795,
+                -34.60492,
+                -278.7131,
+                0.9999998
+              ],
+              "mName": [
+                "Village_Common",
+                3903941706
+              ],
+              "mUuid": [
+                2133833187328,
+                9480009488284701312
+              ],
+              "mpChild": [],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "PrefabSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mFilePath": "layout/p100/plateau_wind_00.scene.yml",
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999995,
+                0,
+                0,
+                0,
+                0,
+                0.9999995,
+                0,
+                0,
+                0,
+                0,
+                0.9999995,
+                0,
+                98.51336,
+                5.814236,
+                122.081,
+                0.9999995
+              ],
+              "mName": [
+                "Wind",
+                2168060864
+              ],
+              "mUuid": [
+                1960288997376,
+                3136706305740576995
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "PrefabSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mFilePath": "layout/attachlight/treasure_light_00.scene.yml",
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999995,
+                0,
+                0,
+                0,
+                0,
+                0.9999995,
+                0,
+                0,
+                0,
+                0,
+                0.9999995,
+                0,
+                0,
+                0,
+                0,
+                0.9999995
+              ],
+              "mName": [
+                "TreasureLight",
+                1933175515
+              ],
+              "mUuid": [
+                3051035124736,
+                1957383494941473323
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "EffectMultiTargetTriggerSceneObject": {
+              "_maniRadius": 0.6254883,
+              "_shapeColor": [
+                332.5,
+                0.7336426,
+                0.222168,
+                116699.7,
+                130
+              ],
+              "_shapeType": 1,
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "estIndex_": 9970,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isLoop_": true,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                2.525719,
+                -0.2219002,
+                -0.9848356,
+                0,
+                2.704447,
+                34.2628,
+                -0.7841374,
+                0,
+                2.419317,
+                -0.04871304,
+                6.21558,
+                0,
+                73.50367,
+                -61.05486,
+                -241.5292,
+                1
+              ],
+              "mName": [
+                "WaterFallSplashArea",
+                1526768095
+              ],
+              "mUuid": [
+                2287730819072,
+                9148425108422204248
+              ],
+              "partsNo_": -1,
+              "seEndEventName_": "",
+              "seStartEventName_": "",
+              "soundCallCategory_": 0,
+              "soundPartsNo_": -1,
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "GroupSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999997,
+                0,
+                0,
+                0,
+                0,
+                0.9999997,
+                0,
+                0,
+                0,
+                0,
+                0.9999997,
+                0,
+                0,
+                0,
+                0,
+                0.9999997
+              ],
+              "mName": [
+                "WaterCubeMap",
+                820555315
+              ],
+              "mUuid": [
+                1666126220288,
+                10577122780568212678
+              ],
+              "mpChild": [
+                {
+                  "WaterCubeMapSceneObject": {
+                    "attachDefaultActive_": true,
+                    "curvePlayer_": [
+                      10
+                    ],
+                    "disappearCurve_": {
+                      "Params": [
+                        0,
+                        1
+                      ]
+                    },
+                    "disappearLv_": 0,
+                    "disappearTime_": 0,
+                    "forPC_": true,
+                    "forPS4_": true,
+                    "forPS5_": true,
+                    "isBrokenCheckBhTrans_": false,
+                    "isBrokenCheckHP_": true,
+                    "isBrokenDisppear_": false,
+                    "isDelayAttach_": false,
+                    "isUseModelOpacity_": false,
+                    "mActive": true,
+                    "mAttachModelJoint": {
+                      "mIsEnable": false,
+                      "mTargetEntity": 0,
+                      "mTargetJoint": -1
+                    },
+                    "mInheritanceTransform": "InheritAll",
+                    "mLocalMatrix": [
+                      77.21998,
+                      0,
+                      0,
+                      0,
+                      0,
+                      51.47998,
+                      0,
+                      0,
+                      0,
+                      0,
+                      82.36797,
+                      0,
+                      38.30989,
+                      -51.59698,
+                      -238.4371,
+                      0.9999999
+                    ],
+                    "mName": [
+                      "WaterCubeMap_001",
+                      2581560796
+                    ],
+                    "mUuid": [
+                      387576912,
+                      4355669561
+                    ],
+                    "useModelOpacityToChildren_": true
+                  }
+                }
+              ],
+              "timelineMoveEnd_": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "timelineMoveStart_": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "PrefabSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mFilePath": "layout/attachlight/quest_light_00.scene.yml",
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999997,
+                0,
+                0,
+                0,
+                0,
+                0.9999997,
+                0,
+                0,
+                0,
+                0,
+                0.9999997,
+                0,
+                0,
+                0,
+                0,
+                0.9999997
+              ],
+              "mName": [
+                "QuestLight",
+                3064573130
+              ],
+              "mUuid": [
+                1896152054784,
+                7922907483541457643
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "PrefabSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mFilePath": "occluder/r190.scene.yml",
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999997,
+                0,
+                0,
+                0,
+                0,
+                0.9999997,
+                0,
+                0,
+                0,
+                0,
+                0.9999997,
+                0,
+                0,
+                0,
+                0,
+                0.9999997
+              ],
+              "mName": [
+                "Occluder",
+                1222443592
+              ],
+              "mUuid": [
+                2794440818688,
+                1741085325561681176
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "PrefabSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mFilePath": "layout/p100/foliagelight_00.scene.yml",
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998
+              ],
+              "mName": [
+                "FoliageLight",
+                976006601
+              ],
+              "mUuid": [
+                2027829910528,
+                7186610060192065424
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          },
+          {
+            "PrefabSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenCheckBhTrans_": false,
+              "isBrokenCheckHP_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mFilePath": "layout/p100/r190_portalculling_00.scene.yml",
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998
+              ],
+              "mName": [
+                "PortalCulling",
+                2769817429
+              ],
+              "mUuid": [
+                2833217971200,
+                16424898084674534929
+              ],
+              "useModelOpacityToChildren_": true
+            }
+          }
+        ],
+        "useModelOpacityToChildren_": true
+      }
+    }
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "SceneHierarchy": {
+    "mEditorOptions": {
+      "IsDropAuto": true,
+      "IsDropForWorld": true,
+      "IsEditForWorld": false,
+      "IsFocusAutoFit": true,
+      "IsHidePrefabSymbol": true,
+      "LeftColumnSize": 501.8456,
+      "ManipulateOperation": "TRANSLATE",
+      "NameDigit": 3,
+      "NameDisplayType": 0,
+      "RotateSnap": 1,
+      "ScaleSnap": 0.1,
+      "SurfaceHighlightMode": 0,
+      "TranslateSnap": 0.1,
+      "WindowPos": [
+        1746,
+        949
+      ],
+      "WindowSize": [
+        1001,
+        1157
+      ]
+    },
+    "mName": [
+      "ct1070_wind",
+      841395282
+    ],
+    "mRootSceneObject": {
+      "RootSceneObject": {
+        "attachDefaultActive_": true,
+        "curvePlayer_": [
+          10
+        ],
+        "disappearCurve_": {
+          "Params": [
+            0,
+            1
+          ]
+        },
+        "disappearLv_": 0,
+        "disappearTime_": 0,
+        "forPC_": true,
+        "forPS4_": true,
+        "forPS5_": true,
+        "isBrokenDisppear_": false,
+        "isDelayAttach_": false,
+        "isUseModelOpacity_": false,
+        "mActive": true,
+        "mAttachModelJoint": {
+          "mIsEnable": false,
+          "mTargetEntity": 0,
+          "mTargetJoint": -1
+        },
+        "mInheritanceTransform": "InheritAll",
+        "mLocalMatrix": [
+          0.9999999,
+          0,
+          0,
+          0,
+          0,
+          0.9999999,
+          0,
+          0,
+          0,
+          0,
+          0.9999999,
+          0,
+          0,
+          0,
+          0,
+          0.9999999
+        ],
+        "mName": [
+          "Root",
+          3066451557
+        ],
+        "mUuid": [
+          1874503117520,
+          5933997738987568377
+        ],
+        "mpChild": [
+          {
+            "GroupSceneObject": {
+              "attachDefaultActive_": true,
+              "curvePlayer_": [
+                10
+              ],
+              "disappearCurve_": {
+                "Params": [
+                  0,
+                  1
+                ]
+              },
+              "disappearLv_": 0,
+              "disappearTime_": 0,
+              "forPC_": true,
+              "forPS4_": true,
+              "forPS5_": true,
+              "isBrokenDisppear_": false,
+              "isDelayAttach_": false,
+              "isUseModelOpacity_": false,
+              "mActive": true,
+              "mAttachModelJoint": {
+                "mIsEnable": false,
+                "mTargetEntity": 0,
+                "mTargetJoint": -1
+              },
+              "mInheritanceTransform": "InheritAll",
+              "mLocalMatrix": [
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998,
+                0,
+                0,
+                0,
+                0,
+                0.9999998
+              ],
+              "mName": [
+                "ct1070",
+                3922882708
+              ],
+              "mUuid": [
+                1873141628928,
+                13722375636940700921
+              ],
+              "mpChild": [
+                {
+                  "WindSceneObject": {
+                    "attachDefaultActive_": true,
+                    "curvePlayer_": [
+                      10
+                    ],
+                    "disappearCurve_": {
+                      "Params": [
+                        0,
+                        1
+                      ]
+                    },
+                    "disappearLv_": 0,
+                    "disappearTime_": 0,
+                    "forPC_": true,
+                    "forPS4_": true,
+                    "forPS5_": true,
+                    "isBrokenDisppear_": false,
+                    "isDelayAttach_": false,
+                    "isUseModelOpacity_": false,
+                    "mActive": true,
+                    "mAttachModelJoint": {
+                      "mIsEnable": false,
+                      "mTargetEntity": 0,
+                      "mTargetJoint": -1
+                    },
+                    "mInheritanceTransform": "InheritAll",
+                    "mLocalMatrix": [
+                      99.99999,
+                      0,
+                      0,
+                      0,
+                      0,
+                      99.99999,
+                      0,
+                      0,
+                      0,
+                      0,
+                      99.99999,
+                      0,
+                      0,
+                      3.48157E-05,
+                      0,
+                      0.9999999
+                    ],
+                    "mName": [
+                      "",
+                      1087809082
+                    ],
+                    "mUuid": [
+                      1873370791936,
+                      3340550967875812601
+                    ],
+                    "windParamData_": {
+                      "OBBHalf_": [
+                        49.99998,
+                        49.99998,
+                        49.99998
+                      ],
+                      "coneHeight_": 1,
+                      "coneRadius_": 1,
+                      "cylinderRadius_": 1,
+                      "endCylinderPos_": [
+                        0,
+                        1,
+                        0
+                      ],
+                      "isDummyWind_": false,
+                      "isWindSpeedCurveFirst_": true,
+                      "isWindSpeedCurveSecond_": true,
+                      "reverseFlag_": false,
+                      "shakeSpeedRate_": 1,
+                      "sphereRadius_": 1,
+                      "windDirOscillationFirst_": [
+                        10,
+                        0
+                      ],
+                      "windDirOscillationSecond_": [
+                        0,
+                        15
+                      ],
+                      "windDirWavePlayTimeFirst_": 0.25,
+                      "windDirWavePlayTimeSecond_": 1,
+                      "windInterpolateSec_": 1,
+                      "windInterpolateSecUseArea_": true,
+                      "windPower_": 1,
+                      "windSpeedCurveFirst_": {
+                        "CurveFile": "curve/wind/velocity4_00.f-curve.yml",
+                        "Params": [
+                          0,
+                          1
+                        ]
+                      },
+                      "windSpeedCurveFirstPlayer_": [
+                        10
+                      ],
+                      "windSpeedCurveSecond_": {
+                        "CurveFile": "curve/wind/velocity4_01.f-curve.yml",
+                        "Params": [
+                          0,
+                          1
+                        ]
+                      },
+                      "windSpeedCurveSecondPlayer_": [
+                        6
+                      ],
+                      "windSpeedOscillationFirst_": 5,
+                      "windSpeedOscillationSecond_": 4,
+                      "windType_": 0,
+                      "windVecDeg_": [
+                        0,
+                        90,
+                        0
+                      ],
+                      "windVecQuat_": [
+                        0,
+                        0.7071067,
+                        0,
+                        0.7071068
+                      ],
+                      "windVelocity_": 10,
+                      "windWavePlayTimeFirst_": 10,
+                      "windWavePlayTimeSecond_": 6
+                    }
+                  }
+                },
+                {
+                  "WindSceneObject": {
+                    "attachDefaultActive_": true,
+                    "curvePlayer_": [
+                      10
+                    ],
+                    "disappearCurve_": {
+                      "Params": [
+                        0,
+                        1
+                      ]
+                    },
+                    "disappearLv_": 0,
+                    "disappearTime_": 0,
+                    "forPC_": true,
+                    "forPS4_": true,
+                    "forPS5_": true,
+                    "isBrokenDisppear_": false,
+                    "isDelayAttach_": false,
+                    "isUseModelOpacity_": false,
+                    "mActive": false,
+                    "mAttachModelJoint": {
+                      "mIsEnable": false,
+                      "mTargetEntity": 0,
+                      "mTargetJoint": -1
+                    },
+                    "mInheritanceTransform": "InheritAll",
+                    "mLocalMatrix": [
+                      100,
+                      0,
+                      0,
+                      0,
+                      0,
+                      100,
+                      0,
+                      0,
+                      0,
+                      0,
+                      100,
+                      0,
+                      0,
+                      0.0001392645,
+                      0,
+                      1
+                    ],
+                    "mName": [
+                      "",
+                      386395471
+                    ],
+                    "mUuid": [
+                      1217342791680,
+                      17928291751011629727
+                    ],
+                    "windParamData_": {
+                      "OBBHalf_": [
+                        49.99998,
+                        49.99998,
+                        49.99998
+                      ],
+                      "coneHeight_": 1,
+                      "coneRadius_": 1,
+                      "cylinderRadius_": 1,
+                      "endCylinderPos_": [
+                        0,
+                        1,
+                        0
+                      ],
+                      "isDummyWind_": false,
+                      "isWindSpeedCurveFirst_": true,
+                      "isWindSpeedCurveSecond_": true,
+                      "reverseFlag_": false,
+                      "shakeSpeedRate_": 1,
+                      "sphereRadius_": 1,
+                      "windDirOscillationFirst_": [
+                        5,
+                        0
+                      ],
+                      "windDirOscillationSecond_": [
+                        0,
+                        20
+                      ],
+                      "windDirWavePlayTimeFirst_": 1.5,
+                      "windDirWavePlayTimeSecond_": 2.5,
+                      "windInterpolateSec_": 1,
+                      "windInterpolateSecUseArea_": true,
+                      "windPower_": 1,
+                      "windSpeedCurveFirst_": {
+                        "CurveFile": "curve/wind/velocity1_00.f-curve.yml",
+                        "Params": [
+                          0,
+                          1
+                        ]
+                      },
+                      "windSpeedCurveFirstPlayer_": [
+                        60
+                      ],
+                      "windSpeedCurveSecond_": {
+                        "CurveFile": "curve/wind/velocity1_01.f-curve.yml",
+                        "Params": [
+                          0,
+                          1
+                        ]
+                      },
+                      "windSpeedCurveSecondPlayer_": [
+                        20
+                      ],
+                      "windSpeedOscillationFirst_": 4,
+                      "windSpeedOscillationSecond_": 2,
+                      "windType_": 0,
+                      "windVecDeg_": [
+                        0,
+                        90,
+                        0
+                      ],
+                      "windVecQuat_": [
+                        0,
+                        0.7071067,
+                        0,
+                        0.7071068
+                      ],
+                      "windVelocity_": 1.25,
+                      "windWavePlayTimeFirst_": 60,
+                      "windWavePlayTimeSecond_": 20
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

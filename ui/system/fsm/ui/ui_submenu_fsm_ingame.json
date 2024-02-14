@@ -1,0 +1,161 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 545048868,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 545048868,
+    "fromNodeGuid_": 832914376,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 832914376,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 879121191,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 592430336
+      }
+    ],
+    "toNodeGuid_": 832914376,
+    "fromNodeGuid_": 1322142405,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 853614992
+      },
+      {
+        "Element": 1208177056
+      },
+      {
+        "Element": 604753644
+      }
+    ],
+    "toNodeGuid_": 832914376,
+    "fromNodeGuid_": 1554937305,
+    "isEndTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 1
+        }
+      },
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 1322142405,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 282012137,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1554937305,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 585483069,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "ViewOpenClose": {
+    "guid_": 1937266407,
+    "parentGuid_": 832914376,
+    "views_": [
+      {
+        "Element": "SettingSubMenu"
+      }
+    ],
+    "count_": 1,
+    "layerOffset_": 1
+  },
+  "Event": {
+    "guid_": 592430336,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "OnFixSubMenu",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "Event": {
+    "guid_": 853614992,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "CloseSubMenu",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "FlowEnd": {
+    "guid_": 519702719,
+    "parentGuid_": 1554937305,
+    "result_": 1,
+    "fsmLabel_": "SubMenu"
+  },
+  "FlowEnd": {
+    "guid_": 1309497035,
+    "parentGuid_": 1322142405,
+    "result_": 0,
+    "fsmLabel_": "SubMenu"
+  },
+  "FlowParam": {
+    "guid_": 1208177056,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "fsmLabel_": "SubMenu",
+    "param_": 1
+  },
+  "IsSyncFlag": {
+    "guid_": 604753644,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "flagType_": {
+      "str_": "マッチングキャンセル",
+      "index_": 2
+    },
+    "checkType_": {
+      "str_": "",
+      "index_": 2
+    },
+    "isClear_": false,
+    "checkFlag_": true
+  }
+}

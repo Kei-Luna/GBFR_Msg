@@ -1,0 +1,285 @@
+{
+  "category_": "4",
+  "subCategory_": "2",
+  "serialNumber_": "772",
+  "difficultyHash_": "DIF_35",
+  "lv_": "0",
+  "time_": "240",
+  "lostTime_": "10",
+  "clearableTimes_": "0",
+  "mobIdHash_": "MOB0020",
+  "sortNo_": "209",
+  "multi_": {
+    "strengthValue_": "15",
+    "rcommendedCombatPower_": "2400",
+    "islandId_": "ISLAND_6ST",
+    "gameCategory_": "1",
+    "multiQuestType_": "0",
+    "location_": "LOCATION_6ST_01",
+    "enemyIds_[0]": "135168",
+    "enemyNum_[0]": "1",
+    "enemyIds_[1]": "135169",
+    "enemyNum_[1]": "1",
+    "enemyIds_[2]": "135170",
+    "enemyNum_[2]": "1",
+    "enemyIds_[3]": "135172",
+    "enemyNum_[3]": "1",
+    "enemyIds_[4]": "-1",
+    "enemyNum_[4]": "1",
+    "enemyIds_[5]": "-1",
+    "enemyNum_[5]": "1",
+    "min_": "0.255",
+    "max_": "0.795",
+    "standard_": "0.505",
+    "hasPrepareArea_": "false",
+    "isQuestStartFromBossAppear_": "false",
+    "targetDispInfo_": {
+      "textHash_": "TXT_QT_COUNTER_013",
+      "type_": "0"
+    }
+  },
+  "occurrenceList_": [
+    {
+      "type_": "1",
+      "id_": "1073154",
+      "count_": "0"
+    }
+  ],
+  "orderList_": [],
+  "successList_": [],
+  "failureText_0": "TXT_QT_PARTYDEATH",
+  "failureText_1": "TXT_QT_OBJDESTROY",
+  "reward_": {
+    "first_": "RW_402304_100",
+    "every_": "RW_402304_101",
+    "rankRewards_[0]": "RW_402304_300",
+    "rankRewards_[1]": "RW_402304_301",
+    "rankRewards_[2]": "RW_402304_302",
+    "rankRewards_[3]": "RW_402304_303",
+    "rankRewards_[4]": "RW_402304_304",
+    "rankRewards_[5]": "RW_402304_305"
+  },
+  "fsmDataList_": [
+    {
+      "name_": "メイン進行",
+      "hash_": "18094900049703026664",
+      "suffix_": "0"
+    },
+    {
+      "name_": "ビィボイス管理",
+      "hash_": "6349910961305568444",
+      "suffix_": "1"
+    },
+    {
+      "name_": "成功判定進行",
+      "hash_": "18102262612053497237",
+      "suffix_": "2"
+    },
+    {
+      "name_": "失敗判定進行",
+      "hash_": "5085202349021268547",
+      "suffix_": "3"
+    },
+    {
+      "name_": "稼ぎエネミー出現",
+      "hash_": "13066029649027231989",
+      "suffix_": "4"
+    }
+  ],
+  "targetList_": [
+    {
+      "label_": "TXT_QT_402304_1",
+      "textLabel_": "TXT_QT_DEFEND_BARRICADE",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "true",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_SM0370_00",
+      "textLabel_": "TXT_QT_SM0370_00",
+      "type_": "3",
+      "id_": "135172",
+      "count_": "1",
+      "canFail_": "false",
+      "isDisplay_": "true",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_SM0020_00",
+      "textLabel_": "TXT_QT_SM0020_00",
+      "type_": "15",
+      "id_": "0",
+      "count_": "2",
+      "canFail_": "true",
+      "isDisplay_": "true",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_SM0441_00",
+      "textLabel_": "TXT_QT_SM0441_00",
+      "type_": "7",
+      "id_": "0",
+      "count_": "0.755",
+      "canFail_": "true",
+      "isDisplay_": "true",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_RETURN_TOWN",
+      "textLabel_": "TXT_QT_RETURN_TOWN",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_402304_1",
+      "textLabel_": "TXT_QT_402304_1",
+      "type_": "3",
+      "id_": "4294967295",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "true",
+      "idIndex_": "0",
+      "udsId_": "0"
+    }
+  ],
+  "subMissions_": [
+    {
+      "target_": "TXT_QT_SM0441_00",
+      "reward_": "RW_402304_SUBM_01",
+      "firstReward_": ""
+    },
+    {
+      "target_": "TXT_QT_SM0020_00",
+      "reward_": "RW_402304_SUBM_02",
+      "firstReward_": ""
+    },
+    {
+      "target_": "TXT_QT_SM0370_00",
+      "reward_": "RW_402304_SUBM_03",
+      "firstReward_": ""
+    }
+  ],
+  "sectionSortListGuid_": [
+    {
+      "guid_": "1664869646"
+    }
+  ],
+  "lotData_": "TREASURE_CHEST_QR2",
+  "treasureData_": [
+    {
+      "data_": "RW_402304_400"
+    },
+    {
+      "data_": "RW_402304_401"
+    },
+    {
+      "data_": "RW_402304_402"
+    },
+    {
+      "data_": "RW_402304_403"
+    },
+    {
+      "data_": "RW_402304_404"
+    }
+  ],
+  "rewardRank_": "1",
+  "placementsInfo_": {
+    "treasureMaxCount_": "0",
+    "treasureMinCount_": "0",
+    "pickMaxCount_": "0",
+    "pickMinCount_": "0",
+    "searchItemMaxCount_": "0",
+    "searchItemMinCount_": "0",
+    "archiveMaxCount_": "1",
+    "archiveMinCount_": "0",
+    "multiQuestCoinMaxCount_": "1",
+    "multiQuestCoinMinCount_": "0"
+  },
+  "exPlacementFilesInfo_": {
+    "suffix_": [
+      "402304"
+    ]
+  },
+  "startEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "endEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "isConsumeAppend_": "true",
+  "consumeCounts_": [
+    "-1",
+    "-1",
+    "-1",
+    "-1"
+  ],
+  "clearTimeMax_": "0",
+  "clearTimeMin_": "0",
+  "resetTownTreasureType_": "0",
+  "specialRegulationInfo_": [],
+  "actionDropRewardList_": [],
+  "preLoadQuestFSMFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "2",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "3",
+        "names_": []
+      }
+    }
+  ],
+  "preLoadVoiceEventFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": [
+          "VT_MS20_2862",
+          "VT_MS20_3211",
+          "VT_MS20_3230"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "2",
+        "names_": [
+          "VT_MS20_3270"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "3",
+        "names_": [
+          "VT_MS20_3280"
+        ]
+      }
+    }
+  ],
+  "overrideAttribute_": "0",
+  "isBroadcastVersion_": "false"
+}

@@ -1,0 +1,162 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "SelectorNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em7400LongStepDirectionAction": {
+    "guid_": 739718725,
+    "parentGuid_": 3,
+    "checkOffsetY_": 50,
+    "checkLength_": 300,
+    "checkDirFlag_": 4294967292
+  },
+  "Em7400BlowAwaySignAction": {
+    "guid_": 214507790,
+    "parentGuid_": 3,
+    "waitSec_": 2,
+    "blowSignWaitSecR_": 0,
+    "blowSignWaitSecL_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 401546660,
+    "parentGuid_": 3,
+    "motionIdName_": "0000",
+    "isAnimEnd_": false,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 516303265,
+    "parentGuid_": 3,
+    "valueName_": "Em7400_CanPunchRock",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "Em7400PunchRockAction": {
+    "guid_": 335094514,
+    "parentGuid_": 6,
+    "posType_": 1
+  },
+  "EmResetCoolTimeAction": {
+    "guid_": 746120597,
+    "parentGuid_": 6,
+    "valueName_": "Em7400_CanStepPunchRock",
+    "isEnable_": true
+  },
+  "Em7400SetActionNoAction": {
+    "guid_": 566211419,
+    "parentGuid_": 6,
+    "actionNo_": 7
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 737551357,
+    "parentGuid_": 7,
+    "isReverseSuccess_": false,
+    "intName_": "Em7400_LongStepDirection",
+    "value_": 3,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1608745169,
+    "parentGuid_": 5,
+    "isReverseSuccess_": false,
+    "intName_": "Em7400_LongStepDirection",
+    "value_": 2,
+    "operatorType_": 0
+  },
+  "Em7400PunchRockAction": {
+    "guid_": 1019131364,
+    "parentGuid_": 8,
+    "posType_": 2
+  },
+  "EmResetCoolTimeAction": {
+    "guid_": 956356460,
+    "parentGuid_": 8,
+    "valueName_": "Em7400_CanStepPunchRock",
+    "isEnable_": true
+  },
+  "Em7400SetActionNoAction": {
+    "guid_": 806159801,
+    "parentGuid_": 8,
+    "actionNo_": 7
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em7400",
+    "subTreeName_": "step_punch_rock"
+  }
+}

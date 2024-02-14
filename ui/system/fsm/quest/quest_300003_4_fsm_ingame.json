@@ -1,0 +1,210 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1881446464,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1881446464,
+    "fromNodeGuid_": 1262353315,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1262353315,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 657311973,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1718585216
+      }
+    ],
+    "toNodeGuid_": 1262353315,
+    "fromNodeGuid_": 250210594,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 250210594,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 117963414,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 532693912
+      }
+    ],
+    "toNodeGuid_": 250210594,
+    "fromNodeGuid_": 1075689428,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 171133349
+      }
+    ],
+    "toNodeGuid_": 250210594,
+    "fromNodeGuid_": 1855020948,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1075689428,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 2001104322,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1855020948,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 70553735,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1421339256
+      }
+    ],
+    "toNodeGuid_": 1855020948,
+    "fromNodeGuid_": 1075689428,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "StartTimer": {
+    "guid_": 714150974,
+    "parentGuid_": 250210594,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 4,
+    "progressHash_": 3861978715968892806,
+    "timerId_": 0
+  },
+  "CallTalkEvent": {
+    "guid_": 862522615,
+    "parentGuid_": 1855020948,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 4,
+    "progressHash_": 3861978715968892806,
+    "groupID_": "VT_MS33_0030"
+  },
+  "RecvSignal": {
+    "guid_": 1718585216,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 4,
+    "progressHash_": 3861978715968892806,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 14127021496758928968
+      },
+      {
+        "Element": 10448304113433123372
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "CheckTimer": {
+    "guid_": 532693912,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 4,
+    "progressHash_": 3861978715968892806,
+    "isNoCheckSkip_": false,
+    "timerId_": 0,
+    "time_": 8
+  },
+  "RecvSignal": {
+    "guid_": 171133349,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 4,
+    "progressHash_": 3861978715968892806,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 14127021496758928968
+      },
+      {
+        "Element": 12612693131177563317
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "EndTalkEvent": {
+    "guid_": 1421339256,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 4,
+    "progressHash_": 3861978715968892806,
+    "isNoCheckSkip_": false,
+    "groupID_": "VT_MS33_0030"
+  }
+}

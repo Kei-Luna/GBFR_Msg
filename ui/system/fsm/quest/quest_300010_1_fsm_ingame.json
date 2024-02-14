@@ -1,0 +1,130 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1396721177,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1396721177,
+    "fromNodeGuid_": 888182468,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 888182468,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1351772846,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 34343136
+      }
+    ],
+    "toNodeGuid_": 888182468,
+    "fromNodeGuid_": 495586722,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 495586722,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 362317149,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "StartTimer": {
+    "guid_": 403700037,
+    "parentGuid_": 888182468,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 16,
+    "progressIndex_": 1,
+    "progressHash_": 4349229183842145769,
+    "timerId_": 19
+  },
+  "CheckTimer": {
+    "guid_": 34343136,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 16,
+    "progressIndex_": 1,
+    "progressHash_": 4349229183842145769,
+    "isNoCheckSkip_": false,
+    "timerId_": 19,
+    "time_": 2.5
+  },
+  "SendSignal": {
+    "guid_": 697967129,
+    "parentGuid_": 495586722,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 16,
+    "progressIndex_": 1,
+    "progressHash_": 4349229183842145769,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 15135585697410380068
+      },
+      {
+        "Element": 3306876688302618368
+      }
+    ],
+    "skipAtSectionJump_": false
+  },
+  "SendSignal": {
+    "guid_": 370430947,
+    "parentGuid_": 495586722,
+    "category_": 3,
+    "subcategory_": 0,
+    "index_": 16,
+    "progressIndex_": 1,
+    "progressHash_": 4349229183842145769,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 6879448151104085854
+      },
+      {
+        "Element": 13084493514864278141
+      }
+    ],
+    "skipAtSectionJump_": false
+  }
+}

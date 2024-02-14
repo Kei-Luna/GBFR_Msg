@@ -1,0 +1,101 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 2012754782,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 2012754782,
+    "fromNodeGuid_": 118340295,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 118340295,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1460235307,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 805963781
+      }
+    ],
+    "toNodeGuid_": 118340295,
+    "fromNodeGuid_": 2045180780,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2045180780,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 424468840,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 2045180780,
+    "fromNodeGuid_": 118340295,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "StartTimer": {
+    "guid_": 63135339,
+    "parentGuid_": 118340295,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 7,
+    "progressIndex_": 3,
+    "progressHash_": 17241239443575107238,
+    "timerId_": 0
+  },
+  "CallTalkEvent": {
+    "guid_": 537068268,
+    "parentGuid_": 2045180780,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 7,
+    "progressIndex_": 3,
+    "progressHash_": 17241239443575107238,
+    "groupID_": "VT_MS37_0570"
+  },
+  "CheckTimer": {
+    "guid_": 805963781,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 7,
+    "progressIndex_": 3,
+    "progressHash_": 17241239443575107238,
+    "isNoCheckSkip_": false,
+    "timerId_": 0,
+    "time_": 60
+  }
+}

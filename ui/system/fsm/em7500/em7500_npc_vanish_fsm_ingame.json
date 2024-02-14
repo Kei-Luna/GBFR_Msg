@@ -1,0 +1,60 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1166185402,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1166185402,
+    "fromNodeGuid_": 676758362,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 676758362,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1869418995,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 783947938
+      }
+    ],
+    "toNodeGuid_": 676758362,
+    "fromNodeGuid_": 1297502904,
+    "isEndTransition_": true,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "Em7500NpcVanishAction": {
+    "guid_": 2138779728,
+    "parentGuid_": 676758362,
+    "moveY_": 4,
+    "targetMoveTime_": 3,
+    "vanishWaitTime_": 12.8
+  },
+  "ActionEndCondition": {
+    "guid_": 783947938,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  }
+}

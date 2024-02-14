@@ -1,0 +1,171 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 772331127,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 772331127,
+    "fromNodeGuid_": 299301393,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 299301393,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1833469307
+      }
+    ],
+    "toNodeGuid_": 299301393,
+    "fromNodeGuid_": 1226620012,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1226620012,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 70763440,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2110695514
+      }
+    ],
+    "toNodeGuid_": 1226620012,
+    "fromNodeGuid_": 54382778,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 54382778,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 70763440,
+    "isBranch_": false
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1833469307,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "intName_": "ba3020_break",
+    "value_": 1,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 2110695514,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "intName_": "ba3020_break",
+    "value_": 2,
+    "operatorType_": 0
+  },
+  "SoundTriggerAction": {
+    "guid_": 1869725260,
+    "parentGuid_": 1226620012,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba3020_icicle_pillar_break",
+          "delayTime_": 0,
+          "requestId_": 1869725260,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 3,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  },
+  "SoundTriggerAction": {
+    "guid_": 683954310,
+    "parentGuid_": 54382778,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba3020_icicle_pillar_break_l",
+          "delayTime_": 0,
+          "requestId_": 683954310,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba3020_icicle_pillar_break_debri_01",
+          "delayTime_": 1.6,
+          "requestId_": 683954310,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 69,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba3020_icicle_pillar_break_debri_01",
+          "delayTime_": 2.5,
+          "requestId_": 683954310,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 21,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba3020_icicle_pillar_break_debri_02",
+          "delayTime_": 1.7,
+          "requestId_": 683954310,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 9,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba3020_icicle_pillar_break_debri_02",
+          "delayTime_": 3,
+          "requestId_": 683954310,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 25,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  }
+}

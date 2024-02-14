@@ -1,0 +1,237 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "SelectorNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 10,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "FSMNodeForBT": {
+    "guid_": 11,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "fsmFolderName_": "enemy",
+      "fsmName_": "tst_main_before_appear_companion",
+      "useBehaviorClassName_": false
+    }
+  },
+  "MotionPlayAction": {
+    "guid_": 460789033,
+    "parentGuid_": 118404300,
+    "motionIdName_": "1185",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 202188370,
+    "parentGuid_": 1919801971,
+    "motionIdName_": "1186",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0
+  },
+  "Em0500MoveToAction": {
+    "guid_": 1419416341,
+    "parentGuid_": 4,
+    "minWaitTime_": 10,
+    "checkRange_": 2,
+    "checkRangeDistanceOffset_": 0,
+    "changeRangeCondition_": 1,
+    "changeRange_": 0,
+    "skipEndMotion_": true
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 698471208,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "checkRange_": 2,
+    "operatorType_": 3,
+    "isUseRangeXZ_": true
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 1554761283,
+    "parentGuid_": 6,
+    "isReverseSuccess_": false,
+    "checkRange_": 2,
+    "operatorType_": 3,
+    "isUseRangeXZ_": false
+  },
+  "Em0500BackAction": {
+    "guid_": 1652143593,
+    "parentGuid_": 7,
+    "homingAngleFront_": 8,
+    "homingAngleLR_": 5,
+    "homingAngleBack_": 3,
+    "endSecond_": 1,
+    "movementRate_": 0.6,
+    "useDragMotion_": true,
+    "magmaConfront_": false
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 816610130,
+    "parentGuid_": 8,
+    "isReverseSuccess_": true,
+    "checkDirection_": 0,
+    "checkAngle_": 90
+  },
+  "EmTurnAction": {
+    "guid_": 203966470,
+    "parentGuid_": 9,
+    "rightMotionId_": "0062",
+    "leftMotionId_": "0063",
+    "backMotionId_": "0064",
+    "backAngle_": 60
+  },
+  "BlackBoardFloatAction": {
+    "guid_": 1962223288,
+    "parentGuid_": 9,
+    "valueName_": "Em0500_TargetHomingAngle",
+    "setTiming_": 0,
+    "value_": 2
+  },
+  "Em0500TutorialSetPointAction": {
+    "guid_": 781865709,
+    "parentGuid_": 2078011314,
+    "set_": true,
+    "pos_": [
+      462.404,
+      -63.61,
+      -13.784,
+      1
+    ]
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1692105437,
+    "parentGuid_": 2078011314,
+    "valueName_": "Em0500_IsTutorialDangerAction",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "Em0500TutorialSetPointAction": {
+    "guid_": 599911810,
+    "parentGuid_": 10,
+    "set_": false,
+    "pos_": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "BlackBoardFloatAction": {
+    "guid_": 827020965,
+    "parentGuid_": 2078011314,
+    "valueName_": "Em0500_TargetHomingAngle",
+    "setTiming_": 0,
+    "value_": 3
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em0500",
+    "subTreeName_": "tutorial"
+  }
+}

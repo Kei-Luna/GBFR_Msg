@@ -1,0 +1,265 @@
+{
+  "category_": "4",
+  "subCategory_": "2",
+  "serialNumber_": "776",
+  "difficultyHash_": "DIF_30",
+  "lv_": "0",
+  "time_": "1200",
+  "lostTime_": "0",
+  "clearableTimes_": "0",
+  "mobIdHash_": "MOB0003",
+  "sortNo_": "207",
+  "multi_": {
+    "strengthValue_": "12",
+    "rcommendedCombatPower_": "2000",
+    "islandId_": "ISLAND_5ST",
+    "gameCategory_": "7",
+    "multiQuestType_": "0",
+    "location_": "LOCATION_5ST_01",
+    "enemyIds_[0]": "135168",
+    "enemyNum_[0]": "6",
+    "overwriteStatusAndReward_[0]": "0",
+    "enemyIds_[1]": "135169",
+    "enemyNum_[1]": "3",
+    "overwriteStatusAndReward_[1]": "0",
+    "enemyIds_[2]": "135170",
+    "enemyNum_[2]": "4",
+    "overwriteStatusAndReward_[2]": "0",
+    "enemyIds_[3]": "135171",
+    "enemyNum_[3]": "1",
+    "overwriteStatusAndReward_[3]": "0",
+    "enemyIds_[4]": "135937",
+    "enemyNum_[4]": "0",
+    "overwriteStatusAndReward_[4]": "0",
+    "enemyIds_[5]": "135939",
+    "enemyNum_[5]": "0",
+    "overwriteStatusAndReward_[5]": "0",
+    "min_": "360",
+    "max_": "720",
+    "standard_": "540",
+    "hasPrepareArea_": "false",
+    "isQuestStartFromBossAppear_": "false",
+    "targetDispInfo_": {
+      "textHash_": "TXT_QT_DESTROY_EM",
+      "type_": "0"
+    }
+  },
+  "occurrenceList_": [
+    {
+      "type_": "1",
+      "id_": "1069058",
+      "count_": "0"
+    }
+  ],
+  "orderList_": [],
+  "successList_": [],
+  "failureText_0": "TXT_QT_PARTYDEATH",
+  "failureText_1": "",
+  "reward_": {
+    "first_": "RW_402308_100",
+    "every_": "RW_402308_101",
+    "rankRewards_[0]": "RW_402308_300",
+    "rankRewards_[1]": "RW_402308_301",
+    "rankRewards_[2]": "RW_402308_302",
+    "rankRewards_[3]": "RW_402308_303",
+    "rankRewards_[4]": "RW_402308_304",
+    "rankRewards_[5]": "RW_402308_305"
+  },
+  "fsmDataList_": [
+    {
+      "name_": "メイン進行",
+      "hash_": "18094900049703026664",
+      "suffix_": "0"
+    },
+    {
+      "name_": "リマインドボイス",
+      "hash_": "10628182175891789223",
+      "suffix_": "1"
+    }
+  ],
+  "targetList_": [
+    {
+      "label_": "TXT_QT_402308_1",
+      "textLabel_": "TXT_QT_DESTROY_EM",
+      "type_": "19",
+      "id_": "0",
+      "count_": "4",
+      "canFail_": "false",
+      "isDisplay_": "true",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_402308_2",
+      "textLabel_": "TXT_QT_RETURN_TOWN",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "SUB_MISSION_1",
+      "textLabel_": "TXT_QT_SM0020_00",
+      "type_": "15",
+      "id_": "0",
+      "count_": "2",
+      "canFail_": "true",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "SUB_MISSION_2",
+      "textLabel_": "TXT_QT_SM0090_00",
+      "type_": "26",
+      "id_": "0",
+      "count_": "3",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "SUB_MISSION_3",
+      "textLabel_": "TXT_QT_SM0010_00",
+      "type_": "2",
+      "id_": "0",
+      "count_": "361",
+      "canFail_": "true",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_402308_3",
+      "textLabel_": "TXT_QT_EXTRAWAVE",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    }
+  ],
+  "subMissions_": [
+    {
+      "target_": "SUB_MISSION_1",
+      "reward_": "RW_402308_SUBM_01",
+      "firstReward_": ""
+    },
+    {
+      "target_": "SUB_MISSION_2",
+      "reward_": "RW_402308_SUBM_02",
+      "firstReward_": ""
+    },
+    {
+      "target_": "SUB_MISSION_3",
+      "reward_": "RW_402308_SUBM_03",
+      "firstReward_": ""
+    }
+  ],
+  "sectionSortListGuid_": [
+    {
+      "guid_": "599105782"
+    }
+  ],
+  "lotData_": "TREASURE_CHEST_QR2",
+  "treasureData_": [
+    {
+      "data_": "RW_402308_400"
+    },
+    {
+      "data_": "RW_402308_401"
+    },
+    {
+      "data_": "RW_402308_402"
+    },
+    {
+      "data_": "RW_402308_403"
+    },
+    {
+      "data_": "RW_402308_404"
+    }
+  ],
+  "rewardRank_": "1",
+  "placementsInfo_": {
+    "treasureMaxCount_": "0",
+    "treasureMinCount_": "0",
+    "pickMaxCount_": "0",
+    "pickMinCount_": "0",
+    "searchItemMaxCount_": "0",
+    "searchItemMinCount_": "0",
+    "archiveMaxCount_": "1",
+    "archiveMinCount_": "0",
+    "multiQuestCoinMaxCount_": "1",
+    "multiQuestCoinMinCount_": "0"
+  },
+  "exPlacementFilesInfo_": {
+    "suffix_": [
+      "402308"
+    ]
+  },
+  "startEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "endEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "isConsumeAppend_": "true",
+  "consumeCounts_": [
+    "-1",
+    "-1",
+    "-1",
+    "-1"
+  ],
+  "clearTimeMax_": "0",
+  "clearTimeMin_": "0",
+  "resetTownTreasureType_": "0",
+  "specialRegulationInfo_": [],
+  "actionDropRewardList_": [],
+  "preLoadQuestFSMFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "1",
+        "names_": []
+      }
+    }
+  ],
+  "preLoadVoiceEventFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": [
+          "VT_MS20_3660",
+          "VT_MS20_2820",
+          "VT_MS20_3010",
+          "VT_MS20_2930",
+          "VT_MS20_3030",
+          "VT_MS20_3690"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "1",
+        "names_": [
+          "VT_MS20_3060"
+        ]
+      }
+    }
+  ],
+  "overrideAttribute_": "0",
+  "isBroadcastVersion_": "false"
+}

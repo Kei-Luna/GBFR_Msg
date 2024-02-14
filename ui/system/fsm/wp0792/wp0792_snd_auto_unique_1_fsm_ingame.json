@@ -1,0 +1,717 @@
+{
+  "className": "wp0791",
+  "fsmName": "snd_auto_unique_1",
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1608352151,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": 5,
+    "nameHash_": 1985494445,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "layerNo": 1,
+  "layerNo": 3,
+  "layerNo": 2,
+  "layerNo": 4,
+  "layerNo": 5,
+  "FSMNode": {
+    "guid_": 323417989,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 323417989,
+    "fromNodeGuid_": 432260552,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 295674930
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 116716089,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 116716089,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 362701793,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "FSMNode": {
+    "guid_": 432260552,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {
+    "Transition": {
+      "conditionGuid_": 0,
+      "conditionGuids_": [
+        {
+          "Element": 317913971
+        }
+      ],
+      "toNodeGuid_": 0,
+      "fromNodeGuid_": 1608352151,
+      "isEndTransition_": false,
+      "isFailedTransition_": false,
+      "params_": []
+    }
+  },
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "EnableFalseComponent": 1603408036,
+  "EnableFalseComponent": 1259687257,
+  "EnableFalseComponent": 1065180777,
+  "EnableFalseComponent": 539557743,
+  "EnableFalseComponent": 333956005,
+  "SoundTriggerAction": {
+    "guid_": 65100363,
+    "parentGuid_": 2140248538,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "wp0792_la_start",
+          "delayTime_": 0.01666667,
+          "requestId_": 65100363,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionFrames_": [
+      {
+        "Element": []
+      }
+    ],
+    "eventNames_": [
+      {
+        "Element": "wp0792_la_start"
+      }
+    ],
+    "motionNames_": [
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false,
+    "checkFrameRange_": 9999
+  },
+  "SoundTriggerAction": {
+    "guid_": 2022503730,
+    "parentGuid_": 1830825466,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "wp0792_ab_allsummon_appear",
+          "delayTime_": 0,
+          "requestId_": 2022503730,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "wp0792_ab_allsummon_rush_start",
+          "delayTime_": 0,
+          "requestId_": 2022503730,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "wp0792_ab_allsummon_rush_start",
+          "delayTime_": 0,
+          "requestId_": 2022503730,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "wp0792_ab_allsummon_rush_start",
+          "delayTime_": 0,
+          "requestId_": 2022503730,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "wp0792_ab_allsummon_rush_fin",
+          "delayTime_": 0,
+          "requestId_": 2022503730,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "wp0792_ab_allsummon_fin_jump",
+          "delayTime_": 0,
+          "requestId_": 2022503730,
+          "isEndCancel_": true,
+          "isDisable_": true,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionFrames_": [
+      {
+        "Element": [
+          {
+            "Element": 65
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 81
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 142
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 186
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 228
+          }
+        ]
+      },
+      {
+        "Element": []
+      }
+    ],
+    "eventNames_": [
+      {
+        "Element": "wp0792_ab_allsummon_appear"
+      },
+      {
+        "Element": "wp0792_ab_allsummon_rush_start"
+      },
+      {
+        "Element": "wp0792_ab_allsummon_rush_start"
+      },
+      {
+        "Element": "wp0792_ab_allsummon_rush_start"
+      },
+      {
+        "Element": "wp0792_ab_allsummon_rush_fin"
+      },
+      {
+        "Element": "wp0792_ab_allsummon_fin_jump"
+      }
+    ],
+    "motionNames_": [
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": [
+          {
+            "Element": 65
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 81
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 142
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 186
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 228
+          }
+        ]
+      },
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false,
+    "checkFrameRange_": 9999
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 317913971,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "ea80",
+          "hashValue_": 1441789293
+        }
+      }
+    ],
+    "isMaxBlendWeight_": false
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 295674930,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "ea80",
+          "hashValue_": 1441789293
+        }
+      }
+    ],
+    "isMaxBlendWeight_": false
+  },
+  "SoundTriggerAction": {
+    "guid_": 1629199998,
+    "parentGuid_": 116716089,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "wp0791_mov_emo_appear",
+          "delayTime_": 0,
+          "requestId_": 1629199998,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "wp0791_mov_emo_vanish",
+          "delayTime_": 0,
+          "requestId_": 1629199998,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "wp0791_mov_fly_s",
+          "delayTime_": 0,
+          "requestId_": 1629199998,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": true,
+    "loopDelayTime_": 0,
+    "motionFrames_": [
+      {
+        "Element": [
+          {
+            "Element": 74
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 430
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 132
+          },
+          {
+            "Element": 203
+          },
+          {
+            "Element": 236
+          },
+          {
+            "Element": 282
+          },
+          {
+            "Element": 310
+          },
+          {
+            "Element": 345
+          }
+        ]
+      }
+    ],
+    "eventNames_": [
+      {
+        "Element": "wp0791_mov_emo_appear"
+      },
+      {
+        "Element": "wp0791_mov_emo_vanish"
+      },
+      {
+        "Element": "wp0791_mov_fly_s"
+      }
+    ],
+    "motionNames_": [
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": [
+          {
+            "Element": 74
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 430
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 132
+          },
+          {
+            "Element": 203
+          },
+          {
+            "Element": 236
+          },
+          {
+            "Element": 282
+          },
+          {
+            "Element": 310
+          },
+          {
+            "Element": 345
+          }
+        ]
+      }
+    ],
+    "isEndTrigger_": false,
+    "checkFrameRange_": 9999
+  },
+  "SoundTriggerAction": {
+    "guid_": 1701105484,
+    "parentGuid_": 1224455090,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "wp0791_mov_appear",
+          "delayTime_": 0,
+          "requestId_": 1701105484,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "wp0791_mov_vanish",
+          "delayTime_": 0,
+          "requestId_": 1701105484,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "wp0791_mov_fly_s",
+          "delayTime_": 0,
+          "requestId_": 1701105484,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": true,
+    "loopDelayTime_": 0,
+    "motionFrames_": [
+      {
+        "Element": [
+          {
+            "Element": 21
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 437
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 75
+          },
+          {
+            "Element": 185
+          },
+          {
+            "Element": 224
+          },
+          {
+            "Element": 375
+          }
+        ]
+      }
+    ],
+    "eventNames_": [
+      {
+        "Element": "wp0791_mov_appear"
+      },
+      {
+        "Element": "wp0791_mov_vanish"
+      },
+      {
+        "Element": "wp0791_mov_fly_s"
+      }
+    ],
+    "motionNames_": [
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": [
+          {
+            "Element": 21
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 437
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 75
+          },
+          {
+            "Element": 185
+          },
+          {
+            "Element": 224
+          },
+          {
+            "Element": 375
+          }
+        ]
+      }
+    ],
+    "isEndTrigger_": false,
+    "checkFrameRange_": 9999
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1348443063,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1348443063,
+    "fromNodeGuid_": 1080712859,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1080712859,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1487466786,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1080712859,
+    "fromNodeGuid_": 268815001,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1809191378,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 230201723,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1584228307
+      }
+    ],
+    "toNodeGuid_": 1809191378,
+    "fromNodeGuid_": 268815001,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 268815001,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1489124150,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 55403596
+      }
+    ],
+    "toNodeGuid_": 268815001,
+    "fromNodeGuid_": 1809191378,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "BlackBoardBoolCondition": {
+    "guid_": 55403596,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "np1900_ea50_22_ON"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1584228307,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "np1900_ea50_22_OFF"
+  },
+  "RegisterBlackBoardBoolAction": {
+    "guid_": 951721126,
+    "parentGuid_": 1080712859,
+    "valueName_": "np1900_ea50_22_ON",
+    "value_": false
+  },
+  "RegisterBlackBoardBoolAction": {
+    "guid_": 653438728,
+    "parentGuid_": 1080712859,
+    "valueName_": "np1900_ea50_22_OFF",
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1079279344,
+    "parentGuid_": 1809191378,
+    "valueName_": "np1900_ea50_22_ON",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1990040596,
+    "parentGuid_": 268815001,
+    "valueName_": "np1900_ea50_22_OFF",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "EmNeckControlAction": {
+    "guid_": 40004658,
+    "parentGuid_": 1809191378,
+    "isEnable_": false,
+    "isEndEnable_": false
+  },
+  "EmNeckControlAction": {
+    "guid_": 2038328401,
+    "parentGuid_": 268815001,
+    "isEnable_": true,
+    "isEndEnable_": true
+  },
+  "MotionPlayAction": {
+    "guid_": 944426007,
+    "parentGuid_": 268815001,
+    "motionIdName_": "ea02",
+    "isAnimEnd_": false,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1
+  },
+  "MotionPlayAction": {
+    "guid_": 1699072579,
+    "parentGuid_": 1809191378,
+    "motionIdName_": "ea06",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1
+  }
+}

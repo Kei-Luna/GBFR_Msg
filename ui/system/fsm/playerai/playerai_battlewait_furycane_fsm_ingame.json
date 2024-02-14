@@ -1,0 +1,107 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1741059597,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 141420196
+      }
+    ],
+    "toNodeGuid_": 1741059597,
+    "fromNodeGuid_": 1685636941,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1685636941,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1130554777
+      }
+    ],
+    "toNodeGuid_": 1685636941,
+    "fromNodeGuid_": 1747997368,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1747997368,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 349992813
+      }
+    ],
+    "toNodeGuid_": 1747997368,
+    "fromNodeGuid_": 1988410498,
+    "isEndTransition_": true,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "AIBattleWaitAction": {
+    "guid_": 833351820,
+    "parentGuid_": 1685636941,
+    "frontMoveTime_": 5,
+    "sideMoveTime_": 5,
+    "type_": 1,
+    "moveRandomTimeMin_": 0,
+    "moveRandomTimeMax_": 3
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1813453508,
+    "parentGuid_": 1747997368,
+    "valueName_": "PlayerAI_SetBattleWaitMode",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "AIBattleSequenceCondition": {
+    "guid_": 141420196,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "flagType_": 3
+  },
+  "ActionEndCondition": {
+    "guid_": 1130554777,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "ActionEndCondition": {
+    "guid_": 349992813,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  }
+}

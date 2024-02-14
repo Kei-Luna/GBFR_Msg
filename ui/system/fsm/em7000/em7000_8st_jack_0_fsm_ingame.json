@@ -1,0 +1,59 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 698497678,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 698497678,
+    "fromNodeGuid_": 496629349,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 496629349,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "EmAlphaAction": {
+    "guid_": 807473596,
+    "parentGuid_": 496629349,
+    "alphaSec_": 0,
+    "startAlphaRate_": 1,
+    "endAlphaRate_": 1,
+    "alphaEffectObjId_": 8126464,
+    "alphaEffectId_": -1,
+    "delaySec_": 0,
+    "delayRandomAddSec_": 0,
+    "effectObjId_": 8126464,
+    "effectId_": -1
+  },
+  "MotionPlayAction": {
+    "guid_": 390938870,
+    "parentGuid_": 496629349,
+    "motionIdName_": "5000",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0
+  }
+}

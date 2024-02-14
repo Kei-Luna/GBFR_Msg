@@ -1,0 +1,171 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1366680200,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1366680200,
+    "fromNodeGuid_": 369248127,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 369248127,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 902318900,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1076157001
+      }
+    ],
+    "toNodeGuid_": 369248127,
+    "fromNodeGuid_": 391622213,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1523235306
+      }
+    ],
+    "toNodeGuid_": 369248127,
+    "fromNodeGuid_": 796369931,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 391622213,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1000581093,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 391622213,
+    "fromNodeGuid_": 369248127,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 796369931,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1020581633,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 351559709
+      }
+    ],
+    "toNodeGuid_": 796369931,
+    "fromNodeGuid_": 369248127,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CheckTimer": {
+    "guid_": 2086279054,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 14,
+    "progressHash_": 15044793311665407189,
+    "isNoCheckSkip_": false,
+    "timerId_": 5,
+    "time_": 60
+  },
+  "StartTimer": {
+    "guid_": 1177289350,
+    "parentGuid_": 369248127,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 14,
+    "progressHash_": 15044793311665407189,
+    "timerId_": 5
+  },
+  "CallTalkEvent": {
+    "guid_": 1182727737,
+    "parentGuid_": 796369931,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 14,
+    "progressHash_": 15044793311665407189,
+    "groupID_": "VT_MS07_1310"
+  },
+  "CheckForKeyOperation": {
+    "guid_": 1076157001,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 14,
+    "progressHash_": 15044793311665407189,
+    "isNoCheckSkip_": false
+  },
+  "CheckTimer": {
+    "guid_": 1523235306,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 14,
+    "progressHash_": 15044793311665407189,
+    "isNoCheckSkip_": false,
+    "timerId_": 5,
+    "time_": 30
+  },
+  "EndTalkEvent": {
+    "guid_": 351559709,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 14,
+    "progressHash_": 15044793311665407189,
+    "isNoCheckSkip_": false,
+    "groupID_": "VT_MS07_1310",
+    "useQuestParameter_": false,
+    "questParameterName_": "",
+    "questParameterHash_": 0
+  }
+}

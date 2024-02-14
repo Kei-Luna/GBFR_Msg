@@ -1,0 +1,132 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SequencerNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "RandomSelectorNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "childNodeRatio0_": 0,
+      "childNodeRatio1_": 0,
+      "childNodeRatio2_": 0,
+      "childNodeRatio3_": 0,
+      "childNodeRatio4_": 0,
+      "childNodeRatio5_": 0,
+      "childNodeRatio6_": 0,
+      "childNodeRatio7_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "RandomSelectorNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "childNodeRatio0_": 0,
+      "childNodeRatio1_": 0,
+      "childNodeRatio2_": 0,
+      "childNodeRatio3_": 0,
+      "childNodeRatio4_": 0,
+      "childNodeRatio5_": 0,
+      "childNodeRatio6_": 0,
+      "childNodeRatio7_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em0102WideSlashAttackAction": {
+    "guid_": 872093614,
+    "parentGuid_": 4,
+    "slashDir_": 0,
+    "motionStartFrame_": 0,
+    "motionEndFrame_": 260,
+    "motionInterpFrame_": 90
+  },
+  "Em0102WideSlashAttackAction": {
+    "guid_": 1739024938,
+    "parentGuid_": 5,
+    "slashDir_": 1,
+    "motionStartFrame_": 0,
+    "motionEndFrame_": 260,
+    "motionInterpFrame_": 90
+  },
+  "Em0102WideSlashAttackAction": {
+    "guid_": 137885291,
+    "parentGuid_": 7,
+    "slashDir_": 0,
+    "motionStartFrame_": 60,
+    "motionEndFrame_": -1,
+    "motionInterpFrame_": -1
+  },
+  "Em0102WideSlashAttackAction": {
+    "guid_": 1915793581,
+    "parentGuid_": 8,
+    "slashDir_": 1,
+    "motionStartFrame_": 60,
+    "motionEndFrame_": -1,
+    "motionInterpFrame_": -1
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1062900224,
+    "parentGuid_": 4,
+    "valueName_": "Em0102_CanWideSlash",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1180546934,
+    "parentGuid_": 5,
+    "valueName_": "Em0102_CanWideSlash",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em0102",
+    "subTreeName_": "wide_slash_combo"
+  }
+}

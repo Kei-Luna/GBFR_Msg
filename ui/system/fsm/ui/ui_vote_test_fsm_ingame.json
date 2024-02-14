@@ -1,0 +1,85 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1331890057,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1331890057,
+    "fromNodeGuid_": 2102612890,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2102612890,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 258657531
+      }
+    ],
+    "toNodeGuid_": 2102612890,
+    "fromNodeGuid_": 522357011,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 522357011,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "ViewSetup": {
+    "guid_": 835023125,
+    "parentGuid_": 2102612890,
+    "infos_": [
+      {
+        "Element": {
+          "view_": "VoteTest",
+          "layerNo_": 0
+        }
+      }
+    ],
+    "count_": 1
+  },
+  "FlowEnd": {
+    "guid_": 238498505,
+    "parentGuid_": 522357011,
+    "result_": 0,
+    "fsmLabel_": "VoteTest"
+  },
+  "Event": {
+    "guid_": 258657531,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "ToExit",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  }
+}

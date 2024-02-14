@@ -1,0 +1,163 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "SelectorNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SequencerNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1471270521,
+    "parentGuid_": 4,
+    "isReverseSuccess_": false,
+    "intName_": "Em_AppearType",
+    "value_": 200,
+    "operatorType_": 0
+  },
+  "BehaviorBeginActingAction": {
+    "guid_": 828118888,
+    "parentGuid_": 7,
+    "animationId_": "9000",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "startFrame_": -1,
+    "interFrame_": -1,
+    "secondOfCorrectAnimationSpeed_": 0,
+    "speedRate_": 1,
+    "animationSlotNo_": 0,
+    "isCorrectTransform_": false,
+    "correctElement_": 2,
+    "targetPosition_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "targetRotation_": [
+      -179.9999,
+      -89.99995,
+      -179.9999,
+      1
+    ],
+    "correctTransformSecond_": 0,
+    "easingType_": 0,
+    "isEnableCameraAnimation_": true,
+    "cameraAnimationUsageSecond_": 0
+  },
+  "BehaviorBeginActingAction": {
+    "guid_": 69197748,
+    "parentGuid_": 8,
+    "animationId_": "9001",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "startFrame_": -1,
+    "interFrame_": -1,
+    "secondOfCorrectAnimationSpeed_": 0,
+    "speedRate_": 1,
+    "animationSlotNo_": 0,
+    "isCorrectTransform_": false,
+    "correctElement_": 0,
+    "targetPosition_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "targetRotation_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "correctTransformSecond_": 0,
+    "easingType_": 0,
+    "isEnableCameraAnimation_": true,
+    "cameraAnimationUsageSecond_": 0
+  },
+  "EmExitAppearAction": {
+    "guid_": 1557986746,
+    "parentGuid_": 8,
+    "isAlwaysRun_": false,
+    "isContinueAppear_": false,
+    "afterType_": -1
+  },
+  "EmCameraAlphaAction": {
+    "guid_": 18302139,
+    "parentGuid_": 7,
+    "isIgnore_": true,
+    "isSetStart_": true
+  },
+  "EmCameraAlphaAction": {
+    "guid_": 98446051,
+    "parentGuid_": 8,
+    "isIgnore_": true,
+    "isSetStart_": false
+  },
+  "EmLockonActivate": {
+    "guid_": 1784320328,
+    "parentGuid_": 7,
+    "activateTiming_": 0,
+    "isActivate_": false
+  },
+  "EmLockonActivate": {
+    "guid_": 954475174,
+    "parentGuid_": 8,
+    "activateTiming_": 1,
+    "isActivate_": true
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em0500",
+    "subTreeName_": "appearfatequest"
+  }
+}

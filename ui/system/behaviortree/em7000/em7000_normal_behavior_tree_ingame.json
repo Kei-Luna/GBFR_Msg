@@ -1,0 +1,303 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SequencerNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SequencerNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "SequencerNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em7000EnergyBallAction": {
+    "guid_": 232939066,
+    "parentGuid_": 4,
+    "sideIndex_": 0,
+    "delaySecond_": 0.05,
+    "lockOnListParam_": {
+      "params_": []
+    }
+  },
+  "Em7000MoveAround": {
+    "guid_": 1106790587,
+    "parentGuid_": 6,
+    "moveAroundAnimationInterSec_": 0.2,
+    "sideIndex_": 0,
+    "lockOnListParam_": {
+      "params_": []
+    }
+  },
+  "Em7000AttackComboAction": {
+    "guid_": 624743135,
+    "parentGuid_": 8,
+    "firstAnimationInterSec_": 0.2,
+    "laterAnimationInterSec_": 0.3,
+    "sideIndex_": 1,
+    "isMotCancel_": true,
+    "lockOnListParams_": [
+      {
+        "Element": {
+          "params_": []
+        }
+      },
+      {
+        "Element": {
+          "params_": []
+        }
+      },
+      {
+        "Element": {
+          "params_": [
+            {
+              "Element": {
+                "frame_": 180,
+                "partsNo_": 289,
+                "isEnable_": true
+              }
+            },
+            {
+              "Element": {
+                "frame_": 180,
+                "partsNo_": 545,
+                "isEnable_": true
+              }
+            },
+            {
+              "Element": {
+                "frame_": 180,
+                "partsNo_": 3,
+                "isEnable_": false
+              }
+            },
+            {
+              "Element": {
+                "frame_": 490,
+                "partsNo_": 289,
+                "isEnable_": false
+              }
+            },
+            {
+              "Element": {
+                "frame_": 490,
+                "partsNo_": 545,
+                "isEnable_": false
+              }
+            },
+            {
+              "Element": {
+                "frame_": 488,
+                "partsNo_": 3,
+                "isEnable_": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "Em7000LaserAction": {
+    "guid_": 1932837793,
+    "parentGuid_": 9,
+    "animationInterSec_": 0.2,
+    "atkRate_": 1,
+    "textShowSec_": -1,
+    "lockOnListParams_": [
+      {
+        "Element": {
+          "params_": []
+        }
+      },
+      {
+        "Element": {
+          "params_": []
+        }
+      },
+      {
+        "Element": {
+          "params_": [
+            {
+              "Element": {
+                "frame_": 400,
+                "partsNo_": 3,
+                "isEnable_": false
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "BlackBoardIntAction": {
+    "guid_": 1005723045,
+    "parentGuid_": 9,
+    "valueName_": "Em7000_Phase",
+    "setTiming_": 1,
+    "value_": 2
+  },
+  "Em7000AttackComboAction": {
+    "guid_": 750897688,
+    "parentGuid_": 5,
+    "firstAnimationInterSec_": 0.2,
+    "laterAnimationInterSec_": 0.3,
+    "sideIndex_": 0,
+    "isMotCancel_": false,
+    "lockOnListParams_": [
+      {
+        "Element": {
+          "params_": [
+            {
+              "Element": {
+                "frame_": 190,
+                "partsNo_": 3,
+                "isEnable_": false
+              }
+            },
+            {
+              "Element": {
+                "frame_": 190,
+                "partsNo_": 289,
+                "isEnable_": true
+              }
+            },
+            {
+              "Element": {
+                "frame_": 370,
+                "partsNo_": 3,
+                "isEnable_": true
+              }
+            },
+            {
+              "Element": {
+                "frame_": 370,
+                "partsNo_": 289,
+                "isEnable_": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "params_": []
+        }
+      },
+      {
+        "Element": {
+          "params_": []
+        }
+      }
+    ]
+  },
+  "TimerAction": {
+    "guid_": 2019328805,
+    "parentGuid_": 9,
+    "waitTimeSeconds_": 30,
+    "randomSeconds_": 0
+  },
+  "BlackBoardIntAction": {
+    "guid_": 321076361,
+    "parentGuid_": 4,
+    "valueName_": "Em7000_ActionNo",
+    "setTiming_": 0,
+    "value_": 200
+  },
+  "BlackBoardIntAction": {
+    "guid_": 692220562,
+    "parentGuid_": 5,
+    "valueName_": "Em7000_ActionNo",
+    "setTiming_": 0,
+    "value_": 210
+  },
+  "BlackBoardIntAction": {
+    "guid_": 2083467725,
+    "parentGuid_": 6,
+    "valueName_": "Em7000_ActionNo",
+    "setTiming_": 0,
+    "value_": 220
+  },
+  "BlackBoardIntAction": {
+    "guid_": 695302520,
+    "parentGuid_": 8,
+    "valueName_": "Em7000_ActionNo",
+    "setTiming_": 0,
+    "value_": 300
+  },
+  "BlackBoardIntAction": {
+    "guid_": 1619768179,
+    "parentGuid_": 9,
+    "valueName_": "Em7000_ActionNo",
+    "setTiming_": 0,
+    "value_": 310
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 2050833612,
+    "parentGuid_": 9,
+    "valueName_": "Em7000_goPhase2",
+    "setTiming_": 1,
+    "value_": true
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em7000",
+    "subTreeName_": "normal"
+  }
+}

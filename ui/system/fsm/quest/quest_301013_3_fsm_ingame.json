@@ -1,0 +1,111 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1214141274,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1214141274,
+    "fromNodeGuid_": 1634148422,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1634148422,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1460235307,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1634148422,
+    "fromNodeGuid_": 945261633,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 743761484,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 2029276175,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 945261633,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 327049633,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1376221118
+      }
+    ],
+    "toNodeGuid_": 945261633,
+    "fromNodeGuid_": 743761484,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "StartTimer": {
+    "guid_": 1934287827,
+    "parentGuid_": 945261633,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 19,
+    "progressIndex_": 3,
+    "progressHash_": 5367579197355451473,
+    "timerId_": 8
+  },
+  "CallTalkEvent": {
+    "guid_": 1742092917,
+    "parentGuid_": 743761484,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 19,
+    "progressIndex_": 3,
+    "progressHash_": 5367579197355451473,
+    "groupID_": "VT_MS43_0600"
+  },
+  "CheckTimer": {
+    "guid_": 1376221118,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 19,
+    "progressIndex_": 3,
+    "progressHash_": 5367579197355451473,
+    "isNoCheckSkip_": false,
+    "timerId_": 8,
+    "time_": 30
+  }
+}

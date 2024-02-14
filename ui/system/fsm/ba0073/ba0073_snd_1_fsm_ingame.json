@@ -1,0 +1,67 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1132661732,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1132661732,
+    "fromNodeGuid_": 1614261910,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1614261910,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SoundOneVelAutoTriggerAction": {
+    "guid_": 1175675614,
+    "parentGuid_": 1614261910,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba0073_woodship_s_drive_m",
+          "delayTime_": 0,
+          "requestId_": 1175675614,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "chasePartsNo_": 0,
+    "useSocket_": false,
+    "useLocal_": false,
+    "stopVel_": 0,
+    "moveVel_": -1,
+    "limitCount_": 1,
+    "coolTime_": -1,
+    "waitTime_": 0,
+    "isMoveTrigger_": true,
+    "isStartTrigger_": true,
+    "gameParamName_": "GP_Object_Speed"
+  }
+}

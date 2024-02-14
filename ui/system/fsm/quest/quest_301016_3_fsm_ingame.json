@@ -1,0 +1,107 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1832378016,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1832378016,
+    "fromNodeGuid_": 1339967443,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1339967443,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1351772846,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 323151990
+      }
+    ],
+    "toNodeGuid_": 1339967443,
+    "fromNodeGuid_": 994136204,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 994136204,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1279136799,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CallTalkEvent": {
+    "guid_": 1330592912,
+    "parentGuid_": 994136204,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 22,
+    "progressIndex_": 3,
+    "progressHash_": 16300989470561179244,
+    "groupID_": "VT_MS46_0560",
+    "delay_": 0
+  },
+  "EndFsm": {
+    "guid_": 714938058,
+    "parentGuid_": 994136204,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 22,
+    "progressIndex_": 3,
+    "progressHash_": 16300989470561179244,
+    "fsmDataNo_": 4,
+    "fsmProgressHash_": 4776585428061807395
+  },
+  "RecvSignal": {
+    "guid_": 323151990,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 3,
+    "subcategory_": 1,
+    "index_": 22,
+    "progressIndex_": 3,
+    "progressHash_": 16300989470561179244,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 17472085769518395853
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

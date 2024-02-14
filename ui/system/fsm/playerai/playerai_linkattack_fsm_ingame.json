@@ -1,0 +1,170 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1932020717,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1932020717,
+    "fromNodeGuid_": 215938705,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2087373152,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1986595197,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 146531660
+      }
+    ],
+    "toNodeGuid_": 2087373152,
+    "fromNodeGuid_": 344920976,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 215938705,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 143323481,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1198071758
+      }
+    ],
+    "toNodeGuid_": 215938705,
+    "fromNodeGuid_": 2087373152,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 421401463
+      }
+    ],
+    "toNodeGuid_": 215938705,
+    "fromNodeGuid_": 344920976,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 344920976,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 655728878,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 344920976,
+    "fromNodeGuid_": 1054815823,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "AIBattleLinkAttackAction": {
+    "guid_": 477502938,
+    "parentGuid_": 2087373152
+  },
+  "AIMoveAction": {
+    "guid_": 633285125,
+    "parentGuid_": 215938705,
+    "type_": 3,
+    "dist_": 15,
+    "useBlackBoardValue_": true,
+    "boolName_": "PlayerAI_LinkAttackRange",
+    "isCheckCollision_": false,
+    "positionBBName_": "PlayerAI_TargetPoint",
+    "positionHashValue_": 0,
+    "position_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "isSetPosition_": false,
+    "isSmoothPass_": false,
+    "smoothRate_": 1,
+    "sideLength_": 0,
+    "dashLength_": 99999.9,
+    "randomLength_": 0,
+    "randomChangeTime_": 3,
+    "randomChangeAddTime_": 5,
+    "minMoveTime_": 0
+  },
+  "ActionEndCondition": {
+    "guid_": 1198071758,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "AIBattleObjectAliveCondition": {
+    "guid_": 421401463,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "type_": 2
+  },
+  "AIBattleSequenceCondition": {
+    "guid_": 146531660,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "flagType_": 3
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1389297330,
+    "parentGuid_": 344920976,
+    "valueName_": "PlayerAI_SetBattleWaitMode",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1845460068,
+    "parentGuid_": 344920976,
+    "valueName_": "PlayerAI_IsLinkAttack",
+    "setTiming_": 0,
+    "value_": false
+  }
+}

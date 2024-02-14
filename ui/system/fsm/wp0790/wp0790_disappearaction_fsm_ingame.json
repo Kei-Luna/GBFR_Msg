@@ -1,0 +1,208 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 2044513360,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 2044513360,
+    "fromNodeGuid_": 2127557768,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2014317862
+      },
+      {
+        "Element": 316147936
+      },
+      {
+        "Element": 1626102836
+      },
+      {
+        "Element": 948644322
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1018089312,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      },
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      },
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 2127557768,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1225700139,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 56782082
+      }
+    ],
+    "toNodeGuid_": 2127557768,
+    "fromNodeGuid_": 474391856,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 474391856,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1613916474,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 474391856,
+    "fromNodeGuid_": 41278832,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1018089312,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1018089312,
+    "fromNodeGuid_": 41278832,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "ActionEndCondition": {
+    "guid_": 56782082,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "Pl0700Ghost_DisappearAction": {
+    "guid_": 999479740,
+    "parentGuid_": 2127557768
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 775640438,
+    "parentGuid_": 474391856,
+    "valueName_": "Hide",
+    "setTiming_": 0,
+    "value_": true
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1844575996,
+    "parentGuid_": 474391856,
+    "valueName_": "ShowVFX",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 784337500,
+    "parentGuid_": 474391856,
+    "valueName_": "IsForceDisappear",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 424965260,
+    "parentGuid_": 2127557768,
+    "valueName_": "IsDisappearing",
+    "setTiming_": 0,
+    "value_": true
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1711748247,
+    "parentGuid_": 474391856,
+    "valueName_": "IsDisappearing",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1059165556,
+    "parentGuid_": 1018089312,
+    "valueName_": "IsDisappearing",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 2014317862,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "IsLinkAttack"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 316147936,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "IsFinishAttack"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1626102836,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "IsFerryAction"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 948644322,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "boolName_": "IsForceDisappear"
+  }
+}

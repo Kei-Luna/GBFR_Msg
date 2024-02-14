@@ -1,0 +1,108 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 793229383,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 793229383,
+    "fromNodeGuid_": 176250407,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 176250407,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 633974028
+      }
+    ],
+    "toNodeGuid_": 176250407,
+    "fromNodeGuid_": 345064532,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 345064532,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 633974028,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0020",
+          "hashValue_": 1051567856
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0030",
+          "hashValue_": 666277809
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0040",
+          "hashValue_": 1761018230
+        }
+      },
+      {
+        "Element": {
+          "motionId_": "0050",
+          "hashValue_": 1911304247
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 409522690,
+    "parentGuid_": 345064532,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba515x_stone_l_debri_l",
+          "delayTime_": 0,
+          "requestId_": 409522690,
+          "isEndCancel_": true,
+          "partsNo_": 0,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  }
+}

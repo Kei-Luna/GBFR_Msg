@@ -1,0 +1,313 @@
+{
+  "category_": "4",
+  "subCategory_": "2",
+  "serialNumber_": "769",
+  "difficultyHash_": "DIF_25",
+  "lv_": "0",
+  "time_": "240",
+  "lostTime_": "10",
+  "clearableTimes_": "0",
+  "mobIdHash_": "MOB0005",
+  "sortNo_": "204",
+  "multi_": {
+    "strengthValue_": "10",
+    "rcommendedCombatPower_": "1600",
+    "islandId_": "ISLAND_4ST",
+    "gameCategory_": "4",
+    "multiQuestType_": "0",
+    "location_": "LOCATION_4ST_01",
+    "enemyIds_[0]": "140800",
+    "enemyNum_[0]": "1",
+    "overwriteStatusAndReward_[0]": "0",
+    "enemyIds_[1]": "131328",
+    "enemyNum_[1]": "24",
+    "overwriteStatusAndReward_[1]": "0",
+    "enemyIds_[2]": "131840",
+    "enemyNum_[2]": "4",
+    "overwriteStatusAndReward_[2]": "0",
+    "enemyIds_[3]": "133122",
+    "enemyNum_[3]": "0",
+    "overwriteStatusAndReward_[3]": "0",
+    "enemyIds_[4]": "-1",
+    "enemyNum_[4]": "0",
+    "overwriteStatusAndReward_[4]": "0",
+    "enemyIds_[5]": "-1",
+    "enemyNum_[5]": "0",
+    "overwriteStatusAndReward_[5]": "0",
+    "min_": "40",
+    "max_": "80",
+    "standard_": "60",
+    "hasPrepareArea_": "false",
+    "isQuestStartFromBossAppear_": "false",
+    "targetDispInfo_": {
+      "textHash_": "TXT_QT_COUNTER_004",
+      "type_": "0"
+    }
+  },
+  "occurrenceList_": [
+    {
+      "type_": "1",
+      "id_": "1064962",
+      "count_": "0"
+    }
+  ],
+  "orderList_": [],
+  "successList_": [],
+  "failureText_0": "TXT_QT_PARTYDEATH",
+  "failureText_1": "",
+  "reward_": {
+    "first_": "RW_402301_100",
+    "every_": "RW_402301_101",
+    "rankRewards_[0]": "RW_402301_300",
+    "rankRewards_[1]": "RW_402301_301",
+    "rankRewards_[2]": "RW_402301_302",
+    "rankRewards_[3]": "RW_402301_303",
+    "rankRewards_[4]": "RW_402301_304",
+    "rankRewards_[5]": "RW_402301_305"
+  },
+  "fsmDataList_": [
+    {
+      "name_": "メイン進行",
+      "hash_": "18094900049703026664",
+      "suffix_": "0"
+    },
+    {
+      "name_": "コブラ制御",
+      "hash_": "10723367096667603991",
+      "suffix_": "1"
+    },
+    {
+      "name_": "スライム管理",
+      "hash_": "12120713826593469961",
+      "suffix_": "2"
+    },
+    {
+      "name_": "エネミー管理",
+      "hash_": "6671916997558143715",
+      "suffix_": "3"
+    },
+    {
+      "name_": "プリズミックスライム用ボイス",
+      "hash_": "1389029844418173002",
+      "suffix_": "4"
+    }
+  ],
+  "targetList_": [
+    {
+      "label_": "TXT_QT_403302_1",
+      "textLabel_": "TXT_QT_BEAT_ABLE",
+      "type_": "3",
+      "id_": "4294967295",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "true",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "SUB_MISSION_1",
+      "textLabel_": "TXT_QT_SM0390_00",
+      "type_": "3",
+      "id_": "4294967295",
+      "count_": "50",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "SUB_MISSION_2",
+      "textLabel_": "TXT_QT_SM0090_00",
+      "type_": "26",
+      "id_": "0",
+      "count_": "4",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "SUB_MISSION_3",
+      "textLabel_": "TXT_QT_SM0370_00",
+      "type_": "3",
+      "id_": "140800",
+      "count_": "7",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    },
+    {
+      "label_": "TXT_QT_401301_2",
+      "textLabel_": "TXT_QT_RETURN_TOWN",
+      "type_": "0",
+      "id_": "0",
+      "count_": "0",
+      "canFail_": "false",
+      "isDisplay_": "false",
+      "idIndex_": "0",
+      "udsId_": "0"
+    }
+  ],
+  "subMissions_": [
+    {
+      "target_": "SUB_MISSION_1",
+      "reward_": "RW_402301_SUBM_01",
+      "firstReward_": ""
+    },
+    {
+      "target_": "SUB_MISSION_2",
+      "reward_": "RW_402301_SUBM_02",
+      "firstReward_": ""
+    },
+    {
+      "target_": "SUB_MISSION_3",
+      "reward_": "RW_402301_SUBM_03",
+      "firstReward_": ""
+    }
+  ],
+  "sectionSortListGuid_": [
+    {
+      "guid_": "1285474749"
+    }
+  ],
+  "lotData_": "TREASURE_CHEST_QR2",
+  "treasureData_": [
+    {
+      "data_": "RW_402301_400"
+    },
+    {
+      "data_": "RW_402301_401"
+    },
+    {
+      "data_": "RW_402301_402"
+    },
+    {
+      "data_": "RW_402301_403"
+    },
+    {
+      "data_": "RW_402301_404"
+    }
+  ],
+  "rewardRank_": "1",
+  "placementsInfo_": {
+    "treasureMaxCount_": "0",
+    "treasureMinCount_": "0",
+    "pickMaxCount_": "0",
+    "pickMinCount_": "0",
+    "searchItemMaxCount_": "0",
+    "searchItemMinCount_": "0",
+    "archiveMaxCount_": "1",
+    "archiveMinCount_": "0",
+    "multiQuestCoinMaxCount_": "1",
+    "multiQuestCoinMinCount_": "0"
+  },
+  "exPlacementFilesInfo_": {
+    "suffix_": [
+      "402301"
+    ]
+  },
+  "startEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "endEventInfo_": {
+    "id_": "0",
+    "type_": "0"
+  },
+  "isConsumeAppend_": "true",
+  "consumeCounts_": [
+    "-1",
+    "-1",
+    "-1",
+    "-1"
+  ],
+  "clearTimeMax_": "0",
+  "clearTimeMin_": "0",
+  "resetTownTreasureType_": "0",
+  "specialRegulationInfo_": [],
+  "actionDropRewardList_": [],
+  "preLoadQuestFSMFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "1",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "2",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "3",
+        "names_": []
+      }
+    },
+    {
+      "info_": {
+        "index_": "4",
+        "names_": []
+      }
+    }
+  ],
+  "preLoadVoiceEventFileInfos_": [
+    {
+      "info_": {
+        "index_": "0",
+        "names_": [
+          "VT_MS20_2810",
+          "VT_MS20_3010",
+          "VT_MS20_3670",
+          "VT_MS20_3680",
+          "VT_MS20_3690"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "1",
+        "names_": [
+          "VT_MS20_2660"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "2",
+        "names_": [
+          "VT_MS20_3710",
+          "VT_MS20_3840"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "3",
+        "names_": [
+          "VT_MS20_2820",
+          "VT_MS20_2660"
+        ]
+      }
+    },
+    {
+      "info_": {
+        "index_": "4",
+        "names_": [
+          "VT_MS20_3850",
+          "VT_MS20_3860"
+        ]
+      }
+    }
+  ],
+  "overrideAttribute_": "0",
+  "isBroadcastVersion_": "false"
+}

@@ -1,0 +1,239 @@
+{
+  "FSMNode": {
+    "guid_": 1456693350,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1456693350,
+    "fromNodeGuid_": 1507211409,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1507211409,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1568057001
+      }
+    ],
+    "toNodeGuid_": 1507211409,
+    "fromNodeGuid_": 1949814591,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 213685897
+      }
+    ],
+    "toNodeGuid_": 1507211409,
+    "fromNodeGuid_": 675736144,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1949814591,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1318119759
+      }
+    ],
+    "toNodeGuid_": 1949814591,
+    "fromNodeGuid_": 988062866,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 988062866,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1997641645
+      }
+    ],
+    "toNodeGuid_": 988062866,
+    "fromNodeGuid_": 1408344043,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1336287296
+      }
+    ],
+    "toNodeGuid_": 988062866,
+    "fromNodeGuid_": 675736144,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1408344043,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 605968622
+      }
+    ],
+    "toNodeGuid_": 1408344043,
+    "fromNodeGuid_": 1507211409,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 675736144,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 240136059,
+    "parentGuid_": 1949814591,
+    "motionIdName_": "0010",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "interTime_": -1,
+    "speedRate_": 1
+  },
+  "MotionPlayAction": {
+    "guid_": 348930001,
+    "parentGuid_": 1507211409,
+    "motionIdName_": "0000",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "interTime_": -1,
+    "speedRate_": 1
+  },
+  "MotionPlayAction": {
+    "guid_": 919653849,
+    "parentGuid_": 988062866,
+    "motionIdName_": "0001",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "interTime_": -1,
+    "speedRate_": 1
+  },
+  "MotionPlayAction": {
+    "guid_": 1870756692,
+    "parentGuid_": 1408344043,
+    "motionIdName_": "0010",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "interTime_": 1,
+    "speedRate_": -1
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1568057001,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "Ba_BaSoldierPopPillar_OpenRequest"
+  },
+  "ActionEndCondition": {
+    "guid_": 605968622,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "ActionEndCondition": {
+    "guid_": 1770894483,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 552813420,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "Ba_BaSoldierPopPillar_CloseRequest"
+  },
+  "ActionEndCondition": {
+    "guid_": 1318119759,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1997641645,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "Ba_BaSoldierPopPillar_CloseRequest"
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1659247315,
+    "parentGuid_": 1949814591,
+    "valueName_": "Ba_BaSoldierPopPillar_OpenRequest",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 737457550,
+    "parentGuid_": 1408344043,
+    "valueName_": "Ba_BaSoldierPopPillar_CloseRequest",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1200889104,
+    "parentGuid_": 988062866,
+    "valueName_": "Ba_BaSoldierPopPillar_IsOpened",
+    "setTiming_": 0,
+    "value_": true
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1991064642,
+    "parentGuid_": 988062866,
+    "valueName_": "Ba_BaSoldierPopPillar_IsOpened",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 213685897,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "Ba_BaSoldierPopPillar_IsBreak"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1336287296,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "Ba_BaSoldierPopPillar_IsBreak"
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 827130055,
+    "parentGuid_": 675736144,
+    "valueName_": "Ba_BaSoldierPopPillar_IsOpened",
+    "setTiming_": 0,
+    "value_": false
+  }
+}

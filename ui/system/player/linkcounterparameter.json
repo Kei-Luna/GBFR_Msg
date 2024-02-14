@@ -1,0 +1,76 @@
+{
+  "LinkCounterData": {
+    "level0_": {
+      "pointMax_": "1000",
+      "decreasePoint_": "100",
+      "decreasePointNoBattle_": "100",
+      "rankAtkRate_": "1"
+    },
+    "level1_": {
+      "pointMax_": "5000",
+      "decreasePoint_": "100",
+      "decreasePointNoBattle_": "100",
+      "rankAtkRate_": "1"
+    },
+    "level2_": {
+      "pointMax_": "2000",
+      "decreasePoint_": "200",
+      "decreasePointNoBattle_": "200",
+      "rankAtkRate_": "1"
+    },
+    "level3_": {
+      "pointMax_": "3000",
+      "decreasePoint_": "430",
+      "decreasePointNoBattle_": "430",
+      "rankAtkRate_": "1.05"
+    },
+    "level4_": {
+      "pointMax_": "4000",
+      "decreasePoint_": "800",
+      "decreasePointNoBattle_": "800",
+      "rankAtkRate_": "1.07"
+    },
+    "level5_": {
+      "pointMax_": "0",
+      "decreasePoint_": "1000",
+      "decreasePointNoBattle_": "1000",
+      "rankAtkRate_": "1.1"
+    },
+    "addPointLinkAttack": "200",
+    "addPointSpArts": "500",
+    "addPoint2ChainBurst": "200",
+    "addPoint3ChainBurst": "1000",
+    "addPointFullChainBurst": "1800",
+    "addPointReviveFriend": "150",
+    "addPointUseAllPotion": "100",
+    "addPointAbilityUse_Min": "100",
+    "addPointAbilityUse_Max": "500",
+    "baseAbilityCoolTime_Min": "20",
+    "baseAbilityCoolTime_Max": "180",
+    "stopAutoDecreaseSecAddPoint_": "60",
+    "stopAutoDecreaseSecAddPoint_NoBattle_": "5",
+    "linkTimeKeepSec_": "8",
+    "linkTimeEnemySlowRate_": "0.2",
+    "linkTimeAbilityCoolTimeRecoverRate_": "2",
+    "linkTimeAttackBuffRate_": "1.1",
+    "linkTimeCriticalRate_": "0.04999999",
+    "linkTimeRecoverIntervalSec_": "0.15",
+    "linkTimeRecoverHpRate_": "0.005",
+    "linkTimeAttackHitExtendSec_": "0.4",
+    "linkTimeAttackHitExtendCoolTimeSec_": "0",
+    "linkTimeAttackHitExtendSec_Min_": "0.01",
+    "linkTimeAttackHitExtendSec_Max_": "0.6",
+    "linkTimeAttackHitExtendAtkRate_Min_": "0",
+    "linkTimeAttackHitExtendAtkRate_Max_": "40",
+    "linkTimeExtendAtkRateCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ],
+      "CurveFile": "curve\\battle\\linktime.f-curve.yml"
+    },
+    "linkTimeDecreaseSpeedUpSec_": "0",
+    "linkTimeAccelEndSec_": "13",
+    "linkTimeAccelSpeedRate_": "4"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1588268641,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1588268641,
+    "fromNodeGuid_": 746595205,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 746595205,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1129286564,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2067440625
+      }
+    ],
+    "toNodeGuid_": 746595205,
+    "fromNodeGuid_": 1268521599,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1268521599,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 49334528,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "RecvSignal": {
+    "guid_": 2067440625,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 37,
+    "progressHash_": 16785787935493863493,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 9842651044716364649
+      },
+      {
+        "Element": 4063259585424979524
+      }
+    ],
+    "resetOnStart_": false
+  },
+  "OverwriteBloomTalk": {
+    "guid_": 1367288420,
+    "parentGuid_": 1268521599,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 37,
+    "progressHash_": 16785787935493863493,
+    "npcUniqueIdList_": [
+      {
+        "Element": 7092279538842028071
+      }
+    ],
+    "talkId_": "BT070100"
+  },
+  "OverwriteBloomTalk": {
+    "guid_": 1694464898,
+    "parentGuid_": 1268521599,
+    "category_": 1,
+    "subcategory_": 3,
+    "index_": 1,
+    "progressIndex_": 37,
+    "progressHash_": 16785787935493863493,
+    "npcUniqueIdList_": [
+      {
+        "Element": 12410939976173592842
+      }
+    ],
+    "talkId_": "BT070200"
+  }
+}

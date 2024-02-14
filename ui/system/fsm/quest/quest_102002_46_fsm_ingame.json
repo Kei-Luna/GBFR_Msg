@@ -1,0 +1,208 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 870389477,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 870389477,
+    "fromNodeGuid_": 2107288302,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2107288302,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1727479699
+      }
+    ],
+    "toNodeGuid_": 2107288302,
+    "fromNodeGuid_": 142347384,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 142347384,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 142347384,
+    "fromNodeGuid_": 1205765743,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1205765743,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "StartTimer": {
+    "guid_": 793557346,
+    "parentGuid_": 2107288302,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 2,
+    "progressIndex_": 70,
+    "progressHash_": 18016604756129177515,
+    "timerId_": 9
+  },
+  "SetShakeCamera": {
+    "guid_": 164755551,
+    "parentGuid_": 859253420,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 2,
+    "progressIndex_": 70,
+    "progressHash_": 18016604756129177515,
+    "enableShakeCam_": true,
+    "priority_": 0,
+    "axisAdd_": [
+      0.5,
+      0,
+      0.5,
+      1
+    ],
+    "axisRot_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shakeSpanTime_": 0.1,
+    "shakeTimeMax_": 1,
+    "decreaseRate_": 0.1
+  },
+  "CheckTimer": {
+    "guid_": 1727479699,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 2,
+    "progressIndex_": 70,
+    "progressHash_": 18016604756129177515,
+    "isNoCheckSkip_": false,
+    "timerId_": 9,
+    "time_": 3,
+    "useDifficulty_": false,
+    "difficultyTimes_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ]
+  },
+  "SetShakeCamera": {
+    "guid_": 615620472,
+    "parentGuid_": 142347384,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 2,
+    "progressIndex_": 70,
+    "progressHash_": 18016604756129177515,
+    "enableShakeCam_": true,
+    "priority_": 0,
+    "axisAdd_": [
+      0.5,
+      0,
+      0.5,
+      1
+    ],
+    "axisRot_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "shakeSpanTime_": 0.1,
+    "shakeTimeMax_": 1,
+    "decreaseRate_": 0.1
+  },
+  "PadVibrationAction": {
+    "guid_": 2142770736,
+    "parentGuid_": 2107288302,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 2,
+    "progressIndex_": 70,
+    "progressHash_": 18016604756129177515,
+    "isPosSet_": false,
+    "pos_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "leftStart_": 0.1,
+    "leftEnd_": 0.1,
+    "rightStart_": 0.1,
+    "rightEnd_": 0.1,
+    "time_": 6.5,
+    "isTargetSet_": false,
+    "objectId_": 0,
+    "rootId_": 0,
+    "noAttenuation_": true
+  },
+  "EndFsm": {
+    "guid_": 583951290,
+    "parentGuid_": 1205765743,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 2,
+    "progressIndex_": 70,
+    "progressHash_": 18016604756129177515,
+    "fsmDataNo_": 70,
+    "fsmProgressHash_": 18016604756129177515
+  }
+}

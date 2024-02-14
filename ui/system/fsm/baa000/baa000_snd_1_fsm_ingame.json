@@ -1,0 +1,237 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1338775559,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1338775559,
+    "fromNodeGuid_": 1289263299,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1700101449
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1669658745,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1375265732
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1844312786,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1289263299,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1669658745,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 530036447,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2088976855
+      }
+    ],
+    "toNodeGuid_": 1669658745,
+    "fromNodeGuid_": 1669658745,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1844312786,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 110871675,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 972658293
+      }
+    ],
+    "toNodeGuid_": 1844312786,
+    "fromNodeGuid_": 1844312786,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SoundMotionCheckCondition": {
+    "guid_": 1700101449,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1375265732,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0100",
+          "hashValue_": 223981125
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 1186408634,
+    "parentGuid_": 1669658745,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "baa000_door_open_l_01_R",
+          "delayTime_": 0,
+          "requestId_": 1186408634,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "baa000_door_open_l_01_L",
+          "delayTime_": 0,
+          "requestId_": 1186408634,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 2088976855,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 972658293,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0100",
+          "hashValue_": 223981125
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 1523635246,
+    "parentGuid_": 1844312786,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "baa000_door_wood_close_l_01_L",
+          "delayTime_": 0,
+          "requestId_": 1523635246,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "baa000_door_wood_close_l_01_R",
+          "delayTime_": 0,
+          "requestId_": 1523635246,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2,
+          "useSocket_": false,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  }
+}

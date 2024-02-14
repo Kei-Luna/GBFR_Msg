@@ -1,0 +1,135 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em0200FangAttackAction": {
+    "guid_": 1829992212,
+    "parentGuid_": 5,
+    "homingAngle_": 3
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1678681262,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "intName_": "Em0200_NextAttackType",
+    "value_": 0,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1338533664,
+    "parentGuid_": 8,
+    "isReverseSuccess_": false,
+    "intName_": "Em0200_NextAttackType",
+    "value_": 1,
+    "operatorType_": 0
+  },
+  "Em0200DoubleFangAttackAction": {
+    "guid_": 24686924,
+    "parentGuid_": 9,
+    "firstHomingAngle_": 3.5,
+    "secondHomingAngle_": 4
+  },
+  "BlackBoardIntAction": {
+    "guid_": 1650995571,
+    "parentGuid_": 9,
+    "valueName_": "Em0200_NextAttackType",
+    "setTiming_": 1,
+    "value_": 0
+  },
+  "EmAILevelCondition": {
+    "guid_": 310535323,
+    "parentGuid_": 6,
+    "isReverseSuccess_": true,
+    "checkLevel_": 6,
+    "operatorType_": 2
+  },
+  "BlackBoardIntAction": {
+    "guid_": 1659427183,
+    "parentGuid_": 7,
+    "valueName_": "Em0200_NextAttackType",
+    "setTiming_": 0,
+    "value_": 1
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em0200",
+    "subTreeName_": "melee_attack"
+  }
+}

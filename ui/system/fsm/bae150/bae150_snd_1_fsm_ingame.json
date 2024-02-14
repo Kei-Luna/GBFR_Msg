@@ -1,0 +1,199 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 373769147,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 373769147,
+    "fromNodeGuid_": 1830618144,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1425055743
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 294362335,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1175938429
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 297365307,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1830618144,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "FSMNode": {
+    "guid_": 294362335,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1047601065,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1714276060
+      }
+    ],
+    "toNodeGuid_": 294362335,
+    "fromNodeGuid_": 294362335,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 297365307,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1231310788,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 485164747
+      }
+    ],
+    "toNodeGuid_": 297365307,
+    "fromNodeGuid_": 297365307,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1425055743,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0000",
+          "hashValue_": 211534962
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1175938429,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0001",
+          "hashValue_": 2073883876
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 1029092354,
+    "parentGuid_": 294362335,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "bae150_metal_plate_s_shake_s",
+          "delayTime_": 0,
+          "requestId_": 1029092354,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  },
+  "SoundTriggerAction": {
+    "guid_": 1002805674,
+    "parentGuid_": 297365307,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "bae150_metal_plate_s_shake_s",
+          "delayTime_": 0,
+          "requestId_": 1002805674,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1714276060,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0000",
+          "hashValue_": 211534962
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 485164747,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0001",
+          "hashValue_": 2073883876
+        }
+      }
+    ]
+  }
+}

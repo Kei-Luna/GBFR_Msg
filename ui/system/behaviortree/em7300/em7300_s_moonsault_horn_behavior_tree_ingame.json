@@ -1,0 +1,87 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em7300MoonsaultHornAction": {
+    "guid_": 562012005,
+    "parentGuid_": 4,
+    "startHomingAngle_": 4,
+    "jumpHomingAngle_": 4,
+    "jumpDistMax_": 40
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 132972173,
+    "parentGuid_": 4,
+    "valueName_": "Em7300_IsOkMoonsaultHorn",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "Em7300ManaStepAction": {
+    "guid_": 1312023295,
+    "parentGuid_": 3,
+    "stepInfos_": [
+      {
+        "Element": {
+          "type_": 1,
+          "homingAngle_": 5,
+          "stepDist_": 18,
+          "isUpdateTargetVector_": false,
+          "isInverseHoming_": false
+        }
+      },
+      {
+        "Element": {
+          "type_": 3,
+          "homingAngle_": 5,
+          "stepDist_": 18,
+          "isUpdateTargetVector_": false,
+          "isInverseHoming_": false
+        }
+      }
+    ],
+    "isTargetManualPlayer_": false,
+    "isAttackSign_": false
+  },
+  "Em7300FangRequestAction": {
+    "guid_": 770629164,
+    "parentGuid_": 3,
+    "time_": 0,
+    "callEnd_": false,
+    "type_": 0
+  },
+  "Em7300PostBaseAttackAction": {
+    "guid_": 1167128518,
+    "parentGuid_": 4
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em7300",
+    "subTreeName_": "s_moonsault_horn"
+  }
+}

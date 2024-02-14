@@ -1,0 +1,194 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1428209352,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1428209352,
+    "fromNodeGuid_": 1767642817,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1802966115
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1869277620,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1767642817,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": 1,
+    "nameHash_": 880342534,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 617008711
+      },
+      {
+        "Element": 1723462228
+      }
+    ],
+    "toNodeGuid_": 1767642817,
+    "fromNodeGuid_": 1869277620,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 1869277620,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1298027704,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1869277620,
+    "fromNodeGuid_": 1981570363,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "layerNo": 1,
+  "FSMNode": {
+    "guid_": 332926296,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 332926296,
+    "fromNodeGuid_": 1637264173,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1637264173,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 165291957,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1076311849
+      }
+    ],
+    "toNodeGuid_": 1637264173,
+    "fromNodeGuid_": 1599171920,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "AIBattleSequenceCondition": {
+    "guid_": 617008711,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "flagType_": 3
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 46645521,
+    "parentGuid_": 1869277620,
+    "valueName_": "PlayerAI_JumpRequest",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 795181555,
+    "parentGuid_": 1869277620,
+    "valueName_": "PlayerAI_SetBattleWaitMode",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1203292128,
+    "parentGuid_": 1767642817,
+    "valueName_": "PlayerAI_SetBattleWaitMode",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "AIBattleJumpAction": {
+    "guid_": 1052883064,
+    "parentGuid_": 1767642817,
+    "jumpButtonHoldSec_": 0.5
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1802966115,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "boolName_": "PlayerAI_JumpRequest"
+  },
+  "TimerAction": {
+    "guid_": 432617854,
+    "parentGuid_": 1637264173,
+    "waitTimeSeconds_": 2,
+    "randomSeconds_": 0
+  },
+  "ActionEndCondition": {
+    "guid_": 1076311849,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "FSMUnderLayerEndCondition": {
+    "guid_": 1723462228,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false
+  }
+}

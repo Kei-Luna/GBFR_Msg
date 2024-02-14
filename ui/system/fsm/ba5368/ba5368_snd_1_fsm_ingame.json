@@ -1,0 +1,775 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1867846901,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1867846901,
+    "fromNodeGuid_": 1621657513,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 510134125
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1400163144,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1621657513,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1400163144,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 70763440,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 378907665
+      }
+    ],
+    "toNodeGuid_": 1400163144,
+    "fromNodeGuid_": 1400163144,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SoundMotionCheckCondition": {
+    "guid_": 510134125,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ],
+    "isMaxBlendWeight_": false
+  },
+  "SoundTriggerAction": {
+    "guid_": 1593842253,
+    "parentGuid_": 1400163144,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba5368_wood_m_creak_l_break_m",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 118,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_stone_l_break_l_c",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1548,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_wood_l_break_l_scaffold_c",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 343,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_wood_l_break_l_scaffold",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 374,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_wood_l_break_l_scaffold",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1112,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_wood_l_break_l",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 373,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_wood_l_break_l",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 89,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_wood_l_break_l",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 336,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_wood_m_break_m_scaffold_d_01",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 377,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_wood_m_break_m_scaffold_d_01",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 97,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_wood_m_break_m_scaffold_c_01",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 313,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_wood_m_break_m_scaffold_c_01",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 361,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_wood_m_break_m_scaffold_e_01",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1609,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_wood_m_break_m_scaffold_e_01",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 296,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_wood_l_break_l",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 144,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_wood_l_break_l",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1397,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_wood_l_break_l_scaffold_c",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1141,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5368_stone_fall_whoosh",
+          "delayTime_": 0,
+          "requestId_": 1593842253,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1549,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionFrames_": [
+      {
+        "Element": [
+          {
+            "Element": 12
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 150
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 162
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 324
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 600
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 510
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 1050
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 1110
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 480
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 360
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 210
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 1200
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 600
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 480
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 600
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 900
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 540
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 1
+          }
+        ]
+      }
+    ],
+    "eventNames_": [
+      {
+        "Element": "ba5368_wood_m_creak_l_break_m"
+      },
+      {
+        "Element": "ba5368_stone_l_break_l_c"
+      },
+      {
+        "Element": "ba5368_wood_l_break_l_scaffold_c"
+      },
+      {
+        "Element": "ba5368_wood_l_break_l_scaffold"
+      },
+      {
+        "Element": "ba5368_wood_l_break_l_scaffold"
+      },
+      {
+        "Element": "ba5368_wood_l_break_l"
+      },
+      {
+        "Element": "ba5368_wood_l_break_l"
+      },
+      {
+        "Element": "ba5368_wood_l_break_l"
+      },
+      {
+        "Element": "ba5368_wood_m_break_m_scaffold_d_01"
+      },
+      {
+        "Element": "ba5368_wood_m_break_m_scaffold_d_01"
+      },
+      {
+        "Element": "ba5368_wood_m_break_m_scaffold_c_01"
+      },
+      {
+        "Element": "ba5368_wood_m_break_m_scaffold_c_01"
+      },
+      {
+        "Element": "ba5368_wood_m_break_m_scaffold_e_01"
+      },
+      {
+        "Element": "ba5368_wood_m_break_m_scaffold_e_01"
+      },
+      {
+        "Element": "ba5368_wood_l_break_l"
+      },
+      {
+        "Element": "ba5368_wood_l_break_l"
+      },
+      {
+        "Element": "ba5368_wood_l_break_l_scaffold_c"
+      },
+      {
+        "Element": "ba5368_stone_fall_whoosh"
+      }
+    ],
+    "motionNames_": [
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": [
+          {
+            "Element": 12
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 150
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 162
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 324
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 600
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 510
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 1050
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 1110
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 480
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 360
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 210
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 1200
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 600
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 480
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 600
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 900
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 540
+          }
+        ]
+      },
+      {
+        "Element": [
+          {
+            "Element": 1
+          }
+        ]
+      }
+    ],
+    "isEndTrigger_": false,
+    "checkFrameRange_": 9999
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 378907665,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ],
+    "isMaxBlendWeight_": false
+  }
+}

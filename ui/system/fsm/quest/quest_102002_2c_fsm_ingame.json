@@ -1,0 +1,115 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 598529549,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 598529549,
+    "fromNodeGuid_": 123239247,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 123239247,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1394228588
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2029597371
+      }
+    ],
+    "toNodeGuid_": 123239247,
+    "fromNodeGuid_": 1295803033,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1295803033,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1320890859
+  },
+  "SendSignal": {
+    "guid_": 483700803,
+    "parentGuid_": 1295803033,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 2,
+    "progressIndex_": 44,
+    "progressHash_": 3244914646694036616,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 7134572958011744344
+      },
+      {
+        "Element": 533052825588014141
+      }
+    ]
+  },
+  "RecvSignal": {
+    "guid_": 2029597371,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 2,
+    "progressIndex_": 44,
+    "progressHash_": 3244914646694036616,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 9502506471161730918
+      },
+      {
+        "Element": 1564979498493891921
+      }
+    ]
+  },
+  "RecvSignal": {
+    "guid_": 1222078494,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 2,
+    "progressIndex_": 44,
+    "progressHash_": 3244914646694036616,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 1991877932071221708
+      },
+      {
+        "Element": 430657947832362948
+      }
+    ]
+  }
+}

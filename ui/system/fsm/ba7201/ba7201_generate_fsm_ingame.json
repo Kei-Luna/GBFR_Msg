@@ -1,0 +1,278 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 487673372,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1539996192
+      }
+    ],
+    "toNodeGuid_": 487673372,
+    "fromNodeGuid_": 220873938,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1446430919
+      }
+    ],
+    "toNodeGuid_": 487673372,
+    "fromNodeGuid_": 1101214691,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1812241342
+      }
+    ],
+    "toNodeGuid_": 487673372,
+    "fromNodeGuid_": 1716160983,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 220873938,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 527605733,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 220873938,
+    "fromNodeGuid_": 80918291,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1101214691,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 218871707,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1101214691,
+    "fromNodeGuid_": 80918291,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1716160983,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 545869349,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1716160983,
+    "fromNodeGuid_": 80918291,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "GenerateSmallWedgeAction": {
+    "guid_": 1785062812,
+    "parentGuid_": 220873938,
+    "transforms_": [
+      {
+        "Element": {
+          "position_": [
+            70.59,
+            12.04,
+            81.32,
+            1
+          ],
+          "rotation_": [
+            0,
+            -121.3525,
+            0,
+            1
+          ],
+          "safetyAreaEffectId_": 1200,
+          "isLookAtHoleEffect_": true
+        }
+      },
+      {
+        "Element": {
+          "position_": [
+            60.14,
+            11.62,
+            85.91,
+            1
+          ],
+          "rotation_": [
+            0,
+            -165.9859,
+            0,
+            1
+          ],
+          "safetyAreaEffectId_": 1200,
+          "isLookAtHoleEffect_": true
+        }
+      }
+    ],
+    "intervalTime_": 0.5
+  },
+  "BaBigWedgeTypeCondition": {
+    "guid_": 1539996192,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "type_": 71
+  },
+  "BaBigWedgeTypeCondition": {
+    "guid_": 1446430919,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "type_": 72
+  },
+  "BaBigWedgeTypeCondition": {
+    "guid_": 1812241342,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "type_": 73
+  },
+  "GenerateSmallWedgeAction": {
+    "guid_": 422592829,
+    "parentGuid_": 1101214691,
+    "transforms_": [
+      {
+        "Element": {
+          "position_": [
+            63.52037,
+            41.42218,
+            240.7852,
+            1
+          ],
+          "rotation_": [
+            0,
+            157.18,
+            0,
+            1
+          ],
+          "safetyAreaEffectId_": 1201,
+          "isLookAtHoleEffect_": false
+        }
+      },
+      {
+        "Element": {
+          "position_": [
+            61.80089,
+            38.7,
+            227.3456,
+            1
+          ],
+          "rotation_": [
+            0,
+            140.431,
+            0,
+            1
+          ],
+          "safetyAreaEffectId_": 1202,
+          "isLookAtHoleEffect_": false
+        }
+      }
+    ],
+    "intervalTime_": 0.5
+  },
+  "GenerateSmallWedgeAction": {
+    "guid_": 883618485,
+    "parentGuid_": 1716160983,
+    "transforms_": [
+      {
+        "Element": {
+          "position_": [
+            225.3628,
+            165.5783,
+            208.6205,
+            1
+          ],
+          "rotation_": [
+            0,
+            27.33009,
+            0,
+            1
+          ],
+          "safetyAreaEffectId_": 1203,
+          "isLookAtHoleEffect_": false
+        }
+      },
+      {
+        "Element": {
+          "position_": [
+            254.5762,
+            158.1708,
+            226.3704,
+            1
+          ],
+          "rotation_": [
+            0,
+            39.01842,
+            0,
+            1
+          ],
+          "safetyAreaEffectId_": 1204,
+          "isLookAtHoleEffect_": false
+        }
+      },
+      {
+        "Element": {
+          "position_": [
+            226.095,
+            177.355,
+            183.301,
+            1
+          ],
+          "rotation_": [
+            0,
+            16.78766,
+            0,
+            1
+          ],
+          "safetyAreaEffectId_": 1205,
+          "isLookAtHoleEffect_": false
+        }
+      }
+    ],
+    "intervalTime_": 0.5
+  }
+}

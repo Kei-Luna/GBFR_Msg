@@ -1,0 +1,243 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 94502599,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 94502599,
+    "fromNodeGuid_": 1617117627,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1617117627,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 866178951
+      },
+      {
+        "Element": 1509803077
+      }
+    ],
+    "toNodeGuid_": 1617117627,
+    "fromNodeGuid_": 43698544,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1349782367
+      },
+      {
+        "Element": 976033064
+      }
+    ],
+    "toNodeGuid_": 1617117627,
+    "fromNodeGuid_": 1938215110,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 930822646
+      }
+    ],
+    "toNodeGuid_": 1617117627,
+    "fromNodeGuid_": 1500347594,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 43698544,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1938215110,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1500347594,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CheckQuestClear": {
+    "guid_": 866178951,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 5,
+    "subcategory_": 240,
+    "index_": 0,
+    "progressIndex_": 1,
+    "progressHash_": 12247214263410787707,
+    "isNoCheckSkip_": false,
+    "questId_": 1056770,
+    "clearNum_": 1,
+    "absolute_": true
+  },
+  "CheckQuestClear": {
+    "guid_": 1349782367,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 5,
+    "subcategory_": 240,
+    "index_": 0,
+    "progressIndex_": 1,
+    "progressHash_": 12247214263410787707,
+    "isNoCheckSkip_": false,
+    "questId_": 1060865,
+    "clearNum_": 1,
+    "absolute_": true
+  },
+  "CheckQuestClear": {
+    "guid_": 930822646,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 5,
+    "subcategory_": 240,
+    "index_": 0,
+    "progressIndex_": 1,
+    "progressHash_": 12247214263410787707,
+    "isNoCheckSkip_": false,
+    "questId_": 1064960,
+    "clearNum_": 1,
+    "absolute_": true
+  },
+  "SendSignal": {
+    "guid_": 1745332482,
+    "parentGuid_": 43698544,
+    "category_": 5,
+    "subcategory_": 240,
+    "index_": 0,
+    "progressIndex_": 1,
+    "progressHash_": 12247214263410787707,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 10545932101199837044
+      }
+    ],
+    "skipAtSectionJump_": false
+  },
+  "SendSignal": {
+    "guid_": 350645097,
+    "parentGuid_": 1938215110,
+    "category_": 5,
+    "subcategory_": 240,
+    "index_": 0,
+    "progressIndex_": 1,
+    "progressHash_": 12247214263410787707,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 2635985938552265652
+      }
+    ],
+    "skipAtSectionJump_": false
+  },
+  "CheckQuestClear": {
+    "guid_": 1509803077,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "category_": 5,
+    "subcategory_": 240,
+    "index_": 0,
+    "progressIndex_": 1,
+    "progressHash_": 12247214263410787707,
+    "isNoCheckSkip_": false,
+    "questId_": 1060865,
+    "clearNum_": 1,
+    "absolute_": true
+  },
+  "CheckQuestClear": {
+    "guid_": 976033064,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "category_": 5,
+    "subcategory_": 240,
+    "index_": 0,
+    "progressIndex_": 1,
+    "progressHash_": 12247214263410787707,
+    "isNoCheckSkip_": false,
+    "questId_": 1064960,
+    "clearNum_": 1,
+    "absolute_": true
+  }
+}

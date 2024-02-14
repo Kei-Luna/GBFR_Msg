@@ -1,0 +1,170 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1972528809,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1972528809,
+    "fromNodeGuid_": 458625420,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 458625420,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 345264704
+      }
+    ],
+    "toNodeGuid_": 458625420,
+    "fromNodeGuid_": 416122308,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 416122308,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 416122308,
+    "fromNodeGuid_": 2022511670,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "AreaEffectAttackAction": {
+    "guid_": 872479542,
+    "parentGuid_": 458625420,
+    "offset_": [
+      0,
+      0,
+      2.8,
+      1
+    ],
+    "size_": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "degreeX_": 0,
+    "degreeY_": 0,
+    "shape_": 0,
+    "direction_": 0,
+    "target_": 1,
+    "globalType_": 0,
+    "type_": 1,
+    "reaction_": 1,
+    "hitFlag_": 562949986975748,
+    "categoryFlag_": 65536,
+    "element_": 0,
+    "attackRate_": 1.5,
+    "breakRate_": 1.1,
+    "spArtsRate_": 0.5,
+    "hitStopSecond_": 0.05,
+    "hitVibrationType_": 0,
+    "lifeSecond_": 0.65,
+    "multiHitIntervalSecond_": 0.083,
+    "deleySecond_": 0.08,
+    "isMultiHit_": true,
+    "debuffList_": [],
+    "isSwept_": false
+  },
+  "AreaEffectVFXAction": {
+    "guid_": 873806854,
+    "parentGuid_": 458625420,
+    "effectObjId_": 65792,
+    "effectId_": 5352,
+    "effectScale_": 1,
+    "isLoop_": false,
+    "isAreaIn_": false,
+    "isEffectWorldPos_": false,
+    "effectOffset_": [
+      0,
+      0,
+      1.5,
+      1
+    ]
+  },
+  "AreaEffectTerminateAction": {
+    "guid_": 452879659,
+    "parentGuid_": 416122308
+  },
+  "AreaEffectStatusFlagCondition": {
+    "guid_": 345264704,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 2,
+          "isEnable_": false
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "AreaEffectSoundSoftCall": {
+    "guid_": 721594621,
+    "parentGuid_": 458625420,
+    "softCallType_": 0,
+    "setTiming_": 0,
+    "beginPos_": [
+      0,
+      1,
+      2.8,
+      1
+    ],
+    "endPos_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "defineName_": "pl0100,ab_distream_lv3,point_start",
+    "isCall_": true,
+    "isFirst_": true,
+    "softCallWorkIndex_": 0
+  },
+  "AreaEffectEndSoundSoftCall": {
+    "guid_": 1680326315,
+    "parentGuid_": 416122308,
+    "softCallWorkIndex_": 0
+  }
+}

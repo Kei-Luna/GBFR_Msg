@@ -1,0 +1,139 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 397588546,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 397588546,
+    "fromNodeGuid_": 1348722875,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1348722875,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1348722875,
+    "fromNodeGuid_": 1332490074,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1332490074,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "BeginSection": {
+    "guid_": 1413644245,
+    "parentGuid_": 1348722875,
+    "category_": 6,
+    "subcategory_": 3,
+    "index_": 0,
+    "progressIndex_": 0,
+    "progressHash_": 3420985322571651668,
+    "name_": "",
+    "label_": "",
+    "phaseNo_": 3729,
+    "subPhaseNo_": 0,
+    "uniqueIdHash_": 1298065644690919453,
+    "controllers_": {
+      "count": 2,
+      "detail1": {
+        "objectId_": 14972870114078598471,
+        "rootId_": 0
+      },
+      "detail2": {
+        "objectId_": 16354169787326560586,
+        "rootId_": 0
+      }
+    },
+    "isQuestStartSection_": true,
+    "isSpawnVyrn_": true,
+    "eraseVyrnPhone_": false,
+    "isFullParty_": false,
+    "partyCharaType_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ],
+    "isReturnSection_": true,
+    "isAcceptQuestSection_": false,
+    "isItemReset_": false,
+    "isSpArtsReset_": false,
+    "npcUniqueIdHash_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ],
+    "isSectionJumpFadeIn_": true,
+    "npcPositionGroupUuidHash_": 0
+  },
+  "SendSignal": {
+    "guid_": 1990579272,
+    "parentGuid_": 1332490074,
+    "category_": 6,
+    "subcategory_": 3,
+    "index_": 0,
+    "progressIndex_": 0,
+    "progressHash_": 3420985322571651668,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 14972870114078598471
+      },
+      {
+        "Element": 240907618371617348
+      }
+    ],
+    "skipAtSectionJump_": false
+  }
+}

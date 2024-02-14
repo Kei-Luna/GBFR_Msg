@@ -1,0 +1,186 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1718408038,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1718408038,
+    "fromNodeGuid_": 1790014756,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1790014756,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1255218975,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 264271754
+      }
+    ],
+    "toNodeGuid_": 1790014756,
+    "fromNodeGuid_": 1638385090,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1846262703
+      },
+      {
+        "Element": 1455565066
+      }
+    ],
+    "toNodeGuid_": 1790014756,
+    "fromNodeGuid_": 926752205,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 926752205,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 300837654,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1638385090,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 768652939,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1638385090,
+    "fromNodeGuid_": 441860850,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 441860850,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 300837654,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "FlowEnd": {
+    "guid_": 1279018360,
+    "parentGuid_": 926752205,
+    "result_": 0,
+    "fsmLabel_": "CutSummary"
+  },
+  "Event": {
+    "guid_": 264271754,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "Button01",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "SkipCut": {
+    "guid_": 1407943929,
+    "parentGuid_": 1638385090,
+    "skip_": true
+  },
+  "FlowEnd": {
+    "guid_": 1792302778,
+    "parentGuid_": 441860850,
+    "result_": 1,
+    "fsmLabel_": "CutSummary"
+  },
+  "Event": {
+    "guid_": 1846262703,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "Button02",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "StoryDialog": {
+    "guid_": 1889028901,
+    "parentGuid_": 1790014756
+  },
+  "Event": {
+    "guid_": 1455565066,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "Cancel",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "Guide": {
+    "guid_": 1063621258,
+    "parentGuid_": 1790014756,
+    "guides_": [
+      {
+        "Element": "Close"
+      }
+    ],
+    "count_": 1,
+    "footer_": {
+      "str_": "TutorialFooter",
+      "index_": 2
+    }
+  },
+  "ViewOpenClose": {
+    "guid_": 42539423,
+    "parentGuid_": 1790014756,
+    "views_": [
+      {
+        "Element": "TutorialFooter"
+      }
+    ],
+    "count_": 1,
+    "layerOffset_": 0,
+    "openSkip_": false,
+    "closeSkip_": false
+  }
+}

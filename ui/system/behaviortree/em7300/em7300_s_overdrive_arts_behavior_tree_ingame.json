@@ -1,0 +1,197 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 2147123162,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "boolName_": "Em7310_AddArtsHL"
+  },
+  "Em7300ManaStepAction": {
+    "guid_": 1801052373,
+    "parentGuid_": 5,
+    "stepInfos_": [
+      {
+        "Element": {
+          "type_": 1,
+          "homingAngle_": 5,
+          "stepDist_": 18,
+          "isUpdateTargetVector_": false,
+          "isInverseHoming_": false
+        }
+      },
+      {
+        "Element": {
+          "type_": 3,
+          "homingAngle_": 5,
+          "stepDist_": 18,
+          "isUpdateTargetVector_": false,
+          "isInverseHoming_": false
+        }
+      }
+    ],
+    "isTargetManualPlayer_": false,
+    "isAttackSign_": false
+  },
+  "Em7300FangRequestAction": {
+    "guid_": 755422640,
+    "parentGuid_": 5,
+    "time_": 0,
+    "callEnd_": false,
+    "type_": 0
+  },
+  "Em7300DoppelTailAction": {
+    "guid_": 1360450296,
+    "parentGuid_": 6,
+    "type_": 1,
+    "toDoppel_": true,
+    "isDoppel_": false,
+    "animMovementRateXZ_": 0.5
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1925157605,
+    "parentGuid_": 3,
+    "isReverseSuccess_": true,
+    "boolName_": "Em7310_ToDoppel"
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 21967228,
+    "parentGuid_": 6,
+    "valueName_": "Em7310_ToDoppel",
+    "setTiming_": 0,
+    "value_": true
+  },
+  "Em7300OverDriveSpeedArtsAction": {
+    "guid_": 730691230,
+    "parentGuid_": 7,
+    "setInterval_": [
+      0.5,
+      0,
+      0,
+      1
+    ],
+    "slashInterval_": [
+      0.8,
+      0.8,
+      0.8,
+      1
+    ],
+    "slashEndTime_": 2,
+    "isDoppel_": false
+  },
+  "Em7300CleaveLaserAction": {
+    "guid_": 1543674457,
+    "parentGuid_": 8,
+    "startHomingAngle_": 3,
+    "targetStageCenter_": true,
+    "isOdArts": true,
+    "isDoppel_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 873096342,
+    "parentGuid_": 8,
+    "valueName_": "Em7300_IsOkTypeChange",
+    "setTiming_": 1,
+    "value_": true
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1113614088,
+    "parentGuid_": 8,
+    "valueName_": "Em7300_ReserveODArtsSpeed",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "Em7300InvincibleAction": {
+    "guid_": 1787731053,
+    "parentGuid_": 8
+  },
+  "EmCounterAction": {
+    "guid_": 369590933,
+    "parentGuid_": 8,
+    "isRestart_": true
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 2095553911,
+    "parentGuid_": 8,
+    "valueName_": "Em7300_IsOkGimmickAttack",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1045736468,
+    "parentGuid_": 8,
+    "valueName_": "Em7310_ToDoppel",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em7300",
+    "subTreeName_": "s_overdrive_arts"
+  }
+}

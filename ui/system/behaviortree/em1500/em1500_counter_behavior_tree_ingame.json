@@ -1,0 +1,153 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em1500CounterAttackAction": {
+    "guid_": 1220381419,
+    "parentGuid_": 4,
+    "isComboBefore_": false,
+    "isComboAfter_": false,
+    "shotSearchNearDist_": 10,
+    "shotSearchFarDist_": 30,
+    "shotLandingTime_": 2,
+    "shotLandingAddTIme_": 0.1,
+    "shotAttackRadius_": 4,
+    "jumpSpeedY_": 0.33,
+    "gravityRate_": 3,
+    "rockOffsetDist_": 3,
+    "rockCollisionMargin_": 0.7
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1793042203,
+    "parentGuid_": 4,
+    "valueName_": "ExEmCounterAttack_IsCounter",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 711346264,
+    "parentGuid_": 4,
+    "valueName_": "Em1500_IsCanGuard",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 617072620,
+    "parentGuid_": 4,
+    "valueName_": "Em1500_IsCanGuard",
+    "setTiming_": 1,
+    "value_": true
+  },
+  "EmCounterAction": {
+    "guid_": 1663334400,
+    "parentGuid_": 4,
+    "isRestart_": true
+  },
+  "Em1500CounterAttackAction": {
+    "guid_": 104180445,
+    "parentGuid_": 5,
+    "isComboBefore_": false,
+    "isComboAfter_": false,
+    "shotSearchNearDist_": 15,
+    "shotSearchFarDist_": 30,
+    "shotLandingTime_": 2,
+    "shotLandingAddTIme_": 0.1,
+    "shotAttackRadius_": 4,
+    "jumpSpeedY_": 0.6,
+    "gravityRate_": 6,
+    "rockOffsetDist_": 3,
+    "rockCollisionMargin_": 0.7
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1758520151,
+    "parentGuid_": 5,
+    "valueName_": "ExEmCounterAttack_IsCounter",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 578246818,
+    "parentGuid_": 5,
+    "valueName_": "Em1500_IsCanGuard",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 520016480,
+    "parentGuid_": 5,
+    "valueName_": "Em1500_IsCanGuard",
+    "setTiming_": 1,
+    "value_": true
+  },
+  "EmCounterAction": {
+    "guid_": 262624180,
+    "parentGuid_": 5,
+    "isRestart_": true
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 190232584,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "intName_": "Em1500_AILevel",
+    "value_": 4,
+    "operatorType_": 4
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1128050542,
+    "parentGuid_": 5,
+    "valueName_": "Em1500_ForceCounterAfterBreak",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1352423534,
+    "parentGuid_": 4,
+    "valueName_": "Em1500_ForceCounterAfterBreak",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em1500",
+    "subTreeName_": "counter"
+  }
+}

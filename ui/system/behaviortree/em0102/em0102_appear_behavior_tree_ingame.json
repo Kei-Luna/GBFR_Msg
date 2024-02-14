@@ -1,0 +1,227 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": -791621424,
+      "AnySuccessMode_": false
+    }
+  },
+  "ReferenceTreeNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "referenceTreeFolderName_": "em0102",
+      "referenceTreeName_": "appearfatequest",
+      "assetPattern_": 4294967295
+    }
+  },
+  "ReferenceTreeNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "referenceTreeFolderName_": "em0102",
+      "referenceTreeName_": "appearmultiquest",
+      "assetPattern_": 4294967295
+    }
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": -791621424,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": -791621424,
+      "AnySuccessMode_": false
+    }
+  },
+  "MotionPlayAction": {
+    "guid_": 1709327567,
+    "parentGuid_": 9,
+    "motionIdName_": "0700",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": 0,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0
+  },
+  "EmExitAppearAction": {
+    "guid_": 1503473110,
+    "parentGuid_": 9,
+    "isAlwaysRun_": false,
+    "isContinueAppear_": false,
+    "afterType_": -1,
+    "isExitAppearWhenStart_": false
+  },
+  "MotionPlayAction": {
+    "guid_": 1266758570,
+    "parentGuid_": 8,
+    "motionIdName_": "0000",
+    "isAnimEnd_": false,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": 0,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0
+  },
+  "TimerAction": {
+    "guid_": 1931605869,
+    "parentGuid_": 8,
+    "waitTimeSeconds_": 1,
+    "randomSeconds_": 0
+  },
+  "EmInvisibleAction": {
+    "guid_": 472704460,
+    "parentGuid_": 8
+  },
+  "CallObjectVFXAction": {
+    "guid_": 1926774454,
+    "parentGuid_": 8,
+    "id_": 61,
+    "isUseCoreEff_": false,
+    "isUseEntityPosition_": false,
+    "isUseEntityRotation_": false,
+    "isParentSetting_": true,
+    "isPartsSetting_": false,
+    "effectObjId_": 131330,
+    "offsetPos_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "offsetRot_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "canEditScaleXYZ_": false,
+    "scale_": 1,
+    "scaleY_": 1,
+    "scaleZ_": 1,
+    "partsNo_": 0,
+    "writeControllerNumber_": false,
+    "blackBoardName_": "",
+    "isVanishOnEnd_": false,
+    "isUseRoomEff_": false
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 642627911,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "intName_": "Em_AppearType",
+    "value_": 0,
+    "operatorType_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 1365176544,
+    "parentGuid_": 4,
+    "motionIdName_": "0000",
+    "isAnimEnd_": false,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": 0,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0
+  },
+  "EmExitAppearAction": {
+    "guid_": 1582992143,
+    "parentGuid_": 4,
+    "isAlwaysRun_": false,
+    "isContinueAppear_": false,
+    "afterType_": -1,
+    "isExitAppearWhenStart_": false
+  },
+  "TimerAction": {
+    "guid_": 1155426922,
+    "parentGuid_": 4,
+    "waitTimeSeconds_": 0.5,
+    "randomSeconds_": 0
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 984424337,
+    "parentGuid_": 8,
+    "valueName_": "Em_IsAppearInvincible",
+    "setTiming_": 0,
+    "value_": true
+  },
+  "EmNeckControlAction": {
+    "guid_": 509500448,
+    "parentGuid_": 9,
+    "isEnable_": false,
+    "isEndEnable_": true
+  }
+}

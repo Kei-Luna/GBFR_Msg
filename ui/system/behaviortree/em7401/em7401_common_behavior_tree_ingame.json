@@ -1,0 +1,161 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "SelectorNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "DecorationNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 339502259,
+    "parentGuid_": 7,
+    "isReverseSuccess_": false,
+    "boolName_": "Em7401_CanElectricDischarge"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1602934129,
+    "parentGuid_": 2,
+    "isReverseSuccess_": true,
+    "boolName_": "Em_IsDead"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 6854859,
+    "parentGuid_": 2,
+    "isReverseSuccess_": true,
+    "boolName_": "Em_SpArtsHit"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 821539205,
+    "parentGuid_": 2,
+    "isReverseSuccess_": true,
+    "boolName_": "Em_LinkBreak"
+  },
+  "BadStatusCondition": {
+    "guid_": 1155511071,
+    "parentGuid_": 2,
+    "isReverseSuccess_": true,
+    "badStatusHash_": 3465211907
+  },
+  "BadStatusCondition": {
+    "guid_": 671403971,
+    "parentGuid_": 2,
+    "isReverseSuccess_": true,
+    "badStatusHash_": 2974846525
+  },
+  "EmResetCoolTimeAction": {
+    "guid_": 1814481047,
+    "parentGuid_": 8,
+    "valueName_": "Em7401_CanElectricDischarge",
+    "isEnable_": true
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1593170536,
+    "parentGuid_": 4,
+    "isReverseSuccess_": false,
+    "boolName_": "ExEmCounterAttack_IsCounter"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 305494703,
+    "parentGuid_": 6,
+    "isReverseSuccess_": true,
+    "boolName_": "ExEmCounterAttack_IsCounter"
+  },
+  "Em7401FloorAttackAction": {
+    "guid_": 218027520,
+    "parentGuid_": 5
+  },
+  "EmCounterAction": {
+    "guid_": 1568024560,
+    "parentGuid_": 5,
+    "isRestart_": true
+  },
+  "Em7401ElectricDischargeAction": {
+    "guid_": 526476683,
+    "parentGuid_": 8
+  },
+  "EmResetCoolTimeAction": {
+    "guid_": 2078273404,
+    "parentGuid_": 5,
+    "valueName_": "Em7401_CanElectricDischarge",
+    "isEnable_": true
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em7401",
+    "subTreeName_": "common"
+  }
+}

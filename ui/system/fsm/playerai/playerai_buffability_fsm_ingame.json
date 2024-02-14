@@ -1,0 +1,280 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 898930301,
+    "tailIndexOfChildNodeGuids_": 6,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 898930301,
+    "fromNodeGuid_": 1388022619,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1134307856
+      },
+      {
+        "Element": 1870050195
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 874135835,
+    "isEndTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 1933764080,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1694696170
+      },
+      {
+        "Element": 1184292162
+      }
+    ],
+    "toNodeGuid_": 1933764080,
+    "fromNodeGuid_": 1073405455,
+    "isEndTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1138689713
+      }
+    ],
+    "toNodeGuid_": 1933764080,
+    "fromNodeGuid_": 314224105,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1073405455,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 684830626
+      },
+      {
+        "Element": 318451001
+      }
+    ],
+    "toNodeGuid_": 1073405455,
+    "fromNodeGuid_": 405177108,
+    "isEndTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 405177108,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 405177108,
+    "fromNodeGuid_": 836981625,
+    "isEndTransition_": true,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1388022619,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1388022619,
+    "fromNodeGuid_": 1933764080,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 314224105,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 314224105,
+    "fromNodeGuid_": 836981625,
+    "isEndTransition_": true,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 874135835,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 874135835,
+    "fromNodeGuid_": 2139690122,
+    "isEndTransition_": true,
+    "params_": []
+  },
+  "AIMoveAction": {
+    "guid_": 298510604,
+    "parentGuid_": 1933764080,
+    "type_": 3,
+    "dist_": 12,
+    "useBlackBoardValue_": true,
+    "boolName_": "PlayerAI_ActionRangeDistance",
+    "isCheckCollision_": false
+  },
+  "ActionEndCondition": {
+    "guid_": 1694696170,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "AIBattleSequenceCondition": {
+    "guid_": 1184292162,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "flagType_": 0
+  },
+  "AIBattleAbilityAction": {
+    "guid_": 1355035678,
+    "parentGuid_": 1073405455,
+    "abilitySlot_": 5
+  },
+  "ActionEndCondition": {
+    "guid_": 1244002656,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "BlackBoardIntAction": {
+    "guid_": 1042262130,
+    "parentGuid_": 405177108,
+    "valueName_": "PlayerAI_OrderType",
+    "setTiming_": 0,
+    "value_": 0
+  },
+  "AIBattleSequenceCondition": {
+    "guid_": 1668858906,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "flagType_": 3
+  },
+  "AIBattleSequenceCondition": {
+    "guid_": 304112682,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "flagType_": 3
+  },
+  "AIBattleSequenceCondition": {
+    "guid_": 684830626,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "flagType_": 3
+  },
+  "ActionEndCondition": {
+    "guid_": 318451001,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "AIBattleRequestAbilityAction": {
+    "guid_": 833867669,
+    "parentGuid_": 1388022619,
+    "abilityFlagBit_": 4
+  },
+  "AIBattleObjectAliveCondition": {
+    "guid_": 654586461,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "type_": 2
+  },
+  "BlackBoardIntAction": {
+    "guid_": 1282504365,
+    "parentGuid_": 314224105,
+    "valueName_": "PlayerAI_OrderType",
+    "setTiming_": 0,
+    "value_": 0
+  },
+  "AIBattleObjectAliveCondition": {
+    "guid_": 1138689713,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true,
+    "type_": 2
+  },
+  "AddTransformAction": {
+    "guid_": 1774189869,
+    "parentGuid_": 874135835,
+    "addPosition_": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "addRotation_": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1134307856,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 3,
+    "operatorType_": 0
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1870050195,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "boolName_": "PlayerAI_IsLinkAttack"
+  }
+}

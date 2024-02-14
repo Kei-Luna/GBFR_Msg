@@ -1,0 +1,192 @@
+{
+  "Pl1300Param": {
+    "hp_": "1000",
+    "atk_": "10",
+    "break_": "75",
+    "def_": "1",
+    "endurance_": "0",
+    "exp_": "0",
+    "hitSEMaxBreak_": "4",
+    "hitSEMinBreak_": "0",
+    "hpCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "atkCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "defCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "expCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "fsmParam_": {
+      "folderName_": [
+        {
+          "Element": "pl1300"
+        },
+        {
+          "Element": "pl1300"
+        },
+        {
+          "Element": "pl_base"
+        }
+      ],
+      "fsmName_": [
+        {
+          "Element": "snd_auto_base_1"
+        },
+        {
+          "Element": "snd_auto_unique_2"
+        },
+        {
+          "Element": "snd_auto_type_2"
+        }
+      ]
+    },
+    "maxLvHp_": "30000",
+    "maxLvAtk_": "240",
+    "maxLvDef_": "1.05",
+    "maxLvExp_": "300000",
+    "criticalBaseRate_": "0.09999999",
+    "baseBreakPower_": "10",
+    "limitDamageRate_": "0.6",
+    "limitSpecialArtsDamageRate_": "0.6",
+    "limitAbilityDamageRate_": "0.7",
+    "aiMoveNotargetDistance_": "20",
+    "damageLimitNormalAttack_": "3999",
+    "damageLimitNormalAttack2_": "29999",
+    "damageLimitSpecialAttack_": "9999",
+    "damageLimitAbility01_": "14999",
+    "damageLimitAbility02_": "7999",
+    "damageLimitAbility03_": "1",
+    "damageLimitAbility04_": "1",
+    "damageLimitAbility05_": "24999",
+    "damageLimitAbility06_": "1",
+    "damageLimitAbility07_": "29999",
+    "damageLimitAbility08_": "69999",
+    "damageLimitLinkAttack_": "99999",
+    "damageLimitSpecialArtsStart_": "99999",
+    "damageLimitSpecialArts_": "19999",
+    "eyeCtrlParam_": {
+      "eyeParamL_": {
+        "pupilLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "pupilLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "highlightLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "highlightLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "attenuateThresholdX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "attenuateThresholdY_": {
+          "min_": "-0.045",
+          "max_": "0.03"
+        }
+      },
+      "eyeParamR_": {
+        "pupilLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "pupilLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "highlightLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "highlightLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "attenuateThresholdX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "attenuateThresholdY_": {
+          "min_": "-0.045",
+          "max_": "0.03"
+        }
+      },
+      "attenuareHighlightRate_": [
+        "1",
+        "0.25"
+      ]
+    },
+    "multiLockSpeed_": "0.3",
+    "slashDashSpeed_": "1",
+    "slashDashTime_": "0.15",
+    "counterComboCutNum_": "4",
+    "illusionBuffBaseTime_": "30",
+    "illusionBuff_Time_": "10",
+    "illusionBuff_Distance_": "100",
+    "justComboAxcel_": "0.06",
+    "justComboMaxNum_": "10",
+    "justComboAtkHitScale_": [
+      {
+        "Element": "1"
+      },
+      {
+        "Element": "1.2"
+      },
+      {
+        "Element": "1.4"
+      },
+      {
+        "Element": "1.6"
+      }
+    ],
+    "uniqueAtkBuffRate": [
+      {
+        "Element": "0.25"
+      },
+      {
+        "Element": "0.5"
+      },
+      {
+        "Element": "0.75"
+      },
+      {
+        "Element": "1"
+      }
+    ],
+    "limitBonusDoubleAtkDelay_": "2",
+    "limitBonusDoubleAtkBuffTime_": [
+      {
+        "Element": "10"
+      },
+      {
+        "Element": "10"
+      },
+      {
+        "Element": "10"
+      }
+    ],
+    "spArtsBonusDamageRad_": "0.5"
+  }
+}

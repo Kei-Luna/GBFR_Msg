@@ -1,0 +1,213 @@
+{
+  "Pl0800Param": {
+    "hp_": "1000",
+    "atk_": "10",
+    "break_": "75",
+    "def_": "1",
+    "endurance_": "0",
+    "exp_": "0",
+    "hitSEMaxBreak_": "4",
+    "hitSEMinBreak_": "0",
+    "hpCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "atkCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "defCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "expCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "fsmParam_": {
+      "folderName_": [
+        {
+          "Element": "pl0800"
+        },
+        {
+          "Element": "pl_base"
+        }
+      ],
+      "fsmName_": [
+        {
+          "Element": "snd_auto_base_1"
+        },
+        {
+          "Element": "snd_auto_type_2"
+        }
+      ]
+    },
+    "maxLvHp_": "30000",
+    "maxLvAtk_": "240",
+    "maxLvDef_": "1.05",
+    "maxLvExp_": "300000",
+    "criticalBaseRate_": "0.09999999",
+    "baseBreakPower_": "10",
+    "limitDamageRate_": "0.7999999",
+    "limitSpecialArtsDamageRate_": "0.6",
+    "limitAbilityDamageRate_": "0.7999999",
+    "aiMoveNotargetDistance_": "20",
+    "damageLimitNormalAttack_": "3999",
+    "damageLimitNormalAttack2_": "29999",
+    "damageLimitSpecialAttack_": "9999",
+    "damageLimitAbility01_": "34999",
+    "damageLimitAbility02_": "9999",
+    "damageLimitAbility03_": "14999",
+    "damageLimitAbility04_": "1",
+    "damageLimitAbility05_": "89999",
+    "damageLimitAbility06_": "49999",
+    "damageLimitAbility07_": "1",
+    "damageLimitAbility08_": "1",
+    "damageLimitLinkAttack_": "99999",
+    "damageLimitSpecialArtsStart_": "99999",
+    "damageLimitSpecialArts_": "39999",
+    "eyeCtrlParam_": {
+      "eyeParamL_": {
+        "pupilLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "pupilLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "highlightLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "highlightLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "attenuateThresholdX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "attenuateThresholdY_": {
+          "min_": "-0.045",
+          "max_": "0.03"
+        }
+      },
+      "eyeParamR_": {
+        "pupilLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "pupilLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "highlightLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "highlightLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "attenuateThresholdX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "attenuateThresholdY_": {
+          "min_": "-0.045",
+          "max_": "0.03"
+        }
+      },
+      "attenuareHighlightRate_": [
+        "1",
+        "0.25"
+      ]
+    },
+    "limitBonus_MaxAtkRate_Lv0_": "15",
+    "limitBonus_IncreaseAtkRate_Lv0_": "3",
+    "limitBonus_AttackHitCountMax_Lv0_": "10",
+    "limitBonus_MaxAtkRate_Lv1_": "20",
+    "limitBonus_IncreaseAtkRate_Lv1_": "4",
+    "limitBonus_AttackHitCountMax_Lv1_": "10",
+    "limitBonus_MaxAtkRate_Lv2_": "25",
+    "limitBonus_IncreaseAtkRate_Lv2_": "5",
+    "limitBonus_AttackHitCountMax_Lv2_": "10",
+    "limitBonus_MaxAtkRate_Lv3_": "30",
+    "limitBonus_IncreaseAtkRate_Lv3_": "6",
+    "limitBonus_AttackHitCountMax_Lv3_": "10",
+    "frontStepCheckAngle_": "30",
+    "backStepCheckAngle_": "45",
+    "inputStepDirDecideThreshold_": "150",
+    "stepTargetSelectParam_": {
+      "searchTargetInfoList_": [
+        {
+          "Element": {
+            "maxLen": "6",
+            "maxRot": "45",
+            "height": "3.3",
+            "isLockOnMaxRangeSetting": "false",
+            "isBreakObjectCheck": "false",
+            "isEnableStickInput": "false",
+            "isForceEnableStickInput": "false"
+          }
+        },
+        {
+          "Element": {
+            "maxLen": "12",
+            "maxRot": "20",
+            "height": "3.3",
+            "isLockOnMaxRangeSetting": "false",
+            "isBreakObjectCheck": "false",
+            "isEnableStickInput": "false",
+            "isForceEnableStickInput": "false"
+          }
+        },
+        {
+          "Element": {
+            "maxLen": "10",
+            "maxRot": "90",
+            "height": "3.3",
+            "isLockOnMaxRangeSetting": "false",
+            "isBreakObjectCheck": "false",
+            "isEnableStickInput": "false",
+            "isForceEnableStickInput": "false"
+          }
+        },
+        {
+          "Element": {
+            "maxLen": "6.5",
+            "maxRot": "135",
+            "height": "3.3",
+            "isLockOnMaxRangeSetting": "false",
+            "isBreakObjectCheck": "false",
+            "isEnableStickInput": "false",
+            "isForceEnableStickInput": "false"
+          }
+        },
+        {
+          "Element": {
+            "maxLen": "6",
+            "maxRot": "180",
+            "height": "3.3",
+            "isLockOnMaxRangeSetting": "false",
+            "isBreakObjectCheck": "false",
+            "isEnableStickInput": "false",
+            "isForceEnableStickInput": "false"
+          }
+        }
+      ]
+    },
+    "stepContinueTargetSelectParam_": {
+      "searchTargetInfoList_": []
+    }
+  }
+}

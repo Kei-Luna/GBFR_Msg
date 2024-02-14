@@ -1,0 +1,324 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em1600CauseTornadoAction": {
+    "guid_": 986914206,
+    "parentGuid_": 4,
+    "isComboBefore_": false,
+    "isComboAfter_": false,
+    "turningSpeed_": 0.75,
+    "maxTurningAngle_": 45,
+    "offsetPos_": [
+      {
+        "Element": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "Element": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "Element": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "shotRotY_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ]
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1193590972,
+    "parentGuid_": 4,
+    "valueName_": "Em1600_CrossTornade",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "EmAILevelCondition": {
+    "guid_": 2031446255,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "checkLevel_": 1,
+    "operatorType_": 2
+  },
+  "EmAILevelCondition": {
+    "guid_": 1571067664,
+    "parentGuid_": 5,
+    "isReverseSuccess_": false,
+    "checkLevel_": 2,
+    "operatorType_": 2
+  },
+  "EmAILevelCondition": {
+    "guid_": 740074310,
+    "parentGuid_": 7,
+    "isReverseSuccess_": false,
+    "checkLevel_": 3,
+    "operatorType_": 2
+  },
+  "Em1600CauseTornadoAction": {
+    "guid_": 1410078561,
+    "parentGuid_": 6,
+    "isComboBefore_": false,
+    "isComboAfter_": false,
+    "turningSpeed_": 0.75,
+    "maxTurningAngle_": 45,
+    "offsetPos_": [
+      {
+        "Element": [
+          3,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "Element": [
+          -3,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "Element": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "shotRotY_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ]
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 921291117,
+    "parentGuid_": 6,
+    "valueName_": "Em1600_CrossTornade",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "Em1600CauseTornadoAction": {
+    "guid_": 462623135,
+    "parentGuid_": 8,
+    "isComboBefore_": false,
+    "isComboAfter_": false,
+    "turningSpeed_": 0.75,
+    "maxTurningAngle_": 45,
+    "offsetPos_": [
+      {
+        "Element": [
+          3,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "Element": [
+          -3,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "Element": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "shotRotY_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ]
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1163706800,
+    "parentGuid_": 8,
+    "valueName_": "Em1600_CrossTornade",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "Em1600CauseTornadoAction": {
+    "guid_": 1376369787,
+    "parentGuid_": 9,
+    "isComboBefore_": false,
+    "isComboAfter_": false,
+    "turningSpeed_": 0.75,
+    "maxTurningAngle_": 45,
+    "offsetPos_": [
+      {
+        "Element": [
+          4,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "Element": [
+          -4,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "Element": [
+          0,
+          0,
+          3,
+          0
+        ]
+      }
+    ],
+    "shotRotY_": [
+      {
+        "Element": 20
+      },
+      {
+        "Element": -20
+      },
+      {
+        "Element": 0
+      }
+    ]
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 2064203985,
+    "parentGuid_": 9,
+    "valueName_": "Em1600_CrossTornade",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em1600",
+    "subTreeName_": "land_tornado"
+  }
+}

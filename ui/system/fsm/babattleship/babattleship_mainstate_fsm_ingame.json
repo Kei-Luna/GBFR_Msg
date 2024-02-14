@@ -1,0 +1,54 @@
+{
+  "FSMNode": {
+    "guid_": 1181307162,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "toNodeGuid_": 1181307162,
+    "fromNodeGuid_": 469356573,
+    "isEndTransition_": false
+  },
+  "FSMNode": {
+    "guid_": 469356573,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 455123304,
+    "toNodeGuid_": 469356573,
+    "fromNodeGuid_": 1923039298,
+    "isEndTransition_": false
+  },
+  "FSMNode": {
+    "guid_": 1923039298,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "MotionPlayAction": {
+    "guid_": 117614398,
+    "parentGuid_": 469356573,
+    "motionIdName_": "0010",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "interTime_": -1
+  },
+  "MotionEndCondition": {
+    "guid_": 455123304,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": true
+  },
+  "MotionPlayAction": {
+    "guid_": 1705936377,
+    "parentGuid_": 1923039298,
+    "motionIdName_": "0001",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "interTime_": -1
+  }
+}

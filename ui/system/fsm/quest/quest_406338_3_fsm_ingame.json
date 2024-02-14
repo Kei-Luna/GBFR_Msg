@@ -1,0 +1,132 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 298026060,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 298026060,
+    "fromNodeGuid_": 308459487,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 308459487,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 486394483,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 172277117
+      }
+    ],
+    "toNodeGuid_": 308459487,
+    "fromNodeGuid_": 1707296792,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1707296792,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 970958805,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 891885765
+      }
+    ],
+    "toNodeGuid_": 1707296792,
+    "fromNodeGuid_": 1050360065,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1050360065,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 941477346,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CheckAngramanyuuState": {
+    "guid_": 172277117,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 824,
+    "progressIndex_": 3,
+    "progressHash_": 11338189680064426708,
+    "isNoCheckSkip_": false,
+    "type_": 1
+  },
+  "CheckAngramanyuuState": {
+    "guid_": 891885765,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 824,
+    "progressIndex_": 3,
+    "progressHash_": 11338189680064426708,
+    "isNoCheckSkip_": false,
+    "type_": 2
+  },
+  "CallBgm": {
+    "guid_": 252241458,
+    "parentGuid_": 1707296792,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 824,
+    "progressIndex_": 3,
+    "progressHash_": 11338189680064426708,
+    "wwiseIdName_": "BGM_Bt_AngraMainyu_B_Loop",
+    "useBgmSetType_": false,
+    "bgmSetType_": 0,
+    "skipWhileSectionJump_": false
+  },
+  "CallBgm": {
+    "guid_": 1086950117,
+    "parentGuid_": 1050360065,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 824,
+    "progressIndex_": 3,
+    "progressHash_": 11338189680064426708,
+    "wwiseIdName_": "BGM_Bt_AngraMainyu_C",
+    "useBgmSetType_": false,
+    "bgmSetType_": 0,
+    "skipWhileSectionJump_": false
+  }
+}

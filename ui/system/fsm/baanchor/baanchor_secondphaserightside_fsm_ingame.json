@@ -1,0 +1,272 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 408736739,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1227850538
+      }
+    ],
+    "toNodeGuid_": 408736739,
+    "fromNodeGuid_": 1386615819,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 408736739,
+    "fromNodeGuid_": 1717958158,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1386615819,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 831894443,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 965793878
+      }
+    ],
+    "toNodeGuid_": 1386615819,
+    "fromNodeGuid_": 750937451,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 99665897,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 816580525
+      }
+    ],
+    "toNodeGuid_": 99665897,
+    "fromNodeGuid_": 650569680,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 650569680,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1717958158,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 2075804315,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1717958158,
+    "fromNodeGuid_": 1386615819,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 750937451,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1987678986
+      }
+    ],
+    "toNodeGuid_": 750937451,
+    "fromNodeGuid_": 99665897,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "MotionPlayAction": {
+    "guid_": 1031969929,
+    "parentGuid_": 1386615819,
+    "motionIdName_": "a200",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": 0,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1
+  },
+  "MotionPlayAction": {
+    "guid_": 1433818829,
+    "parentGuid_": 99665897,
+    "motionIdName_": "a201",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": 0,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1725768317,
+    "parentGuid_": 650569680,
+    "valueName_": "Ba_Anchor_Destroyed",
+    "setTiming_": 0,
+    "value_": true
+  },
+  "MotionEndCondition": {
+    "guid_": 816580525,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionSlot_": 0,
+    "isMotionEndHalfWay_": false,
+    "endTime_": 0
+  },
+  "EndEventCondition": {
+    "guid_": 1227850538,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "type_": 0,
+    "id_": -1
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 965793878,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "Ba_Anchor_Withdraw"
+  },
+  "ActionEndCondition": {
+    "guid_": 1987678986,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "MotionPlayAction": {
+    "guid_": 324094713,
+    "parentGuid_": 750937451,
+    "motionIdName_": "a202",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": 1.5,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1
+  },
+  "RegisterBlackBoardIntAction": {
+    "guid_": 1105466396,
+    "parentGuid_": 750937451,
+    "valueName_": "anchor_vfx",
+    "value_": 0
+  },
+  "CallObjectVFXAction": {
+    "guid_": 496531179,
+    "parentGuid_": 750937451,
+    "id_": 2180,
+    "isUseCoreEff_": false,
+    "isUseEntityPosition_": false,
+    "isUseEntityRotation_": false,
+    "isParentSetting_": true,
+    "isPartsSetting_": false,
+    "effectObjId_": 991491,
+    "offsetPos_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "offsetRot_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "canEditScaleXYZ_": false,
+    "scale_": 1,
+    "scaleY_": 1,
+    "scaleZ_": 1,
+    "partsNo_": 0,
+    "writeControllerNumber_": true,
+    "blackBoardName_": "anchor_vfx",
+    "isVanishOnEnd_": true,
+    "isUseRoomEff_": false
+  },
+  "ResetRotateAction": {
+    "guid_": 63657752,
+    "parentGuid_": 750937451,
+    "totalTime_": 1.5,
+    "resetY_": false
+  }
+}

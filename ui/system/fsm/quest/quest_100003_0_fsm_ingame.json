@@ -1,0 +1,350 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1627630617,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1627630617,
+    "fromNodeGuid_": 194296447,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 806560591,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 683290988,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1285494744
+      }
+    ],
+    "toNodeGuid_": 806560591,
+    "fromNodeGuid_": 1007312451,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 409967046,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "FSMNode": {
+    "guid_": 1007312451,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 593773823
+      }
+    ],
+    "toNodeGuid_": 1007312451,
+    "fromNodeGuid_": 1518215460,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1518215460,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1734111392
+      }
+    ],
+    "toNodeGuid_": 1518215460,
+    "fromNodeGuid_": 409967046,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 194296447,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 194296447,
+    "fromNodeGuid_": 806560591,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "BeginSection": {
+    "guid_": 473046834,
+    "parentGuid_": 806560591,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 0,
+    "progressHash_": 16023776503654032075,
+    "name_": "",
+    "label_": "",
+    "phaseNo_": 2305,
+    "subPhaseNo_": 0,
+    "uniqueIdHash_": 1336058898662170708,
+    "controllers_": {
+      "count": 0
+    },
+    "isQuestStartSection_": true,
+    "isSpawnVyrn_": true,
+    "eraseVyrnPhone_": false,
+    "isFullParty_": false,
+    "partyCharaType_": [
+      {
+        "Element": 2
+      },
+      {
+        "Element": 1
+      },
+      {
+        "Element": 1
+      },
+      {
+        "Element": 1
+      }
+    ],
+    "isReturnSection_": true,
+    "isRetrySection_": false,
+    "isRetrySectionKeep_": false,
+    "isAcceptQuestSection_": false,
+    "isItemReset_": false,
+    "isSpArtsReset_": false,
+    "npcUniqueIdHash_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ],
+    "isSectionJumpFadeIn_": false,
+    "npcPositionGroupUuidHash_": 0,
+    "questCrossCheckPointState_": 0
+  },
+  "ClearQuest": {
+    "guid_": 1478794598,
+    "parentGuid_": 409967046,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 0,
+    "progressHash_": 16023776503654032075
+  },
+  "AfterSceneStartup": {
+    "guid_": 1285494744,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 0,
+    "progressHash_": 16023776503654032075,
+    "isNoCheckSkip_": false,
+    "finishFadeIn_": true
+  },
+  "DispChapter": {
+    "guid_": 1233149027,
+    "parentGuid_": 1007312451,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 0,
+    "progressHash_": 16023776503654032075,
+    "chapterId_": "TELOP_CHAPTER_MAIN_010"
+  },
+  "EndDispChapter": {
+    "guid_": 593773823,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 0,
+    "progressHash_": 16023776503654032075,
+    "isNoCheckSkip_": false
+  },
+  "SetUIGuideHideAction": {
+    "guid_": 1093132725,
+    "parentGuid_": 806560591,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 0,
+    "progressHash_": 16023776503654032075,
+    "hudGuideType_": 0,
+    "hideFlag_": true
+  },
+  "SetUIGuideHideAction": {
+    "guid_": 184773654,
+    "parentGuid_": 806560591,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 0,
+    "progressHash_": 16023776503654032075,
+    "hudGuideType_": 1,
+    "hideFlag_": true
+  },
+  "CallConsecutiveEvent": {
+    "guid_": 1066850944,
+    "parentGuid_": 1518215460,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 0,
+    "progressHash_": 16023776503654032075,
+    "eventControllers_": {
+      "count": 3,
+      "detail1": {
+        "type": 5,
+        "eventId": 512
+      },
+      "detail2": {
+        "type": 1,
+        "eventId": 96
+      },
+      "detail3": {
+        "type": 5,
+        "eventId": 528
+      }
+    },
+    "useOffset_": false,
+    "offsetUniqueIdHash_": 0,
+    "isFadeInEventAfter_": false,
+    "forceFadeTime_": 0,
+    "forceEndFadeTime_": 0,
+    "useMovePos_": false,
+    "movePlayerPosHash_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ],
+    "moveGuestPosHash_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ]
+  },
+  "EndEvent": {
+    "guid_": 1734111392,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 0,
+    "progressHash_": 16023776503654032075,
+    "isNoCheckSkip_": false,
+    "eventNo_": 528,
+    "eventType_": 0
+  },
+  "PushCurrentPartyKeep": {
+    "guid_": 1996202379,
+    "parentGuid_": 194296447,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 0,
+    "progressHash_": 16023776503654032075
+  },
+  "RequestSave": {
+    "guid_": 1128456018,
+    "parentGuid_": 806560591,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 3,
+    "progressIndex_": 0,
+    "progressHash_": 16023776503654032075
+  }
+}

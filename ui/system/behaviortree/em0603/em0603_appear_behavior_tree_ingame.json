@@ -1,0 +1,151 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "SelectorNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "SelectorNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": true,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ReferenceTreeNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "referenceTreeFolderName_": "em0603",
+      "referenceTreeName_": "appearmultiquest"
+    }
+  },
+  "ActionNode": {
+    "guid_": 10,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1610560832,
+    "parentGuid_": 2,
+    "isReverseSuccess_": false,
+    "boolName_": "Em_IsAppear"
+  },
+  "MotionPlayAction": {
+    "guid_": 549636775,
+    "parentGuid_": 7,
+    "motionIdName_": "0000",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 2128383917,
+    "parentGuid_": 4,
+    "isReverseSuccess_": false,
+    "intName_": "Em_AppearType",
+    "value_": 1,
+    "operatorType_": 0
+  },
+  "EmExitAppearAction": {
+    "guid_": 651939110,
+    "parentGuid_": 8,
+    "isAlwaysRun_": false,
+    "isContinueAppear_": false,
+    "afterType_": -1
+  },
+  "BlackBoardFloatCondition": {
+    "guid_": 246022461,
+    "parentGuid_": 6,
+    "isReverseSuccess_": false,
+    "valueName_": "Em_TargetDistance",
+    "value_": 10,
+    "operatorType_": 3
+  },
+  "EmExitAppearAction": {
+    "guid_": 1521284584,
+    "parentGuid_": 10,
+    "isAlwaysRun_": false,
+    "isContinueAppear_": false,
+    "afterType_": -1
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em0603",
+    "subTreeName_": "appear"
+  }
+}

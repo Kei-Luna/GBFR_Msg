@@ -1,0 +1,283 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 670454192,
+    "tailIndexOfChildNodeGuids_": 4,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 670454192,
+    "fromNodeGuid_": 377397131,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 798788545,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 745109587,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1817870525
+      }
+    ],
+    "toNodeGuid_": 798788545,
+    "fromNodeGuid_": 1453289919,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1029966962
+      },
+      {
+        "Element": 1455243445
+      }
+    ],
+    "toNodeGuid_": 798788545,
+    "fromNodeGuid_": 1496628986,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 377397131,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 152269862,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1004515568
+      }
+    ],
+    "toNodeGuid_": 377397131,
+    "fromNodeGuid_": 798788545,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1496628986,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1272666179,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1810176247
+      },
+      {
+        "Element": 1838815659
+      }
+    ],
+    "toNodeGuid_": 1496628986,
+    "fromNodeGuid_": 377397131,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 1453289919,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1154298148,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1258226273
+      }
+    ],
+    "toNodeGuid_": 1453289919,
+    "fromNodeGuid_": 377397131,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "ShotVfxAction": {
+    "guid_": 2075513318,
+    "parentGuid_": 798788545,
+    "effectObjId_": 159745,
+    "effectId_": 302,
+    "seName_": "",
+    "scale_": 3,
+    "scaleY_": 1,
+    "scaleZ_": 1,
+    "delCode_": 2147483648,
+    "oneShot_": false,
+    "isHitEffect_": false,
+    "isSetHitEffectEspCtrl_": false,
+    "canEditScaleXYZ_": false,
+    "isUseParentObjId_": false,
+    "isHitEffectKeepFront_": false,
+    "offsetPos_": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 1810176247,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 14,
+          "isEnable_": false
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "ShotVfxAction": {
+    "guid_": 840007196,
+    "parentGuid_": 377397131,
+    "effectObjId_": -1,
+    "effectId_": 302,
+    "seName_": "",
+    "scale_": 8,
+    "scaleY_": 1,
+    "scaleZ_": 1,
+    "delCode_": 2147483648,
+    "oneShot_": false,
+    "isHitEffect_": false,
+    "isSetHitEffectEspCtrl_": false,
+    "canEditScaleXYZ_": false,
+    "isUseParentObjId_": false,
+    "isHitEffectKeepFront_": false,
+    "offsetPos_": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "Em7001RagnarokShotStateCondition": {
+    "guid_": 1004515568,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "state_": 1
+  },
+  "Em7001SetManagedShotStateAction": {
+    "guid_": 40992212,
+    "parentGuid_": 377397131,
+    "isUse_": false
+  },
+  "Em7001SetRagnarokShotStateAction": {
+    "guid_": 181071623,
+    "parentGuid_": 798788545,
+    "state_": 1
+  },
+  "Em7001RagnarokShotExplosionAction": {
+    "guid_": 684866986,
+    "parentGuid_": 1496628986,
+    "explosionVfxScale_": 1
+  },
+  "Em7001RagnarokShotStateCondition": {
+    "guid_": 1838815659,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "state_": 0
+  },
+  "Em7001RagnarokShotStateCondition": {
+    "guid_": 1817870525,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "state_": 0
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 1258226273,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 14,
+          "isEnable_": false
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "ShotStatusFlagCondition": {
+    "guid_": 1029966962,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "statusFlagInfo_": [
+      {
+        "Element": {
+          "statusFlag_": 13,
+          "isEnable_": true
+        }
+      }
+    ],
+    "isSuccessAny_": true
+  },
+  "Em7001RagnarokShotStateCondition": {
+    "guid_": 1455243445,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "state_": 2
+  },
+  "Em7001RagnarokShotVanishAction": {
+    "guid_": 570309819,
+    "parentGuid_": 1453289919,
+    "vfxScale_": 1
+  }
+}

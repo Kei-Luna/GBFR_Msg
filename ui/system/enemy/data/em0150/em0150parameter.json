@@ -1,0 +1,352 @@
+{
+  "Em0150Param": {
+    "hp_": "150000",
+    "atk_": "750",
+    "break_": "1",
+    "def_": "0",
+    "endurance_": "10",
+    "exp_": "20",
+    "hpCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "atkCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "defCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "expCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "hateRateClosePlayer_": "15",
+    "hateRateFarPlayer_": "0",
+    "hateRateFrontAngle_": "10",
+    "hateRateBackAngle_": "0",
+    "hateRateDamage_": "70",
+    "hateRateManualPlayer_": "0",
+    "hateRateHighHpPlayer_": "0",
+    "hateRateLowHpPlayer_": "0",
+    "hateRateTargetCountManyPlayer_": "0",
+    "hateRateTargetCountFewPlayer_": "0",
+    "hateRateHelpPlayer_": "0",
+    "hateRateLastTargetPlayer_": "0",
+    "hateRateFirstTargetPlayer_": "7",
+    "hateUpdateTime_": "5",
+    "damageToHateRate_": "0.02",
+    "damageHateDecPerSec_": "2",
+    "combatPower_": "50",
+    "itemRewordMoneyVal_": "0",
+    "itemRewordJumpRate_": "0.5",
+    "battle2SearchLength_": "1000",
+    "search2battleLength_": "10",
+    "enemySize_": "2",
+    "targetRangeParam_": {
+      "rangeClose_": "-1",
+      "rangeShort_": "11",
+      "rangeMiddle_": "16",
+      "rangeLong_": "-1"
+    },
+    "counterAttackParam_": {
+      "damageMaxValue_": "1800",
+      "damageMinValue_": "1800",
+      "reduceDamageValueInSec_": "350",
+      "stopReduceTime_": "2",
+      "coolTime_": "10",
+      "onceCheckCounterAttack_": "false"
+    },
+    "linkParam_": {
+      "linkMaxValue_": "500",
+      "linkResetTime_": "1",
+      "linkResetRate_": "100",
+      "linkMultiBonus_": "1.5",
+      "linkCoolTime_": "40"
+    },
+    "animInterDefaultSec_": "0.5",
+    "damageAnimInterDefaultSec_": "0.1",
+    "uiPartsNo_": "0",
+    "uiOffsetY_": "1",
+    "overDriveParam_": {
+      "hpRateNormal_": "0.15",
+      "hpRateOverDrive_": "0.5",
+      "hpRateBreak_": "0.05",
+      "forceBreakSecond_": "20",
+      "overDriveVyrnVoiceWaitSecond_": "3",
+      "overDriveCameraPartsNumber_": "5"
+    },
+    "emissiveParamDefault_": {
+      "sinMode_": "false",
+      "emissiveBlinkSecond_": "6",
+      "emissiveBlinkPow_": "1",
+      "emissiveBlinkMaxSecond_": "1.5",
+      "emissiveStrengthUpper_": "1",
+      "emissiveStrengthLower_": "0.01"
+    },
+    "emissiveParamMax_": {
+      "sinMode_": "false",
+      "emissiveBlinkSecond_": "3",
+      "emissiveBlinkPow_": "1",
+      "emissiveBlinkMaxSecond_": "1",
+      "emissiveStrengthUpper_": "1",
+      "emissiveStrengthLower_": "0.01"
+    },
+    "emissiveParamMin_": {
+      "sinMode_": "false",
+      "emissiveBlinkSecond_": "6",
+      "emissiveBlinkPow_": "1",
+      "emissiveBlinkMaxSecond_": "1",
+      "emissiveStrengthUpper_": "0.05",
+      "emissiveStrengthLower_": "0.01"
+    },
+    "closeLength_": "11",
+    "middleLength_": "16",
+    "FrontAngle_": "45",
+    "aroundSearchLength_": "16",
+    "badStatusHate_": "10000",
+    "animRateOD_": "1.1",
+    "forceOverDriveHpRate_": "25",
+    "meteorHpTriggerFirst_": "50",
+    "meteorHpTriggerSecond_": "15",
+    "meteorSecondStopHpRate_": "5",
+    "overdriveVoiceWaitSecond_": "3",
+    "breakVoiceWaitSecond_": "2",
+    "breakDownVoiceWaitSecond_": "0.1",
+    "meteorBeginVoiceWaitSecond_": "3",
+    "meteorShotVoiceWaitSecond_": "1.5",
+    "headDamageRate_": "1.2",
+    "frontDamageRate_": "1",
+    "backDamageRate_": "1",
+    "overDriveDamageRate_": "1",
+    "attackHomingRate_": "0.5",
+    "attackHomingAngleMax_": "3",
+    "clawHomingRotRate_": "0.02",
+    "clawMaxHomingAngle_": "30",
+    "tackleHomingDegreeOffset_": "-20",
+    "tackleHomingDegreeMax_": "60",
+    "roarStartHpRate_": "0.012",
+    "roarStackDamageCheckTime_": "6000",
+    "roarCoolTime_": "10",
+    "roarDamageStackArraySize_": "15",
+    "fireBallAngleX_": "80",
+    "fireBallDistance_": "10",
+    "fireBallTargetOffsetY_": "1.5",
+    "fireBallSpeed_": "50",
+    "fireBallScale_": "1.5",
+    "fireBallHomingRate_": "0.05",
+    "fireBallHomingAngleMax_": "3",
+    "fireBallCoolTimeForFes_": "5",
+    "fireFieldTime_": "0.05",
+    "fireFieldCreateTime_": "0.018",
+    "fireFieldCreateY_": "3",
+    "fireFieldCreateRate_": "0.02",
+    "chaseMagicCircleEnable_": "false",
+    "chaseMagicCirclePresageParam_": {
+      "waitSecond_": "0",
+      "changeScaleSecond_": "0.5",
+      "startScale_": "0",
+      "endScale_": "1.4",
+      "moveSecondMin_": "0",
+      "moveSecondMax_": "0",
+      "moveSecond_": "1",
+      "moveSpeed_": "10",
+      "warningSecond_": "1",
+      "attackSecond_": "0.5",
+      "attackPower_": "0",
+      "attackRadius_": "4",
+      "breakPower_": "1",
+      "color_": "0"
+    },
+    "chaseMagicCircleNormalParam_": {
+      "waitSecond_": "1.5",
+      "changeScaleSecond_": "0.5",
+      "startScale_": "0",
+      "endScale_": "0.3",
+      "moveSecondMin_": "1",
+      "moveSecondMax_": "2",
+      "moveSecond_": "0",
+      "moveSpeed_": "3.9",
+      "warningSecond_": "1",
+      "attackSecond_": "0.5",
+      "attackPower_": "0",
+      "attackRadius_": "4",
+      "breakPower_": "4",
+      "color_": "0"
+    },
+    "chaseMagicCircleOverDriveParam_": {
+      "waitSecond_": "1.5",
+      "changeScaleSecond_": "0.5",
+      "startScale_": "0",
+      "endScale_": "0.3",
+      "moveSecondMin_": "1",
+      "moveSecondMax_": "2",
+      "moveSecond_": "0",
+      "moveSpeed_": "3.9",
+      "warningSecond_": "1",
+      "attackSecond_": "0.5",
+      "attackPower_": "0",
+      "attackRadius_": "4",
+      "breakPower_": "4",
+      "color_": "0"
+    },
+    "multipleMagicCircleCoolTimeNormal_": "90",
+    "multipleMagicCircleCoolTimeOverDriveFirst_": "10",
+    "multipleMagicCircleCoolTimeOverDrive_": "30",
+    "multipleMagicCircleCoolTimeMeteor_": "10",
+    "meteorForceSetSecond_": "50",
+    "meteorShotRotX_": "65",
+    "meteorShotRotY_": "0",
+    "meteorShotPosY_": "40",
+    "meteorShotRadius_": "10",
+    "meteorShotSpace_": "0.5",
+    "meteorShotSpeed_": "20",
+    "meteorShotWaitSecondMin_": "0.4",
+    "meteorShotWaitSecondMax_": "0.8",
+    "meteorWaitBeginSecond_": "0.1",
+    "meteorWaitShotSecond_": "0",
+    "meteorWaitEndSecond_": "3",
+    "meteorRangeCount_": "2",
+    "meteorLineScale_": [
+      "1",
+      "1",
+      "1"
+    ],
+    "meteorHitDispSecond_": "7.5",
+    "meteorHitDispScale_": "1",
+    "meteorCameraEnable_": "false",
+    "meteorCameraSecond_": "3.5",
+    "meteorDisableHeight_": "5",
+    "meteorCameraAttachParam_": {
+      "lookAtOffset_": [
+        "0",
+        "3",
+        "0"
+      ],
+      "partsNumber_": "3",
+      "rotX_": "30",
+      "rotY_": "0",
+      "distance_": "16",
+      "fov_": "45",
+      "isAttachContinue_": "false"
+    },
+    "turnBackTurnDegree_": "140",
+    "turnLeft90Degree_": "75",
+    "turnRight90Degree_": "-55",
+    "turnLeft180Degree_": "140",
+    "turnRight180Degree_": "-140",
+    "resetStepCoolTime_": "20",
+    "resetStepCheckHeight_": "10",
+    "resetStepCheckLength_": "20",
+    "beamParam_": {
+      "moveAxis_": [
+        "0",
+        "1",
+        "0"
+      ],
+      "offset_": [
+        "0",
+        "0",
+        "0"
+      ],
+      "rot_": [
+        "39",
+        "0",
+        "0"
+      ],
+      "jointNumber_": "5",
+      "intervalSecond_": "0.06",
+      "lifeSecond_": "0.7",
+      "speed_": "40",
+      "radius_": "0.7"
+    },
+    "breathParam_": {
+      "moveAxis_": [
+        "0",
+        "1",
+        "0"
+      ],
+      "offset_": [
+        "0",
+        "0.7",
+        "0"
+      ],
+      "rot_": [
+        "10",
+        "0",
+        "0"
+      ],
+      "jointNumber_": "37",
+      "intervalSecond_": "0.05",
+      "lifeSecond_": "0.3",
+      "speed_": "23",
+      "radius_": "0.9"
+    },
+    "attackParam_smallMagicCircle_": {
+      "attackRateNormal_": "0.8",
+      "attackRateOverDrive_": "0.96",
+      "breakRateNormal_": "4",
+      "breakRateOverDrive_": "4"
+    },
+    "attackParam_multipleMagicCircle_": {
+      "attackRateNormal_": "1",
+      "attackRateOverDrive_": "0.9",
+      "breakRateNormal_": "2",
+      "breakRateOverDrive_": "2"
+    },
+    "attackParam_fireBall_": {
+      "attackRateNormal_": "1",
+      "attackRateOverDrive_": "1.2",
+      "breakRateNormal_": "1",
+      "breakRateOverDrive_": "1"
+    },
+    "attackParam_fireBreath_": {
+      "attackRateNormal_": "1.3",
+      "attackRateOverDrive_": "1.4",
+      "breakRateNormal_": "2",
+      "breakRateOverDrive_": "2"
+    },
+    "attackParam_skyFireBreath_": {
+      "attackRateNormal_": "1.6",
+      "attackRateOverDrive_": "1.92",
+      "breakRateNormal_": "1",
+      "breakRateOverDrive_": "1"
+    },
+    "attackParam_stepFireBall_": {
+      "attackRateNormal_": "1.2",
+      "attackRateOverDrive_": "1.25",
+      "breakRateNormal_": "1",
+      "breakRateOverDrive_": "1"
+    },
+    "attackParam_meteor_": {
+      "attackRateNormal_": "2",
+      "attackRateOverDrive_": "2.2",
+      "breakRateNormal_": "10",
+      "breakRateOverDrive_": "10"
+    },
+    "attackParam_beam_": {
+      "attackRateNormal_": "2.1",
+      "attackRateOverDrive_": "2.1",
+      "breakRateNormal_": "10",
+      "breakRateOverDrive_": "10"
+    },
+    "hpCutHpRate1_": "40",
+    "hpCutHpRate2_": "20",
+    "hpCutTime1_": "150",
+    "hpCutTime2_": "240",
+    "hpCutRate1_": "5",
+    "hpCutRate2_": "6",
+    "hpCutTime_": "10",
+    "hpCutLower1_": "10000",
+    "hpCutLower2_": "10000"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1844644933,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1844644933,
+    "fromNodeGuid_": 715992361,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 31978443,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 31978443,
+    "fromNodeGuid_": 1470612446,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 715992361,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1224513033,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 139799398
+      }
+    ],
+    "toNodeGuid_": 715992361,
+    "fromNodeGuid_": 31978443,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "BehaviorBeginActingAction": {
+    "guid_": 2079913266,
+    "parentGuid_": 715992361,
+    "animationId_": "052c",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "startFrame_": -1,
+    "interFrame_": -1,
+    "speedRate_": 1,
+    "animationSlotNo_": 0,
+    "isCorrectTransform_": false,
+    "correctElement_": 0,
+    "targetPosition_": [
+      728.7996,
+      97.29877,
+      148.0599,
+      2
+    ],
+    "targetRotation_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "correctTransformSecond_": 0,
+    "easingType_": 0,
+    "isEnableCameraAnimation_": false
+  },
+  "ActionEndCondition": {
+    "guid_": 139799398,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "EmNeckControlAction": {
+    "guid_": 1555692834,
+    "parentGuid_": 715992361,
+    "isEnable_": false,
+    "isEndEnable_": false
+  }
+}

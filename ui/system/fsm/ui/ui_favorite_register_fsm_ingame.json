@@ -1,0 +1,130 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1580772122,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1580772122,
+    "fromNodeGuid_": 1501953239,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 739194004,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1648469356,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "FSMNode": {
+    "guid_": 1501953239,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 998429675,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1382190263
+      },
+      {
+        "Element": 691498509
+      },
+      {
+        "Element": 218082695
+      }
+    ],
+    "toNodeGuid_": 1501953239,
+    "fromNodeGuid_": 739194004,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      },
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "FlowEnd": {
+    "guid_": 73111751,
+    "parentGuid_": 739194004,
+    "result_": 0,
+    "fsmLabel_": "FavoriteRegister"
+  },
+  "Event": {
+    "guid_": 1382190263,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "event_": "Cancel",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "Event": {
+    "guid_": 691498509,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "event_": "Button01",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "Event": {
+    "guid_": 218082695,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "event_": "Button02",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "ViewOpenClose": {
+    "guid_": 677924412,
+    "parentGuid_": 1501953239,
+    "views_": [
+      {
+        "Element": "FavRegister"
+      },
+      {
+        "Element": "TutorialFooter"
+      }
+    ],
+    "count_": 2,
+    "layerOffset_": 1,
+    "openSkip_": false,
+    "closeSkip_": false
+  }
+}

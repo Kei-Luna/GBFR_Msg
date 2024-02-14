@@ -1,0 +1,1610 @@
+{
+  "Em7400Param": {
+    "hp_": "10000",
+    "atk_": "2000",
+    "break_": "10",
+    "def_": "1",
+    "endurance_": "0",
+    "exp_": "0",
+    "hitSEMaxBreak_": "4",
+    "hitSEMinBreak_": "0",
+    "hpCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "atkCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "defCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "expCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "fsmParam_": {
+      "folderName_": [
+        {
+          "Element": "emcommon"
+        }
+      ],
+      "fsmName_": [
+        {
+          "Element": "snd_overdrive_1"
+        }
+      ]
+    },
+    "hateRateClosePlayer_": "25",
+    "hateRateFarPlayer_": "0",
+    "hateRateClosePlayerPerSec_": "0",
+    "hateRateFarPlayerPerSec_": "0",
+    "hateRateFrontAngle_": "25",
+    "hateRateBackAngle_": "0",
+    "hateRateDamage_": "50",
+    "hateRateManualPlayer_": "0",
+    "hateRateHighHpPlayer_": "0",
+    "hateRateLowHpPlayer_": "0",
+    "hateRateTargetCountManyPlayer_": "0",
+    "hateRateTargetCountFewPlayer_": "0",
+    "hateRateHelpPlayer_": "0",
+    "hateRateLastTargetPlayer_": "0",
+    "hateRateFirstTargetPlayer_": "0",
+    "badStatusHateRateMap_": [],
+    "hateUpdateTime_": "10",
+    "damageToHateRate_": "0.02",
+    "damageHateDecPerSec_": "2",
+    "closeHateIncRate_": "0",
+    "closeHateDecRate_": "0",
+    "farHateIncRate_": "0",
+    "farHateDecRate_": "0",
+    "combatPower_": "50",
+    "combatPowerList_": [
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      }
+    ],
+    "itemRewordMoneyVal_": "0",
+    "itemRewordJumpRate_": "0.5",
+    "battle2SearchLength_": "150",
+    "search2battleLength_": "150",
+    "enemySize_": "0",
+    "linkAttackCameraDistRate_": "0",
+    "targetRangeParam_": {
+      "rangeClose_": "15",
+      "rangeShort_": "100",
+      "rangeMiddle_": "200",
+      "rangeLong_": "-1"
+    },
+    "counterAttackParam_": {
+      "damageMaxValue_": "10",
+      "damageMinValue_": "10",
+      "reduceDamageValueInSec_": "10",
+      "stopReduceTime_": "5",
+      "coolTime_": "10",
+      "onceCheckCounterAttack_": "false",
+      "isReferenceMaxHpRate_": "true"
+    },
+    "counterAttackParams_": [
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      }
+    ],
+    "useCounterAttackParam_": [
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      }
+    ],
+    "badStatusResistanceParams_": [
+      {
+        "Element": {
+          "maxValue_": "0",
+          "minValue_": "0",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "0",
+          "minValue_": "0",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "0",
+          "minValue_": "0",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "0",
+          "minValue_": "0",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "0",
+          "minValue_": "0",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "0",
+          "minValue_": "0",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "0",
+          "minValue_": "0",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "0",
+          "minValue_": "0",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      }
+    ],
+    "statusParams_": {
+      "regeneratePercent_": "0.5",
+      "regenerateCycleSec_": "1",
+      "multiAttackNum_": "1",
+      "multiAttackDelayFrame_": "5",
+      "multiAttackAtkRate_": "0.2",
+      "multiAttackHitStopDivision_": "2",
+      "burnDotDamageLimitRate_": "1",
+      "poisonDotDamageLimitRate_": "1",
+      "dimentionDotDamageLimitRate_": "1"
+    },
+    "cameraCollisionParams_": [],
+    "linkParam_": {
+      "linkMaxValue_": "1",
+      "linkResetTime_": "0.1",
+      "linkResetRate_": "0",
+      "linkMultiBonus_": "1.5",
+      "linkCoolTime_": "0",
+      "isOverrideCircleParts_": "true",
+      "linkPartsNumber_": "1483",
+      "linkOffsetPos_": [
+        "0",
+        "0",
+        "4",
+        "1"
+      ],
+      "linkCirclePartsNumber_": "5",
+      "linkCircleOffsetPos_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "linkAddDist_": "1000",
+      "linkAdjustSec_": "1.5"
+    },
+    "lockOnParam_": {
+      "partsInfoList_": [],
+      "spArtsPrioLayer_": "-1",
+      "spArtsPrioOffset_": "0",
+      "spArtsWarpOffset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "spArtsWarpPartsNumber_": "-1",
+      "spArtsWarpDist_": "0",
+      "rangeType_": "0"
+    },
+    "collisionParam_": {
+      "offset_": [
+        "0",
+        "150",
+        "0",
+        "1"
+      ],
+      "lineEndOffset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "partsNumber_": "-1",
+      "capsuleEndPartsNumber_": "-1",
+      "radius_": "60"
+    },
+    "animInterDefaultSec_": "1",
+    "damageAnimInterDefaultSec_": "0.1",
+    "uiPartsNo_": "1387",
+    "uiOffsetY_": "0",
+    "basicHitStopTimeRate_": "0",
+    "damageReactionHitStopTimeRate_": "0",
+    "superArmorHitStopTimeRate_": "0",
+    "attackerHitStopTimeRate_": "0",
+    "addReactionHitstopFrameMin_": "-1",
+    "addReactionHitstopFrameMax_": "-1",
+    "addReactionWeightRateMin_": "-1",
+    "addReactionWeightRateMax_": "-1",
+    "addReactionWeightRateAI_": "-1",
+    "addReactionInterSec_": "-1",
+    "isEyeLookingAtLockOn_": "false",
+    "lookingAtPartsNo_": "5",
+    "isEnableSyncWeaponAnim_": "false",
+    "weakPointParam_": {
+      "weakInfoList_": []
+    },
+    "defenseTargetHateParams_": [
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      }
+    ],
+    "ignoreAilments_": [
+      {
+        "Element": "282221916"
+      },
+      {
+        "Element": "3465211907"
+      },
+      {
+        "Element": "1394658927"
+      },
+      {
+        "Element": "2974846525"
+      },
+      {
+        "Element": "1887908229"
+      }
+    ],
+    "stageInvisibleStartDistance_": "150",
+    "stageInvisibleEndDistance_": "200",
+    "neckCtrlParam_": {
+      "partsNumber_": "5",
+      "rootPartsNumber_": "-1",
+      "basePartsNumber_": "3",
+      "baseAxisZ_": [
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      "neckAxisZ_": [
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      "baseDegree_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "maxDegreeX_": "5",
+      "maxDegreeY_": "30",
+      "minDegreeX_": "-40",
+      "minDegreeY_": "-30",
+      "rotAdjustRate_": "0.1",
+      "rotAdjustDegreeMax_": "30",
+      "baseAxisZUpLimitDegree_": "-1",
+      "seqWorkIndex_": "-1",
+      "seqFlagNumber_": "0",
+      "isSeqNeckCtrlEnable_": "false",
+      "isUseBaseParts_": "false"
+    },
+    "isChangeNormalDamageAttackReaction_": "true",
+    "isUseNormalDamageAttackReactionDefault_": "true",
+    "normalDamageAttackReaction_": [
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "1"
+      },
+      {
+        "Element": "2"
+      },
+      {
+        "Element": "3"
+      },
+      {
+        "Element": "4"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "22"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      }
+    ],
+    "isCallExplodeBodyPresageDefaultVfx_": "true",
+    "overDriveParam_": {
+      "hpRateNormal_": "0.25",
+      "hpRateOverDrive_": "0.25",
+      "hpRateBreak_": "1",
+      "minBreakSecond_": "5",
+      "forceBreakSecond_": "-1",
+      "overDriveVyrnVoiceWaitSecond_": "0",
+      "overDriveCameraPartsNumber_": "-1"
+    },
+    "emissiveParamDefault_": {
+      "sinMode_": "true",
+      "emissiveBlinkSecond_": "2",
+      "emissiveBlinkMaxSecond_": "1",
+      "emissiveBlinkPow_": "1",
+      "emissiveStrengthUpper_": "1",
+      "emissiveStrengthLower_": "0"
+    },
+    "emissiveParamMax_": {
+      "sinMode_": "true",
+      "emissiveBlinkSecond_": "2",
+      "emissiveBlinkMaxSecond_": "1",
+      "emissiveBlinkPow_": "1",
+      "emissiveStrengthUpper_": "1",
+      "emissiveStrengthLower_": "0"
+    },
+    "emissiveParamMin_": {
+      "sinMode_": "true",
+      "emissiveBlinkSecond_": "2",
+      "emissiveBlinkMaxSecond_": "1",
+      "emissiveBlinkPow_": "1",
+      "emissiveStrengthUpper_": "1",
+      "emissiveStrengthLower_": "0"
+    },
+    "spArtsCutinParam_": {
+      "spArtsTextId_": "TXT_BT_7400_2"
+    },
+    "odAbilityParam_": {
+      "textId_": "TXT_BT_7400_1"
+    },
+    "cameraLength_": "0",
+    "odHitStopTimeRate_": "0",
+    "breakHitStopTimeRate_": "1",
+    "emissiveInitValue_": "0",
+    "odAttackRateFirstTime_": "1.1",
+    "odDefenseRateFirstTime_": "0.9",
+    "odAttackRateSecondTime_": "1.2",
+    "odDefenseRateSecondTime_": "0.7",
+    "abilityCoolSec_": "10",
+    "isCutInDamageDisable_": "false",
+    "bossStunOffsetY_": "0",
+    "onFootCameraCylinderOffsetYTop_": "3",
+    "onFootCameraCylinderOffsetYBottom_": "18",
+    "onFootCameraCylinderRadius_": "20",
+    "playerApproachSecLimit_": "40",
+    "playerApproachMultiIncreaseRate_": "0.1",
+    "cameraLengthMax_": "15",
+    "cameraTargetOffsetMaxX_": "5",
+    "cameraTargetOffsetMaxY_": "2.8",
+    "cameraRate_": "0.05",
+    "cameraRateXY_": "2",
+    "cameraRangeMin_": "60",
+    "cameraRangeMax_": "150",
+    "blowWindBlowTime_": "1",
+    "waitShootDownMissileSec_": "40",
+    "footMoveAttackParam_": {
+      "posParams_": [
+        {
+          "Element": {
+            "offset_": [
+              "-0.3",
+              "-7.2",
+              "0",
+              "1"
+            ],
+            "angle_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "size_": [
+              "21.3",
+              "21",
+              "1",
+              "1"
+            ],
+            "shape_": "1",
+            "isHeat_": "false"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "0",
+              "-17",
+              "2",
+              "1"
+            ],
+            "angle_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "size_": [
+              "28",
+              "6",
+              "1",
+              "1"
+            ],
+            "shape_": "1",
+            "isHeat_": "false"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "-11.5",
+              "-13.1",
+              "26",
+              "1"
+            ],
+            "angle_": [
+              "0",
+              "-20",
+              "0",
+              "1"
+            ],
+            "size_": [
+              "5",
+              "3.6",
+              "9",
+              "1"
+            ],
+            "shape_": "2",
+            "isHeat_": "false"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "-12.5",
+              "-17",
+              "30",
+              "1"
+            ],
+            "angle_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "size_": [
+              "12",
+              "6",
+              "3",
+              "1"
+            ],
+            "shape_": "1",
+            "isHeat_": "false"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "11",
+              "-13.1",
+              "26",
+              "1"
+            ],
+            "angle_": [
+              "0",
+              "23",
+              "0",
+              "1"
+            ],
+            "size_": [
+              "5",
+              "3.6",
+              "9",
+              "1"
+            ],
+            "shape_": "2",
+            "isHeat_": "false"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "11",
+              "-17",
+              "30",
+              "1"
+            ],
+            "angle_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "size_": [
+              "12",
+              "6",
+              "3",
+              "1"
+            ],
+            "shape_": "1",
+            "isHeat_": "false"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "-0.5",
+              "-13.1",
+              "-25",
+              "1"
+            ],
+            "angle_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "size_": [
+              "5",
+              "3.6",
+              "5",
+              "1"
+            ],
+            "shape_": "2",
+            "isHeat_": "false"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "-1",
+              "-17",
+              "-25",
+              "1"
+            ],
+            "angle_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "size_": [
+              "11",
+              "6",
+              "3",
+              "1"
+            ],
+            "shape_": "1",
+            "isHeat_": "false"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "0",
+              "-59",
+              "0",
+              "1"
+            ],
+            "angle_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "size_": [
+              "12.6",
+              "87",
+              "1",
+              "1"
+            ],
+            "shape_": "1",
+            "isHeat_": "true"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "11.6",
+              "-17.9",
+              "-11",
+              "1"
+            ],
+            "angle_": [
+              "0",
+              "41",
+              "0",
+              "1"
+            ],
+            "size_": [
+              "2.1",
+              "2.1",
+              "2.7",
+              "1"
+            ],
+            "shape_": "2",
+            "isHeat_": "false"
+          }
+        }
+      ],
+      "damageMovementRate_": "2",
+      "damageMovementRateY_": "4"
+    },
+    "punchRockBulletScaleMin_": "0.6",
+    "punchRockBulletScaleMax_": "1.3",
+    "beamHitStop_": "10",
+    "beamRadius_": "8",
+    "beamRadiusDecreaseRate_": "0.75",
+    "beamImpactRadius_": "12",
+    "beamLength_": "400",
+    "beamOffset_": "20",
+    "beamDamageMovementRate_": "5",
+    "beamDamageMovementRateY_": "2.5",
+    "isEnableMissileKnee_": "true",
+    "missileImpactPosDistXZMin_": "100",
+    "missileImpactPosDistXZMax_": "200",
+    "missileShotIntervalTime_": "0.3",
+    "missileShotDownIntervalSec_": "0.6",
+    "missileShotDownWaitSec_": "1",
+    "missileShotDownNum_": "6",
+    "missileAtkRate_": "1",
+    "missileNum_": "6",
+    "missileBurstCameraViewOffsetPos_": [
+      "-110",
+      "-17",
+      "121",
+      "1"
+    ],
+    "missileBurstCameraTargetOffsetPos_": [
+      "0",
+      "20",
+      "-30",
+      "1"
+    ],
+    "baileyHealth_": "150",
+    "baileyThrowingBreakRate_": "1",
+    "baileyDamageShakeParam_": {
+      "widthMax_": [
+        "0.02",
+        "0.02",
+        "0.112",
+        "1"
+      ],
+      "widthMin_": [
+        "0.01",
+        "0.01",
+        "0.056",
+        "1"
+      ],
+      "shakeSec_": [
+        "0.107",
+        "0.107",
+        "0.0835",
+        "1"
+      ],
+      "shakeNum_": [
+        "1.5",
+        "1.5",
+        "2.5",
+        "1"
+      ]
+    },
+    "baileyCrackedShakeParam_": {
+      "widthMax_": [
+        "0.1",
+        "0.1",
+        "0.224",
+        "1"
+      ],
+      "widthMin_": [
+        "0.05",
+        "0.05",
+        "0.112",
+        "1"
+      ],
+      "shakeSec_": [
+        "0.107",
+        "0.107",
+        "0.083",
+        "1"
+      ],
+      "shakeNum_": [
+        "1.5",
+        "1.5",
+        "2.5",
+        "1"
+      ]
+    },
+    "explosionMinRadius_": "11.5",
+    "explosionMaxRadius_": "150",
+    "explosionAddRadiusBlast_": "15",
+    "explosionHitStop_": "0",
+    "explosionCameraTimer_": "3",
+    "explosionCameraAddLength_": "20",
+    "explosionCameraRate_": "0.06",
+    "explosionDamageMovementRateMin_": "6.25",
+    "explosionDamageMovementRateMax_": "3.25",
+    "footOuterIntervalSec_": "0.5",
+    "footOuterSignSec_": "3",
+    "footOuterRangeMin_": "30",
+    "footOuterRangeMax_": "90",
+    "punchRockBulletAttackRate_": "0.8",
+    "punchBeamWaveAttackRate_": "0.4",
+    "beamAttackRate_": "2.5",
+    "explosionAttackRate_": "5",
+    "punchRockBulletBreakRate_": "0.8",
+    "punchBeamWaveBreakRate_": "0.4",
+    "beamBreakRate_": "5",
+    "explosionBreakRate_": "6",
+    "aiLevelParams_": [
+      {
+        "Element": {
+          "punchRockBlendPerSec_": "0",
+          "punchRockBulletNum_": "0",
+          "punchBeamWaveSec_": "3",
+          "punchBeamShotNum_": "3",
+          "punchBeamShotNearDist_": "0",
+          "punchBeamShotFarDist_": "20",
+          "punchBeamShotOmitRadius_": "8",
+          "missileFallNum_": "4",
+          "missileFallSetIntervalSec_": "8",
+          "missileFallIntervalSec_": "0.5",
+          "missileSpeed_": "60",
+          "explosionRadiusIncreaseRate_": "0.105",
+          "explosionLoopTime_": "15",
+          "explosionAttackDuration_": "10",
+          "footOuterCoolSec_": "30",
+          "footOuterNum_": "5",
+          "footCoreMaxHpRate_": "0.125",
+          "bodyCoreMaxHpRate_": "0.125",
+          "coolTimeParams_": [
+            {
+              "Element": [
+                "120",
+                "60"
+              ]
+            },
+            {
+              "Element": [
+                "120",
+                "0"
+              ]
+            },
+            {
+              "Element": [
+                "90",
+                "30"
+              ]
+            },
+            {
+              "Element": [
+                "50",
+                "0"
+              ]
+            },
+            {
+              "Element": [
+                "90",
+                "60"
+              ]
+            },
+            {
+              "Element": [
+                "90",
+                "90"
+              ]
+            },
+            {
+              "Element": [
+                "60",
+                "0"
+              ]
+            },
+            {
+              "Element": [
+                "30",
+                "0"
+              ]
+            }
+          ],
+          "earthSeedSummonPosList_": [
+            {
+              "Element": [
+                "0",
+                "1",
+                "-40",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "-70",
+                "1",
+                "-15",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "30",
+                "1",
+                "-25",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "22",
+                "1",
+                "60",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "80",
+                "1",
+                "32",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "-13",
+                "1",
+                "20",
+                "1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "punchRockBlendPerSec_": "0.7",
+          "punchRockBulletNum_": "3",
+          "punchBeamWaveSec_": "4",
+          "punchBeamShotNum_": "3",
+          "punchBeamShotNearDist_": "0",
+          "punchBeamShotFarDist_": "20",
+          "punchBeamShotOmitRadius_": "8",
+          "missileFallNum_": "6",
+          "missileFallSetIntervalSec_": "8",
+          "missileFallIntervalSec_": "0.5",
+          "missileSpeed_": "60",
+          "explosionRadiusIncreaseRate_": "0.13125",
+          "explosionLoopTime_": "12.5",
+          "explosionAttackDuration_": "8",
+          "footOuterCoolSec_": "30",
+          "footOuterNum_": "5",
+          "footCoreMaxHpRate_": "0.125",
+          "bodyCoreMaxHpRate_": "0.0625",
+          "coolTimeParams_": [
+            {
+              "Element": [
+                "120",
+                "60"
+              ]
+            },
+            {
+              "Element": [
+                "120",
+                "0"
+              ]
+            },
+            {
+              "Element": [
+                "90",
+                "30"
+              ]
+            },
+            {
+              "Element": [
+                "50",
+                "0"
+              ]
+            },
+            {
+              "Element": [
+                "90",
+                "90"
+              ]
+            },
+            {
+              "Element": [
+                "90",
+                "120"
+              ]
+            },
+            {
+              "Element": [
+                "60",
+                "0"
+              ]
+            },
+            {
+              "Element": [
+                "30",
+                "0"
+              ]
+            }
+          ],
+          "earthSeedSummonPosList_": [
+            {
+              "Element": [
+                "0",
+                "1",
+                "-40",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "-70",
+                "1",
+                "-15",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "30",
+                "1",
+                "-25",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "22",
+                "1",
+                "60",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "80",
+                "1",
+                "32",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "-30",
+                "1",
+                "20",
+                "1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "punchRockBlendPerSec_": "1",
+          "punchRockBulletNum_": "5",
+          "punchBeamWaveSec_": "3",
+          "punchBeamShotNum_": "4",
+          "punchBeamShotNearDist_": "0",
+          "punchBeamShotFarDist_": "15",
+          "punchBeamShotOmitRadius_": "8",
+          "missileFallNum_": "8",
+          "missileFallSetIntervalSec_": "12",
+          "missileFallIntervalSec_": "0.3",
+          "missileSpeed_": "90",
+          "explosionRadiusIncreaseRate_": "0.175",
+          "explosionLoopTime_": "10",
+          "explosionAttackDuration_": "6",
+          "footOuterCoolSec_": "30",
+          "footOuterNum_": "5",
+          "footCoreMaxHpRate_": "0.125",
+          "bodyCoreMaxHpRate_": "0.0625",
+          "coolTimeParams_": [
+            {
+              "Element": [
+                "90",
+                "60"
+              ]
+            },
+            {
+              "Element": [
+                "120",
+                "0"
+              ]
+            },
+            {
+              "Element": [
+                "90",
+                "30"
+              ]
+            },
+            {
+              "Element": [
+                "45",
+                "0"
+              ]
+            },
+            {
+              "Element": [
+                "75",
+                "90"
+              ]
+            },
+            {
+              "Element": [
+                "75",
+                "120"
+              ]
+            },
+            {
+              "Element": [
+                "60",
+                "0"
+              ]
+            },
+            {
+              "Element": [
+                "30",
+                "0"
+              ]
+            }
+          ],
+          "earthSeedSummonPosList_": [
+            {
+              "Element": [
+                "0",
+                "1",
+                "-40",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "-70",
+                "1",
+                "-15",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "-70",
+                "1",
+                "-45",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "10",
+                "1",
+                "30",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "30",
+                "1",
+                "-25",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "60",
+                "1",
+                "60",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "80",
+                "1",
+                "32",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "-13",
+                "1",
+                "20",
+                "1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "punchRockBlendPerSec_": "1.3",
+          "punchRockBulletNum_": "7",
+          "punchBeamWaveSec_": "2",
+          "punchBeamShotNum_": "4",
+          "punchBeamShotNearDist_": "0",
+          "punchBeamShotFarDist_": "15",
+          "punchBeamShotOmitRadius_": "8",
+          "missileFallNum_": "12",
+          "missileFallSetIntervalSec_": "12",
+          "missileFallIntervalSec_": "0.3",
+          "missileSpeed_": "120",
+          "explosionRadiusIncreaseRate_": "0.2625",
+          "explosionLoopTime_": "8",
+          "explosionAttackDuration_": "4",
+          "footOuterCoolSec_": "30",
+          "footOuterNum_": "5",
+          "footCoreMaxHpRate_": "0.125",
+          "bodyCoreMaxHpRate_": "0.0625",
+          "coolTimeParams_": [
+            {
+              "Element": [
+                "45",
+                "60"
+              ]
+            },
+            {
+              "Element": [
+                "120",
+                "0"
+              ]
+            },
+            {
+              "Element": [
+                "60",
+                "30"
+              ]
+            },
+            {
+              "Element": [
+                "15",
+                "0"
+              ]
+            },
+            {
+              "Element": [
+                "60",
+                "90"
+              ]
+            },
+            {
+              "Element": [
+                "60",
+                "120"
+              ]
+            },
+            {
+              "Element": [
+                "60",
+                "0"
+              ]
+            },
+            {
+              "Element": [
+                "30",
+                "0"
+              ]
+            }
+          ],
+          "earthSeedSummonPosList_": [
+            {
+              "Element": [
+                "0",
+                "1",
+                "-40",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "-70",
+                "1",
+                "-15",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "-70",
+                "1",
+                "-45",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "10",
+                "1",
+                "30",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "30",
+                "1",
+                "-25",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "60",
+                "1",
+                "60",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "80",
+                "1",
+                "32",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "-13",
+                "1",
+                "20",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "-40",
+                "1",
+                "0",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "80",
+                "1",
+                "0",
+                "1"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "punchRockBlendPerSec_": "1.3",
+          "punchRockBulletNum_": "7",
+          "punchBeamWaveSec_": "2",
+          "punchBeamShotNum_": "4",
+          "punchBeamShotNearDist_": "0",
+          "punchBeamShotFarDist_": "30",
+          "punchBeamShotOmitRadius_": "8",
+          "missileFallNum_": "6",
+          "missileFallSetIntervalSec_": "3",
+          "missileFallIntervalSec_": "0.3",
+          "missileSpeed_": "120",
+          "explosionRadiusIncreaseRate_": "0.262",
+          "explosionLoopTime_": "8",
+          "explosionAttackDuration_": "4",
+          "footOuterCoolSec_": "30",
+          "footOuterNum_": "5",
+          "footCoreMaxHpRate_": "0.125",
+          "bodyCoreMaxHpRate_": "0.0625",
+          "coolTimeParams_": [
+            {
+              "Element": [
+                "45",
+                "60"
+              ]
+            },
+            {
+              "Element": [
+                "120",
+                "0"
+              ]
+            },
+            {
+              "Element": [
+                "60",
+                "30"
+              ]
+            },
+            {
+              "Element": [
+                "15",
+                "0"
+              ]
+            },
+            {
+              "Element": [
+                "60",
+                "90"
+              ]
+            },
+            {
+              "Element": [
+                "60",
+                "120"
+              ]
+            },
+            {
+              "Element": [
+                "60",
+                "0"
+              ]
+            },
+            {
+              "Element": [
+                "30",
+                "0"
+              ]
+            }
+          ],
+          "earthSeedSummonPosList_": [
+            {
+              "Element": [
+                "-33.12217",
+                "1",
+                "7.558909",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "-47.44217",
+                "1",
+                "1.308446",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "-69.83562",
+                "1",
+                "-17.34051",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "-71.45317",
+                "1",
+                "-46.3808",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "-13.35055",
+                "1",
+                "-9.463089",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "9.733602",
+                "1",
+                "28.02986",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "24.44879",
+                "1",
+                "52.94003",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "60.09883",
+                "1",
+                "61.96622",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "78.6133",
+                "1",
+                "36.03301",
+                "1"
+              ]
+            },
+            {
+              "Element": [
+                "-13.70818",
+                "1",
+                "17.3178",
+                "1"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

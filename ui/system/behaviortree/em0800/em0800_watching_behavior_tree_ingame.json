@@ -1,0 +1,211 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "RandomSelectorNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "childNodeRatio0_": 0,
+      "childNodeRatio1_": 0,
+      "childNodeRatio2_": 0,
+      "childNodeRatio3_": 0,
+      "childNodeRatio4_": 0,
+      "childNodeRatio5_": 0,
+      "childNodeRatio6_": 0,
+      "childNodeRatio7_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 218946621,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "checkRange_": 3,
+    "operatorType_": 0,
+    "isUseRangeXZ_": false
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 1188150066,
+    "parentGuid_": 5,
+    "isReverseSuccess_": false,
+    "checkRange_": 4,
+    "operatorType_": 0,
+    "isUseRangeXZ_": false
+  },
+  "EmMotionPlayAction": {
+    "guid_": 202895960,
+    "parentGuid_": 4,
+    "motionIdName_": "0017",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 0.5,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "useTurnDir_": true,
+    "turnRate_": 0.3,
+    "turnMaxAngle_": 0.5235988,
+    "turnOffsetAngle_": 0,
+    "attackHomingFlagOnly_": false,
+    "endSec_": -1
+  },
+  "EmMotionPlayAction": {
+    "guid_": 1872440303,
+    "parentGuid_": 8,
+    "motionIdName_": "001a",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 0.5,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "useTurnDir_": true,
+    "turnRate_": 0.3,
+    "turnMaxAngle_": 0.5235988,
+    "turnOffsetAngle_": 0,
+    "attackHomingFlagOnly_": false,
+    "endSec_": -1
+  },
+  "EmMotionPlayAction": {
+    "guid_": 1060228704,
+    "parentGuid_": 7,
+    "motionIdName_": "001d",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 0.5,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "useTurnDir_": true,
+    "turnRate_": 0.3,
+    "turnMaxAngle_": 0.5235988,
+    "turnOffsetAngle_": 0,
+    "attackHomingFlagOnly_": false,
+    "endSec_": -1
+  },
+  "Em0800MoveToAction": {
+    "guid_": 1737903099,
+    "parentGuid_": 9,
+    "checkRange_": 2,
+    "checkRangeDistanceOffset_": 3,
+    "jumpHeightMin_": 4,
+    "skipEndMotion_": true,
+    "isMoveToLookTargetPos_": false,
+    "moveRateXZ_": 1,
+    "moveRateY_": 1
+  },
+  "BlackBoardFloatAction": {
+    "guid_": 1477501029,
+    "parentGuid_": 9,
+    "valueName_": "Em0800_TargetHomingAngle",
+    "setTiming_": 0,
+    "value_": 30
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1249143625,
+    "parentGuid_": 9,
+    "valueName_": "Em0800_IsAlwaysHoming",
+    "setTiming_": 0,
+    "value_": true
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1429408548,
+    "parentGuid_": 9,
+    "valueName_": "Em0800_IsAlwaysHoming",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em0800",
+    "subTreeName_": "watching"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1506684123,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1506684123,
+    "fromNodeGuid_": 184843440,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 184843440,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 449830540
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1827833748
+      }
+    ],
+    "toNodeGuid_": 184843440,
+    "fromNodeGuid_": 1341579973,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1341579973,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 199673884
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1341579973,
+    "fromNodeGuid_": 478203722,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 478203722,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1810706647
+  },
+  "RecvSignal": {
+    "guid_": 1827833748,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 2,
+    "progressIndex_": 39,
+    "progressHash_": 11322974505261887882,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 321969470277689228
+      },
+      {
+        "Element": 9083651245526197526
+      }
+    ]
+  },
+  "SendSignal": {
+    "guid_": 1107398877,
+    "parentGuid_": 1341579973,
+    "category_": 1,
+    "subcategory_": 2,
+    "index_": 2,
+    "progressIndex_": 39,
+    "progressHash_": 11322974505261887882,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 10006053685420546796
+      },
+      {
+        "Element": 13818724218248909934
+      }
+    ]
+  }
+}

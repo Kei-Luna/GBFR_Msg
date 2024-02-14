@@ -1,0 +1,157 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 351190374,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 351190374,
+    "fromNodeGuid_": 1587854122,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1587854122,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1537798113,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 248744669
+      },
+      {
+        "Element": 2086258911
+      },
+      {
+        "Element": 1872579636
+      }
+    ],
+    "toNodeGuid_": 1587854122,
+    "fromNodeGuid_": 1382825375,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      },
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 304522744
+      }
+    ],
+    "toNodeGuid_": 1587854122,
+    "fromNodeGuid_": 1543504557,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1382825375,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1925598572,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1133333728
+      }
+    ],
+    "toNodeGuid_": 1382825375,
+    "fromNodeGuid_": 1543504557,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "ActionEndCondition": {
+    "guid_": 304522744,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "ActionEndCondition": {
+    "guid_": 1133333728,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 470813589,
+    "parentGuid_": 1587854122,
+    "valueName_": "EmLargeSkeletonBase_CanSummon",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "EmLargeSkeletonBaseSummonAction": {
+    "guid_": 1310409029,
+    "parentGuid_": 1587854122
+  },
+  "MotionFlagCondition": {
+    "guid_": 248744669,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "slot_": 1,
+    "value_": 0
+  },
+  "EmAILevelCondition": {
+    "guid_": 2086258911,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "checkLevel_": 3,
+    "operatorType_": 4
+  },
+  "Em0102BackStepSlowAreaAttackAction": {
+    "guid_": 1592076179,
+    "parentGuid_": 1382825375
+  },
+  "EmResetCoolTimeAction": {
+    "guid_": 445650859,
+    "parentGuid_": 1382825375,
+    "valueName_": "Em0102_CanLongBackStepCombo",
+    "isEnable_": true
+  },
+  "ShotParentBlackBoardBoolCondition": {
+    "guid_": 1872579636,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "Em0102_CanLongBackStepCombo"
+  }
+}

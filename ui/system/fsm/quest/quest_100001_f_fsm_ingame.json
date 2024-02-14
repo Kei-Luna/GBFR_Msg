@@ -1,0 +1,184 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1144113893,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1144113893,
+    "fromNodeGuid_": 1636529705,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1636529705,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 188438551,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1857051960
+      }
+    ],
+    "toNodeGuid_": 1636529705,
+    "fromNodeGuid_": 520194273,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 520194273,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 676683038,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 647661799
+      }
+    ],
+    "toNodeGuid_": 520194273,
+    "fromNodeGuid_": 2122182637,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2122182637,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 676683038,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1328996722
+      }
+    ],
+    "toNodeGuid_": 2122182637,
+    "fromNodeGuid_": 520194273,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CallTalkEvent": {
+    "guid_": 2084464337,
+    "parentGuid_": 520194273,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 15,
+    "progressHash_": 7081291718325081625,
+    "groupID_": "VT_MS02_0100"
+  },
+  "StartTimer": {
+    "guid_": 1424808249,
+    "parentGuid_": 1636529705,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 15,
+    "progressHash_": 7081291718325081625,
+    "timerId_": 5
+  },
+  "CheckTimer": {
+    "guid_": 1857051960,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 15,
+    "progressHash_": 7081291718325081625,
+    "isNoCheckSkip_": false,
+    "timerId_": 5,
+    "time_": 30
+  },
+  "StartTimer": {
+    "guid_": 1183360373,
+    "parentGuid_": 520194273,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 15,
+    "progressHash_": 7081291718325081625,
+    "timerId_": 5
+  },
+  "CheckTimer": {
+    "guid_": 647661799,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 15,
+    "progressHash_": 7081291718325081625,
+    "isNoCheckSkip_": false,
+    "timerId_": 5,
+    "time_": 45
+  },
+  "CallTalkEvent": {
+    "guid_": 1888156313,
+    "parentGuid_": 2122182637,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 15,
+    "progressHash_": 7081291718325081625,
+    "groupID_": "VT_MS02_0110"
+  },
+  "StartTimer": {
+    "guid_": 235709253,
+    "parentGuid_": 2122182637,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 15,
+    "progressHash_": 7081291718325081625,
+    "timerId_": 5
+  },
+  "CheckTimer": {
+    "guid_": 1328996722,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 1,
+    "subcategory_": 0,
+    "index_": 1,
+    "progressIndex_": 15,
+    "progressHash_": 7081291718325081625,
+    "isNoCheckSkip_": false,
+    "timerId_": 5,
+    "time_": 45
+  }
+}

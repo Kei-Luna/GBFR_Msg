@@ -1,0 +1,104 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1286491763,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1286491763,
+    "fromNodeGuid_": 15240297,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 15240297,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1080924068
+      }
+    ],
+    "toNodeGuid_": 15240297,
+    "fromNodeGuid_": 1475051751,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1475051751,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1475051751,
+    "fromNodeGuid_": 379620019,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CallVFXAction": {
+    "guid_": 2146329538,
+    "parentGuid_": 15240297,
+    "id_": 9940,
+    "isUseCoreEff_": true,
+    "isParentSetting_": true,
+    "effectObjId_": 8126464,
+    "isOwnerSlowRate_": true
+  },
+  "StatusClearAction": {
+    "guid_": 1322809928,
+    "parentGuid_": 1475051751,
+    "lv_": 0
+  },
+  "TimerAction": {
+    "guid_": 2140773461,
+    "parentGuid_": 15240297,
+    "waitTimeSeconds_": 0.66,
+    "randomSeconds_": 0
+  },
+  "ActionEndCondition": {
+    "guid_": 1080924068,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "CommonFsmSeCallAction": {
+    "guid_": 2048092746,
+    "parentGuid_": 15240297,
+    "seName_": "core_pl_ability_dispel_lv4_c",
+    "isWorldPositionSet_": true,
+    "partsNo_": -1
+  }
+}

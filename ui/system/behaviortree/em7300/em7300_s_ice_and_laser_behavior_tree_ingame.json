@@ -1,0 +1,159 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "RandomSelectorNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "childNodeRatio0_": 0,
+      "childNodeRatio1_": 0,
+      "childNodeRatio2_": 0,
+      "childNodeRatio3_": 0,
+      "childNodeRatio4_": 0,
+      "childNodeRatio5_": 0,
+      "childNodeRatio6_": 0,
+      "childNodeRatio7_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em7300ManaStepAction": {
+    "guid_": 1584900919,
+    "parentGuid_": 4,
+    "stepInfos_": [
+      {
+        "Element": {
+          "type_": 2,
+          "homingAngle_": 5,
+          "stepDist_": 18,
+          "isUpdateTargetVector_": true,
+          "isInverseHoming_": false
+        }
+      },
+      {
+        "Element": {
+          "type_": 12,
+          "homingAngle_": 5,
+          "stepDist_": 18,
+          "isUpdateTargetVector_": true,
+          "isInverseHoming_": false
+        }
+      },
+      {
+        "Element": {
+          "type_": 12,
+          "homingAngle_": 10,
+          "stepDist_": 18,
+          "isUpdateTargetVector_": true,
+          "isInverseHoming_": false
+        }
+      }
+    ],
+    "isTargetManualPlayer_": true,
+    "isAttackSign_": true
+  },
+  "Em7300VerticalLaserAction": {
+    "guid_": 972125655,
+    "parentGuid_": 6,
+    "roarTargetHormingAngle_": 3,
+    "laserAddLength_": 10,
+    "laserHormingMaxAngle_": [
+      5,
+      5,
+      5,
+      10
+    ]
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 312935651,
+    "parentGuid_": 6,
+    "valueName_": "Em7300_IsOkIceAndLaser",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "Em7300ManaStepAction": {
+    "guid_": 336400500,
+    "parentGuid_": 5,
+    "stepInfos_": [
+      {
+        "Element": {
+          "type_": 2,
+          "homingAngle_": 5,
+          "stepDist_": 18,
+          "isUpdateTargetVector_": true,
+          "isInverseHoming_": false
+        }
+      },
+      {
+        "Element": {
+          "type_": 12,
+          "homingAngle_": 10,
+          "stepDist_": 18,
+          "isUpdateTargetVector_": true,
+          "isInverseHoming_": false
+        }
+      }
+    ],
+    "isTargetManualPlayer_": true,
+    "isAttackSign_": true
+  },
+  "Em7300FangRequestAction": {
+    "guid_": 131354532,
+    "parentGuid_": 4,
+    "time_": 0,
+    "callEnd_": false,
+    "type_": 0
+  },
+  "Em7300FangRequestAction": {
+    "guid_": 327805430,
+    "parentGuid_": 5,
+    "time_": 0,
+    "callEnd_": false,
+    "type_": 0
+  },
+  "Em7300PostBaseAttackAction": {
+    "guid_": 1964105681,
+    "parentGuid_": 6
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em7300",
+    "subTreeName_": "s_ice_and_laser"
+  }
+}

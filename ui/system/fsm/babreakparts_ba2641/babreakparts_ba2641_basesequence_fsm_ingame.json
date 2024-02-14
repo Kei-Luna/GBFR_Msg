@@ -1,0 +1,235 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 211150280,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1485435196
+      }
+    ],
+    "toNodeGuid_": 211150280,
+    "fromNodeGuid_": 2110826170,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 211150280,
+    "fromNodeGuid_": 1417061332,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1417061332,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1670988167
+      }
+    ],
+    "toNodeGuid_": 1417061332,
+    "fromNodeGuid_": 2110826170,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1020733864
+      }
+    ],
+    "toNodeGuid_": 1417061332,
+    "fromNodeGuid_": 1417061332,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 2110826170,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1691590347
+      }
+    ],
+    "toNodeGuid_": 2110826170,
+    "fromNodeGuid_": 2110826170,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "BlackBoardIntCondition": {
+    "guid_": 1670988167,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "intName_": "BaBreakParts_DestroyLevel",
+    "value_": 1,
+    "operatorType_": 4
+  },
+  "PartsChangeAction": {
+    "guid_": 365894148,
+    "parentGuid_": 1417061332,
+    "partsIndex_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ],
+    "visible_": false,
+    "useIndex_": 1
+  },
+  "PartsChangeAction": {
+    "guid_": 345326109,
+    "parentGuid_": 2110826170,
+    "partsIndex_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ],
+    "visible_": true,
+    "useIndex_": 1
+  },
+  "EndEventCondition": {
+    "guid_": 1020733864,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "type_": 0,
+    "id_": -1
+  },
+  "EndEventCondition": {
+    "guid_": 1691590347,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "type_": 0,
+    "id_": -1
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1485435196,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "intName_": "BaBreakParts_DestroyLevel",
+    "value_": 1,
+    "operatorType_": 0
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1855577656,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 612014523
+      }
+    ],
+    "toNodeGuid_": 1855577656,
+    "fromNodeGuid_": 557955474,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1855577656,
+    "fromNodeGuid_": 114899126,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 114899126,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 353202539,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 223300016
+      }
+    ],
+    "toNodeGuid_": 114899126,
+    "fromNodeGuid_": 557955474,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1274830457
+      }
+    ],
+    "toNodeGuid_": 114899126,
+    "fromNodeGuid_": 114899126,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 557955474,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1644839421,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1833306996
+      }
+    ],
+    "toNodeGuid_": 557955474,
+    "fromNodeGuid_": 557955474,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 946380695
+      }
+    ],
+    "toNodeGuid_": 557955474,
+    "fromNodeGuid_": 114899126,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "BlackBoardIntCondition": {
+    "guid_": 223300016,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "intName_": "BaBreakParts_DestroyLevel",
+    "value_": 1,
+    "operatorType_": 4
+  },
+  "PartsChangeAction": {
+    "guid_": 1728133771,
+    "parentGuid_": 114899126,
+    "partsIndex_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ],
+    "visible_": false,
+    "useIndex_": 1
+  },
+  "PartsChangeAction": {
+    "guid_": 1193514772,
+    "parentGuid_": 557955474,
+    "partsIndex_": [
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ],
+    "visible_": true,
+    "useIndex_": 1
+  },
+  "EndEventCondition": {
+    "guid_": 1274830457,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "type_": 0,
+    "id_": -1
+  },
+  "EndEventCondition": {
+    "guid_": 1833306996,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "type_": 0,
+    "id_": -1
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 612014523,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "intName_": "BaBreakParts_DestroyLevel",
+    "value_": 1,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 946380695,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "intName_": "BaBreakParts_DestroyLevel",
+    "value_": 0,
+    "operatorType_": 2
+  }
+}

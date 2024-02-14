@@ -1,0 +1,203 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1732316869,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1732316869,
+    "fromNodeGuid_": 402039807,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 722669141
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 182035704,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 402039807,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "FSMNode": {
+    "guid_": 182035704,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 303481550,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1095132112
+      }
+    ],
+    "toNodeGuid_": 182035704,
+    "fromNodeGuid_": 182035704,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "SoundMotionCheckCondition": {
+    "guid_": 722669141,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1095132112,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 2000573805,
+    "parentGuid_": 182035704,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba5366_wood_s_lever_s_down_01",
+          "delayTime_": 0.75,
+          "requestId_": 2000573805,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 3856,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5366_wood_m_break_m_gear_01",
+          "delayTime_": 0.9,
+          "requestId_": 2000573805,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 3,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5366_wood_m_gear_m_01",
+          "delayTime_": 0.9,
+          "requestId_": 2000573805,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 3,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5366_rope_m_creak_m_bridge_01",
+          "delayTime_": 0.9,
+          "requestId_": 2000573805,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 3,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5366_wood_s_gear_s_01",
+          "delayTime_": 0.9,
+          "requestId_": 2000573805,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5366_wood_s_break_s_gear_01",
+          "delayTime_": 0.9,
+          "requestId_": 2000573805,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5366_rope_m_creak_m_bridge_b_01",
+          "delayTime_": 0.9,
+          "requestId_": 2000573805,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5366_wood_m_creak_m_bridge_impact",
+          "delayTime_": 0.9,
+          "requestId_": 2000573805,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 35,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba5366_wood_m_break_m_bridge_piller",
+          "delayTime_": 4.55,
+          "requestId_": 2000573805,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 32,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "SelectorNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 10,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 11,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 12,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 13,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 14,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 15,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 16,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 599829356,
+    "parentGuid_": 7,
+    "isReverseSuccess_": false,
+    "checkRange_": 0,
+    "operatorType_": 4,
+    "isUseRangeXZ_": false
+  },
+  "Em0300MoveToAction": {
+    "guid_": 2026344674,
+    "parentGuid_": 8,
+    "customFlyParam_": true,
+    "flyParam_": {
+      "speedMax_": 8,
+      "speedMin_": 0,
+      "acceleration_": 10,
+      "deceleration_": 3,
+      "backAccelScale_": 1.5,
+      "moveAngleDiff_": 3
+    },
+    "homingAngle_": 5,
+    "distanceXZ_": 1,
+    "distanceY_": 0.5,
+    "checkRange_": 0,
+    "checkRangeDistanceOffset_": 0,
+    "skipEndMotion_": true
+  },
+  "Em0300SelectAttackAction": {
+    "guid_": 2064850544,
+    "parentGuid_": 3,
+    "selectRatio0_": 3,
+    "selectRatio1_": 1,
+    "selectRatio2_": 1
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 923556782,
+    "parentGuid_": 5,
+    "isReverseSuccess_": false,
+    "intName_": "Em0300_SelectAttackAction",
+    "value_": 0,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 826460849,
+    "parentGuid_": 10,
+    "isReverseSuccess_": false,
+    "intName_": "Em0300_SelectAttackAction",
+    "value_": 1,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 405946748,
+    "parentGuid_": 12,
+    "isReverseSuccess_": false,
+    "intName_": "Em0300_SelectAttackAction",
+    "value_": 2,
+    "operatorType_": 0
+  },
+  "Em0300HornFallAction": {
+    "guid_": 994276739,
+    "parentGuid_": 11,
+    "waitTime_": 0.8,
+    "omenTime_": 0.6,
+    "fallPosMul_": 1,
+    "fallSpeed_": 30,
+    "missStabTime_": 4,
+    "hitStabTime_": 0,
+    "homingAngle_": 5,
+    "signRadius_": 2.5
+  },
+  "Em0300HornRushAction": {
+    "guid_": 814507374,
+    "parentGuid_": 14,
+    "rushBegin_HomingAngle_": 3,
+    "rushBegin_Height_": 2.2,
+    "rushBegin_LeaveDistance_": 5,
+    "rushBegin_AdjustTime_": 1,
+    "rushBegin_SighWidth_": 3.5,
+    "rushLoop_StartSpeed_": 10,
+    "rushLoop_MaxSpeed_": 30,
+    "rushLoop_MaxSpeedLength": 10,
+    "rushLoop_TargetBackLength": 5,
+    "rushLoop_NonTargetLength": 20,
+    "rushLoop_CheckTransparentWallLength_": 7.5,
+    "rushLoop_StartSubRushDirY_": 0.01,
+    "rushLoop_AddSubRushDirY_": 0.01,
+    "missStabTime_": 4,
+    "hitStabTime_": 0
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1327085850,
+    "parentGuid_": 11,
+    "valueName_": "Em0300_IsOkHornAttack",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 989976914,
+    "parentGuid_": 14,
+    "valueName_": "Em0300_IsOkHornAttack",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1318469729,
+    "parentGuid_": 11,
+    "valueName_": "Em0300_HornAttackSwitch",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1875308458,
+    "parentGuid_": 14,
+    "valueName_": "Em0300_HornAttackSwitch",
+    "setTiming_": 1,
+    "value_": true
+  },
+  "EmGravitySetAction": {
+    "guid_": 2095826841,
+    "parentGuid_": 3,
+    "gOptionIdx_": 1,
+    "gOptionTiming_": 0,
+    "isUndoEnd_": false
+  },
+  "Em0300ScratchAction": {
+    "guid_": 2119044783,
+    "parentGuid_": 9,
+    "height_": 1.6,
+    "attackHeight_": 0.5,
+    "homingAngle_": 5,
+    "motionMoveValue_": 0.7,
+    "motionMoveRate_": [
+      0.5,
+      2.5
+    ],
+    "isCounter_": true
+  },
+  "EmSearchEnableAction": {
+    "guid_": 187197076,
+    "parentGuid_": 8
+  },
+  "EmSearchEnableAction": {
+    "guid_": 175033581,
+    "parentGuid_": 14
+  },
+  "EmSearchEnableAction": {
+    "guid_": 333986178,
+    "parentGuid_": 11
+  },
+  "Em0300MoveToAction": {
+    "guid_": 1499554386,
+    "parentGuid_": 16,
+    "customFlyParam_": true,
+    "flyParam_": {
+      "speedMax_": 8,
+      "speedMin_": 0,
+      "acceleration_": 10,
+      "deceleration_": 3,
+      "backAccelScale_": 1.5,
+      "moveAngleDiff_": 3
+    },
+    "homingAngle_": 5,
+    "distanceXZ_": 1,
+    "distanceY_": 0.5,
+    "checkRange_": 0,
+    "checkRangeDistanceOffset_": 0,
+    "skipEndMotion_": true
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1220635472,
+    "parentGuid_": 15,
+    "isReverseSuccess_": false,
+    "boolName_": "Em0300_IsSubRushLimit"
+  }
+}

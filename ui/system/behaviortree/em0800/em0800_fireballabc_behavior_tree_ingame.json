@@ -1,0 +1,524 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "RandomSelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "childNodeRatio0_": 1,
+      "childNodeRatio1_": 1,
+      "childNodeRatio2_": 1,
+      "childNodeRatio3_": 0,
+      "childNodeRatio4_": 0,
+      "childNodeRatio5_": 0,
+      "childNodeRatio6_": 0,
+      "childNodeRatio7_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "Em0800ShotAction": {
+    "guid_": 851752117,
+    "parentGuid_": 3,
+    "motionId_": "",
+    "fsmClassName_": "Em0800",
+    "fsmFileName_": "fireball",
+    "em0800ShotParams_": [
+      {
+        "Element": {
+          "shotTrigTime_": 0,
+          "offsetPos_": [
+            0,
+            0,
+            -1,
+            0
+          ],
+          "offsetRandomPos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "shotType_": 0,
+    "offsetType_": 1,
+    "throwMode_": true,
+    "throwStartOffsetPos_": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "throwLandingTime_": 0.1,
+    "useAttackSignFlag_": true,
+    "groundTarget_": true
+  },
+  "Em0800ShotAction": {
+    "guid_": 1417015395,
+    "parentGuid_": 3,
+    "motionId_": "",
+    "fsmClassName_": "Em0800",
+    "fsmFileName_": "fireball",
+    "em0800ShotParams_": [
+      {
+        "Element": {
+          "shotTrigTime_": 0.2,
+          "offsetPos_": [
+            -2,
+            0,
+            1,
+            0
+          ],
+          "offsetRandomPos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "shotType_": 0,
+    "offsetType_": 1,
+    "throwMode_": true,
+    "throwStartOffsetPos_": [
+      -2,
+      0,
+      0,
+      1
+    ],
+    "throwLandingTime_": 0.1,
+    "useAttackSignFlag_": true,
+    "groundTarget_": true
+  },
+  "Em0800ShotAction": {
+    "guid_": 1045090190,
+    "parentGuid_": 3,
+    "motionId_": "",
+    "fsmClassName_": "Em0800",
+    "fsmFileName_": "fireball",
+    "em0800ShotParams_": [
+      {
+        "Element": {
+          "shotTrigTime_": 0.4,
+          "offsetPos_": [
+            2,
+            0,
+            1,
+            0
+          ],
+          "offsetRandomPos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "shotType_": 0,
+    "offsetType_": 1,
+    "throwMode_": true,
+    "throwStartOffsetPos_": [
+      2,
+      0,
+      0,
+      1
+    ],
+    "throwLandingTime_": 0.1,
+    "useAttackSignFlag_": true,
+    "groundTarget_": true
+  },
+  "EmMotionPlayAction": {
+    "guid_": 1661997889,
+    "parentGuid_": 3,
+    "motionIdName_": "1010",
+    "isAnimEnd_": false,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "useTurnDir_": false,
+    "turnRate_": 0.3,
+    "turnMaxAngle_": 0.5235988,
+    "turnOffsetAngle_": 0,
+    "attackHomingFlagOnly_": false,
+    "endSec_": -1
+  },
+  "TimerAction": {
+    "guid_": 27279130,
+    "parentGuid_": 3,
+    "waitTimeSeconds_": 1.2,
+    "randomSeconds_": 0
+  },
+  "Em0800ShotAction": {
+    "guid_": 1580125018,
+    "parentGuid_": 4,
+    "motionId_": "",
+    "fsmClassName_": "Em0800",
+    "fsmFileName_": "fireball",
+    "em0800ShotParams_": [
+      {
+        "Element": {
+          "shotTrigTime_": 0,
+          "offsetPos_": [
+            1.5,
+            0,
+            -1,
+            0
+          ],
+          "offsetRandomPos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "shotType_": 0,
+    "offsetType_": 1,
+    "throwMode_": true,
+    "throwStartOffsetPos_": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "throwLandingTime_": 0.1,
+    "useAttackSignFlag_": true,
+    "groundTarget_": true
+  },
+  "Em0800ShotAction": {
+    "guid_": 242112557,
+    "parentGuid_": 4,
+    "motionId_": "",
+    "fsmClassName_": "Em0800",
+    "fsmFileName_": "fireball",
+    "em0800ShotParams_": [
+      {
+        "Element": {
+          "shotTrigTime_": 0.2,
+          "offsetPos_": [
+            -2,
+            0,
+            1,
+            0
+          ],
+          "offsetRandomPos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "shotType_": 0,
+    "offsetType_": 1,
+    "throwMode_": true,
+    "throwStartOffsetPos_": [
+      -2,
+      0,
+      0,
+      1
+    ],
+    "throwLandingTime_": 0.1,
+    "useAttackSignFlag_": true,
+    "groundTarget_": true
+  },
+  "Em0800ShotAction": {
+    "guid_": 952236534,
+    "parentGuid_": 4,
+    "motionId_": "",
+    "fsmClassName_": "Em0800",
+    "fsmFileName_": "fireball",
+    "em0800ShotParams_": [
+      {
+        "Element": {
+          "shotTrigTime_": 0.4,
+          "offsetPos_": [
+            2,
+            0,
+            1,
+            0
+          ],
+          "offsetRandomPos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "shotType_": 0,
+    "offsetType_": 1,
+    "throwMode_": true,
+    "throwStartOffsetPos_": [
+      2,
+      0,
+      0,
+      1
+    ],
+    "throwLandingTime_": 0.1,
+    "useAttackSignFlag_": true,
+    "groundTarget_": true
+  },
+  "EmMotionPlayAction": {
+    "guid_": 1838208042,
+    "parentGuid_": 4,
+    "motionIdName_": "1010",
+    "isAnimEnd_": false,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "useTurnDir_": false,
+    "turnRate_": 0.3,
+    "turnMaxAngle_": 0.5235988,
+    "turnOffsetAngle_": 0,
+    "attackHomingFlagOnly_": false,
+    "endSec_": -1
+  },
+  "TimerAction": {
+    "guid_": 66514295,
+    "parentGuid_": 4,
+    "waitTimeSeconds_": 1.2,
+    "randomSeconds_": 0
+  },
+  "Em0800ShotAction": {
+    "guid_": 265862198,
+    "parentGuid_": 5,
+    "motionId_": "",
+    "fsmClassName_": "Em0800",
+    "fsmFileName_": "fireball",
+    "em0800ShotParams_": [
+      {
+        "Element": {
+          "shotTrigTime_": 0,
+          "offsetPos_": [
+            -1.5,
+            0,
+            -1,
+            0
+          ],
+          "offsetRandomPos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "shotType_": 0,
+    "offsetType_": 1,
+    "throwMode_": true,
+    "throwStartOffsetPos_": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "throwLandingTime_": 0.1,
+    "useAttackSignFlag_": true,
+    "groundTarget_": true
+  },
+  "Em0800ShotAction": {
+    "guid_": 491144311,
+    "parentGuid_": 5,
+    "motionId_": "",
+    "fsmClassName_": "Em0800",
+    "fsmFileName_": "fireball",
+    "em0800ShotParams_": [
+      {
+        "Element": {
+          "shotTrigTime_": 0.2,
+          "offsetPos_": [
+            -2,
+            0,
+            1,
+            0
+          ],
+          "offsetRandomPos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "shotType_": 0,
+    "offsetType_": 1,
+    "throwMode_": true,
+    "throwStartOffsetPos_": [
+      -2,
+      0,
+      0,
+      1
+    ],
+    "throwLandingTime_": 0.1,
+    "useAttackSignFlag_": true,
+    "groundTarget_": true
+  },
+  "Em0800ShotAction": {
+    "guid_": 1551527890,
+    "parentGuid_": 5,
+    "motionId_": "",
+    "fsmClassName_": "Em0800",
+    "fsmFileName_": "fireball",
+    "em0800ShotParams_": [
+      {
+        "Element": {
+          "shotTrigTime_": 0.4,
+          "offsetPos_": [
+            2,
+            0,
+            1,
+            0
+          ],
+          "offsetRandomPos_": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "shotType_": 0,
+    "offsetType_": 1,
+    "throwMode_": true,
+    "throwStartOffsetPos_": [
+      2,
+      0,
+      0,
+      1
+    ],
+    "throwLandingTime_": 0.1,
+    "useAttackSignFlag_": true,
+    "groundTarget_": true
+  },
+  "EmMotionPlayAction": {
+    "guid_": 579880890,
+    "parentGuid_": 5,
+    "motionIdName_": "1010",
+    "isAnimEnd_": false,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "useTurnDir_": false,
+    "turnRate_": 0.3,
+    "turnMaxAngle_": 0.5235988,
+    "turnOffsetAngle_": 0,
+    "attackHomingFlagOnly_": false,
+    "endSec_": -1
+  },
+  "TimerAction": {
+    "guid_": 1167881668,
+    "parentGuid_": 5,
+    "waitTimeSeconds_": 1.2,
+    "randomSeconds_": 0
+  },
+  "BlackBoardIntAction": {
+    "guid_": 1079084759,
+    "parentGuid_": 3,
+    "valueName_": "Em0800_ShotType",
+    "setTiming_": 0,
+    "value_": 0
+  },
+  "BlackBoardIntAction": {
+    "guid_": 1130344796,
+    "parentGuid_": 4,
+    "valueName_": "Em0800_ShotType",
+    "setTiming_": 0,
+    "value_": 0
+  },
+  "BlackBoardIntAction": {
+    "guid_": 1022581377,
+    "parentGuid_": 5,
+    "valueName_": "Em0800_ShotType",
+    "setTiming_": 0,
+    "value_": 0
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 479927568,
+    "parentGuid_": 3,
+    "valueName_": "Em0800_IsOkShot",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1800312668,
+    "parentGuid_": 4,
+    "valueName_": "Em0800_IsOkShot",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1993471781,
+    "parentGuid_": 5,
+    "valueName_": "Em0800_IsOkShot",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em0800",
+    "subTreeName_": "fireballabc"
+  }
+}

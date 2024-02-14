@@ -1,0 +1,395 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 891274116,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 891274116,
+    "fromNodeGuid_": 1382277598,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 948494991
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1187920389,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 690453276
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 610906120,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1382277598,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 1187920389,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1329890931,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 610906120,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 867977665,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1655848367
+      }
+    ],
+    "toNodeGuid_": 610906120,
+    "fromNodeGuid_": 610906120,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SoundMotionCheckCondition": {
+    "guid_": 948494991,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0000",
+          "hashValue_": 211534962
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 690453276,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 1837206671,
+    "parentGuid_": 1187920389,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba536d_wood_s_rattle_s",
+          "delayTime_": 0,
+          "requestId_": 1837206671,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionNames_": [],
+    "motionFrames_": [],
+    "isEndTrigger_": false
+  },
+  "SoundTriggerAction": {
+    "guid_": 1895372518,
+    "parentGuid_": 610906120,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba536d_wood_s_break_s",
+          "delayTime_": 0.25,
+          "requestId_": 1895372518,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba536d_wood_s_break_s_01",
+          "delayTime_": 0.3,
+          "requestId_": 1895372518,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 13,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba536d_wood_s_break_s_b_01",
+          "delayTime_": 0.4,
+          "requestId_": 1895372518,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 7,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionNames_": [
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1655848367,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 1,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 1371092879,
+    "parentGuid_": 610906120,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba536d_woosh_wood_m_01",
+          "delayTime_": 0.9833334,
+          "requestId_": 1371092879,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 12,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba536d_woosh_wood_m_02",
+          "delayTime_": 0.9666667,
+          "requestId_": 1371092879,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 19,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba536d_woosh_wood_m_03",
+          "delayTime_": 1.333333,
+          "requestId_": 1371092879,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 6,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionNames_": [
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false
+  },
+  "SoundTriggerAction": {
+    "guid_": 768788225,
+    "parentGuid_": 610906120,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba536d_woosh_wood_s_01",
+          "delayTime_": 1.583333,
+          "requestId_": 768788225,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 16,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba536d_woosh_wood_s_02",
+          "delayTime_": 1.75,
+          "requestId_": 768788225,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 25,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba536d_woosh_wood_s_03",
+          "delayTime_": 1.75,
+          "requestId_": 768788225,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 22,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionNames_": [
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false
+  }
+}

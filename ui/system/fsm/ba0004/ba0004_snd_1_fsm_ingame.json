@@ -1,0 +1,491 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1919530092,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1919530092,
+    "fromNodeGuid_": 677239551,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 677239551,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "SoundTriggerAction": {
+    "guid_": 1175831198,
+    "parentGuid_": 677239551,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba0001_woodship_l_drive_m",
+          "delayTime_": 0,
+          "requestId_": 1175831198,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 53,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba0001_rope_m_sway_s",
+          "delayTime_": 0,
+          "requestId_": 1175831198,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": true,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba0001_rope_m_sway_s_b",
+          "delayTime_": 0,
+          "requestId_": 1175831198,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "useSocket_": true,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba0001_rope_m_sway_s",
+          "delayTime_": 0,
+          "requestId_": 1175831198,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2,
+          "useSocket_": true,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionFrames_": [
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      }
+    ],
+    "eventNames_": [
+      {
+        "Element": "ba0001_woodship_l_drive_m"
+      },
+      {
+        "Element": "ba0001_rope_m_sway_s"
+      },
+      {
+        "Element": "ba0001_rope_m_sway_s_b"
+      },
+      {
+        "Element": "ba0001_rope_m_sway_s"
+      }
+    ],
+    "motionNames_": [
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false,
+    "checkFrameRange_": 9999
+  },
+  "SoundTriggerAction": {
+    "guid_": 1750907710,
+    "parentGuid_": 677239551,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba0001_pulley_m_rotation_m_02",
+          "delayTime_": 0,
+          "requestId_": 1750907710,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 306,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba0001_pulley_m_rotation_m_01",
+          "delayTime_": 0,
+          "requestId_": 1750907710,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 257,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba0001_pulley_s_rotation_m_01",
+          "delayTime_": 0,
+          "requestId_": 1750907710,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 48,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba0001_pulley_s_rotation_m_02",
+          "delayTime_": 0,
+          "requestId_": 1750907710,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 40,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba0001_cloth_l_sway_m",
+          "delayTime_": 0,
+          "requestId_": 1750907710,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 57,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionFrames_": [
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      }
+    ],
+    "eventNames_": [
+      {
+        "Element": "ba0001_pulley_m_rotation_m_02"
+      },
+      {
+        "Element": "ba0001_pulley_m_rotation_m_01"
+      },
+      {
+        "Element": "ba0001_pulley_s_rotation_m_01"
+      },
+      {
+        "Element": "ba0001_pulley_s_rotation_m_02"
+      },
+      {
+        "Element": "ba0001_cloth_l_sway_m"
+      }
+    ],
+    "motionNames_": [
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false,
+    "checkFrameRange_": 9999
+  },
+  "SoundTriggerAction": {
+    "guid_": 1280092526,
+    "parentGuid_": 677239551,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba0001_wood_l_creak_m_b",
+          "delayTime_": 0,
+          "requestId_": 1280092526,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 102,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba0001_wood_m_creak_m",
+          "delayTime_": 0,
+          "requestId_": 1280092526,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 85,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba0001_wood_l_creak_m_c",
+          "delayTime_": 0,
+          "requestId_": 1280092526,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 83,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba0001_wood_m_creak_m_b",
+          "delayTime_": 0,
+          "requestId_": 1280092526,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 103,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba0001_wood_l_creak_m_b",
+          "delayTime_": 0,
+          "requestId_": 1280092526,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 308,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false,
+          "isEnableMusicSync_": false,
+          "useWeaponId_": -1
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionFrames_": [
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      }
+    ],
+    "eventNames_": [
+      {
+        "Element": "ba0001_wood_l_creak_m_b"
+      },
+      {
+        "Element": "ba0001_wood_m_creak_m"
+      },
+      {
+        "Element": "ba0001_wood_l_creak_m_c"
+      },
+      {
+        "Element": "ba0001_wood_m_creak_m_b"
+      },
+      {
+        "Element": "ba0001_wood_l_creak_m_b"
+      }
+    ],
+    "motionNames_": [
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false,
+    "checkFrameRange_": 9999
+  }
+}

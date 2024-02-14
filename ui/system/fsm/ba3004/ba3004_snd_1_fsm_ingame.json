@@ -1,0 +1,292 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 245431995,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 245431995,
+    "fromNodeGuid_": 1093914319,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1115860414
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 218541282,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1093914319,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 921794046
+      }
+    ],
+    "toNodeGuid_": 1093914319,
+    "fromNodeGuid_": 622867152,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 218541282,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 510904914,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "FSMNode": {
+    "guid_": 622867152,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1708566573,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "BlackBoardIntCondition": {
+    "guid_": 921794046,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "intName_": "ba3004_break",
+    "value_": 1,
+    "operatorType_": 0
+  },
+  "SoundTriggerAction": {
+    "guid_": 1507804177,
+    "parentGuid_": 622867152,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba3004_ice_1st_break",
+          "delayTime_": 0,
+          "requestId_": 1507804177,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 21,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionNames_": [
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1115860414,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ],
+    "isMaxBlendWeight_": false
+  },
+  "SoundTriggerAction": {
+    "guid_": 844044612,
+    "parentGuid_": 218541282,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba3004_ice_ll_break_l",
+          "delayTime_": 0.01666667,
+          "requestId_": 844044612,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 21,
+          "useSocket_": false,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionNames_": [
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false
+  },
+  "SoundTriggerAction": {
+    "guid_": 1914801601,
+    "parentGuid_": 218541282,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba3004_ice_ll_ground_hit_l_05",
+          "delayTime_": 2.916667,
+          "requestId_": 1914801601,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 0,
+          "useSocket_": true,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba3004_ice_ll_ground_hit_l_03",
+          "delayTime_": 2.7,
+          "requestId_": 1914801601,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 3,
+          "useSocket_": true,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba3004_ice_ll_ground_hit_l_04",
+          "delayTime_": 2.916667,
+          "requestId_": 1914801601,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 4,
+          "useSocket_": true,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba3004_ice_ll_ground_hit_l_02",
+          "delayTime_": 3.2,
+          "requestId_": 1914801601,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2,
+          "useSocket_": true,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba3004_ice_ll_ground_hit_l_01",
+          "delayTime_": 3.283334,
+          "requestId_": 1914801601,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 1,
+          "useSocket_": true,
+          "nameType_": 0,
+          "isCollisionAttribute_": false,
+          "isEnableOcclusion_": false
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0,
+    "motionNames_": [
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      },
+      {
+        "Element": ""
+      }
+    ],
+    "motionFrames_": [
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      },
+      {
+        "Element": []
+      }
+    ],
+    "isEndTrigger_": false
+  }
+}

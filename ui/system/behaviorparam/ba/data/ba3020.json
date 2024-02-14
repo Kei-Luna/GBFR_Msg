@@ -1,0 +1,87 @@
+{
+  "BaDefenseBarrierParam": {
+    "phaseParam_": {
+      "list_": [
+        {
+          "phaseThresholds": "0",
+          "addPtPerSecond": "1",
+          "magicCircleEspSize": "1.45",
+          "ringEspSize": "4.15",
+          "armorialEspSize": "0.3",
+          "spreadingMagicCircleEspSize": "0.078"
+        },
+        {
+          "phaseThresholds": "100",
+          "addPtPerSecond": "1",
+          "magicCircleEspSize": "1.48",
+          "ringEspSize": "13.912",
+          "armorialEspSize": "0.4",
+          "spreadingMagicCircleEspSize": "0.32"
+        },
+        {
+          "phaseThresholds": "160",
+          "addPtPerSecond": "1",
+          "magicCircleEspSize": "1.455",
+          "ringEspSize": "21",
+          "armorialEspSize": "0.973",
+          "spreadingMagicCircleEspSize": "0.51"
+        },
+        {
+          "phaseThresholds": "260",
+          "addPtPerSecond": "1",
+          "magicCircleEspSize": "1.475",
+          "ringEspSize": "38.5",
+          "armorialEspSize": "1.01",
+          "spreadingMagicCircleEspSize": "0.89"
+        }
+      ],
+      "voiceIdList_": [
+        {
+          "upgrade2_": "VT_MS07_2400",
+          "upgrade3_": "VT_MS07_2403",
+          "upgrade4_": "VT_MS07_2551",
+          "reduceTo1_": "VT_MS07_2350",
+          "reduceTo2_": "VT_MS07_2350",
+          "aboutToComp_": "VT_MS07_2550",
+          "completed_": "VT_MS07_2552"
+        }
+      ]
+    },
+    "stopTimeByDamage_": "3",
+    "stopSubTimeByDamage_": "2",
+    "stopTimeByBreak_": "6",
+    "beforeFinishVoicePoint_": "240",
+    "completeVoiceWaitTime_": "4",
+    "maxRingSize_": "49.5",
+    "dmgVoiceIntervalTime_": "20",
+    "noLevelDown_": "true",
+    "bossParam_": [
+      {
+        "Element": {
+          "minPower_": "0",
+          "subPoint_": "10"
+        }
+      },
+      {
+        "Element": {
+          "minPower_": "100",
+          "subPoint_": "15"
+        }
+      }
+    ],
+    "zakoParam_": [
+      {
+        "Element": {
+          "minPower_": "0",
+          "subPoint_": "3"
+        }
+      },
+      {
+        "Element": {
+          "minPower_": "50",
+          "subPoint_": "5"
+        }
+      }
+    ]
+  }
+}

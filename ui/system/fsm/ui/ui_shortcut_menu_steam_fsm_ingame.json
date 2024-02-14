@@ -1,0 +1,125 @@
+{
+  "className": "ui",
+  "fsmName": "shortcut_menu",
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 617033932,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 851558585,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 617033932,
+    "fromNodeGuid_": 1700242769,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1700242769,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 550658823,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 545283354
+      },
+      {
+        "Element": 600458016
+      }
+    ],
+    "toNodeGuid_": 1700242769,
+    "fromNodeGuid_": 243659270,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "addAllTransition": {},
+  "addTransition": {
+    "Transition": {
+      "conditionGuid_": 0,
+      "conditionGuids_": [
+        {
+          "Element": 688503917
+        }
+      ],
+      "toNodeGuid_": 243659270,
+      "fromNodeGuid_": 617033932,
+      "isEndTransition_": false,
+      "isFailedTransition_": false,
+      "params_": []
+    }
+  },
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "Event": {
+    "guid_": 688503917,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "event_": "ChangeQuickMatchSetting",
+    "any_": false,
+    "open_": "",
+    "close_": ""
+  },
+  "ViewClose": {
+    "guid_": 345959528,
+    "parentGuid_": 617033932,
+    "views_": [
+      {
+        "Element": "ShortcutMenu"
+      },
+      {
+        "Element": "Popup"
+      }
+    ],
+    "count_": 2,
+    "layerOffset_": 1,
+    "openSkip_": false,
+    "closeSkip_": false,
+    "skip_": false
+  },
+  "FlowStart": {
+    "guid_": 1608294919,
+    "parentGuid_": 1700242769,
+    "fsmName_": "GameMatchSetting",
+    "param_": 0
+  },
+  "FlowResult": {
+    "guid_": 545283354,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "fsmLabel_": "GameMatchSetting",
+    "result_": 1,
+    "noCheckResult_": false
+  },
+  "FlowResult": {
+    "guid_": 600458016,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "fsmLabel_": "GameMatchSetting",
+    "result_": 0,
+    "noCheckResult_": false
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 134597748,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 134597748,
+    "fromNodeGuid_": 1820907961,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1820907961,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": true,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1820907961,
+    "fromNodeGuid_": 723961499,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 723961499,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 76090928,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 788413715
+      }
+    ],
+    "toNodeGuid_": 723961499,
+    "fromNodeGuid_": 1302449292,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1302449292,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1073659462,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CollisionChangeAction": {
+    "guid_": 426288424,
+    "parentGuid_": 1820907961,
+    "valueName_": "Phase_2st",
+    "enable_": false
+  },
+  "CollisionChangeAction": {
+    "guid_": 417686829,
+    "parentGuid_": 1820907961,
+    "valueName_": "Phase_Pst_00",
+    "enable_": false
+  },
+  "CollisionChangeAction": {
+    "guid_": 32462316,
+    "parentGuid_": 1820907961,
+    "valueName_": "Phase_Pst_01",
+    "enable_": false
+  },
+  "CollisionChangeAction": {
+    "guid_": 1974770493,
+    "parentGuid_": 1820907961,
+    "valueName_": "Phase_Pst_02",
+    "enable_": false
+  },
+  "MotionPlayAction": {
+    "guid_": 1765860489,
+    "parentGuid_": 1820907961,
+    "motionIdName_": "f100",
+    "isAnimEnd_": false,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": 0,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1,
+    "motionWeight_": 1,
+    "seqNo_": 0
+  },
+  "RegisterBlackBoardIntAction": {
+    "guid_": 880386530,
+    "parentGuid_": 1820907961,
+    "valueName_": "ProtoBahamutPhase",
+    "value_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 788413715,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "intName_": "ProtoBahamutPhase",
+    "value_": 40,
+    "operatorType_": 4
+  },
+  "CollisionChangeAction": {
+    "guid_": 1927498401,
+    "parentGuid_": 1302449292,
+    "valueName_": "battlephase_front",
+    "enable_": false
+  },
+  "CollisionChangeAction": {
+    "guid_": 1580595662,
+    "parentGuid_": 1820907961,
+    "valueName_": "battlephase_5st",
+    "enable_": false
+  },
+  "PartsChangeAction": {
+    "guid_": 1204599102,
+    "parentGuid_": 1302449292,
+    "partsIndex_": [
+      {
+        "Element": 6
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      }
+    ],
+    "visible_": false,
+    "useIndex_": 1
+  },
+  "CollisionChangeAction": {
+    "guid_": 687708386,
+    "parentGuid_": 1820907961,
+    "valueName_": "noncannon_2st_Gallanza",
+    "enable_": false
+  }
+}

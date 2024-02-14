@@ -1,0 +1,101 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 77588780,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 77588780,
+    "fromNodeGuid_": 1550542996,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1550542996,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 193556332,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1681752352
+      }
+    ],
+    "toNodeGuid_": 1550542996,
+    "fromNodeGuid_": 437757683,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 437757683,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1661930428,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": "",
+    "referenceguid_": 0
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "CallBgm": {
+    "guid_": 265642722,
+    "parentGuid_": 437757683,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 823,
+    "progressIndex_": 3,
+    "progressHash_": 11164793184919508514,
+    "wwiseIdName_": "BGM_Bt_Ido6st_B",
+    "useBgmSetType_": true,
+    "bgmSetType_": 2,
+    "skipWhileSectionJump_": false
+  },
+  "RecvSignal": {
+    "guid_": 1681752352,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "category_": 4,
+    "subcategory_": 6,
+    "index_": 823,
+    "progressIndex_": 3,
+    "progressHash_": 11164793184919508514,
+    "isNoCheckSkip_": false,
+    "signalField_": [
+      {
+        "Element": 1
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 0
+      },
+      {
+        "Element": 4333447810870347134
+      }
+    ],
+    "resetOnStart_": false
+  }
+}

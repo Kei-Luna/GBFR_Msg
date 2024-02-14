@@ -1,0 +1,2839 @@
+{
+  "Em1805Param": {
+    "hp_": "300000",
+    "atk_": "1500",
+    "break_": "8",
+    "def_": "0",
+    "endurance_": "10",
+    "exp_": "20",
+    "hitSEMaxBreak_": "4",
+    "hitSEMinBreak_": "0",
+    "hpCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "atkCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "defCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "expCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "fsmParam_": {
+      "folderName_": [],
+      "fsmName_": []
+    },
+    "hateRateClosePlayer_": "25",
+    "hateRateFarPlayer_": "0",
+    "hateRateClosePlayerPerSec_": "0",
+    "hateRateFarPlayerPerSec_": "0",
+    "hateRateFrontAngle_": "25",
+    "hateRateBackAngle_": "0",
+    "hateRateDamage_": "50",
+    "hateRateManualPlayer_": "0",
+    "hateRateHighHpPlayer_": "0",
+    "hateRateLowHpPlayer_": "0",
+    "hateRateTargetCountManyPlayer_": "0",
+    "hateRateTargetCountFewPlayer_": "0",
+    "hateRateHelpPlayer_": "0",
+    "hateRateLastTargetPlayer_": "0",
+    "hateRateFirstTargetPlayer_": "0",
+    "badStatusHateRateMap_": [],
+    "hateUpdateTime_": "5",
+    "damageToHateRate_": "0.2",
+    "damageHateDecPerSec_": "2",
+    "closeHateIncRate_": "0",
+    "closeHateDecRate_": "0",
+    "farHateIncRate_": "0",
+    "farHateDecRate_": "0",
+    "combatPower_": "70",
+    "combatPowerList_": [
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      },
+      {
+        "Element": "-1"
+      }
+    ],
+    "itemRewordMoneyVal_": "0",
+    "itemRewordJumpRate_": "0.5",
+    "battle2SearchLength_": "1000",
+    "search2battleLength_": "10",
+    "enemySize_": "2",
+    "linkAttackCameraDistRate_": "1",
+    "targetRangeParam_": {
+      "rangeClose_": "-1",
+      "rangeShort_": "11",
+      "rangeMiddle_": "16",
+      "rangeLong_": "-1"
+    },
+    "counterAttackParam_": {
+      "damageMaxValue_": "4",
+      "damageMinValue_": "3",
+      "reduceDamageValueInSec_": "10",
+      "stopReduceTime_": "5",
+      "coolTime_": "10",
+      "onceCheckCounterAttack_": "false",
+      "isReferenceMaxHpRate_": "true"
+    },
+    "counterAttackParams_": [
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      },
+      {
+        "Element": {
+          "damageMaxValue_": "0",
+          "damageMinValue_": "0",
+          "reduceDamageValueInSec_": "0",
+          "stopReduceTime_": "0",
+          "coolTime_": "0",
+          "onceCheckCounterAttack_": "false",
+          "isReferenceMaxHpRate_": "false"
+        }
+      }
+    ],
+    "useCounterAttackParam_": [
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "false"
+      }
+    ],
+    "badStatusResistanceParams_": [
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.6",
+          "subValue_": "0.05",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.3",
+          "subValue_": "0.15",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "1",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "1",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.3",
+          "subValue_": "0.15",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.7",
+          "subValue_": "0.05",
+          "coolTime_": "0.5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "0.7",
+          "subValue_": "0.05",
+          "coolTime_": "0.5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      },
+      {
+        "Element": {
+          "maxValue_": "1",
+          "minValue_": "1",
+          "subValue_": "0",
+          "coolTime_": "5",
+          "regeneValue_": "0.2",
+          "startStopTime_": "0"
+        }
+      }
+    ],
+    "statusParams_": {
+      "regeneratePercent_": "0.15",
+      "regenerateCycleSec_": "3",
+      "multiAttackNum_": "1",
+      "multiAttackDelayFrame_": "5",
+      "multiAttackAtkRate_": "0.2",
+      "multiAttackHitStopDivision_": "2",
+      "burnDotDamageLimitRate_": "1",
+      "poisonDotDamageLimitRate_": "1",
+      "dimentionDotDamageLimitRate_": "1"
+    },
+    "cameraCollisionParams_": [],
+    "linkParam_": {
+      "linkMaxValue_": "700",
+      "linkResetTime_": "2.5",
+      "linkResetRate_": "70",
+      "linkMultiBonus_": "1.5",
+      "linkCoolTime_": "20",
+      "isOverrideCircleParts_": "true",
+      "linkPartsNumber_": "7",
+      "linkOffsetPos_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "linkCirclePartsNumber_": "7",
+      "linkCircleOffsetPos_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "linkAddDist_": "0",
+      "linkAdjustSec_": "1.5"
+    },
+    "lockOnParam_": {
+      "partsInfoList_": [
+        {
+          "Element": {
+            "offset_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "partsNumber_": "5",
+            "camRot_": "-1",
+            "collisionOffset_": "0",
+            "disableWallCheck_": "false",
+            "canManualLockOn_": "true",
+            "canLinkTarget_": "false"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "partsNumber_": "2",
+            "camRot_": "-1",
+            "collisionOffset_": "0",
+            "disableWallCheck_": "false",
+            "canManualLockOn_": "true",
+            "canLinkTarget_": "false"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "partsNumber_": "514",
+            "camRot_": "-1",
+            "collisionOffset_": "0",
+            "disableWallCheck_": "false",
+            "canManualLockOn_": "false",
+            "canLinkTarget_": "false"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "partsNumber_": "322",
+            "camRot_": "-1",
+            "collisionOffset_": "0",
+            "disableWallCheck_": "false",
+            "canManualLockOn_": "false",
+            "canLinkTarget_": "false"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "partsNumber_": "386",
+            "camRot_": "-1",
+            "collisionOffset_": "0",
+            "disableWallCheck_": "false",
+            "canManualLockOn_": "false",
+            "canLinkTarget_": "true"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            "partsNumber_": "354",
+            "camRot_": "-1",
+            "collisionOffset_": "0",
+            "disableWallCheck_": "false",
+            "canManualLockOn_": "false",
+            "canLinkTarget_": "true"
+          }
+        },
+        {
+          "Element": {
+            "offset_": [
+              "0",
+              "-1",
+              "1.5",
+              "1"
+            ],
+            "partsNumber_": "7",
+            "camRot_": "-1",
+            "collisionOffset_": "0",
+            "disableWallCheck_": "false",
+            "canManualLockOn_": "true",
+            "canLinkTarget_": "true"
+          }
+        }
+      ],
+      "spArtsPrioLayer_": "2",
+      "spArtsPrioOffset_": "0",
+      "spArtsWarpOffset_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "spArtsWarpPartsNumber_": "-1",
+      "spArtsWarpDist_": "0",
+      "rangeType_": "0"
+    },
+    "collisionParam_": {
+      "offset_": [
+        "0",
+        "6",
+        "0",
+        "1"
+      ],
+      "lineEndOffset_": [
+        "0",
+        "3",
+        "5",
+        "1"
+      ],
+      "partsNumber_": "-1",
+      "capsuleEndPartsNumber_": "23",
+      "radius_": "5"
+    },
+    "animInterDefaultSec_": "0.5",
+    "damageAnimInterDefaultSec_": "0.1",
+    "uiPartsNo_": "0",
+    "uiOffsetY_": "1",
+    "basicHitStopTimeRate_": "0",
+    "damageReactionHitStopTimeRate_": "0",
+    "superArmorHitStopTimeRate_": "0",
+    "attackerHitStopTimeRate_": "0",
+    "addReactionHitstopFrameMin_": "-1",
+    "addReactionHitstopFrameMax_": "-1",
+    "addReactionWeightRateMin_": "-1",
+    "addReactionWeightRateMax_": "-1",
+    "addReactionWeightRateAI_": "-1",
+    "addReactionInterSec_": "-1",
+    "isEyeLookingAtLockOn_": "false",
+    "lookingAtPartsNo_": "5",
+    "isEnableSyncWeaponAnim_": "false",
+    "weakPointParam_": {
+      "weakInfoList_": [
+        {
+          "Element": {
+            "isWeakPoint_": "true",
+            "hardValue_": "1.2",
+            "damageWorkUniqueId_": "0"
+          }
+        },
+        {
+          "Element": {
+            "isWeakPoint_": "false",
+            "hardValue_": "0.8",
+            "damageWorkUniqueId_": "2"
+          }
+        },
+        {
+          "Element": {
+            "isWeakPoint_": "false",
+            "hardValue_": "0.8",
+            "damageWorkUniqueId_": "3"
+          }
+        },
+        {
+          "Element": {
+            "isWeakPoint_": "false",
+            "hardValue_": "0.8",
+            "damageWorkUniqueId_": "4"
+          }
+        },
+        {
+          "Element": {
+            "isWeakPoint_": "false",
+            "hardValue_": "0.8",
+            "damageWorkUniqueId_": "5"
+          }
+        }
+      ]
+    },
+    "defenseTargetHateParams_": [
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      },
+      {
+        "Element": {
+          "maxHateValue_": "100",
+          "damageHateDecRate_": "0.2",
+          "damageHateIncPerSec_": "2"
+        }
+      }
+    ],
+    "ignoreAilments_": [],
+    "stageInvisibleStartDistance_": "150",
+    "stageInvisibleEndDistance_": "200",
+    "neckCtrlParam_": {
+      "partsNumber_": "5",
+      "rootPartsNumber_": "10",
+      "basePartsNumber_": "3",
+      "baseAxisZ_": [
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      "neckAxisZ_": [
+        "0",
+        "1",
+        "0",
+        "1"
+      ],
+      "baseDegree_": [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "maxDegreeX_": "5",
+      "maxDegreeY_": "40",
+      "minDegreeX_": "-40",
+      "minDegreeY_": "-40",
+      "rotAdjustRate_": "0.1",
+      "rotAdjustDegreeMax_": "30",
+      "baseAxisZUpLimitDegree_": "-1",
+      "seqWorkIndex_": "0",
+      "seqFlagNumber_": "11",
+      "isSeqNeckCtrlEnable_": "false",
+      "isUseBaseParts_": "true"
+    },
+    "isChangeNormalDamageAttackReaction_": "true",
+    "isUseNormalDamageAttackReactionDefault_": "true",
+    "normalDamageAttackReaction_": [
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "1"
+      },
+      {
+        "Element": "2"
+      },
+      {
+        "Element": "3"
+      },
+      {
+        "Element": "4"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "22"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      }
+    ],
+    "isCallExplodeBodyPresageDefaultVfx_": "true",
+    "isDisableAerialDownReaction_": "true",
+    "overDriveParam_": {
+      "hpRateNormal_": "0.15",
+      "hpRateOverDrive_": "0.25",
+      "hpRateBreak_": "0.05",
+      "minBreakSecond_": "5",
+      "forceBreakSecond_": "10",
+      "overDriveVyrnVoiceWaitSecond_": "3",
+      "overDriveCameraPartsNumber_": "5"
+    },
+    "emissiveParamDefault_": {
+      "sinMode_": "true",
+      "emissiveBlinkSecond_": "3",
+      "emissiveBlinkMaxSecond_": "1",
+      "emissiveBlinkPow_": "1",
+      "emissiveStrengthUpper_": "0.2",
+      "emissiveStrengthLower_": "0.01"
+    },
+    "emissiveParamMax_": {
+      "sinMode_": "true",
+      "emissiveBlinkSecond_": "3",
+      "emissiveBlinkMaxSecond_": "1",
+      "emissiveBlinkPow_": "1",
+      "emissiveStrengthUpper_": "0.2",
+      "emissiveStrengthLower_": "0.01"
+    },
+    "emissiveParamMin_": {
+      "sinMode_": "false",
+      "emissiveBlinkSecond_": "6",
+      "emissiveBlinkMaxSecond_": "1",
+      "emissiveBlinkPow_": "1",
+      "emissiveStrengthUpper_": "0.05",
+      "emissiveStrengthLower_": "0.01"
+    },
+    "spArtsCutinParam_": {
+      "spArtsTextId_": "TXT_BT_1805_1"
+    },
+    "odAbilityParam_": {
+      "textId_": "TXT_BT_1805_1"
+    },
+    "cameraLength_": "4.5",
+    "odHitStopTimeRate_": "0",
+    "breakHitStopTimeRate_": "1",
+    "emissiveInitValue_": "0",
+    "odAttackRateFirstTime_": "1.1",
+    "odDefenseRateFirstTime_": "0.9",
+    "odAttackRateSecondTime_": "1.2",
+    "odDefenseRateSecondTime_": "0.7",
+    "abilityCoolSec_": "10",
+    "isCutInDamageDisable_": "false",
+    "bossStunOffsetY_": "0",
+    "closeLength_": "11",
+    "middleLength_": "16",
+    "FrontAngle_": "45",
+    "aroundSearchLength_": "16",
+    "badStatusHate_": "10000",
+    "isDeleteMagicCircleEvent_": "true",
+    "animRateODAILevel1_": [
+      "1.05",
+      "1.1"
+    ],
+    "animRateODAILevel2_": [
+      "1.05",
+      "1.1"
+    ],
+    "animRateODAILevel3_": [
+      "1.05",
+      "1.1"
+    ],
+    "animRateODAILevel4_": [
+      "1.05",
+      "1.1"
+    ],
+    "overDriveHpRateAILv1_2_": [
+      "0.25",
+      "0.15",
+      "0.25",
+      "0.15"
+    ],
+    "forceOverDriveHpRate_": "25",
+    "meteorHpTriggerFirst_": "70",
+    "meteorHpTriggerSecond_": "25",
+    "meteorSecondStopHpRate_": "5",
+    "overdriveVoiceWaitSecond_": "3",
+    "breakVoiceWaitSecond_": "2",
+    "breakDownVoiceWaitSecond_": "0.1",
+    "meteorBeginVoiceWaitSecond_": "3",
+    "meteorShotVoiceWaitSecond_": "1.5",
+    "headDamageRate_": "1.2",
+    "frontDamageRate_": "1",
+    "backDamageRate_": "1",
+    "overDriveDamageRate_": "1",
+    "attackHomingRate_": "0.5",
+    "attackHomingAngleMax_": "3",
+    "clawHomingRotRate_": "0.02",
+    "clawMaxHomingAngle_": "30",
+    "tackleHomingDegreeOffset_": "-20",
+    "tackleHomingDegreeMax_": "60",
+    "roarStartHpRate_": "0.012",
+    "roarStackDamageCheckTime_": "6000",
+    "roarCoolTime_": "10",
+    "roarDamageStackArraySize_": "15",
+    "fireBallAngleX_": "80",
+    "fireBallDistance_": "10",
+    "fireBallTargetOffsetY_": "1.5",
+    "fireBallSpeedAILevel1_": "50",
+    "fireBallSpeedAILevel2_": "50",
+    "fireBallSpeedAILevel3_": "50",
+    "fireBallSpeedAILevel4_": "60",
+    "fireBallScale_": "1.5",
+    "fireBallHomingRate_": "0.05",
+    "fireBallHomingAngleMax_": "3",
+    "fireFieldTime_": "0.05",
+    "fireFieldCreateTime_": "0.018",
+    "fireFieldCreateY_": "3",
+    "fireFieldCreateRate_": "0.02",
+    "trackingMagicCircleAILevelCoolTime_": "20",
+    "chaseMagicCircleEnable_": "false",
+    "chaseMagicCirclePresageParam_": {
+      "waitSecond_": "0",
+      "changeScaleSecond_": "0.5",
+      "startScale_": "0",
+      "endScale_": "1.4",
+      "moveSecondMin_": "0",
+      "moveSecondMax_": "0",
+      "moveSecond_": "1",
+      "moveSpeed_": "10",
+      "warningSecond_": "1",
+      "attackSecond_": "0.5",
+      "attackPower_": "0",
+      "attackRadius_": "4",
+      "breakPower_": "1",
+      "attackWaitSecond_": "1",
+      "attackCheckDist_": "1",
+      "color_": "0",
+      "isCustomEffect_": "false",
+      "moveEstId_": "-1",
+      "omenEstId_": "-1",
+      "attackEstId_": "-1",
+      "isStartOwnerPos_": "false",
+      "rebootAttackMoveNum_": "0",
+      "rebootWaitSecond_": "0",
+      "omenStartSeDefineName_": "em1800,magiccircle_s,point_start",
+      "attackSeDefineName_": "em1800,magiccircle_fire,point_start",
+      "isTargetPointOmen_": "false",
+      "targetPointOmenSpd_": "3.25",
+      "targetPointOmenMoveSec_": "5"
+    },
+    "chaseMagicCircleNormalParam_": {
+      "waitSecond_": "1.5",
+      "changeScaleSecond_": "0.5",
+      "startScale_": "0",
+      "endScale_": "0.3",
+      "moveSecondMin_": "1",
+      "moveSecondMax_": "2",
+      "moveSecond_": "0",
+      "moveSpeed_": "3.9",
+      "warningSecond_": "1",
+      "attackSecond_": "0.5",
+      "attackPower_": "0",
+      "attackRadius_": "4",
+      "breakPower_": "4",
+      "attackWaitSecond_": "1",
+      "attackCheckDist_": "1",
+      "color_": "0",
+      "isCustomEffect_": "false",
+      "moveEstId_": "-1",
+      "omenEstId_": "-1",
+      "attackEstId_": "-1",
+      "isStartOwnerPos_": "false",
+      "rebootAttackMoveNum_": "0",
+      "rebootWaitSecond_": "0",
+      "omenStartSeDefineName_": "em1800,magiccircle_s,point_start",
+      "attackSeDefineName_": "em1800,magiccircle_fire,point_start",
+      "isTargetPointOmen_": "false",
+      "targetPointOmenSpd_": "3.25",
+      "targetPointOmenMoveSec_": "5"
+    },
+    "chaseMagicCircleOverDriveParam_": {
+      "waitSecond_": "1.5",
+      "changeScaleSecond_": "0.5",
+      "startScale_": "0",
+      "endScale_": "0.3",
+      "moveSecondMin_": "1",
+      "moveSecondMax_": "2",
+      "moveSecond_": "0",
+      "moveSpeed_": "3.9",
+      "warningSecond_": "1",
+      "attackSecond_": "0.5",
+      "attackPower_": "0",
+      "attackRadius_": "4",
+      "breakPower_": "4",
+      "attackWaitSecond_": "1",
+      "attackCheckDist_": "1",
+      "color_": "0",
+      "isCustomEffect_": "false",
+      "moveEstId_": "-1",
+      "omenEstId_": "-1",
+      "attackEstId_": "-1",
+      "isStartOwnerPos_": "false",
+      "rebootAttackMoveNum_": "0",
+      "rebootWaitSecond_": "0",
+      "omenStartSeDefineName_": "em1800,magiccircle_s,point_start",
+      "attackSeDefineName_": "em1800,magiccircle_fire,point_start",
+      "isTargetPointOmen_": "false",
+      "targetPointOmenSpd_": "3.25",
+      "targetPointOmenMoveSec_": "5"
+    },
+    "multipleMagicCircleCoolTimeNormal_": "90",
+    "multipleMagicCircleCoolTimeOverDriveFirst_": "10",
+    "multipleMagicCircleCoolTimeOverDrive_": "30",
+    "multipleMagicCircleCoolTimeMeteor_": "10",
+    "meteorForceSetSecond_": "50",
+    "meteorShotRotX_": "65",
+    "meteorShotRotY_": "0",
+    "meteorShotPosY_": "40",
+    "meteorShotRadius_": "10",
+    "meteorShotSpace_": "0.5",
+    "meteorShotSpeedAILevel1_": "15",
+    "meteorShotSpeedAILevel2_": "15",
+    "meteorShotSpeedAILevel3_": "20",
+    "meteorShotSpeedAILevel4_": "25",
+    "meteorShotWaitSecondMin_": "0.4",
+    "meteorShotWaitSecondMax_": "0.8",
+    "meteorWaitBeginSecond_": "0.1",
+    "meteorWaitShotSecond_": "0",
+    "meteorWaitEndSecond_": "3",
+    "meteorRangeCount_": "2",
+    "meteorLineScale_": [
+      "1",
+      "1",
+      "1"
+    ],
+    "meteorSignDispSecond_": "2",
+    "meteorHitDispSecond_": "7.5",
+    "meteorHitDispScale_": "1",
+    "meteorCameraEnable_": "false",
+    "meteorCameraSecond_": "3.5",
+    "meteorDisableHeight_": "5",
+    "meteorMaxTotalSecond_": "50",
+    "meteorMaxTotalNum_": "0",
+    "meteorCameraAttachParam_": {
+      "lookAtOffset_": [
+        "0",
+        "3",
+        "0"
+      ],
+      "partsNumber_": "3",
+      "rotX_": "30",
+      "rotY_": "0",
+      "distance_": "16",
+      "fov_": "45",
+      "isAttachContinue_": "false"
+    },
+    "turnBackTurnDegree_": "140",
+    "turnLeft90Degree_": "75",
+    "turnRight90Degree_": "-55",
+    "turnLeft180Degree_": "140",
+    "turnRight180Degree_": "-140",
+    "resetStepCoolTimeAILevel1_": "10",
+    "resetStepCoolTimeAILevel2_": "15",
+    "resetStepCoolTimeAILevel3_": "20",
+    "resetStepCoolTimeAILevel4_": "20",
+    "resetStepCheckHeight_": "10",
+    "resetStepCheckLength_": "20",
+    "beamParam_": {
+      "moveAxis_": [
+        "0",
+        "1",
+        "0"
+      ],
+      "offset_": [
+        "0",
+        "0",
+        "0"
+      ],
+      "rot_": [
+        "39",
+        "0",
+        "0"
+      ],
+      "jointNumber_": "5",
+      "intervalSecond_": "0.06",
+      "lifeSecond_": "0.7",
+      "waitSecond_": "0",
+      "speed_": "40",
+      "radius_": "0.7",
+      "maxRadius_": "0",
+      "hitGroundCheck": "false"
+    },
+    "breathParam_": {
+      "moveAxis_": [
+        "0",
+        "1",
+        "0"
+      ],
+      "offset_": [
+        "0",
+        "0.7",
+        "0"
+      ],
+      "rot_": [
+        "10",
+        "0",
+        "0"
+      ],
+      "jointNumber_": "37",
+      "intervalSecond_": "0.05",
+      "lifeSecond_": "0.3",
+      "waitSecond_": "0",
+      "speed_": "23",
+      "radius_": "0.9",
+      "maxRadius_": "0",
+      "hitGroundCheck": "false"
+    },
+    "breathDirectlyBelowParam_": {
+      "moveAxis_": [
+        "0",
+        "1",
+        "0"
+      ],
+      "offset_": [
+        "0",
+        "0.7",
+        "0"
+      ],
+      "rot_": [
+        "10",
+        "0",
+        "0"
+      ],
+      "jointNumber_": "37",
+      "intervalSecond_": "0.05",
+      "lifeSecond_": "0.4",
+      "waitSecond_": "0",
+      "speed_": "23",
+      "radius_": "0.9",
+      "maxRadius_": "0",
+      "hitGroundCheck": "false"
+    },
+    "breathRetreatSpeed_": "5",
+    "attackParam_smallMagicCircle_": {
+      "attackRateNormal_": "0.8",
+      "attackRateOverDrive_": "0.96",
+      "breakRateNormal_": "4",
+      "breakRateOverDrive_": "4"
+    },
+    "attackParam_multipleMagicCircle_": {
+      "attackRateNormal_": "1",
+      "attackRateOverDrive_": "0.9",
+      "breakRateNormal_": "2",
+      "breakRateOverDrive_": "2"
+    },
+    "attackParam_fireBallAILevel1_": {
+      "attackRateNormal_": "1",
+      "attackRateOverDrive_": "1",
+      "breakRateNormal_": "1",
+      "breakRateOverDrive_": "1"
+    },
+    "attackParam_fireBallAILevel2_": {
+      "attackRateNormal_": "1",
+      "attackRateOverDrive_": "1",
+      "breakRateNormal_": "1",
+      "breakRateOverDrive_": "1"
+    },
+    "attackParam_fireBallAILevel3_": {
+      "attackRateNormal_": "1",
+      "attackRateOverDrive_": "1.2",
+      "breakRateNormal_": "1",
+      "breakRateOverDrive_": "1"
+    },
+    "attackParam_fireBallAILevel4_": {
+      "attackRateNormal_": "1",
+      "attackRateOverDrive_": "1.2",
+      "breakRateNormal_": "1",
+      "breakRateOverDrive_": "1"
+    },
+    "attackParam_fireBreathAILevel1_": {
+      "attackRateNormal_": "1.3",
+      "attackRateOverDrive_": "1.3",
+      "breakRateNormal_": "2",
+      "breakRateOverDrive_": "2"
+    },
+    "attackParam_fireBreathAILevel2_": {
+      "attackRateNormal_": "1.3",
+      "attackRateOverDrive_": "1.3",
+      "breakRateNormal_": "2",
+      "breakRateOverDrive_": "2"
+    },
+    "attackParam_fireBreathAILevel3_": {
+      "attackRateNormal_": "1.3",
+      "attackRateOverDrive_": "1.4",
+      "breakRateNormal_": "2",
+      "breakRateOverDrive_": "2"
+    },
+    "attackParam_fireBreathAILevel4_": {
+      "attackRateNormal_": "1.3",
+      "attackRateOverDrive_": "1.4",
+      "breakRateNormal_": "2",
+      "breakRateOverDrive_": "2"
+    },
+    "attackParam_skyFireBreath_": {
+      "attackRateNormal_": "1.6",
+      "attackRateOverDrive_": "1.92",
+      "breakRateNormal_": "1",
+      "breakRateOverDrive_": "1"
+    },
+    "attackParam_stepFireBall_": {
+      "attackRateNormal_": "1.2",
+      "attackRateOverDrive_": "1.25",
+      "breakRateNormal_": "1",
+      "breakRateOverDrive_": "1"
+    },
+    "attackParam_meteor_": {
+      "attackRateNormal_": "2",
+      "attackRateOverDrive_": "2.2",
+      "breakRateNormal_": "10",
+      "breakRateOverDrive_": "10"
+    },
+    "attackParam_beam_": {
+      "attackRateNormal_": "2.1",
+      "attackRateOverDrive_": "2.1",
+      "breakRateNormal_": "10",
+      "breakRateOverDrive_": "10"
+    },
+    "addDamageParam_": {
+      "playInfoList_": [
+        {
+          "Element": {
+            "motionName_": "05a0",
+            "damageWorkUniqueId_": "0",
+            "slotNumber_": "1",
+            "weight_": "1"
+          }
+        },
+        {
+          "Element": {
+            "motionName_": "05a3",
+            "damageWorkUniqueId_": "2",
+            "slotNumber_": "2",
+            "weight_": "1"
+          }
+        },
+        {
+          "Element": {
+            "motionName_": "05a4",
+            "damageWorkUniqueId_": "3",
+            "slotNumber_": "3",
+            "weight_": "1"
+          }
+        },
+        {
+          "Element": {
+            "motionName_": "05a1",
+            "damageWorkUniqueId_": "4",
+            "slotNumber_": "4",
+            "weight_": "1"
+          }
+        },
+        {
+          "Element": {
+            "motionName_": "05a2",
+            "damageWorkUniqueId_": "5",
+            "slotNumber_": "5",
+            "weight_": "1"
+          }
+        }
+      ]
+    },
+    "breakPartsValue_": "1500",
+    "breakPartsSeName_": "em1800_mov_parts_break",
+    "partsBreakWeakPointParam_": {
+      "weakInfoList_": [
+        {
+          "Element": {
+            "isWeakPoint_": "true",
+            "hardValue_": "1.5",
+            "damageWorkUniqueId_": "0"
+          }
+        },
+        {
+          "Element": {
+            "isWeakPoint_": "false",
+            "hardValue_": "0.8",
+            "damageWorkUniqueId_": "2"
+          }
+        },
+        {
+          "Element": {
+            "isWeakPoint_": "false",
+            "hardValue_": "0.8",
+            "damageWorkUniqueId_": "3"
+          }
+        },
+        {
+          "Element": {
+            "isWeakPoint_": "false",
+            "hardValue_": "0.8",
+            "damageWorkUniqueId_": "4"
+          }
+        },
+        {
+          "Element": {
+            "isWeakPoint_": "false",
+            "hardValue_": "0.8",
+            "damageWorkUniqueId_": "5"
+          }
+        }
+      ]
+    },
+    "byTheWallDistance_": "20",
+    "byTheWallStepMag_": "1",
+    "clearAlreadyHitListTime_": "2",
+    "chargedMinionStepCheck_": "12",
+    "chargedMinionStepCheckTime_": "15",
+    "regenerationHpRate_": "0.01",
+    "regenerationCycleSec_": "1",
+    "pursuitThunderNum_": "2",
+    "pursuitThunderOdAddNum_": "2",
+    "pursuitThunderHpRateAddNum_": "2",
+    "pursuitThunderHpRate_": "0.6",
+    "pursuitThunderWait_": "0.2",
+    "pursuitThunderLength_": "5",
+    "pursuitThunderSearchingLength_": "10",
+    "pursuitThunderSearchingMove_": "2.5",
+    "dischargeAngTable_": [
+      {
+        "Element": "22.5"
+      },
+      {
+        "Element": "67.5"
+      },
+      {
+        "Element": "112.5"
+      },
+      {
+        "Element": "157.5"
+      },
+      {
+        "Element": "157.5"
+      },
+      {
+        "Element": "-112.5"
+      },
+      {
+        "Element": "-67.5"
+      },
+      {
+        "Element": "-22.5"
+      }
+    ],
+    "dischargeAngOffsetTable_": [
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "45"
+      },
+      {
+        "Element": "90"
+      },
+      {
+        "Element": "135"
+      },
+      {
+        "Element": "180"
+      },
+      {
+        "Element": "-135"
+      },
+      {
+        "Element": "-90"
+      },
+      {
+        "Element": "-45"
+      }
+    ],
+    "dischargeDelayTable": [
+      {
+        "Element": "0.01"
+      },
+      {
+        "Element": "0.3"
+      },
+      {
+        "Element": "0.3"
+      },
+      {
+        "Element": "0.6"
+      },
+      {
+        "Element": "0.6"
+      },
+      {
+        "Element": "0.6"
+      },
+      {
+        "Element": "0.9"
+      },
+      {
+        "Element": "0.9"
+      },
+      {
+        "Element": "0.9"
+      },
+      {
+        "Element": "1.2"
+      },
+      {
+        "Element": "1.2"
+      },
+      {
+        "Element": "1.2"
+      }
+    ],
+    "railgunCoolTimePhaseHp_": [
+      {
+        "Element": "999"
+      },
+      {
+        "Element": "80"
+      },
+      {
+        "Element": "60"
+      },
+      {
+        "Element": "40"
+      }
+    ],
+    "railgunCoolTimePhase_": [
+      {
+        "Element": "9999"
+      },
+      {
+        "Element": "25"
+      },
+      {
+        "Element": "20"
+      },
+      {
+        "Element": "20"
+      }
+    ],
+    "dragonicSpellRecastTime_": "65",
+    "attackParam_frontBeam_": {
+      "attackRateNormal_": "1.2",
+      "attackRateOverDrive_": "1.2",
+      "breakRateNormal_": "1",
+      "breakRateOverDrive_": "1"
+    },
+    "beamLoopTime_": "3",
+    "beamExplosionThunderLength_": "6",
+    "beamExplosionThunderDelay_": "1",
+    "beamExplosionThunderVerticalFront_": "0",
+    "beamExplosionThunderVerticalBack_": "180",
+    "beamExplosionThunderHorizontalL_": "60",
+    "beamExplosionThunderHorizontalR_": "-60",
+    "jumpBeamHomingRate_": "0",
+    "jumpBeamHomingAngleMax_": "7",
+    "jumpBeamThreeProngedHpRate_": "0.4",
+    "jumpBeamThreeProngedRate_": [
+      {
+        "Element": "1.4"
+      },
+      {
+        "Element": "2.2"
+      },
+      {
+        "Element": "2.8"
+      }
+    ],
+    "jumpBeamThreeProngedAng_": [
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "-12"
+      },
+      {
+        "Element": "12"
+      }
+    ],
+    "stepBeamAttackRate_": "1.2",
+    "stepBeamAttackODRate_": "1.2",
+    "stepBeamHomingRate_": "0.1",
+    "stepBeamHomingSideRate_": "0",
+    "stepBeamLength_": "128",
+    "stepBeamRadius_": "1",
+    "stepBeamExplosionDistance_": "6",
+    "stepBeamExplosionWait_": "1.1",
+    "stepBeamThreeProngedHpRate_": "0.4",
+    "stepBeamThreeProngedRate_": [
+      {
+        "Element": "1"
+      },
+      {
+        "Element": "1"
+      },
+      {
+        "Element": "1"
+      }
+    ],
+    "stepBeamThreeProngedAng_": [
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "12"
+      },
+      {
+        "Element": "-12"
+      }
+    ],
+    "stepBeamMoveRate_": "1.5",
+    "judgmentThunderTime_": "11",
+    "judgmentThunderPlayerExplosionOffset_": "4",
+    "judgmentThunderPlayerExplosionWait_": "1",
+    "judgmentThunderPlayerExplosion2ndWait_": "3",
+    "judgmentThunderInterruptSpreadDist_": "6",
+    "judgmentThunderChainMoveSecondMax_": "3",
+    "judgmentThunderChainRoundTripMoveSecondMax_": "8",
+    "judgmentThunderFallTrackingScalar_": "0.07",
+    "judgmentThunderWaitEndSecond_": "3",
+    "judgmentThunderSacrificeWait_": "2",
+    "judgmentThunderSacrificeDirRate_": "0.7",
+    "summonCoolTime_": "600",
+    "summonExplosionWait_": "0.01",
+    "summonSeedWait_": "0.5",
+    "summonTimeDifference_": "6",
+    "summonSeedHpWeakened_": "0.35",
+    "summonChargedSelfCheck": "0",
+    "summonDistStepCheck_": "15",
+    "summonDefaultSpawnType_": "1",
+    "summonSpreadSpawnType_": "600",
+    "summonSpreadHpRate_": "0.6",
+    "summonSeedOffset_": [
+      {
+        "Element": [
+          "-6.5",
+          "11.5"
+        ]
+      },
+      {
+        "Element": [
+          "6.5",
+          "11.5"
+        ]
+      },
+      {
+        "Element": [
+          "-12.5",
+          "0"
+        ]
+      },
+      {
+        "Element": [
+          "12.5",
+          "0"
+        ]
+      },
+      {
+        "Element": [
+          "-6.5",
+          "-11.5"
+        ]
+      },
+      {
+        "Element": [
+          "6.5",
+          "-11.5"
+        ]
+      }
+    ],
+    "summonSeedIndividualWait_": [
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "4"
+      },
+      {
+        "Element": "4"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "4"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "0"
+      }
+    ],
+    "seedAttackCenterMoveCoefficient_": "0.025",
+    "seedAttackChargedSelfModeTime_": "25",
+    "seedAttackChargedMinionModeTime_": "18",
+    "seedChainRadius_": "0.25",
+    "seedChainHeight_": "1",
+    "seedChainAttackRate_": "1.1",
+    "seedRotationCenterSparkMaxRadius_": "0",
+    "seedRotationCenterFallMaxRadius_": "0",
+    "seedRotationCenterMoveSpeed_": "0.01",
+    "seedRotationCenterWaitTime_": "3",
+    "seedAttackMaintainTime_": "10",
+    "seedAttackExtensionTime_": "10",
+    "seedAttackSparkRadiusTime_": "2",
+    "seedAttackSparkRadiusMaxVariation_": "0",
+    "seedAttackSparkRadiusWait_": "3",
+    "railgunBeamAttackRate_": "1",
+    "railgunBeamLength_": "40",
+    "railgunBeamRadius_": "3",
+    "railgunHpRate_": "0.8",
+    "ruinCoolTimeList_": [
+      {
+        "Element": "50"
+      },
+      {
+        "Element": "50"
+      },
+      {
+        "Element": "40"
+      },
+      {
+        "Element": "40"
+      }
+    ],
+    "ruinCoolTimeHpList_": [
+      {
+        "Element": "1"
+      },
+      {
+        "Element": "0.8"
+      },
+      {
+        "Element": "0.6"
+      },
+      {
+        "Element": "0.4"
+      }
+    ],
+    "ruinSeedCheck_": "7",
+    "ruinSeedCheckTime_": "15",
+    "ruinDragonicSpellShortened_": "20",
+    "ruinSummonSeedExtension_": "10",
+    "sacrificeActivationTime_": "1",
+    "sacrificeCheckDistance_": "5",
+    "sacrificeWaveCastTime_": "10",
+    "startCircleWaveTime_": "1.5",
+    "triBeamMaxMoveSec_": "2",
+    "triBeamMinMoveSec_": "1",
+    "triBeamHomingRate_": "0.025",
+    "triBeamMaxMoveRate_": "2",
+    "triBeamMinMoveRate_": "1",
+    "triBeamAddMoveRate_": "0.1",
+    "triBeamHomingTouchDownRate_": "0.1",
+    "triBeamThreeProngedHpRate_": "0.4",
+    "triBeamThreeProngedRate_": [
+      {
+        "Element": "1"
+      },
+      {
+        "Element": "1"
+      },
+      {
+        "Element": "1"
+      }
+    ],
+    "triBeamThreeProngedAng_": [
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "24"
+      },
+      {
+        "Element": "-24"
+      }
+    ],
+    "triBeamSightSignTime_": "2",
+    "triBeamSightSignRectW_": "4",
+    "triBeamSightSignRectH_": "50",
+    "triBeamSeedAttackSightSignTime_": "0.5",
+    "triBeamSparkMoveAng_": [
+      {
+        "Element": "120"
+      },
+      {
+        "Element": "140"
+      },
+      {
+        "Element": "160"
+      },
+      {
+        "Element": "-120"
+      },
+      {
+        "Element": "-140"
+      },
+      {
+        "Element": "-160"
+      }
+    ],
+    "triBeamSparkMoveOffsetAng_": [
+      {
+        "Element": "30"
+      },
+      {
+        "Element": "20"
+      },
+      {
+        "Element": "10"
+      },
+      {
+        "Element": "-30"
+      },
+      {
+        "Element": "-20"
+      },
+      {
+        "Element": "-10"
+      }
+    ],
+    "triBeamSparkSignList_": [
+      {
+        "Element": "true"
+      },
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "true"
+      },
+      {
+        "Element": "true"
+      },
+      {
+        "Element": "false"
+      },
+      {
+        "Element": "true"
+      }
+    ],
+    "triBeamSparkWidthList_": [
+      {
+        "Element": "-17.5"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "-19"
+      },
+      {
+        "Element": "17.5"
+      },
+      {
+        "Element": "0"
+      },
+      {
+        "Element": "19"
+      }
+    ],
+    "seedAttackSparkRotationParams_": {
+      "seedActionType_": "1",
+      "seedPlacementType_": "3",
+      "moveSecondMaxAllSet_": "false",
+      "moveSecondMax_": "7.5",
+      "seedPlacementParam_": [
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "-0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "-0",
+              "0",
+              "20"
+            ],
+            "moveSecondMax_": "7.5",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "20",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "-17.32051",
+              "0",
+              "9.999999"
+            ],
+            "moveSecondMax_": "7.5",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "20",
+            "endRotationAngle_": "60",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "-17.32051",
+              "0",
+              "-10"
+            ],
+            "moveSecondMax_": "7.5",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "20",
+            "endRotationAngle_": "120",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "1.748456e-06",
+              "0",
+              "-20"
+            ],
+            "moveSecondMax_": "7.5",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "20",
+            "endRotationAngle_": "180",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "17.32051",
+              "0",
+              "-9.999998"
+            ],
+            "moveSecondMax_": "7.5",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "20",
+            "endRotationAngle_": "240",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "17.32051",
+              "0",
+              "9.999998"
+            ],
+            "moveSecondMax_": "7.5",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "20",
+            "endRotationAngle_": "300",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        }
+      ]
+    },
+    "seedAttackFallRotationParams_": {
+      "seedActionType_": "3",
+      "seedPlacementType_": "3",
+      "moveSecondMaxAllSet_": "false",
+      "moveSecondMax_": "12",
+      "seedPlacementParam_": [
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "-0",
+              "0",
+              "9"
+            ],
+            "moveSecondMax_": "12",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "9",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "-0",
+              "0",
+              "13"
+            ],
+            "moveSecondMax_": "12",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "13",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "-0",
+              "0",
+              "17"
+            ],
+            "moveSecondMax_": "12",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "17",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "9.616506e-07",
+              "0",
+              "-11"
+            ],
+            "moveSecondMax_": "7.5",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "11",
+            "endRotationAngle_": "180",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "1.311342e-06",
+              "0",
+              "-15"
+            ],
+            "moveSecondMax_": "7.5",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "15",
+            "endRotationAngle_": "180",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "1.661033e-06",
+              "0",
+              "-19"
+            ],
+            "moveSecondMax_": "7.5",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "19",
+            "endRotationAngle_": "180",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        }
+      ]
+    },
+    "seedAttackChainRotationParams_": {
+      "seedActionType_": "2",
+      "seedPlacementType_": "4",
+      "moveSecondMaxAllSet_": "false",
+      "moveSecondMax_": "12",
+      "seedPlacementParam_": [
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "-0",
+              "0",
+              "5"
+            ],
+            "moveSecondMax_": "12",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "5",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "-0",
+              "0",
+              "9"
+            ],
+            "moveSecondMax_": "12",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "9",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "-0",
+              "0",
+              "13"
+            ],
+            "moveSecondMax_": "12",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "13",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "6.993822e-07",
+              "0",
+              "-8"
+            ],
+            "moveSecondMax_": "7.5",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "8",
+            "endRotationAngle_": "180",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "1.223919e-06",
+              "0",
+              "-14"
+            ],
+            "moveSecondMax_": "7.5",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "14",
+            "endRotationAngle_": "180",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "1",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "1.748456e-06",
+              "0",
+              "-20"
+            ],
+            "moveSecondMax_": "7.5",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "20",
+            "endRotationAngle_": "180",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        }
+      ]
+    },
+    "seedAttackTriChainParams_": {
+      "seedActionType_": "2",
+      "seedPlacementType_": "4",
+      "moveSecondMaxAllSet_": "false",
+      "moveSecondMax_": "2",
+      "seedPlacementParam_": [
+        {
+          "Element": {
+            "setMoveType_": "6",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "5",
+              "0",
+              "0"
+            ],
+            "moveSecondMax_": "2",
+            "waitSecond_": "1",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "25",
+            "beginRotationAngle_": "20",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "25",
+            "endRotationAngle_": "160",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "6",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "10",
+              "0",
+              "0"
+            ],
+            "moveSecondMax_": "2",
+            "waitSecond_": "1",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "25",
+            "beginRotationAngle_": "40",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "25",
+            "endRotationAngle_": "140",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "6",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "15",
+              "0",
+              "0"
+            ],
+            "moveSecondMax_": "2",
+            "waitSecond_": "1",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "25",
+            "beginRotationAngle_": "60",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "25",
+            "endRotationAngle_": "120",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "6",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "-5",
+              "0",
+              "0"
+            ],
+            "moveSecondMax_": "2",
+            "waitSecond_": "1",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "25",
+            "beginRotationAngle_": "-20",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "25",
+            "endRotationAngle_": "-160",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "6",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "-10",
+              "0",
+              "0"
+            ],
+            "moveSecondMax_": "2",
+            "waitSecond_": "1",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "25",
+            "beginRotationAngle_": "-40",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "25",
+            "endRotationAngle_": "-140",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "6",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "-15",
+              "0",
+              "0"
+            ],
+            "moveSecondMax_": "2",
+            "waitSecond_": "1",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "25",
+            "beginRotationAngle_": "-60",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "25",
+            "endRotationAngle_": "-120",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        }
+      ]
+    },
+    "seedAttackTriFallParams_": {
+      "seedActionType_": "3",
+      "seedPlacementType_": "4",
+      "moveSecondMaxAllSet_": "false",
+      "moveSecondMax_": "2",
+      "seedPlacementParam_": [
+        {
+          "Element": {
+            "setMoveType_": "5",
+            "beginPos_": [
+              "-8.550503",
+              "0",
+              "23.49232"
+            ],
+            "endPos_": [
+              "-8.550506",
+              "0",
+              "-23.49232"
+            ],
+            "moveSecondMax_": "2",
+            "waitSecond_": "1",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "25",
+            "beginRotationAngle_": "20",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "25",
+            "endRotationAngle_": "160",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "5",
+            "beginPos_": [
+              "-16.06969",
+              "0",
+              "19.15111"
+            ],
+            "endPos_": [
+              "-16.06969",
+              "0",
+              "-19.15111"
+            ],
+            "moveSecondMax_": "2",
+            "waitSecond_": "1",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "25",
+            "beginRotationAngle_": "40",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "25",
+            "endRotationAngle_": "140",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "5",
+            "beginPos_": [
+              "-21.65064",
+              "0",
+              "12.5"
+            ],
+            "endPos_": [
+              "-21.65063",
+              "0",
+              "-12.5"
+            ],
+            "moveSecondMax_": "2",
+            "waitSecond_": "1",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "25",
+            "beginRotationAngle_": "60",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "25",
+            "endRotationAngle_": "120",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "5",
+            "beginPos_": [
+              "8.550503",
+              "0",
+              "23.49232"
+            ],
+            "endPos_": [
+              "8.550506",
+              "0",
+              "-23.49232"
+            ],
+            "moveSecondMax_": "2",
+            "waitSecond_": "1",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "25",
+            "beginRotationAngle_": "-20",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "25",
+            "endRotationAngle_": "-160",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "5",
+            "beginPos_": [
+              "16.06969",
+              "0",
+              "19.15111"
+            ],
+            "endPos_": [
+              "16.06969",
+              "0",
+              "-19.15111"
+            ],
+            "moveSecondMax_": "2",
+            "waitSecond_": "1",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "25",
+            "beginRotationAngle_": "-40",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "25",
+            "endRotationAngle_": "-140",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "5",
+            "beginPos_": [
+              "21.65064",
+              "0",
+              "12.5"
+            ],
+            "endPos_": [
+              "21.65063",
+              "0",
+              "-12.5"
+            ],
+            "moveSecondMax_": "2",
+            "waitSecond_": "1",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "25",
+            "beginRotationAngle_": "-60",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "25",
+            "endRotationAngle_": "-120",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        }
+      ]
+    },
+    "seedAttackTriSparkParams_": {
+      "seedActionType_": "1",
+      "seedPlacementType_": "4",
+      "moveSecondMaxAllSet_": "false",
+      "moveSecondMax_": "1",
+      "seedPlacementParam_": [
+        {
+          "Element": {
+            "setMoveType_": "4",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "0",
+              "0",
+              "25"
+            ],
+            "moveSecondMax_": "1",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "0",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "4",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "0",
+              "0",
+              "21000"
+            ],
+            "moveSecondMax_": "1",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "0",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "4",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "0",
+              "0",
+              "17"
+            ],
+            "moveSecondMax_": "1",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "0",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "4",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "0",
+              "0",
+              "25"
+            ],
+            "moveSecondMax_": "1",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "0",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "4",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "0",
+              "0",
+              "21000"
+            ],
+            "moveSecondMax_": "1",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "0",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "4",
+            "beginPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "0",
+              "0",
+              "17"
+            ],
+            "moveSecondMax_": "1",
+            "waitSecond_": "1.5",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "0",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        }
+      ]
+    },
+    "seedAttackJudgmentThunderParams_": {
+      "seedActionType_": "1",
+      "seedPlacementType_": "1",
+      "moveSecondMaxAllSet_": "false",
+      "moveSecondMax_": "4",
+      "seedPlacementParam_": [
+        {
+          "Element": {
+            "setMoveType_": "0",
+            "beginPos_": [
+              "3",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "25",
+              "0",
+              "0"
+            ],
+            "moveSecondMax_": "3",
+            "waitSecond_": "0",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "0",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "0",
+            "beginPos_": [
+              "-3",
+              "0",
+              "0"
+            ],
+            "endPos_": [
+              "-25",
+              "0",
+              "0"
+            ],
+            "moveSecondMax_": "3",
+            "waitSecond_": "0",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "0",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "0",
+            "beginPos_": [
+              "0",
+              "0",
+              "3"
+            ],
+            "endPos_": [
+              "0",
+              "0",
+              "25"
+            ],
+            "moveSecondMax_": "3",
+            "waitSecond_": "0",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "0",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "0",
+            "beginPos_": [
+              "0",
+              "0",
+              "-3"
+            ],
+            "endPos_": [
+              "0",
+              "0",
+              "-25"
+            ],
+            "moveSecondMax_": "3",
+            "waitSecond_": "0",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "0",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "0",
+              "calcType_": "0"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "0",
+            "beginPos_": [
+              "10",
+              "0",
+              "10"
+            ],
+            "endPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "moveSecondMax_": "4",
+            "waitSecond_": "0",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "0",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "-1",
+              "calcType_": "-1"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "0",
+            "beginPos_": [
+              "10",
+              "0",
+              "-10"
+            ],
+            "endPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "moveSecondMax_": "4",
+            "waitSecond_": "0",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "0",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "-1",
+              "calcType_": "-1"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "0",
+            "beginPos_": [
+              "-10",
+              "0",
+              "10"
+            ],
+            "endPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "moveSecondMax_": "4",
+            "waitSecond_": "0",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "0",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "-1",
+              "calcType_": "-1"
+            }
+          }
+        },
+        {
+          "Element": {
+            "setMoveType_": "0",
+            "beginPos_": [
+              "-10",
+              "0",
+              "-10"
+            ],
+            "endPos_": [
+              "0",
+              "0",
+              "0"
+            ],
+            "moveSecondMax_": "4",
+            "waitSecond_": "0",
+            "beginCalcRotation_": "false",
+            "beginRotationRadius_": "0",
+            "beginRotationAngle_": "0",
+            "endCalcRotation_": "false",
+            "endRotationRadius_": "0",
+            "endRotationAngle_": "0",
+            "easeParam_": {
+              "category_": "-1",
+              "calcType_": "-1"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

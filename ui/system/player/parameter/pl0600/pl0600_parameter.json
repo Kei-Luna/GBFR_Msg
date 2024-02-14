@@ -1,0 +1,1880 @@
+{
+  "Pl0600Param": {
+    "hp_": "1000",
+    "atk_": "10",
+    "break_": "75",
+    "def_": "1",
+    "endurance_": "0",
+    "exp_": "0",
+    "hitSEMaxBreak_": "1.8",
+    "hitSEMinBreak_": "0",
+    "hpCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "atkCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "defCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "expCurve_": {
+      "Params": [
+        "0",
+        "1"
+      ]
+    },
+    "fsmParam_": {
+      "folderName_": [
+        {
+          "Element": "pl0600"
+        },
+        {
+          "Element": "pl0600"
+        },
+        {
+          "Element": "wp0691"
+        },
+        {
+          "Element": "wp0692"
+        },
+        {
+          "Element": "pl_base"
+        }
+      ],
+      "fsmName_": [
+        {
+          "Element": "snd_auto_base_1"
+        },
+        {
+          "Element": "snd_auto_unique_1"
+        },
+        {
+          "Element": "snd_auto_unique_1"
+        },
+        {
+          "Element": "snd_auto_unique_1"
+        },
+        {
+          "Element": "snd_auto_type_2"
+        }
+      ]
+    },
+    "maxLvHp_": "30000",
+    "maxLvAtk_": "240",
+    "maxLvDef_": "1.05",
+    "maxLvExp_": "300000",
+    "criticalBaseRate_": "0.09999999",
+    "baseBreakPower_": "10",
+    "limitDamageRate_": "0.5",
+    "limitSpecialArtsDamageRate_": "0.5",
+    "limitAbilityDamageRate_": "0.7999999",
+    "aiMoveNotargetDistance_": "15",
+    "damageLimitNormalAttack_": "9999",
+    "damageLimitNormalAttack2_": "4999",
+    "damageLimitSpecialAttack_": "14999",
+    "damageLimitAbility01_": "4999",
+    "damageLimitAbility02_": "14999",
+    "damageLimitAbility03_": "1",
+    "damageLimitAbility04_": "4999",
+    "damageLimitAbility05_": "1",
+    "damageLimitAbility06_": "99999",
+    "damageLimitAbility07_": "1",
+    "damageLimitAbility08_": "1",
+    "damageLimitLinkAttack_": "99999",
+    "damageLimitSpecialArtsStart_": "99999",
+    "damageLimitSpecialArts_": "39999",
+    "eyeCtrlParam_": {
+      "eyeParamL_": {
+        "pupilLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "pupilLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "highlightLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "highlightLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "attenuateThresholdX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "attenuateThresholdY_": {
+          "min_": "-0.045",
+          "max_": "0.03"
+        }
+      },
+      "eyeParamR_": {
+        "pupilLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "pupilLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "highlightLimitX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "highlightLimitY_": {
+          "min_": "-0.06",
+          "max_": "0.04"
+        },
+        "attenuateThresholdX_": {
+          "min_": "-0.08",
+          "max_": "0.08"
+        },
+        "attenuateThresholdY_": {
+          "min_": "-0.045",
+          "max_": "0.03"
+        }
+      },
+      "attenuareHighlightRate_": [
+        "1",
+        "0.25"
+      ]
+    },
+    "attackRoseMotList_": [
+      {
+        "Element": {
+          "actionName_": "P",
+          "motionId_": "3000",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3000"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3001"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3002"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3003"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3004"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3005"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "PP",
+          "motionId_": "3001",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3006"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3007"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3008"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3009"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3010"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3011"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "PPP",
+          "motionId_": "3002",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3012"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3013"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3014"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3015"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3016"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3017"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "PPPP",
+          "motionId_": "3003",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3018"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3018"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3019"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3020"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3021"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3022"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "PK",
+          "motionId_": "3110",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3110"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "PPK",
+          "motionId_": "3120",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3120"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3121"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "PPPK",
+          "motionId_": "3130",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3130"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3131"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3132"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "PPPPK",
+          "motionId_": "3140",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3140"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3141"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3142"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3143"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "空中P",
+          "motionId_": "3200",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3200"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3201"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3202"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3203"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3204"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3205"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "空中PP",
+          "motionId_": "3201",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3206"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3207"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3208"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3209"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3210"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3211"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "空中PPP",
+          "motionId_": "3202",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3212"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3213"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3214"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3215"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3216"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3217"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "ジャンプ打ち上げ",
+          "motionId_": "3a00",
+          "offsetPos_": [
+            "0",
+            "0",
+            "2.5",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3a00"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3a01"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3a02"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3a03"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3a04"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "空中△落下攻撃",
+          "motionId_": "3302",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3302"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3303"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3304"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3305"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3306"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3307"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "スパイラルローズ",
+          "motionId_": "3460",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3460"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3461"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3462"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198290",
+                "animId_": "3463"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "リンクアタック",
+          "motionId_": "3f00",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3f00"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3f01"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3f02"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3f03"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3f04"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3f05"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3f06"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3f07"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3f08"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "奥義始動",
+          "motionId_": "1800",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1800"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1801"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1802"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1803"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1804"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1805"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "奥義カットイン",
+          "motionId_": "1810",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1810"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1811"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1812"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1813"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1814"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1815"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "奥義アクション",
+          "motionId_": "1820",
+          "offsetPos_": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "attackRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1820"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1821"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1822"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1823"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1824"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1825"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "1820"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198292",
+                "animId_": "1820"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "1820"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "1821"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "plantRoseMotList_": [
+      {
+        "Element": {
+          "actionName_": "薔薇 設置",
+          "motionId_": "3100",
+          "plantRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3100"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3101"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3102"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3103"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3104"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3105"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3100"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "薔薇 待機ループ",
+          "motionId_": "3106",
+          "plantRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3106"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3107"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3108"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3109"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3110"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3111"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3106"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "薔薇 枯れる",
+          "motionId_": "3112",
+          "plantRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3112"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3113"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3114"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3115"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3116"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3117"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3112"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "自動攻撃 Aタイプ",
+          "motionId_": "3160",
+          "plantRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3160"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3161"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3162"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "自動攻撃 Bタイプ",
+          "motionId_": "3170",
+          "plantRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3170"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3171"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3172"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "自動攻撃 Cタイプ",
+          "motionId_": "3180",
+          "plantRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3180"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3181"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3182"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "自動攻撃 Dタイプ",
+          "motionId_": "3190",
+          "plantRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3190"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3191"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3192"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "薔薇 待機ループLv.2",
+          "motionId_": "3118",
+          "plantRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3118"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3119"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3120"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3121"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3122"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3123"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3118"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3119"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3118"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3119"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "薔薇 枯れるLv.2",
+          "motionId_": "3124",
+          "plantRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3124"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3125"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3126"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3127"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3128"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3129"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3124"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3125"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3124"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3125"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "薔薇 待機ループLv.3",
+          "motionId_": "3130",
+          "plantRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3130"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3131"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3132"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3133"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3134"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3135"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3130"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3131"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3132"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3130"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3131"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3132"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3133"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "薔薇 枯れるLv.3",
+          "motionId_": "3136",
+          "plantRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3136"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3137"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3138"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3139"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3140"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3141"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3136"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3137"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3138"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3136"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3137"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3138"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3139"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "薔薇 待機ループLv.4",
+          "motionId_": "3142",
+          "plantRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3142"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3143"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3144"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3145"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3146"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3147"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3142"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3143"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3144"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3145"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3142"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3143"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3144"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3145"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3146"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3147"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Element": {
+          "actionName_": "薔薇 枯れるLv.4",
+          "motionId_": "3148",
+          "plantRosePartsMotList_": [
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3148"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3149"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3150"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3151"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3152"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198289",
+                "animId_": "3153"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3148"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3149"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3150"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198291",
+                "animId_": "3151"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3148"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3149"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3150"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3151"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3152"
+              }
+            },
+            {
+              "Element": {
+                "objId_": "198293",
+                "animId_": "3153"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "roseAlphaRate_": "1",
+    "alphaFadeFrame_": "15",
+    "roseLifeTime_": "45",
+    "forceLifeEndDist_": "120",
+    "roseQuickPlantDist": "5",
+    "buffEffectDist_": "50",
+    "buffEffectHeight_": "2.5",
+    "healBasePoint_": "1.5",
+    "healLevelUpRate_": "0.5",
+    "healLimit_": "99999",
+    "healLevelUpLimit_": "99999",
+    "healIndirectPoint_": "20",
+    "defUpBasePoint_": "0.06",
+    "defUpLevelUpRate_": "0.03",
+    "defUpIndirectPoint_": "20",
+    "atkUpBasePoint_": "0.06",
+    "atkUpLevelUpRate_": "0.03",
+    "atkUpIndirectPoint_": "0.5",
+    "rosePowerRate_": "0.35",
+    "rosePowerAddRate_": "0.15",
+    "roseBreakRate_": "0.2",
+    "roseBreakAddRate_": "0.1",
+    "rosePowerSpArts_": "0",
+    "autoRosePowerRate_": "0.2",
+    "autoTPowerLevelUpRate_": "0.3",
+    "buffAreaAttackInterval_": "3",
+    "buffAreaSizeLv1_": "3.7",
+    "buffAreaSizeLv2_": "5",
+    "buffAreaSizeLv3_": "7",
+    "buffAreaSizeLv4_": "9",
+    "levelUpHitNum_Lv2": [
+      {
+        "Element": "3"
+      },
+      {
+        "Element": "2"
+      },
+      {
+        "Element": "1"
+      },
+      {
+        "Element": "1"
+      }
+    ],
+    "levelUpHitNum_Lv3": [
+      {
+        "Element": "3"
+      },
+      {
+        "Element": "2"
+      },
+      {
+        "Element": "2"
+      },
+      {
+        "Element": "1"
+      }
+    ],
+    "levelUpHitNum_Lv4": [
+      {
+        "Element": "3"
+      },
+      {
+        "Element": "3"
+      },
+      {
+        "Element": "2"
+      },
+      {
+        "Element": "1"
+      }
+    ],
+    "spiralRoseAtkRate_": "0.45",
+    "spiralRoseAddAtkRate_": "0.15",
+    "spiralRoseBreakRate_": "0.2",
+    "spiralRoseAddBreakRate_": "0.1",
+    "spiralRoseSpArtsRate_": "0.1",
+    "addLifeTime_": "10",
+    "ability_CombinationTime_": "15",
+    "ability_InhaleTime_": "10",
+    "ability_BarrierTime_": "20",
+    "ability_BarrierAtkRate_": "0.2",
+    "damageCutIndirectPoint_": "10",
+    "soundRoseVanishInterval_": "2",
+    "backMoveRateXZ_": "1.8",
+    "backMoveRateY_": "0.3",
+    "attackWaitFrame_": "100",
+    "warpAtkRate_": "0.5",
+    "warpAtkAddRate_": "0",
+    "warpAtkBreakRate_": "0.5",
+    "warpAtkBreakAddRate_": "0",
+    "warpAtkSpArts_": "0.5",
+    "rosePutParam_": [
+      {
+        "Element": [
+          "3",
+          "0"
+        ]
+      },
+      {
+        "Element": [
+          "8",
+          "20"
+        ]
+      },
+      {
+        "Element": [
+          "8",
+          "-20"
+        ]
+      }
+    ]
+  }
+}

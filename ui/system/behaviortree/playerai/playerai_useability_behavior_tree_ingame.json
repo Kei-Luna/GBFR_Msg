@@ -1,0 +1,204 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 11,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "ReferenceTreeNode": {
+    "guid_": 12,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "referenceTreeFolderName_": "playerai",
+      "referenceTreeName_": "heal_ability_use",
+      "assetPattern_": 4294967295
+    }
+  },
+  "DecorationNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "FSMNodeForBT": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "fsmFolderName_": "playerAI",
+      "fsmName_": "DebuffAbility",
+      "useBehaviorClassName_": false,
+      "objIdList_": []
+    }
+  },
+  "DecorationNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "FSMNodeForBT": {
+    "guid_": 10,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "fsmFolderName_": "playerAI",
+      "fsmName_": "BuffAbility",
+      "useBehaviorClassName_": false,
+      "objIdList_": []
+    }
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "FSMNodeForBT": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "fsmFolderName_": "playerAI",
+      "fsmName_": "DamageAbility",
+      "useBehaviorClassName_": false,
+      "objIdList_": []
+    }
+  },
+  "DecorationNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "FSMNodeForBT": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "fsmFolderName_": "playerai",
+      "fsmName_": "banactionability",
+      "useBehaviorClassName_": false,
+      "objIdList_": []
+    }
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 966938624,
+    "parentGuid_": 1000000001,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 5,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 2041228430,
+    "parentGuid_": 9,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 7,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 409597040,
+    "parentGuid_": 7,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 6,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1813439084,
+    "parentGuid_": 1000000002,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 8,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1171204029,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 4,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1757753335,
+    "parentGuid_": 5,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 9,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 395142326,
+    "parentGuid_": 1000000004,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 10,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 81912607,
+    "parentGuid_": 1000000005,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 11,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1198561635,
+    "parentGuid_": 1000000009,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 12,
+    "operatorType_": 0
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 2000958798,
+    "parentGuid_": 11,
+    "isReverseSuccess_": false,
+    "boolName_": "PlayerAI_IsOrderHealGroupAbilityUse"
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 6,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": true
+    }
+  },
+  "FSMNodeForBT": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "fsmFolderName_": "playerAI",
+      "fsmName_": "SpecialArts",
+      "useBehaviorClassName_": false,
+      "objIdList_": []
+    }
+  },
+  "DecorationNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "FSMNodeForBT": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "fsmFolderName_": "playerAI",
+      "fsmName_": "LinkAttack",
+      "useBehaviorClassName_": true,
+      "objIdList_": [
+        {
+          "Element": 73984
+        }
+      ]
+    }
+  },
+  "DecorationNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "FSMNodeForBT": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "fsmFolderName_": "playerAI",
+      "fsmName_": "BattleWait",
+      "useBehaviorClassName_": true,
+      "objIdList_": [
+        {
+          "Element": 73984
+        }
+      ]
+    }
+  },
+  "DecorationNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 10,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "SequencerNode": {
+    "guid_": 11,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ReferenceTreeNode": {
+    "guid_": 12,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "referenceTreeFolderName_": "playerAI",
+      "referenceTreeName_": "UseAbility",
+      "assetPattern_": 4294967295
+    }
+  },
+  "ActionNode": {
+    "guid_": 13,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 14,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false
+    }
+  },
+  "SequencerNode": {
+    "guid_": 15,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 16,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "FSMNodeForBT": {
+    "guid_": 17,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "fsmFolderName_": "playerAI",
+      "fsmName_": "BaseAttack",
+      "useBehaviorClassName_": true,
+      "objIdList_": [
+        {
+          "Element": 17433344
+        },
+        {
+          "Element": 65536
+        },
+        {
+          "Element": 65537
+        },
+        {
+          "Element": 65792
+        },
+        {
+          "Element": 65793
+        },
+        {
+          "Element": 66048
+        },
+        {
+          "Element": 66304
+        },
+        {
+          "Element": 66560
+        },
+        {
+          "Element": 66816
+        },
+        {
+          "Element": 67072
+        },
+        {
+          "Element": 67328
+        },
+        {
+          "Element": 67584
+        },
+        {
+          "Element": 67840
+        },
+        {
+          "Element": 69632
+        },
+        {
+          "Element": 69888
+        },
+        {
+          "Element": 69889
+        },
+        {
+          "Element": 69890
+        },
+        {
+          "Element": 70144
+        },
+        {
+          "Element": 70656
+        },
+        {
+          "Element": 70912
+        },
+        {
+          "Element": 71424
+        },
+        {
+          "Element": 71680
+        },
+        {
+          "Element": 73728
+        },
+        {
+          "Element": 71936
+        },
+        {
+          "Element": 70400
+        },
+        {
+          "Element": 71168
+        },
+        {
+          "Element": 17432576
+        },
+        {
+          "Element": 17432579
+        },
+        {
+          "Element": 73984
+        },
+        {
+          "Element": 74240
+        },
+        {
+          "Element": 74496
+        }
+      ]
+    }
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1155128125,
+    "parentGuid_": 5,
+    "isReverseSuccess_": false,
+    "boolName_": "PlayerAI_IsLinkAttack"
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 233588058,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 2,
+    "operatorType_": 0
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 2112842965,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 3,
+    "operatorType_": 0
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 224965289,
+    "parentGuid_": 16,
+    "valueName_": "PlayerAI_SetAttackTarget",
+    "setTiming_": 0,
+    "value_": true
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 2012426654,
+    "parentGuid_": 14,
+    "isReverseSuccess_": true,
+    "boolName_": "PlayerAI_AvoidRequest"
+  },
+  "BlackBoardIntCondition": {
+    "guid_": 1374345645,
+    "parentGuid_": 14,
+    "isReverseSuccess_": false,
+    "intName_": "PlayerAI_OrderType",
+    "value_": 0,
+    "operatorType_": 0
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1327395756,
+    "parentGuid_": 7,
+    "isReverseSuccess_": false,
+    "boolName_": "PlayerAI_SetBattleWaitMode"
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1961434404,
+    "parentGuid_": 13,
+    "valueName_": "PlayerAI_SetBattleWaitMode",
+    "setTiming_": 0,
+    "value_": true
+  },
+  "DebugPrintAction": {
+    "guid_": 282819346,
+    "parentGuid_": 10,
+    "saveString_": "AIログ : 戦闘待機強制終了",
+    "logType_": 0,
+    "outputTiming_": 0,
+    "outputScreenPosition_": [
+      0,
+      0
+    ],
+    "outputPlace_": 0
+  },
+  "AIWaitResetAction": {
+    "guid_": 948789811,
+    "parentGuid_": 10,
+    "abilitySlot_": 0
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1800092011,
+    "parentGuid_": 10,
+    "valueName_": "PlayerAI_SetBattleWaitMode",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "SoundPlayerRnoCondition": {
+    "guid_": 121807737,
+    "parentGuid_": 9,
+    "isReverseSuccess_": false,
+    "checkRno_": 70,
+    "objId_": 70144,
+    "isTrigger_": false,
+    "isActionStartCheck_": false,
+    "checkRnoHash_": 0,
+    "rnoHashList_": [
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2995673550
+      },
+      {
+        "Element": 2995673550
+      },
+      {
+        "Element": 2995673550
+      },
+      {
+        "Element": 2995673550
+      },
+      {
+        "Element": 2995673550
+      },
+      {
+        "Element": 2995673550
+      },
+      {
+        "Element": 2995673550
+      },
+      {
+        "Element": 2995673550
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      },
+      {
+        "Element": 2064470623
+      }
+    ],
+    "checkType_": 0
+  }
+}

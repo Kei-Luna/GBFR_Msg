@@ -1,0 +1,109 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1547509591,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1547509591,
+    "fromNodeGuid_": 993950945,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 217695319
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1152933728,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 993950945,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "FSMNode": {
+    "guid_": 1152933728,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 756016900,
+    "isBranch_": false
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "SoundMotionCheckCondition": {
+    "guid_": 217695319,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 1305232682,
+    "parentGuid_": 1152933728,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba536c_wood_l_break_l_scaffold_c",
+          "delayTime_": 0,
+          "requestId_": 1305232682,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 21,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba536c_wood_l_break_parts_l_01",
+          "delayTime_": 0.5,
+          "requestId_": 1305232682,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 101,
+          "nameType_": 0
+        }
+      },
+      {
+        "Element": {
+          "eventName_": "ba536c_wood_l_break_parts_l_02",
+          "delayTime_": 0.2,
+          "requestId_": 1305232682,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 22,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  }
+}

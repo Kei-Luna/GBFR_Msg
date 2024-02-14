@@ -1,0 +1,34 @@
+{
+  "FSMNode": {
+    "guid_": 1932020717,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "toNodeGuid_": 1932020717,
+    "fromNodeGuid_": 2087373152,
+    "isEndTransition_": false
+  },
+  "FSMNode": {
+    "guid_": 2087373152,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "Transition": {
+    "conditionGuid_": 1072823869,
+    "toNodeGuid_": 2087373152,
+    "fromNodeGuid_": 1054815823,
+    "isEndTransition_": true
+  },
+  "AIBattleLinkAttackAction": {
+    "guid_": 477502938,
+    "parentGuid_": 2087373152
+  },
+  "AIBattleSequenceCondition": {
+    "guid_": 1072823869,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "flagType_": 3
+  }
+}

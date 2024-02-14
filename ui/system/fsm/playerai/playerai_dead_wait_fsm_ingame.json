@@ -1,0 +1,99 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1800163167,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1800163167,
+    "fromNodeGuid_": 593072153,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 593072153,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 584843278,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 159103375
+      },
+      {
+        "Element": 960088344
+      }
+    ],
+    "toNodeGuid_": 593072153,
+    "fromNodeGuid_": 486598620,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 769058004
+      }
+    ],
+    "toNodeGuid_": 593072153,
+    "fromNodeGuid_": 593072153,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "AIBattleAttackAction": {
+    "guid_": 2058778096,
+    "parentGuid_": 593072153,
+    "attackType_": 0,
+    "timer_": 10,
+    "isCharge_": false,
+    "isRapid_": true,
+    "rapidIntervalFrame_": 12
+  },
+  "ActionEndCondition": {
+    "guid_": 769058004,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 159103375,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "PlayerAI_IsAlive"
+  },
+  "AIBattleSequenceCondition": {
+    "guid_": 960088344,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "flagType_": 3
+  }
+}

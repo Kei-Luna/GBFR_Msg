@@ -1,0 +1,139 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "SelectorNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ComboMotionPlayAction": {
+    "guid_": 846981222,
+    "parentGuid_": 5,
+    "param0_": {
+      "motionName_": "0051",
+      "startSecond_": 0,
+      "interpSecond_": 0.5,
+      "cancelSecond_": 1.3
+    },
+    "param1_": {
+      "motionName_": "",
+      "startSecond_": 0,
+      "interpSecond_": 0,
+      "cancelSecond_": -1
+    },
+    "param2_": {
+      "motionName_": "",
+      "startSecond_": 0,
+      "interpSecond_": 0,
+      "cancelSecond_": -1
+    },
+    "param3_": {
+      "motionName_": "",
+      "startSecond_": 0,
+      "interpSecond_": 0,
+      "cancelSecond_": -1
+    }
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 593891811,
+    "parentGuid_": 6,
+    "valueName_": "Em1500_IsOkAttack",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 657316088,
+    "parentGuid_": 6,
+    "valueName_": "Em1500_IsOkJumpAttack",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardFloatAction": {
+    "guid_": 862818479,
+    "parentGuid_": 6,
+    "valueName_": "Em1500_TargetHomingRate",
+    "setTiming_": 0,
+    "value_": 0.3
+  },
+  "Em1500JunpPunchAction": {
+    "guid_": 80862716,
+    "parentGuid_": 6,
+    "isComboBefore_": false,
+    "isComboAfter_": false,
+    "hardModeExActionLoopNum_": 0
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 23902904,
+    "parentGuid_": 4,
+    "isReverseSuccess_": false,
+    "checkRange_": 0,
+    "operatorType_": 1,
+    "isUseRangeXZ_": true
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 722522216,
+    "parentGuid_": 5,
+    "valueName_": "Em1500_IsOkJumpAttack",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "BlackBoardFloatAction": {
+    "guid_": 659648779,
+    "parentGuid_": 5,
+    "valueName_": "Em1500_TargetHomingRate",
+    "setTiming_": 0,
+    "value_": 0.3
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 201714937,
+    "parentGuid_": 5,
+    "valueName_": "Em1500_IsOkJumpAttack",
+    "setTiming_": 1,
+    "value_": false
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em1500",
+    "subTreeName_": "jump_attack"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1968517031,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1968517031,
+    "fromNodeGuid_": 1276358929,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1461321202
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1024874775,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 779500458
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 1935186538,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1276358929,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "FSMNode": {
+    "guid_": 1024874775,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 593290763,
+    "isBranch_": false
+  },
+  "FSMNode": {
+    "guid_": 1935186538,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 593290763,
+    "isBranch_": false
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 1461321202,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0010",
+          "hashValue_": 360772915
+        }
+      }
+    ]
+  },
+  "SoundMotionCheckCondition": {
+    "guid_": 779500458,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionIdName_": "",
+    "hash_": 0,
+    "checkType_": 0,
+    "motionDataList_": [
+      {
+        "Element": {
+          "motionId_": "0020",
+          "hashValue_": 1051567856
+        }
+      }
+    ]
+  },
+  "SoundTriggerAction": {
+    "guid_": 2081498983,
+    "parentGuid_": 1024874775,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba5143_magma_m_fall_sprout_m",
+          "delayTime_": 0,
+          "requestId_": 2081498983,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  },
+  "SoundTriggerAction": {
+    "guid_": 609930043,
+    "parentGuid_": 1935186538,
+    "eventParam_": [
+      {
+        "Element": {
+          "eventName_": "ba5143_magma_m_fall_sprout_m_stop",
+          "delayTime_": 0,
+          "requestId_": 609930043,
+          "isEndCancel_": true,
+          "isDisable_": false,
+          "partsNo_": 2,
+          "nameType_": 0
+        }
+      }
+    ],
+    "startTime_": -1,
+    "coolTime_": -1,
+    "randomAddCoolTime_": 0,
+    "isLoop_": false,
+    "loopDelayTime_": 0
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 603141588,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 603141588,
+    "fromNodeGuid_": 1551659500,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1551659500,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 107704039,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 762163098
+      }
+    ],
+    "toNodeGuid_": 1551659500,
+    "fromNodeGuid_": 1026285337,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1026285337,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 324623034
+      }
+    ],
+    "toNodeGuid_": 1026285337,
+    "fromNodeGuid_": 1219642571,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "AIMovePassAction": {
+    "guid_": 1669001188,
+    "parentGuid_": 1551659500,
+    "params_": [
+      {
+        "Element": {
+          "pos_": [
+            -328.7385,
+            -129.7903,
+            -1330.005,
+            1
+          ],
+          "pointNum_": 1,
+          "useNavMesh_": false,
+          "useDash_": false
+        }
+      },
+      {
+        "Element": {
+          "pos_": [
+            -320.064,
+            -127.307,
+            -1347.702,
+            1
+          ],
+          "pointNum_": 7,
+          "useNavMesh_": false,
+          "useDash_": false
+        }
+      },
+      {
+        "Element": {
+          "pos_": [
+            -321.148,
+            -127.286,
+            -1344.425,
+            1
+          ],
+          "pointNum_": 1,
+          "useNavMesh_": false,
+          "useDash_": false
+        }
+      }
+    ],
+    "speedRate_": 1.3
+  },
+  "MotionPlayAction": {
+    "guid_": 1889985128,
+    "parentGuid_": 1026285337,
+    "motionIdName_": "0000",
+    "isAnimEnd_": true,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "easeOut_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 128,
+    "facialSeqNo_": 0,
+    "easeOutStartTime_": -1,
+    "easeOutTime_": -1
+  },
+  "ActionEndCondition": {
+    "guid_": 324623034,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "ActionEndCondition": {
+    "guid_": 762163098,
+    "parentGuid_": 0,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  }
+}

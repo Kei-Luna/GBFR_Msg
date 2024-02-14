@@ -1,0 +1,180 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1509947098,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1509947098,
+    "fromNodeGuid_": 1490650520,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1490650520,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1937653810
+      }
+    ],
+    "toNodeGuid_": 1490650520,
+    "fromNodeGuid_": 663902985,
+    "isEndTransition_": true,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 838245536
+      },
+      {
+        "Element": 1847924473
+      },
+      {
+        "Element": 934639046
+      }
+    ],
+    "toNodeGuid_": 1490650520,
+    "fromNodeGuid_": 108941324,
+    "isEndTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      },
+      {
+        "Element": {
+          "isAndCondition_": true,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 1538509766,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1769334367
+      }
+    ],
+    "toNodeGuid_": 1538509766,
+    "fromNodeGuid_": 663902985,
+    "isEndTransition_": true,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 108941324,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 132625693
+      }
+    ],
+    "toNodeGuid_": 108941324,
+    "fromNodeGuid_": 1538509766,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "Em0103FrostColumnsAttackAction": {
+    "guid_": 2093370033,
+    "parentGuid_": 1490650520,
+    "canBackStep_": false
+  },
+  "Em0103ComboAttackAction": {
+    "guid_": 461650276,
+    "parentGuid_": 1538509766,
+    "comboIndex_": 2,
+    "motionStartFrame_": 100
+  },
+  "ActionEndCondition": {
+    "guid_": 1937653810,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "ActionEndCondition": {
+    "guid_": 1769334367,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "MotionFlagCondition": {
+    "guid_": 838245536,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "slot_": 1,
+    "value_": 0
+  },
+  "ActionEndCondition": {
+    "guid_": 132625693,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": false
+  },
+  "EmMotionPlayAction": {
+    "guid_": 774758847,
+    "parentGuid_": 108941324,
+    "motionIdName_": "1164",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "useTurnDir_": true,
+    "turnRate_": 0.05,
+    "turnMaxAngle_": 3.14,
+    "turnOffsetAngle_": 0,
+    "attackHomingFlagOnly_": true
+  },
+  "EmClosestPlayerRangeCondition": {
+    "guid_": 1847924473,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "checkRange_": 8,
+    "operatorType_": 1,
+    "isCheckXZ_": true
+  },
+  "EmAILevelCondition": {
+    "guid_": 934639046,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "checkLevel_": 3,
+    "operatorType_": 3
+  }
+}

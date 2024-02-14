@@ -1,0 +1,85 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 729965800,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 729965800,
+    "fromNodeGuid_": 1542100660,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1542100660,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 1674664228
+      }
+    ],
+    "toNodeGuid_": 1542100660,
+    "fromNodeGuid_": 1894038009,
+    "isEndTransition_": true,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "EmAlphaAction": {
+    "guid_": 1127471633,
+    "parentGuid_": 1542100660,
+    "alphaSec_": 0,
+    "startAlphaRate_": 1,
+    "endAlphaRate_": 1,
+    "alphaEffectObjId_": 8126464,
+    "alphaEffectId_": -1,
+    "delaySec_": 0,
+    "delayRandomAddSec_": 0,
+    "effectObjId_": 8126464,
+    "effectId_": -1
+  },
+  "EmExitAppearAction": {
+    "guid_": 1486071590,
+    "parentGuid_": 1542100660,
+    "isAlwaysRun_": false,
+    "afterType_": -1
+  },
+  "MotionPlayAction": {
+    "guid_": 6938614,
+    "parentGuid_": 1542100660,
+    "motionIdName_": "5000",
+    "isAnimEnd_": true,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0
+  },
+  "MotionEndCondition": {
+    "guid_": 1674664228,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "motionSlot_": 0,
+    "isMotionEndHalfWay_": false,
+    "endTime_": 0
+  }
+}

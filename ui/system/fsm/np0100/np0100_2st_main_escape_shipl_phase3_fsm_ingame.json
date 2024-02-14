@@ -1,0 +1,155 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 2128470828,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 2128470828,
+    "fromNodeGuid_": 1107024056,
+    "isEndTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1107024056,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "FSMNode": {
+    "guid_": 249873332,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 249873332,
+    "fromNodeGuid_": 566680160,
+    "isEndTransition_": true,
+    "params_": []
+  },
+  "AIBattleIndexCondition": {
+    "guid_": 85584179,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "index_": 3
+  },
+  "ActionEndCondition": {
+    "guid_": 1000122173,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "ActionEndCondition": {
+    "guid_": 1219109861,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "AIBattleIndexCondition": {
+    "guid_": 938808462,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "index_": 1
+  },
+  "AIBattleIndexCondition": {
+    "guid_": 640814380,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "index_": 2
+  },
+  "AIBattleIndexCondition": {
+    "guid_": 1529969377,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "index_": 3
+  },
+  "ActionEndCondition": {
+    "guid_": 382128724,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "ActionEndCondition": {
+    "guid_": 1098556389,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "ActionEndCondition": {
+    "guid_": 674549599,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "MotionEndCondition": {
+    "guid_": 2093508518,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false
+  },
+  "AIBattleIndexCondition": {
+    "guid_": 1458630827,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "index_": 1
+  },
+  "ActionEndCondition": {
+    "guid_": 1182827241,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "ActionEndCondition": {
+    "guid_": 367127898,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "Np0100KeepPosAction": {
+    "guid_": 993370816,
+    "parentGuid_": 1107024056,
+    "offset_": [
+      -3.106323,
+      -0.2061077,
+      3.102855,
+      1
+    ],
+    "middleMaxSpeed_": 15,
+    "farMaxSpeed_": 16
+  },
+  "PlayerPosCondition": {
+    "guid_": 417451660,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "pos_": [
+      -3.9,
+      -1,
+      16.3,
+      1
+    ],
+    "radius_": 12.5,
+    "height_": 10,
+    "playerCount_": 1,
+    "isCheckOnlyXZ_": true,
+    "isOffset_": false
+  },
+  "MotionPlayAction": {
+    "guid_": 966719317,
+    "parentGuid_": 1107024056,
+    "motionIdName_": "0031",
+    "isAnimEnd_": false,
+    "loop_": true,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 0,
+    "animMoveRateY_": 0,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1
+  }
+}

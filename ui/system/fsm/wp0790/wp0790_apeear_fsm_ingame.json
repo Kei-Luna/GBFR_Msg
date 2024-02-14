@@ -1,0 +1,162 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 2044513360,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 2044513360,
+    "fromNodeGuid_": 2127557768,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 2094221001
+      },
+      {
+        "Element": 165318202
+      },
+      {
+        "Element": 655336124
+      }
+    ],
+    "toNodeGuid_": 0,
+    "fromNodeGuid_": 474391856,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": [
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      },
+      {
+        "Element": {
+          "isAndCondition_": false,
+          "priority_": 0
+        }
+      }
+    ]
+  },
+  "FSMNode": {
+    "guid_": 2127557768,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1483652521,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 56782082
+      }
+    ],
+    "toNodeGuid_": 2127557768,
+    "fromNodeGuid_": 474391856,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 474391856,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1613916474,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 474391856,
+    "fromNodeGuid_": 41278832,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "BlackBoardBoolAction": {
+    "guid_": 1983566805,
+    "parentGuid_": 474391856,
+    "valueName_": "IsSimultaneousAttack",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 731882193,
+    "parentGuid_": 474391856,
+    "valueName_": "CanDisappear",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "ActionEndCondition": {
+    "guid_": 56782082,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 2094221001,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "IsFinishAttack"
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 431902317,
+    "parentGuid_": 2127557768,
+    "valueName_": "Hide",
+    "setTiming_": 0,
+    "value_": false
+  },
+  "BlackBoardBoolAction": {
+    "guid_": 1118100089,
+    "parentGuid_": 2127557768,
+    "valueName_": "ShowVFX",
+    "setTiming_": 0,
+    "value_": true
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 165318202,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "IsLinkAttack"
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 655336124,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "boolName_": "IsFerryAction"
+  },
+  "Pl0700Ghost_AppearAction": {
+    "guid_": 1189783956,
+    "parentGuid_": 2127557768
+  },
+  "Pl0700Ghost_DisappearWaitSettingAction": {
+    "guid_": 210425532,
+    "parentGuid_": 474391856,
+    "sec_": 10,
+    "type_": 0
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1820092660,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1820092660,
+    "fromNodeGuid_": 760506957,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 760506957,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 1025858923,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [
+      {
+        "Element": 710361030
+      }
+    ],
+    "toNodeGuid_": 760506957,
+    "fromNodeGuid_": 323251696,
+    "isEndTransition_": true,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "ActionEndCondition": {
+    "guid_": 408099203,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  },
+  "NpcJumpAction": {
+    "guid_": 1836265417,
+    "parentGuid_": 760506957,
+    "landPos_": [
+      410.0288,
+      -64.73045,
+      6.223583,
+      1
+    ],
+    "motionIdJump_": "0030",
+    "motionIdFall_": "0032",
+    "motionIdLanding_": "0033",
+    "jumpSpeedZX_": 0.07,
+    "jumpSpeedY_": 0.07,
+    "isUseLandPos_": true,
+    "secondFromLandToEnd_": -1,
+    "rotateToLangPos_": true
+  },
+  "ActionEndCondition": {
+    "guid_": 710361030,
+    "parentGuid_": 4294967295,
+    "isReverseSuccess_": false,
+    "isAllEnd_": true
+  }
+}

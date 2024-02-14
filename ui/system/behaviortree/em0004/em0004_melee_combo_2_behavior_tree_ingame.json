@@ -1,0 +1,199 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "NoFailedSequencerNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 5,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "DecorationNode": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 7,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 8,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "SelectorNode": {
+    "guid_": 9,
+    "tailIndexOfChildNodeGuids_": 2,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 10,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": true,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "ActionNode": {
+    "guid_": 11,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 12,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "MotionPlayAction": {
+    "guid_": 1819139369,
+    "parentGuid_": 11,
+    "motionIdName_": "0000",
+    "isAnimEnd_": false,
+    "loop_": false,
+    "isStartTimeRandom_": false,
+    "animMoveRateXZ_": 1,
+    "animMoveRateY_": 1,
+    "startTime_": -1,
+    "interTime_": -1,
+    "speedRate_": 1,
+    "motionSlot_": 0,
+    "motionFlag_": 0,
+    "facialSeqNo_": 0
+  },
+  "Em0004ShieldLaunchAttackAction": {
+    "guid_": 595529263,
+    "parentGuid_": 8,
+    "homingAngle_": 6,
+    "ajustDistanceBase_": 1,
+    "ajustDistanceMax_": 2
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1720897049,
+    "parentGuid_": 10,
+    "isReverseSuccess_": false,
+    "boolName_": "Em0004_AttackIsDamage"
+  },
+  "EmTurnAction": {
+    "guid_": 311032108,
+    "parentGuid_": 4,
+    "rightMotionId_": "0062",
+    "leftMotionId_": "0063",
+    "backMotionId_": "0064",
+    "backAngle_": 60
+  },
+  "EmTargetDirectionCondition": {
+    "guid_": 125896169,
+    "parentGuid_": 3,
+    "isReverseSuccess_": false,
+    "checkDirection_": 1,
+    "checkAngle_": 120
+  },
+  "EmTargetRangeCondition": {
+    "guid_": 1499323531,
+    "parentGuid_": 5,
+    "isReverseSuccess_": false,
+    "checkRange_": 1,
+    "operatorType_": 4,
+    "isUseRangeXZ_": false
+  },
+  "Em0004MoveToAction": {
+    "guid_": 184752623,
+    "parentGuid_": 6,
+    "checkRange_": 1,
+    "checkRangeDistanceOffset_": 0,
+    "skipEndMotion_": true
+  },
+  "BlackBoardFloatAction": {
+    "guid_": 1909326943,
+    "parentGuid_": 6,
+    "valueName_": "Em0004_TargetHomingAngle",
+    "setTiming_": 0,
+    "value_": 3
+  },
+  "Em0004ThreeCircleSlashAction": {
+    "guid_": 376517996,
+    "parentGuid_": 12,
+    "homingAngle_": 3,
+    "moveRate_": 0.7,
+    "wobbleTime_": 1
+  },
+  "Em0004SlashComboAction": {
+    "guid_": 251266681,
+    "parentGuid_": 7,
+    "homingAngle_": 3,
+    "nextAction_": 1
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "em0004",
+    "subTreeName_": "melee_combo_2"
+  }
+}

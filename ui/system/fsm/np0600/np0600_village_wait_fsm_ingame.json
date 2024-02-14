@@ -1,0 +1,50 @@
+{
+  "layerNo": 0,
+  "FSMNode": {
+    "guid_": 1884541040,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 4294967295,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "Transition": {
+    "conditionGuid_": 0,
+    "conditionGuids_": [],
+    "toNodeGuid_": 1884541040,
+    "fromNodeGuid_": 1391938089,
+    "isEndTransition_": false,
+    "isFailedTransition_": false,
+    "params_": []
+  },
+  "FSMNode": {
+    "guid_": 1391938089,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "childLayerId_": -1,
+    "nameHash_": 899960845,
+    "isBranch_": false,
+    "fsmName_": "",
+    "fsmFolderName_": ""
+  },
+  "addAllTransition": {},
+  "addTransition": {},
+  "EnableBaseTransition": {},
+  "EnableBaseAllTransition": {},
+  "NpcShopWaitAction": {
+    "guid_": 149532460,
+    "parentGuid_": 1391938089,
+    "waitMotionName_": "e000",
+    "gesturesMotion_": [
+      {
+        "Element": "e001"
+      },
+      {
+        "Element": "e002"
+      }
+    ],
+    "waitTime_": 10
+  }
+}

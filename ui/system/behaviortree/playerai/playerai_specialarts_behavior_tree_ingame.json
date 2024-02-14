@@ -1,0 +1,94 @@
+{
+  "RootNode": {
+    "guid_": 1,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "DecorationNode": {
+    "guid_": 2,
+    "tailIndexOfChildNodeGuids_": 1,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uConditionHashedKey_": 0,
+      "fAttribute_": 0.5,
+      "bIsResultNegated_": false,
+      "once_": false,
+      "AnySuccessMode_": false,
+      "abortType_": 0
+    }
+  },
+  "SequencerNode": {
+    "guid_": 3,
+    "tailIndexOfChildNodeGuids_": 3,
+    "tailIndexOfComponentGuids_": 0
+  },
+  "ActionNode": {
+    "guid_": 4,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "FSMNodeForBT": {
+    "guid_": 5,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "fsmFolderName_": "playerAI",
+      "fsmName_": "SpecialArts",
+      "useBehaviorClassName_": false
+    }
+  },
+  "ActionNode": {
+    "guid_": 6,
+    "tailIndexOfChildNodeGuids_": 0,
+    "tailIndexOfComponentGuids_": 0,
+    "param_": {
+      "uActionHashedKey_": 0,
+      "iAttribute_": 0,
+      "AnySuccessMode_": false
+    }
+  },
+  "AIMoveAction": {
+    "guid_": 1404885702,
+    "parentGuid_": 4,
+    "type_": 3,
+    "dist_": 15,
+    "useBlackBoardValue_": false,
+    "boolName_": "",
+    "isCheckCollision_": false,
+    "positionBBName_": "PlayerAI_TargetPoint",
+    "positionHashValue_": 0,
+    "position_": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "isSetPosition_": false,
+    "isUseObstacle_": false,
+    "obstacleRadius_": 0.3,
+    "obstacleLength_": 1,
+    "obstacleCount_": 3,
+    "isSmoothPass_": false,
+    "smoothRate_": 1,
+    "sideLength_": 0,
+    "dashLength_": 99999.9,
+    "randomLength_": 0,
+    "randomChangeTime_": 3,
+    "randomChangeAddTime_": 5
+  },
+  "BlackBoardBoolCondition": {
+    "guid_": 1447761923,
+    "parentGuid_": 2,
+    "isReverseSuccess_": false,
+    "boolName_": "PlayerAI_IsSpecialArtsOrder"
+  },
+  "SubBehaviorTreeData": {
+    "subTreeFolderName_": "playerai",
+    "subTreeName_": "specialarts"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "BreakObjectId": {
+    "objectId_": "921606"
+  },
+  "HpTable": {
+    "maxHp_": "50",
+    "breakLv_": [
+      "0.5",
+      "0.8",
+      "1"
+    ],
+    "recoveryTime_": "0",
+    "hitEffUpperLimit_": "false",
+    "hitEffMax_": "0"
+  },
+  "AttackRateTable": {
+    "defaultAttack_": "1",
+    "spRate_": {
+      "spCategory_": {
+        "category_": "pl",
+        "attackFlag_": {
+          "flag_": "0",
+          "spAttack_": "0.5",
+          "blowout_": "false",
+          "touchBreak_": "false"
+        }
+      },
+      "spCategory_": {
+        "category_": "em",
+        "attackFlag_": {
+          "flag_": "4096",
+          "spAttack_": "0",
+          "blowout_": "true",
+          "touchBreak_": "false"
+        }
+      },
+      "spCategory_": {
+        "category_": "wp",
+        "attackFlag_": {
+          "flag_": "0",
+          "spAttack_": "0.5",
+          "blowout_": "false",
+          "touchBreak_": "false"
+        }
+      }
+    }
+  }
+}
